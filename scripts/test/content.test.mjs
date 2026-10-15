@@ -198,15 +198,23 @@ test('structural MusicXML baseline preserves chords, two staves, ties, dots, swi
   assert.equal(doc.querySelector('words').textContent, complete().exercises['fixture-001'].goal);
   assert.ok(localized.includes('&amp;')); assert.ok(localized.includes('&lt;')); assert.ok(localized.includes('&apos;'));
 });
-test('real catalog: pilot fully reviewed, every course/exercise retains order and musical fields', async () => {
+test('real catalog: reviewed lots are complete, every course/exercise retains order and musical fields', async () => {
   const content = await loadContent({ rootDir });
   const music = compileMusic(content.courses), en = buildCatalog(content, 'en', music), it = buildCatalog(content, 'it', music);
-  assert.equal(content.translations.it.size, 1);
+  const itRows = contentReport(content).rows.filter(r => r.locale === 'it');
+  for (const courseId of content.translations.it.keys()) {
+    const translated = it.courses.find(c => c.id === courseId);
+    const coverage = itRows.find(r => r.courseId === courseId);
+    assert.ok(translated, courseId);
+    if (coverage.reviewStatus === 'reviewed') assert.equal(coverage.fallbackFields, 0, courseId);
+    else assert.ok(['pending', 'stale'].includes(coverage.reviewStatus), courseId);
+    assert.equal(translated.coverage.fallbackFields, coverage.fallbackFields, courseId);
+  }
   const pilot = it.courses.find(c => c.id === 'method-level-1a');
   assert.equal(pilot.exercises.length, 20); assert.equal(pilot.coverage.translatedFields, 82);
   assert.equal(pilot.coverage.fallbackFields, 0); assert.equal(pilot.coverage.reviewStatus, 'reviewed');
   assert.equal(contentReport(content).issues.length, 0);
-  assert.equal(contentReport(content, { full: true }).rows.filter(r => r.locale === 'it' && r.fallbackFields > 0).length, content.courses.length - 1);
+  assert.equal(contentReport(content, { full: true }).rows.filter(r => r.locale === 'it' && r.fallbackFields > 0).length, itRows.filter(r => r.fallbackFields > 0).length);
   assert.deepEqual(en.courses.map(c => c.id), it.courses.map(c => c.id));
   for (let i = 0; i < en.courses.length; i++) {
     assert.deepEqual(en.courses[i].exercises.map(e => [e.id, e.slug]), it.courses[i].exercises.map(e => [e.id, e.slug]));
@@ -230,13 +238,13 @@ test('empty source license notes require no invented translation; legacy source 
 test('every real legacy English score URL remains readable and byte-identical to localized EN', async t => {
   const dir = await mkdtemp(path.join(tmpdir(), 'pianio-all-output-'));
   t.after(() => rm(dir, { recursive: true, force: true }));
-  const { catalogs, legacy } = await generateContent({ rootDir, outputDir: path.join(dir, 'generated') });
+  const { catalogs, legacy, content } = await generateContent({ rootDir, outputDir: path.join(dir, 'generated') });
   for (const [i, course] of legacy.courses.entries()) for (const [j, exercise] of course.exercises.entries()) {
     const legacyXml = await readFile(path.join(dir, exercise.scorePath), 'utf8');
     const localizedEnXml = await readFile(path.join(dir, catalogs.en.courses[i].exercises[j].scorePath), 'utf8');
     assert.equal(legacyXml, localizedEnXml);
     const itXml = await readFile(path.join(dir, catalogs.it.courses[i].exercises[j].scorePath), 'utf8');
-    if (course.id === 'method-level-1a') assert.deepEqual(xmlTree(legacyXml, true), xmlTree(itXml, true));
+    if (content.translations.it.has(course.id)) assert.deepEqual(xmlTree(legacyXml, true), xmlTree(itXml, true));
     else assert.equal(itXml, localizedEnXml);
   }
 });

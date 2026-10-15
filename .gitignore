@@ -49,6 +49,7 @@ pnpm-debug.log*
 # Keep the multilingual implementation plan and its progress records reviewable.
 !docs/
 docs/*
+!docs/I18N-CONTENT-REVIEW.md
 !docs/PIANO-IMPLEMENTAZIONE-MULTILINGUA.md
 !docs/I18N-INVENTORY.md
 !docs/I18N-IMPLEMENTATION-STATUS.md

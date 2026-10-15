@@ -1,6 +1,6 @@
 # Piano di implementazione: multilingua e italiano
 
-Stato: fasi 1–2, 4 e 5 completate; fasi 0/3 con riserve storiche documentate. Consegna A funzionalmente pronta per revisione locale, con prova MIDI fisica ancora da eseguire; baseline motore corretta (4/4 test). Aggiornato il 15 ottobre 2026.
+Stato: fasi 1–2, 4 e 5 completate; fase 6 in corso; fasi 0/3 con riserve storiche documentate. Consegna A funzionalmente pronta per revisione locale, con prova MIDI fisica ancora da eseguire; baseline motore corretta (4/4 test). Aggiornato il 15 ottobre 2026.
 
 Documento di partenza: `PIANO-MULTILINGUA.md`, nella cartella che contiene il repository. Repository di destinazione: [adrianolettieri/pianio](https://github.com/adrianolettieri/pianio). Baseline del codice analizzato: `df5526d`.
 
@@ -140,11 +140,19 @@ File principali: nuovi `apps/web/src/content/catalogLoader.ts`, `apps/web/src/i1
 
 **Consegna A pronta quando:** UI italiana completa, pilota interamente italiano, copertura parziale chiaramente indicata e continuità della sessione verificata.
 
-Verifica del 15 ottobre 2026: loader, coordinatore, selettore e continuità implementati; test UI 48/48, contenuti 11/11 e MIDI 7/7, checker, typecheck e build superati. Browser desktop/mobile e pilota OSMD verificati; MIDI/audio di sessione simulati. Suite core-engine corretta nel seguito della fase: comando compatibile con Node 22 e 4/4 test superati; prova MIDI fisica ancora da eseguire. Criteri e limiti della consegna A: [rapporto fase 5](I18N-LANGUAGE-SESSION.md). La fase 6 non è avviata.
+Verifica del 15 ottobre 2026: loader, coordinatore, selettore e continuità implementati; test UI 48/48, contenuti 11/11 e MIDI 7/7, checker, typecheck e build superati. Browser desktop/mobile e pilota OSMD verificati; MIDI/audio di sessione simulati. Suite core-engine corretta nel seguito della fase: comando compatibile con Node 22 e 4/4 test superati; prova MIDI fisica ancora da eseguire. Criteri e limiti della consegna A: [rapporto fase 5](I18N-LANGUAGE-SESSION.md). La fase 6 è in corso: registro e punto di ripresa in [I18N-CONTENT-REVIEW.md](I18N-CONTENT-REVIEW.md). I JSON correnti contengono 80 corsi, 1.557 esercizi e 6.069 campi; sono tradotti 642 campi, con 7 corsi completi e `method-level-2a` parziale (80/82 campi, due conflitti sorgente). Checker ordinario e test contenuti 11/11 superati; prove visuali OSMD eseguite per i sette corsi nuovi. L’overflow di titolo/obiettivo su viewport stretto resta per fase 7.
 
 ## 6. Traduzione di tutti i contenuti
 
 File principali: `content-locales/it/*.json`, glossario, rapporto di copertura e revisione.
+
+Progresso al 15 ottobre 2026:
+
+- [x] Ricavare i conteggi dai JSON e verificare che il pilota `method-level-1a` sia completo e non obsoleto.
+- [x] Creare il registro per corso/lotti; tradurre e revisionare testualmente l’aggregato Metodo livello 1, l’aggregato livello 2 e i sottolivelli 1B–1E.
+- [x] Esaminare visivamente uno spartito per ciascuno dei sette corsi toccati nella fase 6, inclusi gli aggregati: anteprima OSMD temporanea completata per `method-level-1`, `method-level-1b`–`method-level-1e`, `method-level-2` e `method-level-2a`.
+- [ ] Correggere in fase 7 il taglio orizzontale di titoli e obiettivi rilevato nel viewport stretto.
+- [ ] Chiarire due conflitti sorgente in `method-level-2a` (`m2a-009.goal`, `m2a-020.summary`), poi proseguire da `method-level-2b`; completare i corsi e le verifiche restanti.
 
 - [ ] Dopo la revisione del pilota, tradurre Metodo livelli 1–2, poi 3–4, poi 5–6, inclusi sottolivelli e corsi aggregati.
 - [ ] Tradurre i corsi di Tecnica con le stesse convenzioni, poi le otto raccolte di Brani.
