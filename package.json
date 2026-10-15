@@ -14,6 +14,8 @@
     "build": "pnpm generate:content && pnpm --filter @pianio/web build",
     "typecheck": "pnpm --filter @pianio/web typecheck",
     "test": "pnpm --filter @pianio/midi-web test",
+    "test:ui": "pnpm --filter @pianio/web test:ui",
+    "check:i18n": "node ./scripts/check-translations.mjs",
     "generate:content": "node ./scripts/generate-content.mjs",
     "deploy": "pnpm build && firebase deploy --only hosting"
   },
