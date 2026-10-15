@@ -18,7 +18,8 @@
       "failed": "Impossibile caricare lo spartito",
       "zoomIn": "Ingrandisci",
       "zoomOut": "Riduci",
-      "loading": "Caricamento spartito…"
+      "loading": "Caricamento spartito…",
+      "scroll": "Scorri lo spartito in orizzontale per leggere le istruzioni lunghe."
     },
     "hand": {
       "left": "MS",
@@ -29,7 +30,8 @@
     },
     "clef": {
       "treble": "Chiave di violino",
-      "bass": "Chiave di basso"
+      "bass": "Chiave di basso",
+      "grand": "Chiavi di violino e di basso"
     },
     "reset": "reimposta",
     "navigate": "naviga",
@@ -100,7 +102,8 @@
     },
     "navigation": {
       "nextExercise": "Prossimo esercizio",
-      "courseComplete": "Corso completato"
+      "courseComplete": "Corso completato",
+      "previousExercise": "Esercizio precedente"
     },
     "celebration": {
       "perfect": "Perfetto!",

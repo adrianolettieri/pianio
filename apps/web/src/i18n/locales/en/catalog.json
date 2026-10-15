@@ -67,7 +67,11 @@
       "romanticEra": "Romantic era",
       "waltz": "Waltz",
       "world": "World",
-      "other": "Other"
+      "other": "Other",
+      "filmTv": "Film & TV",
+      "opera": "Opera",
+      "seaShanty": "Sea shanties",
+      "musicalTheater": "Musical theater"
     },
     "source": {
       "original": "Original",

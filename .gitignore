@@ -56,3 +56,7 @@ docs/*
 # Phase 4 content contracts and visual review evidence.
 !docs/I18N-CONTENT-PIPELINE.md
 !docs/i18n-phase4/
+
+# Phase 5 session coordination and browser verification evidence.
+!docs/I18N-LANGUAGE-SESSION.md
+!docs/i18n-phase5/

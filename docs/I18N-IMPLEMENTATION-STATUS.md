@@ -1,6 +1,6 @@
 # Stato implementazione multilingua
 
-Aggiornato il 15 ottobre 2026. Base di lavoro verificata: `37aef6c52825aaceadd8620dc6d97621c9e9aef8` (`37aef6c`, branch `feature/add_i18n_support`). Il checkout era pulito prima della fase 2. Nessun commit, push, PR o deploy. Le fasi 1–2 e 4 sono completate; la fase 3 è documentata come parziale e la fase 5 non è avviata. Le sezioni di baseline sotto conservano gli esiti storici; la verifica corrente della fase 4 è in fondo al documento.
+Aggiornato il 15 ottobre 2026. Base di lavoro verificata: `37aef6c52825aaceadd8620dc6d97621c9e9aef8` (`37aef6c`, branch `feature/add_i18n_support`). Il checkout era pulito prima della fase 2. Nessun commit, push, PR o deploy. Le fasi 1–2, 4 e 5 sono completate; le riserve storiche delle fasi 0/3 rimangono esplicite. Consegna A funzionalmente pronta per revisione locale con i limiti riportati nel rapporto corrente della fase 5. Le sezioni di baseline sotto conservano gli esiti storici; la verifica corrente della fase 5 e la successiva correzione della suite motore sono in fondo al documento.
 
 ## Baseline e ambiente
 
@@ -86,12 +86,12 @@ Stati: **completata** = risultato verificabile disponibile; **parziale** = parte
 
 | Fase | Stato | Modifiche / risultati | Verifiche eseguite | Attività residue |
 | --- | --- | --- | --- | --- |
-| 0. Baseline e inventario | **Parziale** | Inventario stringhe e superfici in `I18N-INVENTORY.md`; glossario in `I18N-GLOSSARY-IT.md`; stato iniziale e misure. Il piano di riferimento è ora presente anche nel checkout. | Conteggi JSON/ID, filtro, generatore e ora build/typecheck di fase 1 verificati. | Eseguire install frozen e suite baseline; risolvere il comando `core-engine` incompatibile con Node 22.20.0 e acquisire una baseline completa. |
+| 0. Baseline e inventario | **Parziale** | Inventario stringhe e superfici in `I18N-INVENTORY.md`; glossario in `I18N-GLOSSARY-IT.md`; stato iniziale e misure. Il piano di riferimento è ora presente anche nel checkout. | Conteggi JSON/ID, filtro, generatore e ora build/typecheck di fase 1 verificati. | Resta da documentare install frozen e chiusura completa della baseline. Compatibilità Node/pnpm e comando core-engine ora verificati, 4/4 test. |
 | 1. Fondazione | **Completata** | Registro condiviso `localization.config.json`; i18next/react-i18next e risorse EN/IT nei cinque namespace; selezione/persistenza lingua sicure; init prima del render, sincronizzazione `lang`/titolo/descrizione; checker e test UI. Solo metadati e fondazione, nessuna migrazione UI o progressi. | `check:i18n`, `test:ui` (9/9), `typecheck`, `build` superati. Chiavi inesistenti rilevate dal typecheck. | Nessuna nella fase 1. Il selettore e le migrazioni UI appartengono alle fasi successive. |
 | 2. Messaggi strutturati e note | **Completata** | Codici MIDI, unione discriminata import, adattatori per MIDI/catalogo/spartito, descrittori UI renderizzati al cambio lingua e formatter C/Do. Campi inglesi transitori mantenuti. | Tutti i cinque comandi in “Verifica fase 2”; compatibilità export v1 verificata con fixture. | Migrare in fase 3 i chiamanti legacy annotati nell'inventario e ampliare le traduzioni UI. |
 | 3. Traduzione dell'interfaccia | **Parziale** | Aggiunte risorse UI EN/IT; migrati navigazione attiva, viste di catalogo/corso/progressi, controlli e risultati di pratica, diagnostica, tastiera e spartito. Rimosso `ProgressImportResult.message`; timestamp diagnostici formattati con locale corrente. Mappature esplicite per mani/chiavi, categorie e provenienza. | Checker dizionari, typecheck diretto, 21 test UI (inclusi cambio lingua con notifica visibile e conteggi 0/1/plurale), 7 test MIDI e build eseguiti con binari locali. Ricerca statica dei componenti attivi: nessun copy inglese residuo oltre a marchi, sigle e termini musicali. Revisione visiva non eseguita: Vite riceve `listen EPERM` dal sandbox. `pnpm` resta bloccato senza output anche su `--version`; usati i binari locali equivalenti. | Provare visivamente entrambe le lingue quando la porta locale è disponibile; completare la mappa della politica delle fonti se la UI inizierà a mostrarla. Non avviare la fase 4. |
 | 4. Pipeline dei contenuti | **Completata** | Schema parziale/locale compatibile, validazione runtime JSON rigorosa, moduli importabili, cataloghi/score EN/IT e legacy, copertura per campo e registro SHA-256. Solo `method-level-1a`: 20 esercizi, 82/82 campi revisionati. | 11 test contenuti; checker ordinario, 21 test UI, 7 test MIDI, typecheck e build superati; ispezione OSMD di due spartiti. Full fallito atteso (79 corsi). Problemi motore preesistenti confermati. | Traduzioni restanti in fase 6; overflow degli obiettivi su vista stretta da considerare nel viewer fasi 5/7. React/selector non modificati. |
-| 5. Cambio lingua completo | **Da fare** | Nessuna. | Nessuna. | Loader e cache catalogo, coordinamento del cambio e continuità della sessione. |
+| 5. Cambio lingua completo | **Completata** | Loader validato/cache/deduplicazione, coordinatore UI/contenuti, selettore, differimento audio, riferimenti musicali canonici e viewer con ripristino/ripiego. | 48 test UI, 11 contenuti, 7 MIDI; checker, typecheck e build superati; browser desktop/mobile. | Prova MIDI fisica ancora da eseguire. Suite motore successivamente corretta e superata (4/4). |
 | 6. Traduzione di tutti i contenuti | **Da fare** | Nessuna. | Nessuna. | Coprire e revisionare gli 80 corsi e 1.557 esercizi sorgente, inclusi i 12 aggregati non visibili. |
 | 7. Verifica finale e documentazione | **Da fare** | Nessuna. | Nessuna. | Revisione UI completa, prove manuali/hardware se disponibile, documentazione e chiusura della matrice di verifica. |
 
@@ -149,3 +149,58 @@ La fase 5 riceve `locale`, `coverage`, `scorePath`, ID/ordine stabili e dati mus
 identici; deve coordinare caricamento e UI e preservare i riferimenti musicali dopo
 il parsing JSON. Non è stata avviata. La consegna A non è ancora dichiarata pronta:
 restano fase 5 e verifiche UI precedenti; la consegna B richiede gli altri 79 corsi.
+
+
+## Verifica corrente — fase 5 (15 ottobre 2026)
+
+Base effettiva `d226c36` (Stage 4), fork `adrianolettieri/pianio`, checkout iniziale
+pulito. Nessun `AGENTS.md` nei parent/checkout. Prerequisiti verificati nel codice:
+registro/preferenze/documento, messaggi strutturati, dizionari UI, cataloghi localizzati,
+metadati/revisioni e pilota della fase 4. Conservati contenuti, motore, dipendenze,
+progressi e contratti. Nessun commit, push, PR o deploy; fase 6 non avviata.
+
+Implementazione, criteri A, matrice test e limiti: [rapporto della fase 5](I18N-LANGUAGE-SESSION.md).
+
+- Loader con validazione runtime, HTML 200, errori/retry, cache/deduplicazione e filtro
+  non mutante. Identità/ordine verificati tra lingue; musica canonica riusata.
+- UI/catalogo applicati insieme, risposte obsolete scartate, ripiego EN spiegato in
+  italiano, doppio fallimento recuperabile senza perdere dati o mostrare corsi mancanti.
+- Selettore desktop/mobile/esercizio, preferenza e metadati documento; scorciatoie
+  protette; pannello conservato con matcher, MIDI, errori, modalità, velocità, loop e risultati.
+- Scelta differita durante anteprima/conteggio/esecuzione e durante audio ancora
+  programmato dopo navigazione; callback obsoleti invalidati. Nessuna pausa introdotta.
+- Spartito: ripristino immediato di zoom/cursore senza nuove note, isolamento dei
+  caricamenti, ripiego inglese esplicito e retry; istruzioni lunghe scorrevoli su mobile.
+
+Esiti finali: `check:i18n`, `test:ui` **48/48** (10 file), `test:content` **11/11**,
+`typecheck`, `test` MIDI **7/7**, `build` superati. Node 22.20.0 / pnpm 10.18.3.
+Il comando dichiarato `core-engine` inizialmente falliva per opzione Node incompatibile;
+con l’opzione compatibile risultavano **0/4** per attese obsolete su due campi null.
+La correzione successiva riportata sotto risolve entrambi i problemi: **4/4 superati**.
+Logica del motore invariata; aggiornati soltanto script e aspettative. Avvisi build
+preesistenti invariati.
+
+Browser reale: catalogo/corso/pratica/progressi/diagnostica, selettore, pilota React/OSMD,
+cambio EN/IT, zoom, tastiera e anteprima; 1280×900 e 390×844. Prove in
+`docs/i18n-phase5/`. Continuità MIDI/audio avanzata e risultati sono provati con mock:
+**nessuna tastiera MIDI fisica disponibile/verificata**; prova reale ancora da eseguire.
+
+**Consegna A funzionalmente pronta per revisione locale**: criteri UI/pilota/copertura
+parziale/continuità soddisfatti entro le prove descritte. Resta esplicita la verifica hardware
+mancante; non si dichiara una certificazione
+integrale delle fasi 0–5 o della fase 7. Copertura invariata: pilota 20 esercizi,
+82/6.069 campi italiani; 5.987 campi e 79 corsi / 1.537 esercizi in ripiego.
+
+
+## Correzione successiva — suite core-engine
+
+Su richiesta esplicita dell’utente, corretto `packages/core-engine/package.json`:
+lo script usa `node --test src/practice.test.ts`, senza il flag incompatibile.
+Aggiornate le quattro aspettative in `src/practice.test.ts` con `velocityScore: null`
+e `pedalScore: null`, coerenti con il contratto già implementato e con fixture
+senza valutazione della dinamica o del pedale. Nessuna modifica a `src/index.ts`.
+
+`pnpm --filter @pianio/core-engine test`: **superato, 4/4**, Node 22.20.0 e pnpm
+10.18.3. Rimossi quindi i limiti correnti relativi alla suite motore; conservati
+gli esiti storici delle fasi precedenti. La prova MIDI fisica rimane da eseguire.
+Nessun commit, push, PR o deploy.

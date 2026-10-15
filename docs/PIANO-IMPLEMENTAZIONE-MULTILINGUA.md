@@ -1,6 +1,6 @@
 # Piano di implementazione: multilingua e italiano
 
-Stato: fasi 1–2 e 4 completate; fase 3 parziale; fase 5 non avviata. Aggiornato il 15 ottobre 2026.
+Stato: fasi 1–2, 4 e 5 completate; fasi 0/3 con riserve storiche documentate. Consegna A funzionalmente pronta per revisione locale, con prova MIDI fisica ancora da eseguire; baseline motore corretta (4/4 test). Aggiornato il 15 ottobre 2026.
 
 Documento di partenza: `PIANO-MULTILINGUA.md`, nella cartella che contiene il repository. Repository di destinazione: [adrianolettieri/pianio](https://github.com/adrianolettieri/pianio). Baseline del codice analizzato: `df5526d`.
 
@@ -52,7 +52,7 @@ Eseguire i controlli rilevanti in ogni fase. La fase 7 raccoglie le prove trasve
 
 ## 0. Baseline e inventario
 
-- [ ] Verificare versioni di Node e pnpm. Usare una versione Node compatibile anche con il comando TypeScript nativo del pacchetto `core-engine`; annotare la versione usata.
+- [x] Verificare versioni di Node e pnpm. Usare una versione Node compatibile anche con il comando TypeScript nativo del pacchetto `core-engine`; annotare la versione usata. Verificati Node 22.20.0 / pnpm 10.18.3; script corretto e suite motore 4/4.
 - [ ] Installare le dipendenze dal lockfile ed eseguire i comandi esistenti riportati nella sezione di verifica; registrare eventuali problemi già presenti.
 - [ ] Censire testi visibili, tooltip, attributi accessibili, errori e messaggi conservati nello stato React. Registrare namespace e chiave previsti in `docs/I18N-INVENTORY.md`.
 - [ ] Creare `docs/I18N-GLOSSARY-IT.md` con terminologia e convenzioni: Practice → Esercitazione, Performance → Esecuzione, LH/RH → MS/MD, mani unite, battuta, lettura a prima vista, dinamica e pedale.
@@ -123,22 +123,24 @@ Verifica del 15 ottobre 2026: pilota 20/20 esercizi, 82/82 campi italiani e revi
 
 File principali: nuovi `apps/web/src/content/catalogLoader.ts`, `apps/web/src/i18n/LanguageProvider.tsx`, `apps/web/src/components/LanguageSelector.tsx`; modifiche ad `App.tsx`, `ExercisePracticePanel.tsx`, `ScoreViewer.tsx` e `app.css`.
 
-- [ ] Implementare caricamento e cache dei cataloghi per lingua, con deduplicazione delle richieste e validazione runtime minima: lingua, corsi, esercizi, identificativi e percorsi degli spartiti.
-- [ ] Gestire errori HTTP, JSON malformato e risposta HTML con stato 200. Quest'ultimo caso è possibile con il rewrite SPA di `firebase.json`: `response.ok` non basta per riconoscere un catalogo valido.
-- [ ] Gestire `requestedLanguage`, `activeLanguage` e richiesta pendente. Ignorare risposte obsolete dopo selezioni rapide; confermare dizionari UI e catalogo insieme solo quando i dati necessari sono disponibili.
-- [ ] Se il catalogo italiano non è disponibile, usare quello inglese e mostrare un messaggio italiano che chiarisce il ripiego dei contenuti. Se entrambi falliscono, mantenere i dati precedenti se disponibili e mostrare un errore recuperabile.
-- [ ] Applicare il filtro dei corsi con una trasformazione non mutante: non modificare gli oggetti conservati nella cache.
-- [ ] Aggiungere il selettore «Italiano / English» nella navigazione desktop/mobile e nelle viste di esercizio. Includere etichetta accessibile, stato di caricamento e conferma del cambio.
-- [ ] Escludere anche `SELECT` ed elementi modificabili dalle scorciatoie globali, affinché l'uso da tastiera del selettore non navighi tra esercizi né avvii un reset.
-- [ ] Mantenere montato il pannello durante il cambio; conservarne l'identità per corso/esercizio, senza usare la lingua come `key` e senza azzerare `catalog` durante un cambio già avviato.
-- [ ] Riutilizzare per lo stesso esercizio i dati musicali canonici, evitando che nuovi riferimenti a `expectedNotes` riattivino effetti quali l'auto-loop. Separare l'aggiornamento dei testi dal reset della sessione.
-- [ ] Far comunicare al coordinatore l'attività del pannello. Durante `isPreviewing`, `counting-in` o `playing`, accodare la scelta e applicarla al termine o all'arresto già previsto dall'app. Non introdurre una nuova funzione di pausa.
-- [ ] Ripristinare cursore e zoom di `ScoreViewer` dopo il caricamento del MusicXML localizzato usando la posizione corrente della sessione; non affidarsi a un nuovo avanzamento MIDI per riallineare il cursore.
-- [ ] Gestire gli errori dello spartito localizzato con messaggio e possibilità di ripiego allo spartito inglese corrispondente. Conservare posizione e identità dell'esercizio anche nel ripiego.
+- [x] Implementare caricamento e cache dei cataloghi per lingua, con deduplicazione delle richieste e validazione runtime minima: lingua, corsi, esercizi, identificativi e percorsi degli spartiti.
+- [x] Gestire errori HTTP, JSON malformato e risposta HTML con stato 200. Quest'ultimo caso è possibile con il rewrite SPA di `firebase.json`: `response.ok` non basta per riconoscere un catalogo valido.
+- [x] Gestire `requestedLanguage`, `activeLanguage` e richiesta pendente. Ignorare risposte obsolete dopo selezioni rapide; confermare dizionari UI e catalogo insieme solo quando i dati necessari sono disponibili.
+- [x] Se il catalogo italiano non è disponibile, usare quello inglese e mostrare un messaggio italiano che chiarisce il ripiego dei contenuti. Se entrambi falliscono, mantenere i dati precedenti se disponibili e mostrare un errore recuperabile.
+- [x] Applicare il filtro dei corsi con una trasformazione non mutante: non modificare gli oggetti conservati nella cache.
+- [x] Aggiungere il selettore «Italiano / English» nella navigazione desktop/mobile e nelle viste di esercizio. Includere etichetta accessibile, stato di caricamento e conferma del cambio.
+- [x] Escludere anche `SELECT` ed elementi modificabili dalle scorciatoie globali, affinché l'uso da tastiera del selettore non navighi tra esercizi né avvii un reset.
+- [x] Mantenere montato il pannello durante il cambio; conservarne l'identità per corso/esercizio, senza usare la lingua come `key` e senza azzerare `catalog` durante un cambio già avviato.
+- [x] Riutilizzare per lo stesso esercizio i dati musicali canonici, evitando che nuovi riferimenti a `expectedNotes` riattivino effetti quali l'auto-loop. Separare l'aggiornamento dei testi dal reset della sessione.
+- [x] Far comunicare al coordinatore l'attività del pannello. Durante `isPreviewing`, `counting-in` o `playing`, accodare la scelta e applicarla al termine o all'arresto già previsto dall'app. Non introdurre una nuova funzione di pausa.
+- [x] Ripristinare cursore e zoom di `ScoreViewer` dopo il caricamento del MusicXML localizzato usando la posizione corrente della sessione; non affidarsi a un nuovo avanzamento MIDI per riallineare il cursore.
+- [x] Gestire gli errori dello spartito localizzato con messaggio e possibilità di ripiego allo spartito inglese corrispondente. Conservare posizione e identità dell'esercizio anche nel ripiego.
 
 **Verifica:** test del caricatore con richieste concorrenti, HTML 200, errori e cache; test dei cambi EN→IT→EN durante pratica e diagnostica. Verificare il rinvio del cambio durante anteprima ed esecuzione, senza perdita di collegamento MIDI, loop, velocità, punteggio o progressi.
 
 **Consegna A pronta quando:** UI italiana completa, pilota interamente italiano, copertura parziale chiaramente indicata e continuità della sessione verificata.
+
+Verifica del 15 ottobre 2026: loader, coordinatore, selettore e continuità implementati; test UI 48/48, contenuti 11/11 e MIDI 7/7, checker, typecheck e build superati. Browser desktop/mobile e pilota OSMD verificati; MIDI/audio di sessione simulati. Suite core-engine corretta nel seguito della fase: comando compatibile con Node 22 e 4/4 test superati; prova MIDI fisica ancora da eseguire. Criteri e limiti della consegna A: [rapporto fase 5](I18N-LANGUAGE-SESSION.md). La fase 6 non è avviata.
 
 ## 6. Traduzione di tutti i contenuti
 

@@ -30,6 +30,20 @@
     "page404": "This page doesn't exist",
     "navigation": "Navigation",
     "footer": "Free, open-source piano lessons that listen.",
-    "breadcrumb": "Breadcrumb"
+    "breadcrumb": "Breadcrumb",
+    "license": "MIT License"
+  },
+  "language": {
+    "label": "Language",
+    "loading": "Loading selected language…",
+    "deferred": "The selected language will apply when audio finishes.",
+    "fallback": "Italian content is unavailable. English content is shown with the Italian interface.",
+    "error": "The language could not be loaded. Your current session is preserved. Try again.",
+    "initialError": "The catalog could not be loaded. Try again.",
+    "retry": "Try again",
+    "partial": "Italian content is partially translated. Untranslated courses and fields use English.",
+    "coursePartial": "This course includes English fallback content.",
+    "scoreFallback": "The localized score is unavailable. Showing the corresponding English score.",
+    "scoreRetry": "Retry localized score"
   }
 }

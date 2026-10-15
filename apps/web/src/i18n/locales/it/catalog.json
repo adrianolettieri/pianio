@@ -67,7 +67,11 @@
       "romanticEra": "Romantica",
       "waltz": "Valzer",
       "world": "Dal mondo",
-      "other": "Altro"
+      "other": "Altro",
+      "filmTv": "Cinema e TV",
+      "opera": "Opera",
+      "seaShanty": "Canti marinari",
+      "musicalTheater": "Teatro musicale"
     },
     "source": {
       "original": "Originale",

@@ -18,7 +18,8 @@
       "failed": "Failed to load score",
       "zoomIn": "Zoom in",
       "zoomOut": "Zoom out",
-      "loading": "Loading score..."
+      "loading": "Loading score...",
+      "scroll": "Scroll the score horizontally to read long instructions."
     },
     "hand": {
       "left": "Left hand",
@@ -29,7 +30,8 @@
     },
     "clef": {
       "treble": "Treble clef",
-      "bass": "Bass clef"
+      "bass": "Bass clef",
+      "grand": "Treble and bass clefs"
     },
     "reset": "reset",
     "navigate": "navigate",
@@ -95,7 +97,8 @@
     },
     "navigation": {
       "nextExercise": "Next exercise",
-      "courseComplete": "Course complete"
+      "courseComplete": "Course complete",
+      "previousExercise": "Previous exercise"
     },
     "celebration": {
       "perfect": "Perfect!",

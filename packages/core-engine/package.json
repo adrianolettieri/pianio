@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.1.0",
   "scripts": {
-    "test": "node --test --test-isolation=none src/practice.test.ts"
+    "test": "node --test src/practice.test.ts"
   },
   "type": "module"
 }

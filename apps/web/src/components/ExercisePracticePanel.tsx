@@ -1,6 +1,7 @@
-import React, { startTransition, useEffect, useEffectEvent, useRef, useState } from "react";
+import React, { startTransition, useEffect, useEffectEvent, useRef, useState, useMemo } from "react";
 import { useTranslation } from "react-i18next";
 import type { CatalogExercise } from "@pianio/content-schema";
+import { useLanguage } from "../i18n/LanguageProvider";
 import { ScoreViewer } from "./ScoreViewer";
 import { PianoKeyboard } from "./PianoKeyboard";
 import { markExerciseComplete } from "../progress";
@@ -82,7 +83,22 @@ export function ExercisePracticePanel({ exercise, courseId, nextExerciseHref, co
   const { i18n, t: translate } = useTranslation("practice");
   const t = translate as (key: string, options?: Record<string, unknown>) => string;
   const language = resolveLanguage(i18n.resolvedLanguage ?? i18n.language);
-  const sequence = createPracticeExpectedSequence(exercise.expectedNotes);
+  const { beginActivity } = useLanguage();
+  const sequence = useMemo(() => createPracticeExpectedSequence(exercise.expectedNotes), [exercise.expectedNotes]);
+  const mountedRef = useRef(false);
+  const performanceRunRef = useRef(0);
+  const performanceActivityRef = useRef<{ release: () => void; playing: boolean } | null>(null);
+  useEffect(() => {
+    mountedRef.current = true;
+    return () => {
+      mountedRef.current = false;
+      ++performanceRunRef.current;
+      // Scheduled audio finishes naturally; a count-in must not start a new piece after navigation.
+      if (!performanceActivityRef.current?.playing) performanceActivityRef.current?.release();
+      if (toastTimerRef.current) clearTimeout(toastTimerRef.current);
+      if (wrongNoteTimerRef.current) clearTimeout(wrongNoteTimerRef.current);
+    };
+  }, []);
   const beatsPerMeasure = exercise.timeSignature[0];
   const totalMeasures = Math.max(1, Math.ceil(
     exercise.expectedNotes.reduce((max, n) => Math.max(max, n.startBeat + n.durationBeats), 0) / beatsPerMeasure
@@ -161,8 +177,10 @@ export function ExercisePracticePanel({ exercise, courseId, nextExerciseHref, co
 
   const handlePreview = async () => {
     if (isPreviewing) return;
-    await startAudio();
+    const release = beginActivity();
     setIsPreviewing(true);
+    try { await startAudio(); } catch { release(); setIsPreviewing(false); return; }
+    if (!mountedRef.current) { release(); return; }
     const bpm = exercise.tempoBpm * tempoMultiplier;
     scheduleExercisePlayback(exercise.expectedNotes, bpm);
     const beatMs = 60000 / bpm;
@@ -170,7 +188,10 @@ export function ExercisePracticePanel({ exercise, courseId, nextExerciseHref, co
       (max, n) => Math.max(max, (n.startBeat + n.durationBeats) * beatMs),
       0
     );
-    previewTimerRef.current = setTimeout(() => setIsPreviewing(false), lastNoteEndMs + 800);
+    previewTimerRef.current = setTimeout(() => {
+      release();
+      if (mountedRef.current) setIsPreviewing(false);
+    }, lastNoteEndMs + 800);
   };
 
   useEffect(() => {
@@ -372,6 +393,8 @@ export function ExercisePracticePanel({ exercise, courseId, nextExerciseHref, co
   };
 
   const resetPerformance = () => {
+    ++performanceRunRef.current;
+    if (!performanceActivityRef.current?.playing) performanceActivityRef.current?.release();
     setPerformPhase("idle");
     setCountBeat(4);
     performHitsRef.current = new Set();
@@ -410,8 +433,13 @@ export function ExercisePracticePanel({ exercise, courseId, nextExerciseHref, co
   });
 
   const startPerformance = async () => {
-    // Ensure audio is started
-    await startAudio();
+    const run = ++performanceRunRef.current;
+    const activity = { release: beginActivity(), playing: false };
+    performanceActivityRef.current = activity;
+    const isCurrent = () => mountedRef.current && run === performanceRunRef.current;
+    // Include audio/MIDI initialization in the activity to avoid a switch during setup.
+    try { await startAudio(); } catch { activity.release(); return; }
+    if (!isCurrent()) { activity.release(); return; }
 
     // Request MIDI access if not already granted
     if (accessState !== "granted") {
@@ -419,11 +447,13 @@ export function ExercisePracticePanel({ exercise, courseId, nextExerciseHref, co
       setLastError(null);
       try {
         const midiAccess = await requestMidiAccess();
+        if (!isCurrent()) { activity.release(); return; }
         cachedMidiAccess = midiAccess;
         cachedMidiAccessState = "granted";
         setAccess(midiAccess);
         setAccessState("granted");
       } catch (err) {
+        if (!isCurrent()) { activity.release(); return; }
         setLastError(nativeErrorMessage(err, "midi"));
         setAccessState("error");
         // Continue anyway — user can still hear the piece
@@ -462,6 +492,8 @@ export function ExercisePracticePanel({ exercise, courseId, nextExerciseHref, co
 
     // Shared logic: start the piece after count-in
     const beginPlayback = () => {
+      if (!isCurrent()) { activity.release(); return; }
+      activity.playing = true;
       playbackStartRef.current = performance.now();
       setPerformPhase("playing");
       scheduleExercisePlayback(exercise.expectedNotes, bpm);
@@ -469,6 +501,8 @@ export function ExercisePracticePanel({ exercise, courseId, nextExerciseHref, co
         return Math.max(max, (note.startBeat + note.durationBeats) * beatMs);
       }, 0);
       setTimeout(() => {
+        activity.release();
+        if (!isCurrent()) return;
         stopMetronome();
         setPerformPhase("complete");
         const hits = performHitsRef.current.size;
@@ -493,12 +527,12 @@ export function ExercisePracticePanel({ exercise, courseId, nextExerciseHref, co
 
     if (metronomeOn) {
       // Transport-synced: count-in clicks ARE metronome beats, playback starts on the downbeat
-      startPerformanceCountIn(bpm, countInBeats, setCountBeat, beginPlayback);
+      startPerformanceCountIn(bpm, countInBeats, beat => { if (isCurrent()) setCountBeat(beat); }, beginPlayback);
     } else {
       // Standalone: setTimeout-based count-in (no clicks)
       for (let i = countInBeats; i >= 1; i--) {
         const delay = (countInBeats - i) * beatMs;
-        setTimeout(() => setCountBeat(i), delay);
+        setTimeout(() => { if (isCurrent()) setCountBeat(i); }, delay);
       }
       setTimeout(beginPlayback, countInMs);
     }
@@ -557,7 +591,7 @@ export function ExercisePracticePanel({ exercise, courseId, nextExerciseHref, co
           className={`preview-btn${isPreviewing ? " previewing" : ""}`}
           type="button"
           onClick={handlePreview}
-          disabled={isPreviewing}
+          disabled={isPreviewing || performPhase === "counting-in" || performPhase === "playing"}
           title={t("ui.preview.title")}
         >
           {isPreviewing ? <><Play size={13} /> {t("ui.preview.listening")}</> : <><Play size={13} /> {t("ui.preview.action")}</>}
@@ -681,7 +715,7 @@ export function ExercisePracticePanel({ exercise, courseId, nextExerciseHref, co
                   {summary.wrongNotes === 0 ? ` ${t("ui.result.perfect")}` : ` ${t("ui.result.complete")}`}
                 </span>
                 {summary.wrongNotes > 0 && (
-                  <span className="wrong-count-chip">{summary.wrongNotes} wrong</span>
+                  <span className="wrong-count-chip">{t("ui.result.wrong", { count: summary.wrongNotes })}</span>
                 )}
                   <span className="practice-hint">{t("ui.feedback.unlockNext")}</span>
               </>
@@ -812,7 +846,7 @@ export function ExercisePracticePanel({ exercise, courseId, nextExerciseHref, co
             <div className="tool-group">
               <span className="tool-group-label">{t("ui.tools.actions")}</span>
               <button className="reset-btn" type="button" onClick={handleReset}>
-                <RotateCcw size={13} /> Reset
+                <RotateCcw size={13} /> {t("ui.reset")}
               </button>
             </div>
           </div>

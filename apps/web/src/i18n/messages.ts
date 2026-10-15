@@ -48,7 +48,7 @@ export function nativeErrorMessage(error: unknown, area: "midi" | "catalog" | "s
     return { namespace, key: keyByName[name] ?? "midi.error.unknown", technicalDetail };
   }
 
-  const statusMatch = technicalDetail?.match(/(?:failed to fetch score:|catalog request failed with)\s*(\d{3})/i);
+  const statusMatch = technicalDetail?.match(/(?:failed to fetch score:|catalog request failed with|(?:score|catalog) HTTP)\s*(\d{3})/i);
   if (statusMatch) {
     return { namespace, key: `${area}.error.http`, params: { status: Number(statusMatch[1]) }, technicalDetail };
   }

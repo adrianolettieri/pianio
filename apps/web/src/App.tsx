@@ -3,7 +3,10 @@ import { useTranslation } from "react-i18next";
 import type { CatalogCourse, CatalogExercise, GeneratedCatalog } from "@pianio/content-schema";
 import { getBestStars, getCompletedCount, getCompletedSlugs, getPracticeStreak, isExerciseComplete, recordPracticeDay, exportProgress, importProgress, resetProgress } from "./progress";
 import { describeMidiSupport } from "@pianio/midi-web";
-import { importProgressMessage, midiSupportMessages, nativeErrorMessage, renderMessage, type MessageDescriptor } from "./i18n/messages";
+import { importProgressMessage, midiSupportMessages, renderMessage, type MessageDescriptor } from "./i18n/messages";
+import { LanguageSelector } from "./components/LanguageSelector";
+import { useLanguage } from "./i18n/LanguageProvider";
+import { isEditingTarget } from "./i18n/shortcuts";
 import { startAudio } from "./audio/pianoSampler";
 import { DiagnosticsScreen } from "./screens/DiagnosticsScreen";
 import {
@@ -249,7 +252,7 @@ function formatHands(value: CatalogExercise["hands"], t: (key: string) => string
 }
 
 function formatClef(value: CatalogExercise["clef"], t: (key: string) => string) {
-  return t(value === "G" ? "practice:ui.clef.treble" : "practice:ui.clef.bass");
+  return t(value === "G" ? "practice:ui.clef.treble" : String(value) === "GF" ? "practice:ui.clef.grand" : "practice:ui.clef.bass");
 }
 
 function formatSourceKind(value: CatalogExercise["sourceKind"], t: (key: string) => string) {
@@ -262,7 +265,7 @@ function formatCategory(value: string, t: (key: string) => string) {
     baroque: "baroque", celtic: "celtic", children: "children", christian: "christian", classical: "classical",
     dance: "dance", festive: "festive", folk: "folk", "jazz-blues": "jazzBlues", latin: "latin",
     lullaby: "lullaby", march: "march", meditation: "meditation", patriotic: "patriotic", ragtime: "ragtime",
-    "romantic-era": "romanticEra", waltz: "waltz", world: "world"
+    "romantic-era": "romanticEra", waltz: "waltz", world: "world", "film-tv": "filmTv", opera: "opera", "sea-shanty": "seaShanty", "musical-theater": "musicalTheater"
   };
   return t(`catalog:ui.category.${categoryKeys[value] ?? "other"}`);
 }
@@ -510,7 +513,7 @@ function ShelfGrid({ courses, title, category }: { courses: CatalogCourse[]; tit
                   <a
                     href={getCourseHref(row.parent.id)}
                     className="shelf-level-link"
-                    title={`${row.parent.title}\n${getCompletedCount(row.parent.id)}/${row.parent.exerciseCount} exercises`}
+                    title={t("catalog:ui.cellTooltip", { title: row.parent.title, done: getCompletedCount(row.parent.id), count: row.parent.exerciseCount })}
                   >
                     {row.level}
                   </a>
@@ -578,7 +581,7 @@ function SongCards({ courses }: { courses: CatalogCourse[] }) {
               </span>
               <h4 className="song-card-title">{course.title.replace(/^Songs:\s*/, "")}</h4>
               <span className="song-card-level">{t("catalog:ui.level", { level: new Intl.NumberFormat(i18n.language).format(course.level) })}</span>
-              <span className="song-card-fraction">{done > 0 ? `${done}/${course.exerciseCount}` : `${course.exerciseCount} exercises`}</span>
+              <span className="song-card-fraction">{done > 0 ? `${done}/${course.exerciseCount}` : t("catalog:ui.exercises", { count: course.exerciseCount })}</span>
               <div className="shelf-cell-bar song-card-bar">
                 <div className="shelf-cell-bar-fill" style={{ width: `${pct}%` }} />
               </div>
@@ -766,8 +769,7 @@ function ExerciseScreen({
 
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
-      const tag = (e.target as HTMLElement).tagName;
-      if (tag === "INPUT" || tag === "TEXTAREA" || tag === "BUTTON") return;
+      if (isEditingTarget(e.target)) return;
       if (e.metaKey || e.ctrlKey || e.altKey) return;
 
       if (e.key === "ArrowRight" && nextExercise) {
@@ -795,7 +797,7 @@ function ExerciseScreen({
             </a>
             <div className="exercise-pager">
               {previousExercise ? (
-                <a className="pager-link" href={getExerciseHref(course.id, previousExercise.slug)}>
+                <a className="pager-link" aria-label={t("practice:ui.navigation.previousExercise")} href={getExerciseHref(course.id, previousExercise.slug)}>
                   <ChevronLeft size={16} />
                 </a>
               ) : (
@@ -803,7 +805,7 @@ function ExerciseScreen({
               )}
               <span className="pager-count">{exerciseIndex + 1} / {course.exerciseCount}</span>
               {nextExercise ? (
-                <a className="pager-link" href={getExerciseHref(course.id, nextExercise.slug)}>
+                <a className="pager-link" aria-label={t("practice:ui.navigation.nextExercise")} href={getExerciseHref(course.id, nextExercise.slug)}>
                   <ChevronRight size={16} />
                 </a>
               ) : (
@@ -833,6 +835,7 @@ function ExerciseScreen({
 
         <Suspense fallback={<div className="score-loading">{t("practice:ui.score.loading")}</div>}>
           <ExercisePracticePanelLazy
+            key={`${course.id}/${exercise.id}`}
             exercise={exercise}
             courseId={course.id}
             nextExerciseHref={nextExercise ? getExerciseHref(course.id, nextExercise.slug) : undefined}
@@ -1174,6 +1177,7 @@ function TopNav({ midi, darkMode, setDarkMode, route }: {
         <a className={route.screen === "progress" ? "active" : undefined} href={getProgressHref()}>{t("common:ui.nav.progress")}</a>
       </nav>
       <div className="top-nav-right">
+        <LanguageSelector />
         <span className={midi.available ? "midi-indicator ok" : "midi-indicator warn"}>
           <span className="midi-dot" />
           {renderMessage(midiMessages.summary, i18n.language.toLowerCase().startsWith("it") ? "it" : "en")}
@@ -1197,8 +1201,7 @@ function TopNav({ midi, darkMode, setDarkMode, route }: {
 export default function App() {
   const { i18n, t: translate } = useTranslation();
   const t = translate as (key: string, options?: Record<string, unknown>) => string;
-  const [catalog, setCatalog] = useState<GeneratedCatalog | null>(null);
-  const [error, setError] = useState<MessageDescriptor | null>(null);
+  const { catalog, error, retry, activeLanguage, contentLanguage } = useLanguage();
   const [progressVersion, setProgressVersion] = useState(0);
   const [sidebarOpen, setSidebarOpen] = useState(true);
   const [darkMode, setDarkMode] = useState(() => localStorage.getItem("pianio:dark") === "1");
@@ -1237,37 +1240,6 @@ export default function App() {
   }, [darkMode]);
 
   useEffect(() => {
-    let active = true;
-
-    fetch("/generated/catalog.json")
-      .then(async (response) => {
-        if (!response.ok) {
-          throw new Error(`Catalog request failed with ${response.status}`);
-        }
-
-        return (await response.json()) as GeneratedCatalog;
-      })
-      .then((data) => {
-        if (active) {
-          data.courses = data.courses.filter((c) => {
-            const m = c.id.match(/^(method|technique)-level-\d+$/);
-            return !m;
-          });
-          setCatalog(data);
-        }
-      })
-      .catch((fetchError) => {
-        if (active) {
-          setError(nativeErrorMessage(fetchError, "catalog"));
-        }
-      });
-
-    return () => {
-      active = false;
-    };
-  }, []);
-
-  useEffect(() => {
     if (typeof window === "undefined") {
       return undefined;
     }
@@ -1303,29 +1275,30 @@ export default function App() {
   useEffect(() => {
     const base = "Pianio";
     if (route.screen === "progress") {
-      document.title = `My Progress | ${base}`;
+      document.title = `${t("common:ui.nav.progress")} | ${base}`;
     } else if (route.screen === "diagnostics") {
-      document.title = `Diagnostics | ${base}`;
+      document.title = `${t("common:ui.midiDiagnostics")} | ${base}`;
     } else if (route.screen === "course" && selectedCourse) {
       document.title = `${selectedCourse.title} | ${base}`;
     } else if (route.screen === "exercise" && selectedExercise && selectedCourse) {
       document.title = `${selectedExercise.title} - ${selectedCourse.title} | ${base}`;
     } else {
-      document.title = base;
+      document.title = t("common:document.title");
     }
     // Emotional contrast: scope backgrounds per screen
     const screenType = route.screen === "exercise" ? "practice" : route.screen === "progress" ? "progress" : "catalog";
     document.documentElement.setAttribute("data-screen", screenType);
-  }, [route.screen, selectedCourse, selectedExercise]);
+  }, [route.screen, selectedCourse, selectedExercise, activeLanguage]);
 
   let content: ReactNode = null;
 
-  if (error) {
+  if (error && !catalog) {
     content = (
       <section className="panel empty-panel">
         <span className="eyebrow">{t("catalog:ui.catalogError")}</span>
         <h2>{t("catalog:ui.contentError")}</h2>
-        <p>{renderMessage(error, i18n.language.toLowerCase().startsWith("it") ? "it" : "en")}</p>
+        <p>{t("common:language.initialError")}</p>
+        <button type="button" onClick={retry}>{t("common:language.retry")}</button>
       </section>
     );
   } else if (!catalog) {
@@ -1480,6 +1453,12 @@ export default function App() {
           </nav>
           )}
 
+          {error && catalog && <div className="language-notice" role="alert">
+            {t("common:language.error")} <button type="button" onClick={retry}>{t("common:language.retry")}</button>
+          </div>}
+          {catalog && activeLanguage !== contentLanguage && <p className="language-notice" role="status">{t("common:language.fallback")}</p>}
+          {activeLanguage === "it" && catalog?.courses.some(c => (c.coverage?.fallbackFields ?? 0) > 0) && <p className="language-notice">{t("common:language.partial")}</p>}
+          {activeLanguage === "it" && (selectedCourse?.coverage?.fallbackFields ?? 0) > 0 && <p className="language-notice">{t("common:language.coursePartial")}</p>}
           {content}
         </section>
       </div>
@@ -1493,7 +1472,7 @@ export default function App() {
       <div className="footer-tagline">{t("common:ui.footer")}</div>
       <div className="site-footer-links">
         <a href="https://github.com/ismaelponce/pianio" target="_blank" rel="noreferrer"><Github size={14} /> GitHub</a>
-        <a href="https://github.com/ismaelponce/pianio/blob/main/LICENSE" target="_blank" rel="noreferrer">MIT License</a>
+        <a href="https://github.com/ismaelponce/pianio/blob/main/LICENSE" target="_blank" rel="noreferrer">{t("common:ui.license")}</a>
         <span className="footer-midi-badge"><Keyboard size={12} /> MIDI</span>
       </div>
     </footer>

@@ -2,6 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import { initializeI18n } from "./i18n";
 import App from "./App";
+import { LanguageProvider } from "./i18n/LanguageProvider";
 import "./app.css";
 
 function renderApp(): void {
@@ -9,7 +10,7 @@ function renderApp(): void {
   if (!root) return;
   ReactDOM.createRoot(root).render(
     <React.StrictMode>
-      <App />
+      <LanguageProvider><App /></LanguageProvider>
     </React.StrictMode>,
   );
 }

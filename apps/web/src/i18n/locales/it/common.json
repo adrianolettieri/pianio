@@ -30,6 +30,20 @@
     "page404": "Questa pagina non esiste",
     "navigation": "Navigazione",
     "footer": "Lezioni di pianoforte gratuite e open source che ti ascoltano.",
-    "breadcrumb": "Percorso di navigazione"
+    "breadcrumb": "Percorso di navigazione",
+    "license": "Licenza MIT"
+  },
+  "language": {
+    "label": "Lingua",
+    "loading": "Caricamento della lingua scelta…",
+    "deferred": "La lingua scelta verrà applicata al termine dell’audio.",
+    "fallback": "I contenuti italiani non sono disponibili. Sono mostrati i contenuti inglesi con l’interfaccia italiana.",
+    "error": "Impossibile caricare la lingua. La sessione corrente è conservata. Riprova.",
+    "initialError": "Impossibile caricare il catalogo. Riprova.",
+    "retry": "Riprova",
+    "partial": "I contenuti italiani sono tradotti parzialmente. I corsi e i campi non tradotti usano l’inglese.",
+    "coursePartial": "Questo corso include contenuti in inglese per ripiego.",
+    "scoreFallback": "Lo spartito localizzato non è disponibile. È mostrato il corrispondente spartito inglese.",
+    "scoreRetry": "Riprova lo spartito localizzato"
   }
 }
