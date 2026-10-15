@@ -6,5 +6,136 @@
       "unknown": "Impossibile caricare o visualizzare lo spartito."
     }
   },
-  "midi": { "connected": "MIDI collegato", "connection-failed": "Connessione MIDI non riuscita" }
+  "midi": {
+    "connected": "MIDI collegato",
+    "connection-failed": "Connessione MIDI non riuscita"
+  },
+  "ui": {
+    "keyboard": {
+      "label": "Tastiera del pianoforte"
+    },
+    "score": {
+      "failed": "Impossibile caricare lo spartito",
+      "zoomIn": "Ingrandisci",
+      "zoomOut": "Riduci",
+      "loading": "Caricamento spartito…"
+    },
+    "hand": {
+      "left": "MS",
+      "right": "MD",
+      "together": "Mani unite",
+      "leftShort": "MS",
+      "rightShort": "MD"
+    },
+    "clef": {
+      "treble": "Chiave di violino",
+      "bass": "Chiave di basso"
+    },
+    "reset": "reimposta",
+    "navigate": "naviga",
+    "outline": {
+      "title": "Scaletta del corso",
+      "viewCourse": "Vai al corso"
+    },
+    "mode": {
+      "practice": "Esercitazione",
+      "performance": "Esecuzione"
+    },
+    "preview": {
+      "title": "Ascolta l’esercizio eseguito",
+      "listening": "Ascolto…",
+      "action": "Anteprima"
+    },
+    "midi": {
+      "connecting": "Connessione…",
+      "connect": "Collega MIDI",
+      "retry": "Riprova MIDI",
+      "device": "Dispositivo"
+    },
+    "unit": {
+      "notes_one": "{{count}} nota",
+      "notes_other": "{{count}} note",
+      "bpm": "{{bpm}} bpm",
+      "notes_many": "{{count}} note"
+    },
+    "loop": {
+      "badge": "Ripeti: batt. {{start}}–{{end}}",
+      "start": "Battuta iniziale del loop",
+      "end": "Battuta finale del loop",
+      "disable": "Disattiva ripetizione della sezione",
+      "selected": "Ripeti le battute selezionate",
+      "section": "Sezione"
+    },
+    "feedback": {
+      "next": "Prossima",
+      "unlockNext": "Completa in modalità Esecuzione per sbloccare il prossimo esercizio",
+      "tooLoud": "Troppo forte",
+      "tooSoft": "Troppo piano",
+      "pressPedal": "Premi il pedale",
+      "releasePedal": "Rilascia il pedale"
+    },
+    "result": {
+      "perfect": "Perfetto!",
+      "complete": "Completato",
+      "wrongNote": "Nota errata",
+      "extra": "In più",
+      "wrongNotes_one": "{{count}} nota errata",
+      "wrongNotes_other": "{{count}} note errate",
+      "accuracy": "Precisione: {{percent}}%",
+      "correct_one": "{{count}} corretta",
+      "correct_other": "{{count}} corrette",
+      "missed_one": "{{count}} mancata",
+      "missed_other": "{{count}} mancate",
+      "wrong_one": "{{count}} errata",
+      "wrong_other": "{{count}} errate",
+      "dynamics": "Dinamica",
+      "pedal": "Pedale",
+      "wrongNotes_many": "{{count}} note errate",
+      "correct_many": "{{count}} corrette",
+      "missed_many": "{{count}} mancate",
+      "wrong_many": "{{count}} errate"
+    },
+    "action": {
+      "tryAgain": "Riprova"
+    },
+    "navigation": {
+      "nextExercise": "Prossimo esercizio",
+      "courseComplete": "Corso completato"
+    },
+    "celebration": {
+      "perfect": "Perfetto!",
+      "great": "Ottimo lavoro!",
+      "flawless": "Nessuna nota errata: impeccabile",
+      "tryPerformance": "Prova l’esecuzione"
+    },
+    "performance": {
+      "intro": "L’esercizio viene riprodotto in sottofondo. Suona insieme e le note saranno valutate in base alla precisione.",
+      "start": "Avvia esecuzione",
+      "getReady": "Preparati…",
+      "playing": "In esecuzione",
+      "notesMatched": "note corrispondenti"
+    },
+    "tools": {
+      "speed": "Velocità",
+      "features": "Funzioni",
+      "metronome": "Attiva/disattiva metronomo",
+      "metroShort": "Metro",
+      "hide": "Nascondi strumenti",
+      "show": "Mostra strumenti di esercitazione",
+      "title": "Strumenti",
+      "showHints": "Mostra suggerimenti per la prossima nota",
+      "hideHints": "Nascondi suggerimenti (lettura a prima vista)",
+      "hideNoteNames": "Nascondi nomi delle note",
+      "showNoteNames": "Mostra i nomi delle note sulla tastiera",
+      "namesShort": "Note",
+      "sightShort": "Vista",
+      "disableLoop": "Disattiva ripetizione automatica",
+      "autoLoop": "Ripeti automaticamente al completamento",
+      "loop": "Ripetizione",
+      "stop": "Ferma",
+      "actions": "Azioni",
+      "pedalShort": "Ped.",
+      "swing": "Swing"
+    }
+  }
 }

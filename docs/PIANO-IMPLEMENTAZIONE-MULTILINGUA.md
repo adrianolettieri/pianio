@@ -89,13 +89,13 @@ File principali: `packages/midi-web/src/index.ts`, relativi test, `apps/web/src/
 
 File principali: `App.tsx`, `ExercisePracticePanel.tsx`, `PianoKeyboard.tsx`, `ScoreViewer.tsx`, `DiagnosticsScreen.tsx`, `progress.ts` e dizionari UI.
 
-- [ ] Sostituire i testi di navigazione, catalogo, corso, progressi e pagina non trovata con chiavi semantiche.
-- [ ] Migrare comandi della pratica, modalità, velocità, loop, metronomo, connessione MIDI, risultati e notifiche.
-- [ ] Migrare diagnostica, stati di caricamento e messaggi di errore degli spartiti; sostituire il formatter temporale creato a livello modulo con un formatter sensibile alla lingua attiva.
-- [ ] Tradurre tramite mappe esplicite mani, chiavi musicali, categorie, provenienza e politica delle fonti; eliminare per queste etichette le trasformazioni automatiche come `capitalize` o `replaceAll`.
+- [ ] Sostituire tutti i testi di navigazione, catalogo, corso, progressi e pagina non trovata con chiavi semantiche (parziale: viste principali e pagina non trovata).
+- [ ] Migrare tutti i comandi della pratica, modalità, velocità, loop, metronomo, connessione MIDI, risultati e notifiche (parziale: molti controlli/results migrati, restano etichette e stati).
+- [x] Migrare la schermata diagnostica, i messaggi di errore degli spartiti e il formatter temporale sensibile alla lingua attiva.
+- [ ] Tradurre tramite mappe esplicite mani, chiavi musicali, categorie, provenienza e politica delle fonti; eliminare le trasformazioni automatiche come `capitalize` o `replaceAll` (mappe mani/chiavi/categorie/provenienza presenti; politica non ancora resa nella UI).
 - [ ] Gestire conteggi con le regole plurali e numeri/date tramite `Intl` usando la lingua selezionata. Conservare i formati macchina in storage, JSON e MusicXML.
 - [ ] Includere `aria-label`, `title`, etichette dei controlli e testi delle scorciatoie. Usare traduzioni di frasi intere con parametri, evitando concatenazioni di frammenti.
-- [ ] Migrare tutti i chiamanti dei messaggi strutturati e rimuovere i campi inglesi transitori non più necessari.
+- [ ] Migrare tutti i chiamanti dei messaggi strutturati e rimuovere i campi inglesi transitori non più necessari (rimosso `ProgressImportResult.message`; campi MIDI legacy ancora mantenuti per API non attive/compatibilità).
 
 **Verifica:** test dei messaggi dinamici e dei principali controlli; revisione manuale di tutte le schermate attive in entrambe le lingue. Aggiornare l'inventario indicando le voci migrate. I testi dei corsi restano responsabilità della fase 4.
 

@@ -4,6 +4,12 @@ Inventario iniziale del checkout `df5526d19f3c319757d003ffdfb32b925ef01397`, ril
 
 Namespace previsti: `common`, `catalog`, `practice`, `diagnostics`, `progress`.
 
+## Stato dopo la migrazione parziale della fase 3
+
+Migrati: testo hero e alcuni percorsi/fallback in `App.tsx`; pannelli corso e progressi; etichette di modalità, anteprima, MIDI, suggerimenti, velocità, loop e risultati in `ExercisePracticePanel.tsx`; controlli zoom/errori in `ScoreViewer.tsx`; label accessibile tastiera in `PianoKeyboard.tsx`; schermata diagnostica e tabella eventi. Aggiunte chiavi UI ai cinque namespace EN/IT. Il risultato import ora contiene solo esito/codice/parametri e rimane traducibile durante il render.
+
+Residui: copy di marchio/licenza e termini musicali standard come MIDI/Swing, che restano invariati; la mappa esplicita della politica delle fonti è definita nel dizionario e va collegata se tale campo verrà mostrato. La review visiva in EN/IT resta da svolgere perché il sandbox impedisce l’avvio del server locale (`listen EPERM`). `HomeScreen.tsx` rimane non attiva e non è stata modificata. I titoli/descrizioni/obiettivi provenienti dal catalogo restano editoriali inglesi per la fase 4.
+
 ## Interfaccia attiva
 
 | File / contesto | Stringhe da censire | Namespace e chiavi semantiche proposte |

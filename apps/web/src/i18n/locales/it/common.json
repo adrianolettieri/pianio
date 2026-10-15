@@ -2,5 +2,34 @@
   "document": {
     "title": "Pianio — Lezioni di piano gratuite e aperte",
     "description": "Impara il pianoforte con feedback MIDI in tempo reale. 80 corsi, oltre 1500 esercizi, gratis e open source."
+  },
+  "ui": {
+    "skip": "Vai al contenuto",
+    "nav": {
+      "courses": "Corsi",
+      "progress": "Progressi",
+      "backToCourses": "Torna ai corsi",
+      "catalog": "Tutti i corsi"
+    },
+    "theme": {
+      "light": "Passa al tema chiaro",
+      "dark": "Passa al tema scuro"
+    },
+    "midiDiagnostics": "Diagnostica MIDI",
+    "sidebar": {
+      "show": "Mostra barra laterale",
+      "hide": "Nascondi barra laterale"
+    },
+    "outline": {
+      "show": "Mostra scaletta",
+      "hide": "Nascondi scaletta"
+    },
+    "backToTop": "Torna in cima",
+    "unavailable": "Non disponibile",
+    "returnCatalog": "Torna al catalogo",
+    "page404": "Questa pagina non esiste",
+    "navigation": "Navigazione",
+    "footer": "Lezioni di pianoforte gratuite e open source che ti ascoltano.",
+    "breadcrumb": "Percorso di navigazione"
   }
 }

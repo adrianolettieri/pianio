@@ -15,7 +15,7 @@ const ZOOM_MAX = 1.8;
 const ZOOM_STEP = 0.15;
 
 export function ScoreViewer({ scorePath, matchedCount }: ScoreViewerProps) {
-  useTranslation();
+  const { t } = useTranslation("practice");
   const containerRef = useRef<HTMLDivElement>(null);
   const osmdRef = useRef<OpenSheetMusicDisplay | null>(null);
   const noteStepMapRef = useRef<number[]>([]);
@@ -239,7 +239,7 @@ export function ScoreViewer({ scorePath, matchedCount }: ScoreViewerProps) {
         <div className="score-skeleton" />
       )}
       {loadState === "error" && (
-        <div className="score-placeholder">{errorMessage ? renderMessage(errorMessage) : "Failed to load score"}</div>
+        <div className="score-placeholder">{errorMessage ? renderMessage(errorMessage) : t("ui.score.failed")}</div>
       )}
       {loadState === "ready" && (
         <div className="score-zoom-controls">
@@ -248,7 +248,8 @@ export function ScoreViewer({ scorePath, matchedCount }: ScoreViewerProps) {
             type="button"
             onClick={() => setZoom((z) => Math.max(ZOOM_MIN, +(z - ZOOM_STEP).toFixed(2)))}
             disabled={zoom <= ZOOM_MIN}
-            title="Zoom out"
+            title={t("ui.score.zoomOut")}
+            aria-label={t("ui.score.zoomOut")}
           >−</button>
           <span className="score-zoom-label">{Math.round(zoom * 100)}%</span>
           <button
@@ -256,7 +257,8 @@ export function ScoreViewer({ scorePath, matchedCount }: ScoreViewerProps) {
             type="button"
             onClick={() => setZoom((z) => Math.min(ZOOM_MAX, +(z + ZOOM_STEP).toFixed(2)))}
             disabled={zoom >= ZOOM_MAX}
-            title="Zoom in"
+            title={t("ui.score.zoomIn")}
+            aria-label={t("ui.score.zoomIn")}
           >+</button>
         </div>
       )}

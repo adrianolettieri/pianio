@@ -120,7 +120,7 @@ export function PianoKeyboard({ nextNoteNumbers, nextNoteHand, pressedNotes, wro
         width={totalWidth}
         height={svgHeight}
         className="piano-keyboard-svg"
-        aria-label="Piano keyboard"
+        aria-label={i18n.t("practice:ui.keyboard.label")}
       >
         <defs>
           <linearGradient id="black-key-grad" x1="0" y1="0" x2="0" y2="1">

@@ -33,11 +33,28 @@ describe("message descriptors", () => {
   it("updates a visible message after the language changes without replacing its descriptor", async () => {
     toastCreationCount = 0;
     await initializeI18n("en");
+    await i18n.changeLanguage("en");
     const view = render(<PersistentToast />);
     expect(screen.getByRole("status").textContent).toBe("Imported 2 completed exercises.");
     await act(async () => { await i18n.changeLanguage("it"); });
     expect(screen.getByRole("status").textContent).toBe("Importati 2 esercizi completati.");
     expect(toastCreationCount).toBe(1);
     view.unmount();
+  });
+
+  it("formats exercise and streak counts with zero, singular, and plural forms in both languages", async () => {
+    await initializeI18n("en");
+    await i18n.changeLanguage("en");
+    expect(i18n.t("ui.exercises", { ns: "catalog", count: 0 })).toBe("0 exercises");
+    expect(i18n.t("ui.exercises", { ns: "catalog", count: 1 })).toBe("1 exercise");
+    expect(i18n.t("ui.exercises", { ns: "catalog", count: 8 })).toBe("8 exercises");
+    await i18n.changeLanguage("it");
+    expect(i18n.t("ui.exercises", { ns: "catalog", count: 0 })).toBe("0 esercizi");
+    expect(i18n.t("ui.exercises", { ns: "catalog", count: 1 })).toBe("1 esercizio");
+    expect(i18n.t("ui.exercises", { ns: "catalog", count: 8 })).toBe("8 esercizi");
+    expect(i18n.t("ui.dayStreak", { ns: "progress", count: 0 })).toBe("0 giorni consecutivi");
+    expect(i18n.t("ui.dayStreak", { ns: "progress", count: 1 })).toBe("1 giorno consecutivo");
+    expect(i18n.t("ui.dayStreak", { ns: "progress", count: 5 })).toBe("5 giorni consecutivi");
+    await i18n.changeLanguage("en");
   });
 });

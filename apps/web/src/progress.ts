@@ -195,15 +195,15 @@ export function exportProgress(): void {
 }
 
 export type ProgressImportResult =
-  | { outcome: "success"; code: "progress.import.success"; params: { importedCount: number }; ok: true; message: string }
-  | { outcome: "failure"; code: "progress.import.invalid-json" | "progress.import.unsupported-format" | "progress.import.storage-write-failed"; params: Record<string, never>; ok: false; message: string };
+  | { outcome: "success"; code: "progress.import.success"; params: { importedCount: number }; ok: true }
+  | { outcome: "failure"; code: "progress.import.invalid-json" | "progress.import.unsupported-format" | "progress.import.storage-write-failed"; params: Record<string, never>; ok: false };
 
 export function importProgress(json: string): ProgressImportResult {
   let data: unknown;
-  try { data = JSON.parse(json); } catch { return { outcome: "failure", code: "progress.import.invalid-json", params: {}, ok: false, message: "Invalid JSON file." }; }
+  try { data = JSON.parse(json); } catch { return { outcome: "failure", code: "progress.import.invalid-json", params: {}, ok: false }; }
 
   if (!data || typeof data !== "object" || (data as ProgressExport).version !== 1) {
-    return { outcome: "failure", code: "progress.import.unsupported-format", params: {}, ok: false, message: "Unrecognised format — expected a Pianio progress export." };
+    return { outcome: "failure", code: "progress.import.unsupported-format", params: {}, ok: false };
   }
 
   const p = data as ProgressExport;
@@ -212,8 +212,8 @@ export function importProgress(json: string): ProgressImportResult {
     if (p.stars && typeof p.stars === "object") localStorage.setItem(STARS_KEY, JSON.stringify(p.stars));
     if (Array.isArray(p.streakDates)) localStorage.setItem(STREAK_KEY, JSON.stringify(p.streakDates));
     const importedCount = p.completed?.length ?? 0;
-    return { outcome: "success", code: "progress.import.success", params: { importedCount }, ok: true, message: `Imported ${importedCount} completed exercises.` };
+    return { outcome: "success", code: "progress.import.success", params: { importedCount }, ok: true };
   } catch {
-    return { outcome: "failure", code: "progress.import.storage-write-failed", params: {}, ok: false, message: "Failed to write to localStorage." };
+    return { outcome: "failure", code: "progress.import.storage-write-failed", params: {}, ok: false };
   }
 }
