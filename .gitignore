@@ -52,3 +52,7 @@ docs/*
 !docs/PIANO-IMPLEMENTAZIONE-MULTILINGUA.md
 !docs/I18N-INVENTORY.md
 !docs/I18N-IMPLEMENTATION-STATUS.md
+
+# Phase 4 content contracts and visual review evidence.
+!docs/I18N-CONTENT-PIPELINE.md
+!docs/i18n-phase4/

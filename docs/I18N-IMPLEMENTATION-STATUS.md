@@ -1,6 +1,6 @@
 # Stato implementazione multilingua
 
-Aggiornato il 15 ottobre 2026. Base di lavoro verificata: `37aef6c52825aaceadd8620dc6d97621c9e9aef8` (`37aef6c`, branch `feature/add_i18n_support`). Il checkout era pulito prima della fase 2. Nessun commit, push, PR o deploy. Le fasi 1–2 sono completate; la fase 2 aggiunge adattatori localizzati solo ai flussi di messaggi già migrabili, senza avviare la traduzione complessiva della UI.
+Aggiornato il 15 ottobre 2026. Base di lavoro verificata: `37aef6c52825aaceadd8620dc6d97621c9e9aef8` (`37aef6c`, branch `feature/add_i18n_support`). Il checkout era pulito prima della fase 2. Nessun commit, push, PR o deploy. Le fasi 1–2 e 4 sono completate; la fase 3 è documentata come parziale e la fase 5 non è avviata. Le sezioni di baseline sotto conservano gli esiti storici; la verifica corrente della fase 4 è in fondo al documento.
 
 ## Baseline e ambiente
 
@@ -90,9 +90,62 @@ Stati: **completata** = risultato verificabile disponibile; **parziale** = parte
 | 1. Fondazione | **Completata** | Registro condiviso `localization.config.json`; i18next/react-i18next e risorse EN/IT nei cinque namespace; selezione/persistenza lingua sicure; init prima del render, sincronizzazione `lang`/titolo/descrizione; checker e test UI. Solo metadati e fondazione, nessuna migrazione UI o progressi. | `check:i18n`, `test:ui` (9/9), `typecheck`, `build` superati. Chiavi inesistenti rilevate dal typecheck. | Nessuna nella fase 1. Il selettore e le migrazioni UI appartengono alle fasi successive. |
 | 2. Messaggi strutturati e note | **Completata** | Codici MIDI, unione discriminata import, adattatori per MIDI/catalogo/spartito, descrittori UI renderizzati al cambio lingua e formatter C/Do. Campi inglesi transitori mantenuti. | Tutti i cinque comandi in “Verifica fase 2”; compatibilità export v1 verificata con fixture. | Migrare in fase 3 i chiamanti legacy annotati nell'inventario e ampliare le traduzioni UI. |
 | 3. Traduzione dell'interfaccia | **Parziale** | Aggiunte risorse UI EN/IT; migrati navigazione attiva, viste di catalogo/corso/progressi, controlli e risultati di pratica, diagnostica, tastiera e spartito. Rimosso `ProgressImportResult.message`; timestamp diagnostici formattati con locale corrente. Mappature esplicite per mani/chiavi, categorie e provenienza. | Checker dizionari, typecheck diretto, 21 test UI (inclusi cambio lingua con notifica visibile e conteggi 0/1/plurale), 7 test MIDI e build eseguiti con binari locali. Ricerca statica dei componenti attivi: nessun copy inglese residuo oltre a marchi, sigle e termini musicali. Revisione visiva non eseguita: Vite riceve `listen EPERM` dal sandbox. `pnpm` resta bloccato senza output anche su `--version`; usati i binari locali equivalenti. | Provare visivamente entrambe le lingue quando la porta locale è disponibile; completare la mappa della politica delle fonti se la UI inizierà a mostrarla. Non avviare la fase 4. |
-| 4. Pipeline dei contenuti | **Da fare** | Nessuna. | Nessuna. | Schema traduzioni, generatore/catalogo/spartiti localizzati e controlli di copertura. |
+| 4. Pipeline dei contenuti | **Completata** | Schema parziale/locale compatibile, validazione runtime JSON rigorosa, moduli importabili, cataloghi/score EN/IT e legacy, copertura per campo e registro SHA-256. Solo `method-level-1a`: 20 esercizi, 82/82 campi revisionati. | 11 test contenuti; checker ordinario, 21 test UI, 7 test MIDI, typecheck e build superati; ispezione OSMD di due spartiti. Full fallito atteso (79 corsi). Problemi motore preesistenti confermati. | Traduzioni restanti in fase 6; overflow degli obiettivi su vista stretta da considerare nel viewer fasi 5/7. React/selector non modificati. |
 | 5. Cambio lingua completo | **Da fare** | Nessuna. | Nessuna. | Loader e cache catalogo, coordinamento del cambio e continuità della sessione. |
 | 6. Traduzione di tutti i contenuti | **Da fare** | Nessuna. | Nessuna. | Coprire e revisionare gli 80 corsi e 1.557 esercizi sorgente, inclusi i 12 aggregati non visibili. |
 | 7. Verifica finale e documentazione | **Da fare** | Nessuna. | Nessuna. | Revisione UI completa, prove manuali/hardware se disponibile, documentazione e chiusura della matrice di verifica. |
 
 Per l'ordine e la nomenclatura operativa fare riferimento a `PIANO-IMPLEMENTAZIONE-MULTILINGUA.md`.
+
+
+## Verifica corrente — fase 4 (15 ottobre 2026)
+
+Base effettiva di questa esecuzione: `d89d19d` (Stage 3), fork
+`https://github.com/adrianolettieri/pianio`; checkout iniziale pulito. Nessun `AGENTS.md`
+locale trovato. Letti piano, inventario e glossario; verificati registro condiviso,
+contratti esistenti, checker, migrazioni UI e test delle fasi precedenti. Conservati
+sorgenti inglesi, React, motore e tutto il lavoro delle fasi 0–3. Nessun commit, push,
+PR o deploy. I riferimenti a vecchi hash e blocchi di ambiente sopra sono storici.
+
+Dettagli completi: [contratti, verifiche e handoff](I18N-CONTENT-PIPELINE.md).
+
+| Verifica | Esito corrente |
+| --- | --- |
+| Ambiente | Node 22.20.0; pnpm 10.18.3 tramite lo shim Corepack temporaneo già disponibile. Nessuna installazione necessaria o modifica al lockfile. |
+| `pnpm check:i18n` | Superato: dizionari UI e file contenuti presenti validi; copertura per corso. |
+| `pnpm test:content` | Superato, 11/11: fixture musicali/strutturali, validazione, ripiego, revisione e cataloghi reali. Output dei test sempre temporaneo. |
+| `pnpm test:ui` | Superato, 21/21 in 6 file. |
+| `pnpm typecheck` | Superato. |
+| `pnpm build` | Superato: cataloghi/score EN/IT e copie legacy; avvisi Vite preesistenti su import misto e chunk OSMD. |
+| `pnpm test` | Superato, 7/7 MIDI. |
+| Suite core-engine dichiarata | Fallisce all'avvio per opzione Node `--test-isolation=none` incompatibile. |
+| Suite core-engine con opzione Node 22 compatibile | 0/4 superati: le attese preesistenti non includono `velocityScore: null`/`pedalScore: null`. File del motore identici a HEAD; nessuna correzione musicale estranea alla fase 4. |
+| `pnpm check:i18n:full` | **Fallito atteso**: 158 segnalazioni, ossia 79 corsi incompleti + 79 revisioni mancanti. Non dichiarato superato. |
+
+Copertura: 80 corsi / 1.557 esercizi; soltanto il pilota è italiano, 20 esercizi e
+82/82 campi, revisione corso/lotto corrente. Totale campi da tradurre 6.069 (escluse
+319 note licenza sorgente vuote), di cui 5.987 ancora in ripiego; nessuna revisione
+obsoleta presente. Il registro persistente confronta SHA-256 di sorgente e traduzione;
+il generatore non aggiorna approvazioni. Build ordinario compatibile con consegna A.
+
+Verifica **testuale**: rivisti i 20 esercizi con glossario e sorgente, inclusi obiettivi,
+mani/registro, valori ritmici, pause, metrica e note licenza. Testati escape e accenti;
+confrontati strutturalmente gli XML del pilota e la fixture ricca con il renderer
+precedente. Tutti i 1.557 vecchi spartiti inglesi sono identici byte per byte a EN.
+
+Verifica **visiva**: OSMD ha caricato i MusicXML italiani di `single-c-pulse` e
+`bass-c-position` in un harness locale separato da React. A 1280×900 titoli, obiettivi,
+notazione e credito sono leggibili; nella vista stretta a 538 px l'obiettivo lungo
+supera l'area visibile. Non è dichiarata una revisione mobile superata. Screenshot in
+`docs/i18n-phase4/`; harness riproducibile `scripts/test/preview-score.html`.
+Il server localhost è stato avviato con escalation autorizzata dopo `listen EPERM`,
+poi arrestato; la copia HTML temporanea nell'app è stata rimossa.
+
+Output verificato: `/generated/{en,it}/catalog.json`, relativi `scores/`, copie EN
+agli URL legacy e `i18n-coverage.json`; 4.675 file, 68.624.064 byte. Nessun output
+pubblico cancellato dai test. Nessuna prova MIDI fisica eseguita.
+
+La fase 5 riceve `locale`, `coverage`, `scorePath`, ID/ordine stabili e dati musicali
+identici; deve coordinare caricamento e UI e preservare i riferimenti musicali dopo
+il parsing JSON. Non è stata avviata. La consegna A non è ancora dichiarata pronta:
+restano fase 5 e verifiche UI precedenti; la consegna B richiede gli altri 79 corsi.

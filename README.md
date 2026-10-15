@@ -61,3 +61,23 @@ Piano sounds use the [Salamander Grand Piano](https://sfzinstruments.github.io/p
 ## License
 
 Code: [MIT](LICENSE) · Content: [CC0-1.0](https://creativecommons.org/publicdomain/zero/1.0/)
+
+## Localized content pipeline
+
+English remains canonical in `content/**/course.json`. Italian editorial text lives in
+`content-locales/it/<courseId>.json`; only `method-level-1a` is translated so far.
+Generation reads `localization.config.json`, resolves missing fields to English and emits
+EN/IT catalogs and MusicXML under `/generated/<locale>/`, plus legacy English URLs.
+Each course includes field coverage and persistent review status. The React catalog
+loader and final language selector remain phase 5 work.
+
+```sh
+pnpm generate:content
+pnpm check:i18n       # strict files and UI; partial content coverage allowed
+pnpm test:content    # node:test, isolated temporary output
+pnpm check:i18n:full  # requires all content and current course/batch reviews
+```
+
+The full check currently fails as expected for 79 untranslated courses. `pnpm build`
+validates present content through the generator and permits these expected gaps.
+See [content contracts, review workflow and phase 5 handoff](docs/I18N-CONTENT-PIPELINE.md).

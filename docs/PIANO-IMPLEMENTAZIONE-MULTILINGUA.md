@@ -1,6 +1,6 @@
 # Piano di implementazione: multilingua e italiano
 
-Stato: fasi 1–2 completate; fasi successive da implementare. Aggiornato il 15 ottobre 2026.
+Stato: fasi 1–2 e 4 completate; fase 3 parziale; fase 5 non avviata. Aggiornato il 15 ottobre 2026.
 
 Documento di partenza: `PIANO-MULTILINGUA.md`, nella cartella che contiene il repository. Repository di destinazione: [adrianolettieri/pianio](https://github.com/adrianolettieri/pianio). Baseline del codice analizzato: `df5526d`.
 
@@ -103,19 +103,21 @@ File principali: `App.tsx`, `ExercisePracticePanel.tsx`, `PianoKeyboard.tsx`, `S
 
 File principali: `packages/content-schema/src/index.ts`, `scripts/generate-content.mjs`, nuovi moduli `scripts/lib/`, `content-locales/it/`, `scripts/check-translations.mjs`.
 
-- [ ] Definire tipi e validazione runtime delle traduzioni. Il TypeScript da solo non valida i JSON letti dal generatore `.mjs`.
-- [ ] Usare una struttura per corso con `courseId`, `title`, `summary` ed `exercises` indicizzati per `exercise.id`. Ogni esercizio contiene `title`, `summary`, `goal` ed eventuali `license.notes` tradotte; vietare override dei campi musicali e degli identificativi.
-- [ ] Estrarre in funzioni importabili risoluzione delle traduzioni, costruzione catalogo e rendering MusicXML. Separare l'avvio CLI per eseguire i test senza scrivere nella directory pubblica.
-- [ ] Risolvere il ripiego per campo: traduzione italiana valida → testo inglese sorgente. Nel rapporto di copertura distinguere un campo tradotto da uno ottenuto per ripiego.
-- [ ] Calcolare i dati musicali dal solo sorgente e riutilizzarli nelle varianti linguistiche. Tradurre anche obiettivi e titoli MusicXML, applicando l'escape XML.
-- [ ] Generare cataloghi e spartiti EN/IT e copie inglesi ai vecchi URL. Aggiungere `locale` ai cataloghi generati e metadati di copertura per corso utilizzabili dalla UI.
-- [ ] Tradurre interamente `method-level-1a`, incluse le note descrittive delle licenze, conservando tipo e attribuzioni originali.
-- [ ] Estendere `check:i18n` con ID orfani, file duplicati, campi sconosciuti e rapporto della copertura. Aggiungere `check:i18n:full`, che fallisce anche per traduzioni mancanti. Il controllo ordinario consente la copertura parziale dei contenuti durante la consegna A.
-- [ ] Segnalare le traduzioni da revisionare quando cambia il testo inglese: registrare nel rapporto di revisione un'impronta dei campi sorgente, senza alterare ID o dati musicali.
+- [x] Definire tipi e validazione runtime delle traduzioni. Il TypeScript da solo non valida i JSON letti dal generatore `.mjs`.
+- [x] Usare una struttura per corso con `courseId`, `title`, `summary` ed `exercises` indicizzati per `exercise.id`. Ogni esercizio contiene `title`, `summary`, `goal` ed eventuali `license.notes` tradotte; vietare override dei campi musicali e degli identificativi.
+- [x] Estrarre in funzioni importabili risoluzione delle traduzioni, costruzione catalogo e rendering MusicXML. Separare l'avvio CLI per eseguire i test senza scrivere nella directory pubblica.
+- [x] Risolvere il ripiego per campo: traduzione italiana valida → testo inglese sorgente. Nel rapporto di copertura distinguere un campo tradotto da uno ottenuto per ripiego.
+- [x] Calcolare i dati musicali dal solo sorgente e riutilizzarli nelle varianti linguistiche. Tradurre anche obiettivi e titoli MusicXML, applicando l'escape XML.
+- [x] Generare cataloghi e spartiti EN/IT e copie inglesi ai vecchi URL. Aggiungere `locale` ai cataloghi generati e metadati di copertura per corso utilizzabili dalla UI.
+- [x] Tradurre interamente `method-level-1a`, incluse le note descrittive delle licenze, conservando tipo e attribuzioni originali.
+- [x] Estendere `check:i18n` con ID orfani, file duplicati, campi sconosciuti e rapporto della copertura. Aggiungere `check:i18n:full`, che fallisce anche per traduzioni mancanti. Il controllo ordinario consente la copertura parziale dei contenuti durante la consegna A.
+- [x] Segnalare le traduzioni da revisionare quando cambia il testo inglese: registrare nel rapporto di revisione un'impronta dei campi sorgente, senza alterare ID o dati musicali.
 
 **Verifica:** test con traduzioni complete, incomplete, malformate e ID inesistenti; confronto dei cataloghi per identità e dati musicali; confronto strutturale MusicXML limitando le differenze ai testi previsti. Usare fixture con accordi, due pentagrammi, legature, note puntate, swing, dinamiche e pedale. Verificare accenti e caratteri XML come `&` e `<`.
 
 **Completata quando:** il pilota ha testi italiani nel catalogo e negli spartiti, tutti i corsi inglesi funzionano ai vecchi URL e il rapporto distingue correttamente copertura e ripiego.
+
+Verifica del 15 ottobre 2026: pilota 20/20 esercizi, 82/82 campi italiani e revisione corrente; 11 test Node dei contenuti, 21 test UI, 7 test MIDI, checker ordinario, typecheck e build superati. Il controllo completo **fallisce come previsto**: 79 corsi, 1.537 esercizi e 5.987 campi ancora in ripiego; 79 revisioni mancanti. Suite motore con problemi preesistenti documentati nello stato. Ispezione OSMD di due spartiti: leggibili su desktop, obiettivo lungo eccedente l’area visibile stretta. Contratti, prove testuali/visive distinte e consegna al caricatore: `I18N-CONTENT-PIPELINE.md`. Nessun lavoro React della fase 5.
 
 ## 5. Cambio lingua completo e continuità della sessione
 

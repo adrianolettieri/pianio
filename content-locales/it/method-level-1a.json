@@ -1,0 +1,167 @@
+{
+  "courseId": "method-level-1a",
+  "title": "Metodo livello 1A — Fondamenti",
+  "summary": "Schemi di base a una mano, ritmi semplici e lettura nella posizione di Do per le primissime settimane di studio.",
+  "exercises": {
+    "m1a-001": {
+      "title": "Pulsazione sul Do",
+      "summary": "Semibrevi sul Do centrale: il più semplice esercizio di lettura.",
+      "goal": "Suona il Do centrale con un suono regolare, mantenendolo per tutta la durata.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "m1a-002": {
+      "title": "Do e Re",
+      "summary": "Semiminime su Do e Re: il primo esercizio di lettura con due note.",
+      "goal": "Passa con sicurezza tra i tasti adiacenti Do e Re.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "m1a-003": {
+      "title": "Tre note ascendenti",
+      "summary": "La mano destra procede per grado congiunto su Do, Re e Mi.",
+      "goal": "Leggi e suona tre note adiacenti in modo regolare.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "m1a-004": {
+      "title": "Un passo e una nota tenuta",
+      "summary": "Un breve movimento per grado congiunto seguito da una minima tenuta.",
+      "goal": "Collega il movimento in semiminime a una minima tenuta.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "m1a-005": {
+      "title": "Salto al Mi",
+      "summary": "Terze tra Do e Mi: il primo salto.",
+      "goal": "Riconosci e suona con sicurezza un intervallo melodico di terza.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "m1a-006": {
+      "title": "Salita nella posizione di Do",
+      "summary": "La mano destra sale e scende lungo tutta la posizione di Do.",
+      "goal": "Leggi in ordine tutte e cinque le note della posizione di Do.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "m1a-007": {
+      "title": "Pausa di semiminima",
+      "summary": "Note separate da pause di semiminima: conta anche il silenzio.",
+      "goal": "Rispetta la durata esatta di ogni pausa prima della nota successiva.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "m1a-008": {
+      "title": "Passi in minime",
+      "summary": "Una lenta melodia per grado congiunto, composta soltanto da minime.",
+      "goal": "Mantieni ogni minima per l’intera durata di due tempi.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "m1a-009": {
+      "title": "Camminata in tre tempi",
+      "summary": "Prima lettura in 3/4, per grado congiunto su Do, Re e Mi.",
+      "goal": "Senti la pulsazione in tre tempi e leggi nel metro del valzer.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "m1a-010": {
+      "title": "Marcia in due tempi",
+      "summary": "Un breve schema di marcia in 2/4 che sale per grado congiunto nella posizione di Do.",
+      "goal": "Senti l’accento sul primo tempo di una battuta in due tempi.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "m1a-011": {
+      "title": "Pulsazione sul Do grave",
+      "summary": "Semibrevi sul Do grave: prima lettura con la mano sinistra.",
+      "goal": "Suona con la mano sinistra semibrevi mantenute per tutta la durata.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "m1a-012": {
+      "title": "Do e Re in chiave di basso",
+      "summary": "Semiminime su Do3 e Re3 con la mano sinistra.",
+      "goal": "Passa tra due note adiacenti in chiave di basso.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "m1a-013": {
+      "title": "Tre note in chiave di basso",
+      "summary": "La mano sinistra legge Do, Re e Mi in chiave di basso.",
+      "goal": "Segui tre note adiacenti in chiave di basso.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "m1a-014": {
+      "title": "Salto in chiave di basso",
+      "summary": "La mano sinistra esegue salti di terza tra Do3 e Mi3.",
+      "goal": "Suona con sicurezza intervalli di terza con la mano sinistra.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "m1a-015": {
+      "title": "Minime in chiave di basso",
+      "summary": "Un lento movimento in minime con la mano sinistra.",
+      "goal": "Mantieni le note gravi per due tempi interi.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "m1a-016": {
+      "title": "Passi e pause in chiave di basso",
+      "summary": "Movimenti per grado congiunto della mano sinistra con pause di semiminima, per esercitarsi a contare.",
+      "goal": "Conta le pause in silenzio e con precisione in chiave di basso.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "m1a-017": {
+      "title": "Posizione di Do in chiave di basso",
+      "summary": "La mano sinistra sale e scende lungo tutta la posizione di Do in chiave di basso.",
+      "goal": "Leggi con scioltezza tutte e cinque le note della posizione di Do in chiave di basso.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "m1a-018": {
+      "title": "Semibrevi in chiave di basso",
+      "summary": "Semibrevi a intervalli ampi in chiave di basso.",
+      "goal": "Suona semibrevi nel registro grave con un suono pieno e rilassato.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "m1a-019": {
+      "title": "Salita e ritorno",
+      "summary": "La mano destra sale lungo le cinque note della posizione di Do e poi ridiscende.",
+      "goal": "Suona una figura simile a una scala, salendo e scendendo in modo regolare.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "m1a-020": {
+      "title": "Riepilogo dei fondamenti",
+      "summary": "Un ripasso di quattro battute che combina gradi congiunti, salti, pause e durate delle note.",
+      "goal": "Metti in pratica tutti i fondamenti del livello 1A in un brano completo.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    }
+  }
+}

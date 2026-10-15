@@ -50,3 +50,14 @@ Messaggi di connessione MIDI e `lastError` della pratica, errori catalogo/sparti
 `apps/web/src/screens/HomeScreen.tsx` contiene una schermata introduttiva distinta e stringhe inglesi, ma non è importata da `main.tsx` né da `App.tsx` nel checkout corrente. Non fa parte dei flussi attivi dell'inventario e non va riattivata. Se verrà recuperata in futuro, censire separatamente hero, stato MIDI, metadati catalogo e workstreams.
 
 Le stringhe dei file sorgenti visualizzate in basso contrasto, dei messaggi tecnici e dei contenuti editoriali non sono intercambiabili: messaggi tecnici di rete/browser vanno trasformati in codici/categorie prima della traduzione, conservando dettagli grezzi solo per diagnostica. I nomi dei dispositivi MIDI provengono dall'hardware e non vanno tradotti.
+
+## Contenuti dopo la fase 4
+
+Contratto editoriale definitivo per questa migrazione: `content-locales/it/<courseId>.json`
+con `title`, `summary`, `exercises[exercise.id].{title,summary,goal,license.notes}`.
+`sourcePolicy`, `license.type` e `license.attribution` rimangono token/crediti sorgente:
+le etichette della politica appartengono alle mappe UI, le attribuzioni non si traducono.
+Il pilota `method-level-1a` copre 20 esercizi e 82 campi; gli altri 79 corsi restano in
+ripiego inglese. Le note descrittive sorgente vuote non introducono un obbligo di inventare
+una traduzione. Schema, copertura e revisione SHA-256: `I18N-CONTENT-PIPELINE.md`.
+Il caricamento React continua a usare il vecchio catalogo inglese fino alla fase 5.

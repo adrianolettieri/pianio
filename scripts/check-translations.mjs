@@ -1,6 +1,7 @@
-import { readFile } from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { readJsonStrict } from './lib/json.mjs';
+import { loadContent, contentReport } from './lib/content-pipeline.mjs';
 
 const scriptDir = path.dirname(fileURLToPath(import.meta.url));
 const repoRoot = path.resolve(scriptDir, '..');
@@ -148,7 +149,7 @@ export function validateTranslationResources(resources, supportedLanguages, sour
 }
 
 async function readJson(filePath) {
-  return JSON.parse(await readFile(filePath, 'utf8'));
+  return readJsonStrict(filePath);
 }
 
 async function main() {
@@ -179,6 +180,14 @@ async function main() {
     }
   }
   const issues = [...loadIssues, ...validateTranslationResources(resources, config.supportedLanguages, config.sourceLanguage, REQUIRED_NAMESPACES)];
+  try {
+    const report = contentReport(await loadContent({ rootDir: repoRoot }), { full: process.argv.includes('--full') });
+    for (const row of report.rows) {
+      console.log(`${row.locale}/${row.courseId}: translated=${row.translatedFields}/${row.totalFields}, fallback=${row.fallbackFields}, source=${row.sourceFields}, review=${row.reviewStatus}`);
+    }
+    for (const warning of report.warnings) console.warn(`- ${warning}`);
+    issues.push(...report.issues);
+  } catch (error) { issues.push(`Content: ${error.message}`); }
   if (issues.length) {
     console.error(`Translation validation failed (${issues.length} issue${issues.length === 1 ? '' : 's'}):`);
     for (const issue of issues) console.error(`- ${issue}`);

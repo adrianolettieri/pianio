@@ -1,0 +1,18 @@
+<!doctype html><html lang="it"><meta charset="UTF-8"><title>Pianio — verifica spartito pilota</title>
+<style>body{margin:24px;background:#f4f6f8;color:#182c36;font:16px system-ui}h1{font-size:24px}select{font:inherit;padding:8px}#score{background:white;margin-top:24px;padding:20px;overflow:auto}p{max-width:900px}</style>
+<h1>Pianio · revisione visiva del corso pilota</h1><p>MusicXML italiano generato, renderizzato con la stessa libreria OSMD dell’app. Prova tecnica separata dal caricatore React della fase 5.</p>
+<label>Esercizio <select id="exercise"><option value="single-c-pulse">Pulsazione sul Do · MD</option><option value="bass-c-position">Posizione di Do in chiave di basso · MS</option><option value="foundation-capstone">Riepilogo dei fondamenti · MD</option></select></label>
+<p id="status" role="status">Caricamento…</p><div id="score"></div>
+<script type="module">
+import { OpenSheetMusicDisplay } from 'opensheetmusicdisplay';
+const score = new OpenSheetMusicDisplay(document.getElementById('score'), { backend: 'svg', autoResize: true, drawTitle: true, drawComposer: true });
+async function render() {
+ const slug = document.getElementById('exercise').value;
+ const url = `/generated/it/scores/method-level-1a/${slug}.musicxml`;
+ const response = await fetch(url); if (!response.ok) throw new Error(`${response.status}`);
+ await score.load(await response.text()); score.render();
+ document.getElementById('status').textContent = `Spartito caricato: ${url}`;
+}
+document.getElementById('exercise').addEventListener('change', () => render());
+render().catch(e => document.getElementById('status').textContent = e.message);
+</script></html>
