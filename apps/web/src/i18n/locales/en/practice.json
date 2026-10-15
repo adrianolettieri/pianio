@@ -1,1 +1,10 @@
-{}
+{
+  "score": {
+    "error": {
+      "http": "Could not load the score (HTTP {{status}}).",
+      "network": "A network error prevented the score from loading.",
+      "unknown": "Could not load or display the score."
+    }
+  },
+  "midi": { "connected": "MIDI connected", "connection-failed": "MIDI connection failed" }
+}

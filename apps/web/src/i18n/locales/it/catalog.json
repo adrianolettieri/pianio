@@ -1,1 +1,7 @@
-{}
+{
+  "error": {
+    "http": "Impossibile caricare il catalogo dei corsi (HTTP {{status}}).",
+    "network": "Un errore di rete ha impedito il caricamento del catalogo dei corsi.",
+    "unknown": "Impossibile caricare il catalogo dei corsi."
+  }
+}

@@ -1,13 +1,15 @@
 import { startTransition, useDeferredValue, useEffect, useEffectEvent, useRef, useState } from "react";
+import { useTranslation } from "react-i18next";
 import {
   createMidiAccessAdapter,
   describeMidiSupport,
-  formatMidiNote,
   requestMidiAccess,
   type MidiAccessLike,
   type MidiInputSummary,
   type ParsedMidiEvent
 } from "@pianio/midi-web";
+import { formatNote } from "../i18n/formatNote";
+import { midiSupportMessages, nativeErrorMessage, renderMessage, resolveLanguage, type MessageDescriptor } from "../i18n/messages";
 
 interface LoggedMidiEvent {
   id: number;
@@ -21,7 +23,7 @@ interface MidiDebugSession {
   requestCount: number;
   accessRequestedAt: string | null;
   accessGrantedAt: string | null;
-  lastError: string | null;
+  lastError: MessageDescriptor | null;
   inputs: MidiInputSummary[];
   events: LoggedMidiEvent[];
 }
@@ -62,13 +64,13 @@ function formatRawData(data: readonly number[]): string {
   return data.map((value) => value.toString(16).padStart(2, "0")).join(" ");
 }
 
-function formatEventSummary(event: ParsedMidiEvent): string {
+function formatEventSummary(event: ParsedMidiEvent, language: "en" | "it"): string {
   if (event.type === "sustain") {
     return event.engaged ? "Sustain pedal engaged" : "Sustain pedal released";
   }
 
   const action = event.type === "note-on" ? "Note on" : "Note off";
-  return `${action} ${formatMidiNote(event.note)}`;
+  return `${action} ${formatNote(event.note, language)}`;
 }
 
 function formatEventDetail(event: ParsedMidiEvent): string {
@@ -80,7 +82,10 @@ function formatEventDetail(event: ParsedMidiEvent): string {
 }
 
 export function DiagnosticsScreen() {
+  const { i18n } = useTranslation();
+  const language = resolveLanguage(i18n.resolvedLanguage ?? i18n.language);
   const midiSupport = describeMidiSupport();
+  const supportMessages = midiSupportMessages(midiSupport);
   const [access, setAccess] = useState<MidiAccessLike | null>(null);
   const [accessState, setAccessState] = useState<AccessState>("idle");
   const [session, setSession] = useState<MidiDebugSession>(() => createEmptySession());
@@ -161,7 +166,7 @@ export function DiagnosticsScreen() {
       }));
     } catch (error) {
       const failedAt = new Date().toISOString();
-      const message = error instanceof Error ? error.message : "Failed to request MIDI access.";
+      const message = nativeErrorMessage(error, "midi");
 
       setAccess(null);
       setAccessState("error");
@@ -213,9 +218,9 @@ export function DiagnosticsScreen() {
         <div className="panel status-card">
           <h2>Browser readiness</h2>
           <p className={midiSupport.available ? "status ok" : "status warn"}>
-            {midiSupport.summary}
+            {renderMessage(supportMessages.summary)}
           </p>
-          <p>{midiSupport.detail}</p>
+          <p>{renderMessage(supportMessages.detail)}</p>
           <p className="hint">
             Primary validation target: desktop Chrome over HTTPS. This screen remains useful
             even when no keyboard is connected.
@@ -265,7 +270,7 @@ export function DiagnosticsScreen() {
             </div>
           </div>
 
-          {session.lastError ? <p className="status warn">{session.lastError}</p> : null}
+          {session.lastError ? <p className="status warn">{renderMessage(session.lastError)}{session.lastError.technicalDetail ? <code> — {session.lastError.technicalDetail}</code> : null}</p> : null}
         </article>
 
         <article className="panel">
@@ -334,7 +339,7 @@ export function DiagnosticsScreen() {
               <div className="event-row" key={entry.id} role="row">
                 <span role="cell">{formatTimestamp(entry.capturedAt)}</span>
                 <span role="cell">
-                  <span className={`event-chip ${entry.event.type}`}>{formatEventSummary(entry.event)}</span>
+                  <span className={`event-chip ${entry.event.type}`}>{formatEventSummary(entry.event, language)}</span>
                 </span>
                 <span role="cell">{formatEventDetail(entry.event)}</span>
                 <span role="cell">

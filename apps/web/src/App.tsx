@@ -1,7 +1,9 @@
 import { lazy, Suspense, useCallback, useEffect, useRef, useState, type ReactNode } from "react";
+import { useTranslation } from "react-i18next";
 import type { CatalogCourse, CatalogExercise, GeneratedCatalog } from "@pianio/content-schema";
 import { getBestStars, getCompletedCount, getCompletedSlugs, getPracticeStreak, isExerciseComplete, recordPracticeDay, exportProgress, importProgress, resetProgress } from "./progress";
 import { describeMidiSupport } from "@pianio/midi-web";
+import { importProgressMessage, midiSupportMessages, nativeErrorMessage, renderMessage, type MessageDescriptor } from "./i18n/messages";
 import { startAudio } from "./audio/pianoSampler";
 import { DiagnosticsScreen } from "./screens/DiagnosticsScreen";
 import {
@@ -949,6 +951,7 @@ function SidebarShelf({ courses, title, activeCourseId }: { courses: CatalogCour
 }
 
 function ProgressScreen({ catalog, progressVersion, onImport }: { catalog: GeneratedCatalog; progressVersion: number; onImport: () => void }) {
+  const { i18n } = useTranslation();
   void progressVersion;
 
   const totalExercises = catalog.courses.reduce((t, c) => t + c.exerciseCount, 0);
@@ -968,7 +971,7 @@ function ProgressScreen({ catalog, progressVersion, onImport }: { catalog: Gener
   const groups = groupCourses(catalog.courses);
   const resumeTarget = getResumeTarget(catalog);
   const streak = getPracticeStreak();
-  const [importMsg, setImportMsg] = useState<string | null>(null);
+  const [importMsg, setImportMsg] = useState<MessageDescriptor | null>(null);
   const [confirmReset, setConfirmReset] = useState(false);
 
   const handleReset = () => {
@@ -991,7 +994,7 @@ function ProgressScreen({ catalog, progressVersion, onImport }: { catalog: Gener
       const reader = new FileReader();
       reader.onload = (e) => {
         const result = importProgress(e.target?.result as string);
-        setImportMsg(result.message);
+        setImportMsg(importProgressMessage(result));
         if (result.ok) onImport();
         setTimeout(() => setImportMsg(null), 4000);
       };
@@ -1035,7 +1038,7 @@ function ProgressScreen({ catalog, progressVersion, onImport }: { catalog: Gener
             </button>
           </div>
         </div>
-        {importMsg && <p className="import-msg">{importMsg}</p>}
+        {importMsg && <p className="import-msg">{renderMessage(importMsg, i18n.language.toLowerCase().startsWith("it") ? "it" : "en")}</p>}
 
         <div className="progress-journey">
           <div className="journey-bar">
@@ -1128,11 +1131,13 @@ function ScrollToTop() {
 }
 
 function TopNav({ midi, darkMode, setDarkMode, route }: {
-  midi: { available: boolean; summary: string };
+  midi: ReturnType<typeof describeMidiSupport>;
   darkMode: boolean;
   setDarkMode: (fn: (v: boolean) => boolean) => void;
   route: Route;
 }) {
+  const { i18n } = useTranslation();
+  const midiMessages = midiSupportMessages(midi);
   return (
     <header className="top-nav">
       <a className="top-nav-logo" href={getCatalogHref()}>
@@ -1146,7 +1151,7 @@ function TopNav({ midi, darkMode, setDarkMode, route }: {
       <div className="top-nav-right">
         <span className={midi.available ? "midi-indicator ok" : "midi-indicator warn"}>
           <span className="midi-dot" />
-          {midi.summary}
+          {renderMessage(midiMessages.summary, i18n.language.toLowerCase().startsWith("it") ? "it" : "en")}
         </span>
         <a className="top-nav-settings" href="#/diagnostics" title="MIDI Diagnostics" aria-label="MIDI diagnostics">
           <Settings size={16} />
@@ -1165,8 +1170,9 @@ function TopNav({ midi, darkMode, setDarkMode, route }: {
 }
 
 export default function App() {
+  const { i18n } = useTranslation();
   const [catalog, setCatalog] = useState<GeneratedCatalog | null>(null);
-  const [error, setError] = useState<string | null>(null);
+  const [error, setError] = useState<MessageDescriptor | null>(null);
   const [progressVersion, setProgressVersion] = useState(0);
   const [sidebarOpen, setSidebarOpen] = useState(true);
   const [darkMode, setDarkMode] = useState(() => localStorage.getItem("pianio:dark") === "1");
@@ -1226,7 +1232,7 @@ export default function App() {
       })
       .catch((fetchError) => {
         if (active) {
-          setError(fetchError instanceof Error ? fetchError.message : "Unknown error");
+          setError(nativeErrorMessage(fetchError, "catalog"));
         }
       });
 
@@ -1293,7 +1299,7 @@ export default function App() {
       <section className="panel empty-panel">
         <span className="eyebrow">Catalog Error</span>
         <h2>Unable to load generated content</h2>
-        <p>{error}</p>
+        <p>{renderMessage(error, i18n.language.toLowerCase().startsWith("it") ? "it" : "en")}</p>
       </section>
     );
   } else if (!catalog) {

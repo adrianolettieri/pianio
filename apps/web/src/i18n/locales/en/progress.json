@@ -1,1 +1,10 @@
-{}
+{
+  "progress": {
+    "import": {
+      "success": "Imported {{importedCount}} completed exercises.",
+      "invalid-json": "The selected file is not valid JSON.",
+      "unsupported-format": "Unrecognised format. Expected a Pianio progress export.",
+      "storage-write-failed": "Could not save imported progress in this browser."
+    }
+  }
+}

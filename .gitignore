@@ -46,4 +46,9 @@ pnpm-debug.log*
 # TypeScript incremental build info
 *.tsbuildinfo
 
-docs
+# Keep the multilingual implementation plan and its progress records reviewable.
+!docs/
+docs/*
+!docs/PIANO-IMPLEMENTAZIONE-MULTILINGUA.md
+!docs/I18N-INVENTORY.md
+!docs/I18N-IMPLEMENTATION-STATUS.md

@@ -1,1 +1,7 @@
-{}
+{
+  "error": {
+    "http": "Could not load the course catalog (HTTP {{status}}).",
+    "network": "A network error prevented the course catalog from loading.",
+    "unknown": "Could not load the course catalog."
+  }
+}

@@ -1,1 +1,10 @@
-{}
+{
+  "score": {
+    "error": {
+      "http": "Impossibile caricare lo spartito (HTTP {{status}}).",
+      "network": "Un errore di rete ha impedito il caricamento dello spartito.",
+      "unknown": "Impossibile caricare o visualizzare lo spartito."
+    }
+  },
+  "midi": { "connected": "MIDI collegato", "connection-failed": "Connessione MIDI non riuscita" }
+}

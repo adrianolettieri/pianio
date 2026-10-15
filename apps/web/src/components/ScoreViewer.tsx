@@ -1,5 +1,7 @@
 import { useEffect, useRef, useState } from "react";
+import { useTranslation } from "react-i18next";
 import { OpenSheetMusicDisplay } from "opensheetmusicdisplay";
+import { nativeErrorMessage, renderMessage, type MessageDescriptor } from "../i18n/messages";
 
 interface ScoreViewerProps {
   scorePath: string;
@@ -13,13 +15,14 @@ const ZOOM_MAX = 1.8;
 const ZOOM_STEP = 0.15;
 
 export function ScoreViewer({ scorePath, matchedCount }: ScoreViewerProps) {
+  useTranslation();
   const containerRef = useRef<HTMLDivElement>(null);
   const osmdRef = useRef<OpenSheetMusicDisplay | null>(null);
   const noteStepMapRef = useRef<number[]>([]);
   const currentCursorStepRef = useRef<number>(0);
 
   const [loadState, setLoadState] = useState<LoadState>("idle");
-  const [errorMessage, setErrorMessage] = useState<string | null>(null);
+  const [errorMessage, setErrorMessage] = useState<MessageDescriptor | null>(null);
   const [zoom, setZoom] = useState(1.0);
   const zoomRef = useRef(1.0);
 
@@ -74,7 +77,7 @@ export function ScoreViewer({ scorePath, matchedCount }: ScoreViewerProps) {
       } catch (err) {
         if (!cancelled) {
           setLoadState("error");
-          setErrorMessage(err instanceof Error ? err.message : "Failed to load score");
+          setErrorMessage(nativeErrorMessage(err, "score"));
         }
         return;
       }
@@ -140,7 +143,7 @@ export function ScoreViewer({ scorePath, matchedCount }: ScoreViewerProps) {
       } catch (err) {
         if (!cancelled) {
           setLoadState("error");
-          setErrorMessage(err instanceof Error ? err.message : "Failed to render score");
+          setErrorMessage(nativeErrorMessage(err, "score"));
         }
       }
     };
@@ -236,7 +239,7 @@ export function ScoreViewer({ scorePath, matchedCount }: ScoreViewerProps) {
         <div className="score-skeleton" />
       )}
       {loadState === "error" && (
-        <div className="score-placeholder">{errorMessage ?? "Failed to load score"}</div>
+        <div className="score-placeholder">{errorMessage ? renderMessage(errorMessage) : "Failed to load score"}</div>
       )}
       {loadState === "ready" && (
         <div className="score-zoom-controls">

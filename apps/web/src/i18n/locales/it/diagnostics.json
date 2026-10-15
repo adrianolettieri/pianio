@@ -1,1 +1,18 @@
-{}
+{
+  "midi": {
+    "support": {
+      "environment-not-browser": { "summary": "API del browser non disponibili", "detail": "Questo controllo è significativo solo nel browser." },
+      "insecure-context": { "summary": "È richiesto un contesto sicuro", "detail": "Per accedere a Web MIDI sui siti pubblicati serve HTTPS." },
+      "api-unavailable": { "summary": "Web MIDI non esposto", "detail": "Il browser corrente non espone navigator.requestMIDIAccess." },
+      "available": { "summary": "Web MIDI disponibile", "detail": "Questo browser può richiedere l'accesso MIDI e rilevare i dispositivi compatibili." }
+    },
+    "error": {
+      "permission-denied": "Il permesso MIDI è stato negato.",
+      "security": "Il browser ha bloccato l'accesso MIDI per motivi di sicurezza.",
+      "aborted": "La richiesta di accesso MIDI è stata interrotta.",
+      "invalid-state": "Non è stato possibile completare la richiesta MIDI nello stato corrente.",
+      "unsupported": "Il browser non supporta questa richiesta MIDI.",
+      "unknown": "Impossibile richiedere l'accesso MIDI."
+    }
+  }
+}

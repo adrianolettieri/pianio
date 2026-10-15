@@ -1,1 +1,10 @@
-{}
+{
+  "progress": {
+    "import": {
+      "success": "Importati {{importedCount}} esercizi completati.",
+      "invalid-json": "Il file selezionato non contiene JSON valido.",
+      "unsupported-format": "Formato non riconosciuto. Era atteso un export dei progressi Pianio.",
+      "storage-write-failed": "Impossibile salvare i progressi importati in questo browser."
+    }
+  }
+}

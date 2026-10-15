@@ -1,4 +1,5 @@
 import React, { startTransition, useEffect, useEffectEvent, useRef, useState } from "react";
+import { useTranslation } from "react-i18next";
 import type { CatalogExercise } from "@pianio/content-schema";
 import { ScoreViewer } from "./ScoreViewer";
 import { PianoKeyboard } from "./PianoKeyboard";
@@ -21,12 +22,13 @@ import {
 import {
   createMidiAccessAdapter,
   describeMidiSupport,
-  formatMidiNote,
   requestMidiAccess,
   type MidiAccessLike,
   type MidiInputSummary,
   type ParsedMidiEvent
 } from "@pianio/midi-web";
+import { formatNote } from "../i18n/formatNote";
+import { midiSupportMessages, nativeErrorMessage, renderMessage, resolveLanguage, type MessageDescriptor } from "../i18n/messages";
 
 const STAR_PATH = "M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z";
 
@@ -77,6 +79,8 @@ function createSessionState(sequence: PracticeExpectedSequence): PracticeSession
 }
 
 export function ExercisePracticePanel({ exercise, courseId, nextExerciseHref, courseHref, onComplete, resetRef }: { exercise: CatalogExercise; courseId: string; nextExerciseHref?: string; courseHref?: string; onComplete?: () => void; resetRef?: React.MutableRefObject<(() => void) | null> }) {
+  const { i18n } = useTranslation();
+  const language = resolveLanguage(i18n.resolvedLanguage ?? i18n.language);
   const sequence = createPracticeExpectedSequence(exercise.expectedNotes);
   const beatsPerMeasure = exercise.timeSignature[0];
   const totalMeasures = Math.max(1, Math.ceil(
@@ -85,14 +89,14 @@ export function ExercisePracticePanel({ exercise, courseId, nextExerciseHref, co
   const midiSupport = describeMidiSupport();
   const [access, setAccess] = useState<MidiAccessLike | null>(cachedMidiAccess);
   const [accessState, setAccessState] = useState<"idle" | "requesting" | "granted" | "error">(cachedMidiAccessState);
-  const [toastMsg, setToastMsg] = useState<string | null>(null);
+  const [toastMsg, setToastMsg] = useState<MessageDescriptor | null>(null);
   const toastTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
-  const showToast = (msg: string) => {
+  const showToast = (msg: MessageDescriptor) => {
     if (toastTimerRef.current) clearTimeout(toastTimerRef.current);
     setToastMsg(msg);
     toastTimerRef.current = setTimeout(() => setToastMsg(null), 3000);
   };
-  const [lastError, setLastError] = useState<string | null>(null);
+  const [lastError, setLastError] = useState<MessageDescriptor | null>(null);
   const [inputs, setInputs] = useState<MidiInputSummary[]>([]);
   const [session, setSession] = useState<PracticeSessionState>(() => createSessionState(sequence));
   const [pressedNotes, setPressedNotes] = useState<Set<number>>(new Set());
@@ -357,12 +361,12 @@ export function ExercisePracticePanel({ exercise, courseId, nextExerciseHref, co
       cachedMidiAccessState = "granted";
       setAccess(midiAccess);
       setAccessState("granted");
-      showToast("MIDI connected");
+      showToast({ namespace: "practice", key: "midi.connected" });
     } catch (error) {
       setAccess(null);
       setAccessState("error");
-      setLastError(error instanceof Error ? error.message : "Failed to request MIDI access.");
-      showToast("MIDI connection failed");
+      setLastError(nativeErrorMessage(error, "midi"));
+      showToast({ namespace: "practice", key: "midi.connection-failed" });
     }
   };
 
@@ -419,7 +423,7 @@ export function ExercisePracticePanel({ exercise, courseId, nextExerciseHref, co
         setAccess(midiAccess);
         setAccessState("granted");
       } catch (err) {
-        setLastError(err instanceof Error ? err.message : "MIDI unavailable");
+        setLastError(nativeErrorMessage(err, "midi"));
         setAccessState("error");
         // Continue anyway — user can still hear the piece
       }
@@ -639,8 +643,8 @@ export function ExercisePracticePanel({ exercise, courseId, nextExerciseHref, co
             {inputs.map((input) => (
               <span className="device-chip" key={input.id}>{input.name ?? "Device"}</span>
             ))}
-            {lastError && <span className="bar-warn">{lastError}</span>}
-            {!midiSupport.available && <span className="bar-warn">{midiSupport.detail}</span>}
+            {lastError && <span className="bar-warn">{renderMessage(lastError)}</span>}
+            {!midiSupport.available && <span className="bar-warn">{renderMessage(midiSupportMessages(midiSupport).detail)}</span>}
           </div>
 
           <div className="practice-bar-progress">
@@ -662,7 +666,7 @@ export function ExercisePracticePanel({ exercise, courseId, nextExerciseHref, co
             )}
             {nextExpected && !sightReading ? (
               <span className="next-note-chip">
-                Next: <strong>{(nextExpected.noteNumbers ?? [nextExpected.noteNumber]).map(n => formatMidiNote(n)).join(" ")}</strong>
+                Next: <strong>{(nextExpected.noteNumbers ?? [nextExpected.noteNumber]).map(n => formatNote(n, language)).join(" ")}</strong>
                 {nextExpected.hand !== "together" && (
                   <span className={`hand-tag hand-tag-${nextExpected.hand}`}>
                     {nextExpected.hand === "left" ? "LH" : "RH"}
@@ -1002,7 +1006,7 @@ export function ExercisePracticePanel({ exercise, courseId, nextExerciseHref, co
           </div>
         </div>
       )}
-      {toastMsg && <div className="toast">{toastMsg}</div>}
+      {toastMsg && <div className="toast">{renderMessage(toastMsg)}</div>}
     </>
   );
 }
