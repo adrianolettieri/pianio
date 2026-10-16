@@ -1,3 +1,4 @@
+import { readPreference, savePreference } from "../storage";
 import React, { startTransition, useEffect, useEffectEvent, useRef, useState, useMemo } from "react";
 import { useTranslation } from "react-i18next";
 import type { CatalogExercise } from "@pianio/content-schema";
@@ -128,19 +129,19 @@ export function ExercisePracticePanel({ exercise, courseId, nextExerciseHref, co
   const [showCelebration, setShowCelebration] = useState(false);
   const [celebrationStars, setCelebrationStars] = useState<1 | 2 | 3>(1);
   const [celebrationMode, setCelebrationMode] = useState<"practice" | "performance">("practice");
-  const [toolsOpen, setToolsOpen] = useState(() => localStorage.getItem("pianio:tools") === "1");
+  const [toolsOpen, setToolsOpen] = useState(() => readPreference("pianio:tools") === "1");
 
   const [mode, setMode] = useState<"practice" | "performance">("practice");
   const [sightReading, setSightReading] = useState(false);
   const [noteLabels, setNoteLabels] = useState(false);
   const [tempoMultiplier, setTempoMultiplier] = useState<0.25 | 0.5 | 0.75 | 1>(() => {
-    const saved = localStorage.getItem("pianio:tempo");
+    const saved = readPreference("pianio:tempo");
     return (saved === "0.25" || saved === "0.5" || saved === "0.75" || saved === "1")
       ? (Number(saved) as 0.25 | 0.5 | 0.75 | 1)
       : 1;
   });
   const handleTempoChange = (mult: 0.25 | 0.5 | 0.75 | 1) => {
-    localStorage.setItem("pianio:tempo", String(mult));
+    savePreference("pianio:tempo", String(mult));
     setTempoMultiplier(mult);
   };
   const [autoLoop, setAutoLoop] = useState(false);
@@ -407,7 +408,7 @@ export function ExercisePracticePanel({ exercise, courseId, nextExerciseHref, co
 
   const handleToolsToggle = () => {
     setToolsOpen((v) => {
-      localStorage.setItem("pianio:tools", v ? "0" : "1");
+      savePreference("pianio:tools", v ? "0" : "1");
       return !v;
     });
   };

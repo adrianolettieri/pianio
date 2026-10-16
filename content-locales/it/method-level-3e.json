@@ -1,0 +1,110 @@
+{
+  "courseId": "method-level-3e",
+  "exercises": {
+    "m3e-001": {
+      "title": "Studio di velocità in Do maggiore",
+      "summary": "Rapidi passaggi di scala per la destra in Do maggiore, per indipendenza e velocità delle dita; forte con finale fortissimo.",
+      "goal": "Suona passaggi di scala in Do maggiore a tempo, con articolazione nitida e dinamica decisa."
+    },
+    "m3e-002": {
+      "title": "Studio veloce in Sol maggiore",
+      "summary": "Passaggi per la destra in Sol maggiore con Fa diesis in armatura, per scioltezza delle scale e intensità crescente.",
+      "goal": "Affronta la scala di Sol maggiore con Fa diesis corretto in un contesto veloce, crescendo fino al fortissimo."
+    },
+    "m3e-003": {
+      "title": "Scatto in Fa maggiore",
+      "summary": "Studio di scala in Fa maggiore per la sinistra nel registro grave: apertura forte e chiusura fortissimo.",
+      "goal": "Suona passaggi fluidi in Fa maggiore con la sinistra, dando risalto alla dinamica decisa."
+    },
+    "m3e-004": {
+      "title": "Studio di velocità in La minore",
+      "summary": "Studio per la destra in La minore armonica con Sol diesis come sensibile, da piano a fortissimo.",
+      "goal": "Suona rapidamente La minore armonica, con Sol diesis corretto e un arco dinamico drammatico."
+    },
+    "m3e-005": {
+      "title": "Frammento di sonata con accordi di I/IV/V grado",
+      "summary": "Melodia nota armonizzata con accordi simultanei di I, IV e V grado in Do maggiore: introduzione all'armonia funzionale a mani unite.",
+      "goal": "Coordina la melodia della destra con gli accordi simultanei della sinistra, ascoltando il sostegno di I/IV/V grado."
+    },
+    "m3e-006": {
+      "title": "Il mattino in Sol",
+      "summary": "Tema di Grieg trasposto in Sol maggiore: delicata melodia pastorale sopra arpeggi scorrevoli della sinistra, con pedale tenuto.",
+      "goal": "Suona Il mattino con dinamica delicata, facendo cantare la destra sopra gli arpeggi fluidi della sinistra.",
+      "license": {
+        "notes": "Pubblico dominio. Arrangiamento CC0."
+      }
+    },
+    "m3e-007": {
+      "title": "Invenzione in Fa maggiore",
+      "summary": "Brano a due voci in stile d'invenzione in Fa maggiore, a mani unite, mezzoforte con culmine forte.",
+      "goal": "Mantieni indipendenti le linee melodiche delle due mani, con contrasti dinamici."
+    },
+    "m3e-008": {
+      "title": "Fantasia in La minore",
+      "summary": "Brano espressivo in La minore armonica sul doppio pentagramma, con frasi drammatiche, pedale tenuto e arco dinamico.",
+      "goal": "Dai direzione chiara alle frasi in La minore, crescendo fino al culmine forte."
+    },
+    "m3e-009": {
+      "title": "Studio in Re minore",
+      "summary": "Studio sul doppio pentagramma in Re minore armonica, con Do diesis come sensibile; mezzopiano con culmine forte.",
+      "goal": "Suona passaggi in Re minore armonica con entrambe le mani, dando forma alla dinamica."
+    },
+    "m3e-010": {
+      "title": "Valzer in Do maggiore",
+      "summary": "Valzer in 3/4 sul doppio pentagramma, con melodia scorrevole e accordi simultanei di I/IV/V grado alla sinistra.",
+      "goal": "Mantieni il carattere del valzer e la chiara pulsazione 1–2–3, suonando gli accordi simultanei con la sinistra."
+    },
+    "m3e-011": {
+      "title": "Marcia in Sol maggiore",
+      "summary": "Marcia nitida in 2/4 in Sol maggiore a mani unite: forte con finale fortissimo.",
+      "goal": "Rendi il carattere della marcia con coordinazione ritmica precisa e dinamica energica."
+    },
+    "m3e-012": {
+      "title": "Rondò in Fa maggiore",
+      "summary": "Tema in forma di rondò in Fa maggiore, con contrasto dinamico tra tema ed episodio.",
+      "goal": "Riconosci e modella dinamicamente il tema principale, affrontando il materiale contrastante."
+    },
+    "m3e-013": {
+      "title": "Studio da concerto in La minore",
+      "summary": "Studio da concerto in La minore, con slancio melodico in crome nelle due mani e ampio arco dinamico.",
+      "goal": "Mantieni il movimento scorrevole in crome, con dinamica espressiva da piano a forte."
+    },
+    "m3e-014": {
+      "title": "Viaggio tonale da Do a Sol",
+      "summary": "Brano modulante da Do maggiore a Sol maggiore, con variazione dinamica al cambio di tonalità.",
+      "goal": "Affronta il cambio da Do maggiore a Sol maggiore con intensità dinamica crescente."
+    },
+    "m3e-015": {
+      "title": "Tarantella in Re minore",
+      "summary": "Tarantella veloce in 3/4 in Re minore a mani unite: apertura forte, interludio piano e chiusura fortissimo.",
+      "goal": "Mantieni il carattere rapido della tarantella con contrasti dinamici drammatici."
+    },
+    "m3e-016": {
+      "title": "Grande studio in Fa maggiore",
+      "summary": "Studio completo in Fa maggiore, con passaggi di scala, melodia tenuta e dinamica articolata.",
+      "goal": "Integra la tecnica delle scale con fraseggio musicale e contrasti dinamici in Fa maggiore."
+    },
+    "m3e-017": {
+      "title": "Fantasia sulla sincope",
+      "summary": "Brano sul doppio pentagramma in Do maggiore, con attacchi in levare, ritmi sincopati e varietà dinamica.",
+      "goal": "Esegui con precisione i ritmi sincopati, creando contrasti dinamici tra le frasi."
+    },
+    "m3e-018": {
+      "title": "Improvviso in Sol maggiore",
+      "summary": "Brano in Sol maggiore dal carattere spontaneo e dai ritmi vari, da mezzopiano a mezzoforte con chiusura raccolta.",
+      "goal": "Rendi un carattere improvvisativo con sottili sfumature dinamiche."
+    },
+    "m3e-019": {
+      "title": "Grande notturno in La minore",
+      "summary": "Notturno lirico in La minore, con melodia tenuta sopra il movimento delicato della sinistra, pedale e pianissimo.",
+      "goal": "Dai forma a una lunga linea melodica con la dinamica più delicata e il pedale tenuto."
+    },
+    "m3e-020": {
+      "title": "Riepilogo conclusivo del livello 3",
+      "summary": "Grande finale con tonalità e tecniche del livello 3: dinamica da forte a fortissimo e cadenze ad accordi simultanei.",
+      "goal": "Dimostra completa scioltezza nel materiale del livello 3, con ampia dinamica e cadenze ad accordi simultanei."
+    }
+  },
+  "title": "Metodo livello 3E — Padronanza",
+  "summary": "Riepilogo di scioltezza del livello 3: dinamica completa da pp a ff, accordi simultanei e spezzati di I/IV/V grado, pedale nei brani lirici, Il mattino di Grieg e brani nelle tonalità studiate."
+}

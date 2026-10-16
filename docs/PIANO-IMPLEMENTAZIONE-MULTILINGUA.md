@@ -1,6 +1,6 @@
 # Piano di implementazione: multilingua e italiano
 
-Stato: fasi 1–2, 4 e 5 completate; fase 6 in corso; fasi 0/3 con riserve storiche documentate. Consegna A funzionalmente pronta per revisione locale, con prova MIDI fisica ancora da eseguire; baseline motore corretta (4/4 test). Aggiornato il 15 ottobre 2026.
+Stato al 16 ottobre 2026: implementazione EN/IT completata, inclusi tutti i 6.069 campi editoriali di 80 corsi / 1.557 esercizi, revisione testuale Codex corrente e un campione visuale per corso. Tutta la matrice passa; `check:i18n:full` è nel build, verificato anche con fixture negativa. **Validazione finale B ancora parziale**: prova hardware MIDI, esecuzione/risultati reali e reset IT manuale non completati. Esiti e limiti in [I18N-VALIDATION-REPORT.md](I18N-VALIDATION-REPORT.md). Le note delle singole fasi conservano la cronologia.
 
 Documento di partenza: `PIANO-MULTILINGUA.md`, nella cartella che contiene il repository. Repository di destinazione: [adrianolettieri/pianio](https://github.com/adrianolettieri/pianio). Baseline del codice analizzato: `df5526d`.
 
@@ -54,9 +54,9 @@ Eseguire i controlli rilevanti in ogni fase. La fase 7 raccoglie le prove trasve
 
 - [x] Verificare versioni di Node e pnpm. Usare una versione Node compatibile anche con il comando TypeScript nativo del pacchetto `core-engine`; annotare la versione usata. Verificati Node 22.20.0 / pnpm 10.18.3; script corretto e suite motore 4/4.
 - [ ] Installare le dipendenze dal lockfile ed eseguire i comandi esistenti riportati nella sezione di verifica; registrare eventuali problemi già presenti.
-- [ ] Censire testi visibili, tooltip, attributi accessibili, errori e messaggi conservati nello stato React. Registrare namespace e chiave previsti in `docs/I18N-INVENTORY.md`.
-- [ ] Creare `docs/I18N-GLOSSARY-IT.md` con terminologia e convenzioni: Practice → Esercitazione, Performance → Esecuzione, LH/RH → MS/MD, mani unite, battuta, lettura a prima vista, dinamica e pedale.
-- [ ] Verificare ID e conteggi dal filesystem e registrare la copertura iniziale. Annotare `HomeScreen.tsx` come componente non utilizzato; non estendere il lavoro a una sua riattivazione.
+- [x] Censire testi visibili, tooltip, attributi accessibili, errori e messaggi conservati nello stato React. Registrare namespace e chiave previsti in `docs/I18N-INVENTORY.md`.
+- [x] Creare `docs/I18N-GLOSSARY-IT.md` con terminologia e convenzioni: Practice → Esercitazione, Performance → Esecuzione, LH/RH → MS/MD, mani unite, battuta, lettura a prima vista, dinamica e pedale.
+- [x] Verificare ID e conteggi dal filesystem e registrare la copertura iniziale. Annotare `HomeScreen.tsx` come componente non utilizzato; non estendere il lavoro a una sua riattivazione.
 
 **Completata quando:** inventario, glossario e stato dei controlli iniziali sono disponibili; le regressioni future sono distinguibili dai problemi della baseline.
 
@@ -89,13 +89,13 @@ File principali: `packages/midi-web/src/index.ts`, relativi test, `apps/web/src/
 
 File principali: `App.tsx`, `ExercisePracticePanel.tsx`, `PianoKeyboard.tsx`, `ScoreViewer.tsx`, `DiagnosticsScreen.tsx`, `progress.ts` e dizionari UI.
 
-- [ ] Sostituire tutti i testi di navigazione, catalogo, corso, progressi e pagina non trovata con chiavi semantiche (parziale: viste principali e pagina non trovata).
-- [ ] Migrare tutti i comandi della pratica, modalità, velocità, loop, metronomo, connessione MIDI, risultati e notifiche (parziale: molti controlli/results migrati, restano etichette e stati).
+- [x] Testi delle viste attive di navigazione, catalogo, corso, progressi e pagina non trovata migrati a chiavi semantiche; inventario e prove correnti nel rapporto finale.
+- [x] Comandi di pratica, modalità, velocità, loop, metronomo, connessione MIDI, risultati e notifiche migrati; continuità dei messaggi EN/IT verificata nei test. Prova hardware distinta nella fase 7.
 - [x] Migrare la schermata diagnostica, i messaggi di errore degli spartiti e il formatter temporale sensibile alla lingua attiva.
-- [ ] Tradurre tramite mappe esplicite mani, chiavi musicali, categorie, provenienza e politica delle fonti; eliminare le trasformazioni automatiche come `capitalize` o `replaceAll` (mappe mani/chiavi/categorie/provenienza presenti; politica non ancora resa nella UI).
-- [ ] Gestire conteggi con le regole plurali e numeri/date tramite `Intl` usando la lingua selezionata. Conservare i formati macchina in storage, JSON e MusicXML.
-- [ ] Includere `aria-label`, `title`, etichette dei controlli e testi delle scorciatoie. Usare traduzioni di frasi intere con parametri, evitando concatenazioni di frammenti.
-- [ ] Migrare tutti i chiamanti dei messaggi strutturati e rimuovere i campi inglesi transitori non più necessari (rimosso `ProgressImportResult.message`; campi MIDI legacy ancora mantenuti per API non attive/compatibilità).
+- [x] Le viste attive usano mappe esplicite per mani, chiavi, categorie e provenienza. Dizionari della politica delle fonti presenti; la politica non è esposta nella UI. Il formatter `capitalize` legacy non è un chiamante attivo; la sua presenza non implica copy visibile da tradurre.
+- [x] Gestire conteggi con le regole plurali e numeri/date tramite `Intl` usando la lingua selezionata. Conservare i formati macchina in storage, JSON e MusicXML.
+- [x] Includere `aria-label`, `title`, etichette dei controlli e testi delle scorciatoie. Usare traduzioni di frasi intere con parametri, evitando concatenazioni di frammenti.
+- [x] Chiamanti attivi migrati ai messaggi strutturati e `ProgressImportResult.message` rimosso. Campi MIDI legacy conservati per API non attive/compatibilità, senza copy inglese nelle viste attive.
 
 **Verifica:** test dei messaggi dinamici e dei principali controlli; revisione manuale di tutte le schermate attive in entrambe le lingue. Aggiornare l'inventario indicando le voci migrate. I testi dei corsi restano responsabilità della fase 4.
 
@@ -146,33 +146,39 @@ Verifica del 15 ottobre 2026: loader, coordinatore, selettore e continuità impl
 
 File principali: `content-locales/it/*.json`, glossario, rapporto di copertura e revisione.
 
-Progresso al 15 ottobre 2026:
+Completamento al 16 ottobre 2026:
 
-- [x] Ricavare i conteggi dai JSON e verificare che il pilota `method-level-1a` sia completo e non obsoleto.
-- [x] Creare il registro per corso/lotti; tradurre e revisionare testualmente l’aggregato Metodo livello 1, l’aggregato livello 2 e i sottolivelli 1B–1E.
-- [x] Esaminare visivamente uno spartito per ciascuno dei sette corsi toccati nella fase 6, inclusi gli aggregati: anteprima OSMD temporanea completata per `method-level-1`, `method-level-1b`–`method-level-1e`, `method-level-2` e `method-level-2a`.
-- [ ] Correggere in fase 7 il taglio orizzontale di titoli e obiettivi rilevato nel viewport stretto.
-- [ ] Chiarire due conflitti sorgente in `method-level-2a` (`m2a-009.goal`, `m2a-020.summary`), poi proseguire da `method-level-2b`; completare i corsi e le verifiche restanti.
-
-- [ ] Dopo la revisione del pilota, tradurre Metodo livelli 1–2, poi 3–4, poi 5–6, inclusi sottolivelli e corsi aggregati.
-- [ ] Tradurre i corsi di Tecnica con le stesse convenzioni, poi le otto raccolte di Brani.
-- [ ] Per ciascun lotto verificare titolo, descrizione, obiettivo e note descrittive delle licenze; conservare crediti, identificativi e simboli standard. Usare titoli italiani convenzionali quando esistono.
-- [ ] Revisionare il significato didattico: mano, registro, durata, ritmo, articolazione e obiettivo devono coincidere con il sorgente e lo spartito. Una bozza automatica non conta come revisione conclusa.
-- [ ] Eseguire i controlli dopo ogni lotto e aggiornare copertura e stato di revisione. Esaminare almeno uno spartito per corso e tutti i casi in cui le istruzioni italiane più lunghe causano problemi di impaginazione.
-- [ ] Chiudere la fase solo con copertura integrale e nessuna traduzione segnalata da revisionare. I conteggi sono ricavati dai sorgenti, non fissati nello script: devono restare corretti anche se vengono aggiunti corsi.
+- [x] Conteggi ricavati dai JSON e pilota `method-level-1a` completo e non obsoleto.
+- [x] Registro per corso/lotti aggiornato con revisioni testuali e impronte correnti.
+- [x] Due conflitti di `method-level-2a` chiariti confrontando la notazione; tradotti anche i due campi lasciati in ripiego.
+- [x] Tradotti Metodo livelli 1–6, sottolivelli e aggregati, conservando i testi italiani già presenti.
+- [x] Tradotti tutti i corsi di Tecnica e le otto raccolte di Brani.
+- [x] Verificati titoli, descrizioni, obiettivi e note delle licenze; conservati crediti, identificativi e simboli standard, con titoli italiani convenzionali dove appropriati.
+- [x] Significato didattico confrontato da Codex con sorgente e dati musicali; chiarimenti editoriali documentati. Non si dichiara revisione umana.
+- [x] Validazione dei lotti e controlli finali eseguiti; copertura e revisioni aggiornate. Esaminato uno spartito per ciascuno degli 80 corsi, scegliendo l'obiettivo più lungo, con estensione SVG del viewer. Ulteriore prova React mobile sul massimo assoluto `m6d-001` e sul precedente caso 1B.
+- [x] Copertura integrale e nessuna traduzione da revisionare secondo il registro corrente: `check:i18n:full` passa. Conteggi dinamici, senza esclusioni di corsi.
 
 **Completata quando:** `check:i18n:full` passa per tutti gli 80 corsi e 1.557 esercizi della baseline; il rapporto attesta anche la revisione dei lotti, non soltanto l'esistenza delle stringhe.
 
 ## 7. Verifica finale e documentazione
 
 - [ ] Verificare in inglese e italiano catalogo, corso, pratica, esecuzione, risultati, diagnostica, importazione/esportazione e reset dei progressi.
-- [ ] Verificare layout desktop/mobile, menu, tooltip, pulsanti, nomi delle note e istruzioni lunghe negli spartiti. Correggere le dimensioni rigide che tagliano il testo.
+- [x] Verificati layout desktop/mobile, menu, tooltip, pulsanti, nomi note e istruzioni lunghe nei campioni documentati, in chiaro/scuro. Confermata l’estensione/scorrimento SVG della fase 5; corretto il contrasto del selettore scuro.
 - [ ] Eseguire una prova con tastiera MIDI reale, comprendendo note, accordi e pedale. Se l'hardware non è disponibile, registrare esplicitamente la prova ancora da eseguire; le simulazioni non la sostituiscono.
-- [ ] Caricare un export versione 1 creato prima della modifica e confermare che completamenti, stelle e date siano leggibili in entrambe le lingue.
-- [ ] Verificare l'output statico con `pnpm --filter @pianio/web exec vite preview`, inclusi cataloghi, MusicXML e vecchi URL inglesi. Nessun deploy è necessario per questa verifica.
-- [ ] Documentare nel README selezione lingua, convenzioni, comandi e ripieghi; aggiungere `docs/ADDING-A-LANGUAGE.md` con un esempio completo per una terza lingua.
-- [ ] Collegare il controllo di copertura completa a `pnpm build` quando la consegna B è pronta; prima, il build esegue soltanto la validazione compatibile con il catalogo parziale.
-- [ ] Rieseguire la matrice di verifica e registrare esiti, ambiente, eventuali limiti e prove manuali nel rapporto finale.
+- [x] Compatibilità export v1 verificata con fixture sintetica derivata dal contratto originale, come alternativa esplicitamente ammessa in assenza di un export storico reale: completamenti, stelle e date preservati EN/IT. Import/riepilogo/ripresa nel browser e round-trip completo nei test. Il reset IT manuale rimane aperto nel primo criterio.
+- [x] Verificare l'output statico con `pnpm --filter @pianio/web exec vite preview`, inclusi cataloghi, MusicXML e vecchi URL inglesi. Nessun deploy è necessario per questa verifica.
+- [x] Documentare nel README selezione lingua, convenzioni, comandi e ripieghi; aggiungere `docs/ADDING-A-LANGUAGE.md` con un esempio completo per una terza lingua.
+- [x] Collegato `check:i18n:full` al normale `pnpm build` dopo il completamento delle traduzioni e revisioni. Build valido passato; fixture isolata con obiettivo italiano mancante fallisce prima della generazione.
+- [x] Rieseguire la matrice di verifica e registrare esiti, ambiente, eventuali limiti e prove manuali nel rapporto finale.
+
+Verifica fase 7 del 16 ottobre, dopo il completamento: tutti gli otto comandi
+superati, inclusi checker completo e build con gate full. UI 56/56, contenuti
+11/11, MIDI 7/7, motore 4/4. Preview HTTP, confronti prestazionali e build negativo
+editoriale documentati. Revisione testuale e campione visuale per tutti gli 80
+corsi completati. Fixture v1 sintetica verificata senza cancellare dati reali.
+Il primo criterio resta aperto per i flussi manuali non completati; il criterio
+hardware resta aperto perché la simulazione non equivale a una tastiera reale.
+Nessuna pubblicazione del sito.
 
 ## Comandi di verifica
 

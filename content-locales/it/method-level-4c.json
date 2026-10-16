@@ -1,0 +1,107 @@
+{
+  "courseId": "method-level-4c",
+  "exercises": {
+    "m4c-001": {
+      "title": "Studio combinato in Re maggiore",
+      "summary": "Brano di sei battute sul doppio pentagramma in Re maggiore, con semiminime e crome.",
+      "goal": "Combina ritmi in semiminime e crome nelle due mani in Re maggiore."
+    },
+    "m4c-002": {
+      "title": "Sincope in Re maggiore",
+      "summary": "Brano di sei battute in Re maggiore sul doppio pentagramma, con attacchi in levare e sincopi alla destra.",
+      "goal": "Esegui con precisione gli attacchi sincopati in levare in Re maggiore, a mani unite."
+    },
+    "m4c-003": {
+      "title": "Valzer in Re maggiore",
+      "summary": "Valzer di sei battute in Re maggiore, in 3/4, a mani unite.",
+      "goal": "Rendi il carattere del valzer in Re maggiore, con una pulsazione 1–2–3 aggraziata."
+    },
+    "m4c-004": {
+      "title": "Sonatina in Re maggiore",
+      "summary": "Sonatina di otto battute a mani unite, con passaggi di scala e melodia tenuta.",
+      "goal": "Dai forma a una frase di sonatina classica in Re maggiore, bilanciando le mani."
+    },
+    "m4c-005": {
+      "title": "Combinazione in La maggiore",
+      "summary": "Brano di sei battute sul doppio pentagramma in La maggiore, con figure in crome e semiminime.",
+      "goal": "Combina crome e semiminime in La maggiore, rispettando le alterazioni della tonalità."
+    },
+    "m4c-006": {
+      "title": "Sincope in La maggiore",
+      "summary": "Brano di sei battute in La maggiore, con attacchi sincopati in levare alla destra.",
+      "goal": "Colloca con precisione gli attacchi sincopati in La maggiore sopra la pulsazione regolare della sinistra."
+    },
+    "m4c-007": {
+      "title": "Andante in La maggiore",
+      "summary": "Andante lirico di otto battute in La maggiore a mani unite.",
+      "goal": "Sostieni una melodia espressiva in La maggiore lungo otto battute, bilanciando le mani."
+    },
+    "m4c-008": {
+      "title": "Combinazione in Si bemolle maggiore",
+      "summary": "Brano di sei battute sul doppio pentagramma, con passaggi in crome e melodia in semiminime.",
+      "goal": "Combina passaggi scorrevoli e tenuti in Si bemolle maggiore, rispettando Si e Mi bemolle."
+    },
+    "m4c-009": {
+      "title": "Sincope in Si bemolle maggiore",
+      "summary": "Brano di sei battute in Si bemolle maggiore, con melodia sincopata in levare alla destra.",
+      "goal": "Esegui passaggi sincopati in Si bemolle maggiore sopra un sostegno regolare della sinistra."
+    },
+    "m4c-010": {
+      "title": "Valzer in Si bemolle maggiore",
+      "summary": "Valzer di otto battute in 3/4, con destra scorrevole e linea di basso alla sinistra.",
+      "goal": "Sostieni un valzer aggraziato in Si bemolle maggiore lungo otto battute."
+    },
+    "m4c-011": {
+      "title": "Combinazione in Mi bemolle maggiore",
+      "summary": "Brano di sei battute sul doppio pentagramma, con passaggi in crome e melodia in semiminime.",
+      "goal": "Combina passaggi scorrevoli e melodici in Mi bemolle maggiore, rispettando i tre bemolli."
+    },
+    "m4c-012": {
+      "title": "Studio in Mi bemolle maggiore",
+      "summary": "Studio di otto battute sul doppio pentagramma, con ritmi vari e fraseggio espressivo.",
+      "goal": "Affronta otto battute in Mi bemolle maggiore a mani unite, con varietà ritmica e dinamica."
+    },
+    "m4c-013": {
+      "title": "Combinazione in La bemolle maggiore",
+      "summary": "Brano di sei battute sul doppio pentagramma, con crome e melodia in semiminime.",
+      "goal": "Combina passaggi scorrevoli e tenuti in La bemolle maggiore, rispettando i quattro bemolli."
+    },
+    "m4c-014": {
+      "title": "Studio in La bemolle maggiore",
+      "summary": "Studio di otto battute sul doppio pentagramma, con passaggi di scala e melodia tenuta.",
+      "goal": "Esegui otto battute in La bemolle maggiore rispettando con precisione i quattro bemolli nelle due mani."
+    },
+    "m4c-015": {
+      "title": "Studio tra Re e La maggiore",
+      "summary": "Brano di otto battute in Re maggiore che richiama il vocabolario di La maggiore e i diesis condivisi.",
+      "goal": "Esplora la relazione tra Re e La maggiore attraverso passaggi di scala comuni."
+    },
+    "m4c-016": {
+      "title": "Combinazione nelle tonalità con bemolli",
+      "summary": "Brano di otto battute in Si bemolle maggiore, con sincopi e slancio delle crome.",
+      "goal": "Dimostra scioltezza nelle tonalità con bemolli attraverso la sincope in Si bemolle maggiore."
+    },
+    "m4c-017": {
+      "title": "Studio in Re maggiore",
+      "summary": "Studio di otto battute in Re maggiore, con andamento più veloce e movimento in crome alla destra.",
+      "goal": "Mantieni fluide le crome in Re maggiore con un andamento più veloce."
+    },
+    "m4c-018": {
+      "title": "Capriccio in La maggiore",
+      "summary": "Capriccio di otto battute con vivaci passaggi in crome fino al registro acuto.",
+      "goal": "Esegui un capriccio animato in La maggiore, rispettando i tre diesis e le note acute."
+    },
+    "m4c-019": {
+      "title": "Grande studio in Si bemolle maggiore",
+      "summary": "Studio di otto battute che combina passaggi di scala, sincopi e melodia tenuta.",
+      "goal": "Integra le tecniche ritmiche del livello 4C in un brano completo in Si bemolle maggiore sul doppio pentagramma."
+    },
+    "m4c-020": {
+      "title": "Riepilogo del livello 4C",
+      "summary": "Brano conclusivo di otto battute in Re maggiore, con le tecniche ritmiche e armoniche del livello 4C.",
+      "goal": "Dimostra padronanza del materiale del livello 4C in un brano completo sul doppio pentagramma."
+    }
+  },
+  "title": "Metodo livello 4C — Combinazione",
+  "summary": "Combina le tonalità del livello 4 in brani sul doppio pentagramma. Crome, semiminime e sincopi in Re, La, Si bemolle, Mi bemolle e La bemolle maggiore."
+}

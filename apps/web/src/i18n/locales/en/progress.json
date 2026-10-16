@@ -19,11 +19,12 @@
     "reset": "Reset",
     "confirmReset": "Confirm reset?",
     "complete": "complete",
-    "perfect": "perfect",
     "dayStreak_one": "{{count}} day streak",
     "dayStreak_other": "{{count}} day streak",
     "yourCourses": "Your Courses",
     "byCategory": "Progress by Category",
-    "ofComplete": "of {{count}} complete"
+    "ofComplete": "of {{count}} complete",
+    "perfect_one": "{{count}} perfect",
+    "perfect_other": "{{count}} perfect"
   }
 }

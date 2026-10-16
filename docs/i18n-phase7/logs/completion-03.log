@@ -1,0 +1,17 @@
+
+> pianio@0.1.0 test:ui /Users/adriano/Dev/codex/pianio/pianio
+> pnpm --filter @pianio/web test:ui
+
+
+> @pianio/web@0.1.0 test:ui /Users/adriano/Dev/codex/pianio/pianio/apps/web
+> vitest run --config vitest.config.ts
+
+
+ RUN  v5.0.4 /Users/adriano/Dev/codex/pianio/pianio/apps/web
+
+
+ Test Files  10 passed (10)
+      Tests  56 passed (56)
+   Start at  01:42:32
+   Duration  1.86s (environment 66%, tests 22%, import 10%, transform 2%)
+

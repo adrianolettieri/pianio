@@ -1,0 +1,92 @@
+
+> pianio@0.1.0 test:ui /Users/adriano/Dev/codex/pianio/pianio
+> pnpm --filter @pianio/web test:ui
+
+
+> @pianio/web@0.1.0 test:ui /Users/adriano/Dev/codex/pianio/pianio/apps/web
+> vitest run --config vitest.config.ts
+
+
+ RUN  v5.0.4 /Users/adriano/Dev/codex/pianio/pianio/apps/web
+
+stderr | src/sessionLanguage.test.tsx > language changes in the actual app with simulated MIDI/audio > starts and changes language/theme when storage reads and writes are denied
+An error occurred in the <ExercisePracticePanel> component.
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://react.dev/link/error-boundaries to learn more about error boundaries.
+
+
+ ❯ src/sessionLanguage.test.tsx (11 tests | 1 failed) 1681ms
+   ❯ language changes in the actual app with simulated MIDI/audio (11)
+     × starts and changes language/theme when storage reads and writes are denied 1032ms
+
+⎯⎯⎯⎯⎯⎯⎯ Failed Tests 1 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  src/sessionLanguage.test.tsx > language changes in the actual app with simulated MIDI/audio > starts and changes language/theme when storage reads and writes are denied
+TestingLibraryElementError: Unable to find an element by: [data-testid="score"]
+
+Ignored nodes: comments, script, style
+[36m<body>[39m
+  [36m<div />[39m
+[36m</body>[39m
+
+Ignored nodes: comments, script, style
+[36m<body>[39m
+  [36m<div />[39m
+[36m</body>[39m
+ ❯ waitForWrapper ../../node_modules/.pnpm/@testing-library+dom@10.4.2/node_modules/@testing-library/dom/dist/wait-for.js:163:27
+ ❯ ../../node_modules/.pnpm/@testing-library+dom@10.4.2/node_modules/@testing-library/dom/dist/query-helpers.js:86:33
+ ❯ ready src/sessionLanguage.test.tsx:36:39
+     34|   return render(<LanguageProvider loader={loader} initialLanguage="en"…
+     35| }
+     36| async function ready() { await screen.findByTestId("score"); await act…
+       |                                       ^
+     37| async function change(language: "en" | "it") {
+     38|   fireEvent.change(screen.getByRole("combobox"), { target: { value: la…
+ ❯ src/sessionLanguage.test.tsx:49:23
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/1]⎯
+
+⎯⎯⎯⎯⎯⎯ Unhandled Errors ⎯⎯⎯⎯⎯⎯
+
+Vitest caught 1 unhandled error during the test run.
+This might cause false positive tests. Resolve unhandled errors to make sure your tests are not affected.
+
+⎯⎯⎯⎯⎯ Uncaught Exception ⎯⎯⎯⎯⎯
+SecurityError: Denied
+ ❯ Proxy.<anonymous> src/sessionLanguage.test.tsx:47:77
+     45| describe("language changes in the actual app with simulated MIDI/audio…
+     46|   it("starts and changes language/theme when storage reads and writes …
+     47|     vi.spyOn(Storage.prototype, "getItem").mockImplementation(() => { …
+       |                                                                             ^
+     48|     vi.spyOn(Storage.prototype, "setItem").mockImplementation(() => { …
+     49|     startApp(); await ready();
+ ❯ Proxy.getItem ../../node_modules/.pnpm/vitest@5.0.4_@types+node@24.12.0_jsdom@27.4.0_vite@7.3.1_@types+node@24.12.0_/node_modules/vitest/dist/chunks/spy.DDMXghXv.js:353:40
+ ❯ src/components/ExercisePracticePanel.tsx:131:65
+ ❯ mountStateImpl ../../node_modules/.pnpm/react-dom@19.2.4_react@19.2.4/node_modules/react-dom/cjs/react-dom-client.development.js:8268:24
+ ❯ mountState ../../node_modules/.pnpm/react-dom@19.2.4_react@19.2.4/node_modules/react-dom/cjs/react-dom-client.development.js:8289:22
+ ❯ Object.useState ../../node_modules/.pnpm/react-dom@19.2.4_react@19.2.4/node_modules/react-dom/cjs/react-dom-client.development.js:26243:18
+ ❯ process.env.NODE_ENV.exports.useState ../../node_modules/.pnpm/react@19.2.4/node_modules/react/cjs/react.development.js:1263:34
+ ❯ ExercisePracticePanel src/components/ExercisePracticePanel.tsx:131:37
+ ❯ Object.react_stack_bottom_frame ../../node_modules/.pnpm/react-dom@19.2.4_react@19.2.4/node_modules/react-dom/cjs/react-dom-client.development.js:25904:20
+ ❯ renderWithHooks ../../node_modules/.pnpm/react-dom@19.2.4_react@19.2.4/node_modules/react-dom/cjs/react-dom-client.development.js:7662:22
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯
+Serialized Error: { code: 18, INDEX_SIZE_ERR: 1, DOMSTRING_SIZE_ERR: 2, HIERARCHY_REQUEST_ERR: 3, WRONG_DOCUMENT_ERR: 4, INVALID_CHARACTER_ERR: 5, NO_DATA_ALLOWED_ERR: 6, NO_MODIFICATION_ALLOWED_ERR: 7, NOT_FOUND_ERR: 8, NOT_SUPPORTED_ERR: 9, INUSE_ATTRIBUTE_ERR: 10, INVALID_STATE_ERR: 11, SYNTAX_ERR: 12, INVALID_MODIFICATION_ERR: 13, NAMESPACE_ERR: 14, INVALID_ACCESS_ERR: 15, VALIDATION_ERR: 16, TYPE_MISMATCH_ERR: 17, SECURITY_ERR: 18, NETWORK_ERR: 19, ABORT_ERR: 20, URL_MISMATCH_ERR: 21, QUOTA_EXCEEDED_ERR: 22, TIMEOUT_ERR: 23, INVALID_NODE_TYPE_ERR: 24, DATA_CLONE_ERR: 25 }
+This error originated in "src/sessionLanguage.test.tsx" test file. It doesn't mean the error was thrown inside the file itself, but while it was running.
+The last test to run before this error was "starts and changes language/theme when storage reads and writes are denied". This means either:
+- the error was thrown while Vitest was running this test, or
+- the error was thrown after the test completed, and this was the most recent test at that point.
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯
+
+
+ Test Files  1 failed | 9 passed (10)
+      Tests  1 failed | 50 passed (51)
+     Errors  1 error
+   Start at  23:26:51
+   Duration  2.60s (environment 57%, tests 26%, import 9%, transform 8%)
+
+/Users/adriano/Dev/codex/pianio/pianio/apps/web:
+ ERR_PNPM_RECURSIVE_RUN_FIRST_FAIL  @pianio/web@0.1.0 test:ui: `vitest run --config vitest.config.ts`
+Exit status 1
+ ELIFECYCLE  Command failed with exit code 1.

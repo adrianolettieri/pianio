@@ -1,0 +1,100 @@
+{
+  "baselineRef": "df5526d",
+  "currentRef": "cc47eed + phase7 + complete Italian content",
+  "platform": "macOS-27.0.1-arm64-arm-64bit-Mach-O",
+  "node": "v22.20.0",
+  "pnpm": "10.18.3",
+  "method": "Same installed dependencies via symlinks; sequential warm runs, no install/network; logical bytes; pnpm build includes generation. Alternating baseline/current, three repetitions.",
+  "baseline": {
+    "generationSeconds": [
+      0.4705,
+      0.4814,
+      0.4563
+    ],
+    "buildSeconds": [
+      3.3041,
+      3.3363,
+      3.3187
+    ],
+    "generationSecondsMedian": 0.4705,
+    "buildSecondsMedian": 3.3187,
+    "generated": {
+      "files": 1558,
+      "bytes": 22333244
+    },
+    "dist": {
+      "files": 1566,
+      "bytes": 24152375
+    },
+    "assets": {
+      "files": 6,
+      "bytes": 1814956
+    },
+    "groups": {
+      "catalog.json": {
+        "files": 1,
+        "bytes": 8820863
+      },
+      "scores": {
+        "files": 1557,
+        "bytes": 13512381
+      }
+    }
+  },
+  "current": {
+    "generationSeconds": [
+      1.0815,
+      1.0683,
+      1.0498
+    ],
+    "buildSeconds": [
+      5.1037,
+      5.0057,
+      4.97
+    ],
+    "generationSecondsMedian": 1.0683,
+    "buildSecondsMedian": 5.0057,
+    "generated": {
+      "files": 4675,
+      "bytes": 68736499
+    },
+    "dist": {
+      "files": 4683,
+      "bytes": 70644591
+    },
+    "assets": {
+      "files": 6,
+      "bytes": 1903887
+    },
+    "groups": {
+      "catalog.json": {
+        "files": 1,
+        "bytes": 9143375
+      },
+      "scores": {
+        "files": 1557,
+        "bytes": 13512381
+      },
+      "en/catalog.json": {
+        "files": 1,
+        "bytes": 9148046
+      },
+      "en/scores": {
+        "files": 1557,
+        "bytes": 13512381
+      },
+      "it/catalog.json": {
+        "files": 1,
+        "bytes": 9222845
+      },
+      "it/scores": {
+        "files": 1557,
+        "bytes": 13547926
+      },
+      "i18n-coverage.json": {
+        "files": 1,
+        "bytes": 649545
+      }
+    }
+  }
+}

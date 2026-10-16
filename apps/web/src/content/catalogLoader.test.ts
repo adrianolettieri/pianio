@@ -6,6 +6,13 @@ import { catalogFixture, deferred } from "./catalogFixture";
 
 const response = (value: unknown) => new Response(JSON.stringify(value));
 describe("localized catalog loader", () => {
+  it.each(["en", "it"] as const)("fetches only the requested %s catalog, without preloading other languages or legacy copies", async language => {
+    const fetcher = vi.fn(async () => response(catalogFixture(language)));
+    const loader = createCatalogLoader(fetcher);
+    await loader.load(language);
+    await loader.load(language);
+    expect(fetcher.mock.calls).toEqual([[`/generated/${language}/catalog.json`]]);
+  });
   it("deduplicates, caches per language and retains canonical music references without mutating cached courses when filtering", async () => {
     const wait = deferred<Response>();
     const localized = catalogFixture("it");

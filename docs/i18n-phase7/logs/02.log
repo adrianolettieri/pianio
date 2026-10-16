@@ -1,0 +1,312 @@
+
+> pianio@0.1.0 check:i18n:full /Users/adriano/Dev/codex/pianio/pianio
+> node ./scripts/check-translations.mjs --full
+
+en/method-level-1: translated=0/90, fallback=0, source=90, review=source
+en/method-level-1a: translated=0/82, fallback=0, source=82, review=source
+en/method-level-1b: translated=0/82, fallback=0, source=82, review=source
+en/method-level-1c: translated=0/82, fallback=0, source=82, review=source
+en/method-level-1d: translated=0/82, fallback=0, source=82, review=source
+en/method-level-1e: translated=0/82, fallback=0, source=82, review=source
+en/method-level-2: translated=0/62, fallback=0, source=62, review=source
+en/method-level-2a: translated=0/82, fallback=0, source=82, review=source
+en/method-level-2b: translated=0/82, fallback=0, source=82, review=source
+en/method-level-2c: translated=0/82, fallback=0, source=82, review=source
+en/method-level-2d: translated=0/82, fallback=0, source=82, review=source
+en/method-level-2e: translated=0/82, fallback=0, source=82, review=source
+en/method-level-3: translated=0/62, fallback=0, source=62, review=source
+en/method-level-3a: translated=0/82, fallback=0, source=82, review=source
+en/method-level-3b: translated=0/82, fallback=0, source=82, review=source
+en/method-level-3c: translated=0/82, fallback=0, source=82, review=source
+en/method-level-3d: translated=0/82, fallback=0, source=82, review=source
+en/method-level-3e: translated=0/63, fallback=0, source=63, review=source
+en/method-level-4: translated=0/62, fallback=0, source=62, review=source
+en/method-level-4a: translated=0/62, fallback=0, source=62, review=source
+en/method-level-4b: translated=0/62, fallback=0, source=62, review=source
+en/method-level-4c: translated=0/62, fallback=0, source=62, review=source
+en/method-level-4d: translated=0/62, fallback=0, source=62, review=source
+en/method-level-4e: translated=0/62, fallback=0, source=62, review=source
+en/method-level-5: translated=0/62, fallback=0, source=62, review=source
+en/method-level-5a: translated=0/82, fallback=0, source=82, review=source
+en/method-level-5b: translated=0/82, fallback=0, source=82, review=source
+en/method-level-5c: translated=0/82, fallback=0, source=82, review=source
+en/method-level-5d: translated=0/82, fallback=0, source=82, review=source
+en/method-level-5e: translated=0/82, fallback=0, source=82, review=source
+en/method-level-6: translated=0/62, fallback=0, source=62, review=source
+en/method-level-6a: translated=0/82, fallback=0, source=82, review=source
+en/method-level-6b: translated=0/82, fallback=0, source=82, review=source
+en/method-level-6c: translated=0/82, fallback=0, source=82, review=source
+en/method-level-6d: translated=0/82, fallback=0, source=82, review=source
+en/method-level-6e: translated=0/82, fallback=0, source=82, review=source
+en/songs-advanced: translated=0/122, fallback=0, source=122, review=source
+en/songs-beginner: translated=0/122, fallback=0, source=122, review=source
+en/songs-folk: translated=0/62, fallback=0, source=62, review=source
+en/songs-holiday: translated=0/62, fallback=0, source=62, review=source
+en/songs-hymns: translated=0/62, fallback=0, source=62, review=source
+en/songs-intermediate: translated=0/122, fallback=0, source=122, review=source
+en/songs-jazz-blues: translated=0/62, fallback=0, source=62, review=source
+en/songs-pro: translated=0/62, fallback=0, source=62, review=source
+en/technique-level-1: translated=0/82, fallback=0, source=82, review=source
+en/technique-level-1a: translated=0/82, fallback=0, source=82, review=source
+en/technique-level-1b: translated=0/82, fallback=0, source=82, review=source
+en/technique-level-1c: translated=0/82, fallback=0, source=82, review=source
+en/technique-level-1d: translated=0/82, fallback=0, source=82, review=source
+en/technique-level-1e: translated=0/62, fallback=0, source=62, review=source
+en/technique-level-2: translated=0/62, fallback=0, source=62, review=source
+en/technique-level-2a: translated=0/62, fallback=0, source=62, review=source
+en/technique-level-2b: translated=0/62, fallback=0, source=62, review=source
+en/technique-level-2c: translated=0/62, fallback=0, source=62, review=source
+en/technique-level-2d: translated=0/62, fallback=0, source=62, review=source
+en/technique-level-2e: translated=0/82, fallback=0, source=82, review=source
+en/technique-level-3: translated=0/62, fallback=0, source=62, review=source
+en/technique-level-3a: translated=0/62, fallback=0, source=62, review=source
+en/technique-level-3b: translated=0/62, fallback=0, source=62, review=source
+en/technique-level-3c: translated=0/62, fallback=0, source=62, review=source
+en/technique-level-3d: translated=0/62, fallback=0, source=62, review=source
+en/technique-level-3e: translated=0/62, fallback=0, source=62, review=source
+en/technique-level-4: translated=0/62, fallback=0, source=62, review=source
+en/technique-level-4a: translated=0/82, fallback=0, source=82, review=source
+en/technique-level-4b: translated=0/82, fallback=0, source=82, review=source
+en/technique-level-4c: translated=0/82, fallback=0, source=82, review=source
+en/technique-level-4d: translated=0/82, fallback=0, source=82, review=source
+en/technique-level-4e: translated=0/82, fallback=0, source=82, review=source
+en/technique-level-5: translated=0/62, fallback=0, source=62, review=source
+en/technique-level-5a: translated=0/82, fallback=0, source=82, review=source
+en/technique-level-5b: translated=0/82, fallback=0, source=82, review=source
+en/technique-level-5c: translated=0/82, fallback=0, source=82, review=source
+en/technique-level-5d: translated=0/82, fallback=0, source=82, review=source
+en/technique-level-5e: translated=0/82, fallback=0, source=82, review=source
+en/technique-level-6: translated=0/62, fallback=0, source=62, review=source
+en/technique-level-6a: translated=0/82, fallback=0, source=82, review=source
+en/technique-level-6b: translated=0/82, fallback=0, source=82, review=source
+en/technique-level-6c: translated=0/82, fallback=0, source=82, review=source
+en/technique-level-6d: translated=0/82, fallback=0, source=82, review=source
+en/technique-level-6e: translated=0/82, fallback=0, source=82, review=source
+it/method-level-1: translated=90/90, fallback=0, source=0, review=reviewed
+it/method-level-1a: translated=82/82, fallback=0, source=0, review=reviewed
+it/method-level-1b: translated=82/82, fallback=0, source=0, review=reviewed
+it/method-level-1c: translated=82/82, fallback=0, source=0, review=reviewed
+it/method-level-1d: translated=82/82, fallback=0, source=0, review=reviewed
+it/method-level-1e: translated=82/82, fallback=0, source=0, review=reviewed
+it/method-level-2: translated=62/62, fallback=0, source=0, review=reviewed
+it/method-level-2a: translated=80/82, fallback=2, source=0, review=pending
+it/method-level-2b: translated=0/82, fallback=82, source=0, review=missing
+it/method-level-2c: translated=0/82, fallback=82, source=0, review=missing
+it/method-level-2d: translated=0/82, fallback=82, source=0, review=missing
+it/method-level-2e: translated=0/82, fallback=82, source=0, review=missing
+it/method-level-3: translated=0/62, fallback=62, source=0, review=missing
+it/method-level-3a: translated=0/82, fallback=82, source=0, review=missing
+it/method-level-3b: translated=0/82, fallback=82, source=0, review=missing
+it/method-level-3c: translated=0/82, fallback=82, source=0, review=missing
+it/method-level-3d: translated=0/82, fallback=82, source=0, review=missing
+it/method-level-3e: translated=0/63, fallback=63, source=0, review=missing
+it/method-level-4: translated=0/62, fallback=62, source=0, review=missing
+it/method-level-4a: translated=0/62, fallback=62, source=0, review=missing
+it/method-level-4b: translated=0/62, fallback=62, source=0, review=missing
+it/method-level-4c: translated=0/62, fallback=62, source=0, review=missing
+it/method-level-4d: translated=0/62, fallback=62, source=0, review=missing
+it/method-level-4e: translated=0/62, fallback=62, source=0, review=missing
+it/method-level-5: translated=0/62, fallback=62, source=0, review=missing
+it/method-level-5a: translated=0/82, fallback=82, source=0, review=missing
+it/method-level-5b: translated=0/82, fallback=82, source=0, review=missing
+it/method-level-5c: translated=0/82, fallback=82, source=0, review=missing
+it/method-level-5d: translated=0/82, fallback=82, source=0, review=missing
+it/method-level-5e: translated=0/82, fallback=82, source=0, review=missing
+it/method-level-6: translated=0/62, fallback=62, source=0, review=missing
+it/method-level-6a: translated=0/82, fallback=82, source=0, review=missing
+it/method-level-6b: translated=0/82, fallback=82, source=0, review=missing
+it/method-level-6c: translated=0/82, fallback=82, source=0, review=missing
+it/method-level-6d: translated=0/82, fallback=82, source=0, review=missing
+it/method-level-6e: translated=0/82, fallback=82, source=0, review=missing
+it/songs-advanced: translated=0/122, fallback=122, source=0, review=missing
+it/songs-beginner: translated=0/122, fallback=122, source=0, review=missing
+it/songs-folk: translated=0/62, fallback=62, source=0, review=missing
+it/songs-holiday: translated=0/62, fallback=62, source=0, review=missing
+it/songs-hymns: translated=0/62, fallback=62, source=0, review=missing
+it/songs-intermediate: translated=0/122, fallback=122, source=0, review=missing
+it/songs-jazz-blues: translated=0/62, fallback=62, source=0, review=missing
+it/songs-pro: translated=0/62, fallback=62, source=0, review=missing
+it/technique-level-1: translated=0/82, fallback=82, source=0, review=missing
+it/technique-level-1a: translated=0/82, fallback=82, source=0, review=missing
+it/technique-level-1b: translated=0/82, fallback=82, source=0, review=missing
+it/technique-level-1c: translated=0/82, fallback=82, source=0, review=missing
+it/technique-level-1d: translated=0/82, fallback=82, source=0, review=missing
+it/technique-level-1e: translated=0/62, fallback=62, source=0, review=missing
+it/technique-level-2: translated=0/62, fallback=62, source=0, review=missing
+it/technique-level-2a: translated=0/62, fallback=62, source=0, review=missing
+it/technique-level-2b: translated=0/62, fallback=62, source=0, review=missing
+it/technique-level-2c: translated=0/62, fallback=62, source=0, review=missing
+it/technique-level-2d: translated=0/62, fallback=62, source=0, review=missing
+it/technique-level-2e: translated=0/82, fallback=82, source=0, review=missing
+it/technique-level-3: translated=0/62, fallback=62, source=0, review=missing
+it/technique-level-3a: translated=0/62, fallback=62, source=0, review=missing
+it/technique-level-3b: translated=0/62, fallback=62, source=0, review=missing
+it/technique-level-3c: translated=0/62, fallback=62, source=0, review=missing
+it/technique-level-3d: translated=0/62, fallback=62, source=0, review=missing
+it/technique-level-3e: translated=0/62, fallback=62, source=0, review=missing
+it/technique-level-4: translated=0/62, fallback=62, source=0, review=missing
+it/technique-level-4a: translated=0/82, fallback=82, source=0, review=missing
+it/technique-level-4b: translated=0/82, fallback=82, source=0, review=missing
+it/technique-level-4c: translated=0/82, fallback=82, source=0, review=missing
+it/technique-level-4d: translated=0/82, fallback=82, source=0, review=missing
+it/technique-level-4e: translated=0/82, fallback=82, source=0, review=missing
+it/technique-level-5: translated=0/62, fallback=62, source=0, review=missing
+it/technique-level-5a: translated=0/82, fallback=82, source=0, review=missing
+it/technique-level-5b: translated=0/82, fallback=82, source=0, review=missing
+it/technique-level-5c: translated=0/82, fallback=82, source=0, review=missing
+it/technique-level-5d: translated=0/82, fallback=82, source=0, review=missing
+it/technique-level-5e: translated=0/82, fallback=82, source=0, review=missing
+it/technique-level-6: translated=0/62, fallback=62, source=0, review=missing
+it/technique-level-6a: translated=0/82, fallback=82, source=0, review=missing
+it/technique-level-6b: translated=0/82, fallback=82, source=0, review=missing
+it/technique-level-6c: translated=0/82, fallback=82, source=0, review=missing
+it/technique-level-6d: translated=0/82, fallback=82, source=0, review=missing
+it/technique-level-6e: translated=0/82, fallback=82, source=0, review=missing
+Translation validation failed (146 issues):
+- it/method-level-2a: 2/82 fields missing
+- it/method-level-2a: review pending
+- it/method-level-2b: 82/82 fields missing
+- it/method-level-2b: review missing
+- it/method-level-2c: 82/82 fields missing
+- it/method-level-2c: review missing
+- it/method-level-2d: 82/82 fields missing
+- it/method-level-2d: review missing
+- it/method-level-2e: 82/82 fields missing
+- it/method-level-2e: review missing
+- it/method-level-3: 62/62 fields missing
+- it/method-level-3: review missing
+- it/method-level-3a: 82/82 fields missing
+- it/method-level-3a: review missing
+- it/method-level-3b: 82/82 fields missing
+- it/method-level-3b: review missing
+- it/method-level-3c: 82/82 fields missing
+- it/method-level-3c: review missing
+- it/method-level-3d: 82/82 fields missing
+- it/method-level-3d: review missing
+- it/method-level-3e: 63/63 fields missing
+- it/method-level-3e: review missing
+- it/method-level-4: 62/62 fields missing
+- it/method-level-4: review missing
+- it/method-level-4a: 62/62 fields missing
+- it/method-level-4a: review missing
+- it/method-level-4b: 62/62 fields missing
+- it/method-level-4b: review missing
+- it/method-level-4c: 62/62 fields missing
+- it/method-level-4c: review missing
+- it/method-level-4d: 62/62 fields missing
+- it/method-level-4d: review missing
+- it/method-level-4e: 62/62 fields missing
+- it/method-level-4e: review missing
+- it/method-level-5: 62/62 fields missing
+- it/method-level-5: review missing
+- it/method-level-5a: 82/82 fields missing
+- it/method-level-5a: review missing
+- it/method-level-5b: 82/82 fields missing
+- it/method-level-5b: review missing
+- it/method-level-5c: 82/82 fields missing
+- it/method-level-5c: review missing
+- it/method-level-5d: 82/82 fields missing
+- it/method-level-5d: review missing
+- it/method-level-5e: 82/82 fields missing
+- it/method-level-5e: review missing
+- it/method-level-6: 62/62 fields missing
+- it/method-level-6: review missing
+- it/method-level-6a: 82/82 fields missing
+- it/method-level-6a: review missing
+- it/method-level-6b: 82/82 fields missing
+- it/method-level-6b: review missing
+- it/method-level-6c: 82/82 fields missing
+- it/method-level-6c: review missing
+- it/method-level-6d: 82/82 fields missing
+- it/method-level-6d: review missing
+- it/method-level-6e: 82/82 fields missing
+- it/method-level-6e: review missing
+- it/songs-advanced: 122/122 fields missing
+- it/songs-advanced: review missing
+- it/songs-beginner: 122/122 fields missing
+- it/songs-beginner: review missing
+- it/songs-folk: 62/62 fields missing
+- it/songs-folk: review missing
+- it/songs-holiday: 62/62 fields missing
+- it/songs-holiday: review missing
+- it/songs-hymns: 62/62 fields missing
+- it/songs-hymns: review missing
+- it/songs-intermediate: 122/122 fields missing
+- it/songs-intermediate: review missing
+- it/songs-jazz-blues: 62/62 fields missing
+- it/songs-jazz-blues: review missing
+- it/songs-pro: 62/62 fields missing
+- it/songs-pro: review missing
+- it/technique-level-1: 82/82 fields missing
+- it/technique-level-1: review missing
+- it/technique-level-1a: 82/82 fields missing
+- it/technique-level-1a: review missing
+- it/technique-level-1b: 82/82 fields missing
+- it/technique-level-1b: review missing
+- it/technique-level-1c: 82/82 fields missing
+- it/technique-level-1c: review missing
+- it/technique-level-1d: 82/82 fields missing
+- it/technique-level-1d: review missing
+- it/technique-level-1e: 62/62 fields missing
+- it/technique-level-1e: review missing
+- it/technique-level-2: 62/62 fields missing
+- it/technique-level-2: review missing
+- it/technique-level-2a: 62/62 fields missing
+- it/technique-level-2a: review missing
+- it/technique-level-2b: 62/62 fields missing
+- it/technique-level-2b: review missing
+- it/technique-level-2c: 62/62 fields missing
+- it/technique-level-2c: review missing
+- it/technique-level-2d: 62/62 fields missing
+- it/technique-level-2d: review missing
+- it/technique-level-2e: 82/82 fields missing
+- it/technique-level-2e: review missing
+- it/technique-level-3: 62/62 fields missing
+- it/technique-level-3: review missing
+- it/technique-level-3a: 62/62 fields missing
+- it/technique-level-3a: review missing
+- it/technique-level-3b: 62/62 fields missing
+- it/technique-level-3b: review missing
+- it/technique-level-3c: 62/62 fields missing
+- it/technique-level-3c: review missing
+- it/technique-level-3d: 62/62 fields missing
+- it/technique-level-3d: review missing
+- it/technique-level-3e: 62/62 fields missing
+- it/technique-level-3e: review missing
+- it/technique-level-4: 62/62 fields missing
+- it/technique-level-4: review missing
+- it/technique-level-4a: 82/82 fields missing
+- it/technique-level-4a: review missing
+- it/technique-level-4b: 82/82 fields missing
+- it/technique-level-4b: review missing
+- it/technique-level-4c: 82/82 fields missing
+- it/technique-level-4c: review missing
+- it/technique-level-4d: 82/82 fields missing
+- it/technique-level-4d: review missing
+- it/technique-level-4e: 82/82 fields missing
+- it/technique-level-4e: review missing
+- it/technique-level-5: 62/62 fields missing
+- it/technique-level-5: review missing
+- it/technique-level-5a: 82/82 fields missing
+- it/technique-level-5a: review missing
+- it/technique-level-5b: 82/82 fields missing
+- it/technique-level-5b: review missing
+- it/technique-level-5c: 82/82 fields missing
+- it/technique-level-5c: review missing
+- it/technique-level-5d: 82/82 fields missing
+- it/technique-level-5d: review missing
+- it/technique-level-5e: 82/82 fields missing
+- it/technique-level-5e: review missing
+- it/technique-level-6: 62/62 fields missing
+- it/technique-level-6: review missing
+- it/technique-level-6a: 82/82 fields missing
+- it/technique-level-6a: review missing
+- it/technique-level-6b: 82/82 fields missing
+- it/technique-level-6b: review missing
+- it/technique-level-6c: 82/82 fields missing
+- it/technique-level-6c: review missing
+- it/technique-level-6d: 82/82 fields missing
+- it/technique-level-6d: review missing
+- it/technique-level-6e: 82/82 fields missing
+- it/technique-level-6e: review missing
+ ELIFECYCLE  Command failed with exit code 1.

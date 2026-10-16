@@ -1,0 +1,167 @@
+{
+  "courseId": "technique-level-5b",
+  "exercises": {
+    "t5b-001": {
+      "title": "Arpeggio esteso di Do maggiore (MD)",
+      "summary": "Arpeggio ascendente e discendente di Do maggiore alla destra.",
+      "goal": "Mantieni fluidi i passaggi delle dita a 88 BPM, rispettando le note della triade.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t5b-002": {
+      "title": "Arpeggio esteso di Do maggiore (MS)",
+      "summary": "Arpeggio ascendente e discendente di Do maggiore alla sinistra.",
+      "goal": "Mantieni fluidi i passaggi delle dita a 88 BPM, rispettando le note della triade.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t5b-003": {
+      "title": "Arpeggio esteso di Do maggiore (mani unite)",
+      "summary": "Arpeggio ascendente e discendente di Do maggiore a mani unite.",
+      "goal": "Coordina le mani e mantieni fluidi i passaggi delle dita.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t5b-004": {
+      "title": "Arpeggio esteso di Sol maggiore (MD)",
+      "summary": "Arpeggio ascendente e discendente di Sol maggiore alla destra.",
+      "goal": "Mantieni fluidi i passaggi delle dita a 88 BPM, rispettando le note della triade.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t5b-005": {
+      "title": "Arpeggio esteso di Sol maggiore (mani unite)",
+      "summary": "Arpeggio ascendente e discendente di Sol maggiore a mani unite.",
+      "goal": "Coordina le mani e mantieni fluidi i passaggi delle dita.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t5b-006": {
+      "title": "Arpeggio esteso di Fa maggiore (MD)",
+      "summary": "Arpeggio ascendente e discendente di Fa maggiore alla destra.",
+      "goal": "Mantieni fluidi i passaggi delle dita a 88 BPM, rispettando le note della triade.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t5b-007": {
+      "title": "Arpeggio esteso di Fa maggiore (mani unite)",
+      "summary": "Arpeggio ascendente e discendente di Fa maggiore a mani unite.",
+      "goal": "Coordina le mani e mantieni fluidi i passaggi delle dita.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t5b-008": {
+      "title": "Arpeggio esteso di Re maggiore (MD)",
+      "summary": "Arpeggio ascendente e discendente di Re maggiore alla destra.",
+      "goal": "Mantieni fluidi i passaggi delle dita a 88 BPM, rispettando le note della triade.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t5b-009": {
+      "title": "Arpeggio esteso di Re maggiore (mani unite)",
+      "summary": "Arpeggio ascendente e discendente di Re maggiore a mani unite.",
+      "goal": "Coordina le mani e mantieni fluidi i passaggi delle dita.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t5b-010": {
+      "title": "Arpeggio esteso di La maggiore (MD)",
+      "summary": "Arpeggio ascendente e discendente di La maggiore alla destra.",
+      "goal": "Mantieni fluidi i passaggi delle dita a 88 BPM, rispettando le note della triade.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t5b-011": {
+      "title": "Arpeggio esteso di La maggiore (mani unite)",
+      "summary": "Arpeggio ascendente e discendente di La maggiore a mani unite.",
+      "goal": "Coordina le mani e mantieni fluidi i passaggi delle dita.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t5b-012": {
+      "title": "Arpeggio esteso di La minore",
+      "summary": "Arpeggio ascendente e discendente di La minore alla destra.",
+      "goal": "Mantieni un suono uniforme e riconosci il carattere minore della triade.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t5b-013": {
+      "title": "Arpeggio esteso di Re minore",
+      "summary": "Arpeggio ascendente e discendente di Re minore alla destra.",
+      "goal": "Mantieni un suono uniforme e riconosci il carattere minore della triade.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t5b-014": {
+      "title": "Arpeggio esteso di Mi minore",
+      "summary": "Arpeggio ascendente e discendente di Mi minore a mani unite.",
+      "goal": "Mantieni un suono uniforme e riconosci il carattere minore della triade.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t5b-015": {
+      "title": "Arpeggio esteso di Si bemolle maggiore",
+      "summary": "Arpeggio di Si bemolle maggiore alla destra.",
+      "goal": "Mantieni fluidi i passaggi delle dita e precise le note della triade. Lavora a 84 BPM.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t5b-016": {
+      "title": "Arpeggio esteso di Mi bemolle maggiore",
+      "summary": "Arpeggio di Mi bemolle maggiore alla destra.",
+      "goal": "Mantieni fluidi i passaggi delle dita e precise le note della triade. Lavora a 84 BPM.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t5b-017": {
+      "title": "Arpeggio esteso di La bemolle maggiore",
+      "summary": "Arpeggio di La bemolle maggiore a mani unite.",
+      "goal": "Mantieni fluidi i passaggi delle dita e precise le note della triade. Coordina le mani.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t5b-018": {
+      "title": "Catena di arpeggi maggiori (MD)",
+      "summary": "Arpeggi di Do, Sol, Re, La e Fa maggiore si susseguono senza interruzioni.",
+      "goal": "Collega con fluidità i cinque arpeggi maggiori.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t5b-019": {
+      "title": "Catena di arpeggi minori (MD)",
+      "summary": "Arpeggi di La, Re, Mi e Do minore si susseguono senza interruzioni.",
+      "goal": "Collega con fluidità i quattro arpeggi minori.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t5b-020": {
+      "title": "Ripasso degli arpeggi a mani unite",
+      "summary": "Arpeggi di Do, Sol, Re, Fa, Si bemolle e Mi bemolle maggiore nella prova conclusiva del livello 5B.",
+      "goal": "Dimostra scioltezza negli arpeggi mantenendo le mani coordinate.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    }
+  },
+  "title": "Tecnica livello 5B — Arpeggi estesi",
+  "summary": "Arpeggi estesi nelle tonalità maggiori e minori studiate, per sviluppare velocità e scioltezza attraverso diversi registri della tastiera."
+}

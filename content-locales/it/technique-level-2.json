@@ -1,0 +1,127 @@
+{
+  "courseId": "technique-level-2",
+  "exercises": {
+    "tech2-001": {
+      "title": "Salita in Sol maggiore (MD)",
+      "summary": "Scala ascendente di Sol maggiore nella destra.",
+      "goal": "Suona Sol maggiore con tocco uniforme e Fa diesis corretto.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "tech2-002": {
+      "title": "Discesa in Sol maggiore (MD)",
+      "summary": "Scala discendente di Sol maggiore nella destra.",
+      "goal": "Scendi fluidamente in Sol maggiore, senza esitazioni sul Fa diesis.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "tech2-003": {
+      "title": "Salita in Sol maggiore (MS)",
+      "summary": "Scala ascendente di Sol maggiore nella sinistra, in chiave di basso.",
+      "goal": "Suona la scala di Sol maggiore con la sinistra, rispettando il Fa diesis.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "tech2-004": {
+      "title": "Discesa in Sol maggiore (MS)",
+      "summary": "Scala discendente di Sol maggiore nella sinistra.",
+      "goal": "Scendi regolarmente nella scala di Sol maggiore in chiave di basso.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "tech2-005": {
+      "title": "La minore naturale (MD)",
+      "summary": "Scala ascendente di La minore naturale nella destra.",
+      "goal": "Riconosci e suona la sonorità della scala minore naturale.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "tech2-006": {
+      "title": "La minore naturale (MS)",
+      "summary": "Scala ascendente di La minore naturale nella sinistra.",
+      "goal": "Suona La minore naturale in chiave di basso.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "tech2-007": {
+      "title": "Figura in stile Hanon 1 (MD)",
+      "summary": "Esercizio ascendente per le dita in crome nella destra.",
+      "goal": "Sviluppa l'indipendenza delle dita con un esercizio regolare in crome.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "tech2-008": {
+      "title": "Figura in stile Hanon 1 (MS)",
+      "summary": "Esercizio ascendente per le dita in crome nella sinistra.",
+      "goal": "Sviluppa l'indipendenza delle dita della sinistra con lo stesso esercizio.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "tech2-009": {
+      "title": "Triade spezzata di Sol (MD)",
+      "summary": "Figura sulla triade spezzata di Sol maggiore nella destra.",
+      "goal": "Arpeggia nitidamente la triade di Sol maggiore.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "tech2-010": {
+      "title": "Triade spezzata di Sol (MS)",
+      "summary": "Figura sulla triade spezzata di Sol maggiore nella sinistra.",
+      "goal": "Arpeggia la triade di Sol maggiore con la sinistra.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "tech2-011": {
+      "title": "Cambio di posizione (MD)",
+      "summary": "La destra passa dalla posizione di Do a quella di Sol.",
+      "goal": "Cambia posizione fluidamente, senza fermarti.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "tech2-012": {
+      "title": "Velocità nelle note ripetute (MD)",
+      "summary": "Note ripetute veloci su ogni dito della destra.",
+      "goal": "Solleva e riappoggia rapidamente ogni dito per le note ripetute.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "tech2-013": {
+      "title": "Salti di ottava (MD)",
+      "summary": "Alternanza di Do, Sol e Mi gravi e acuti, per esercitare spostamenti ampi.",
+      "goal": "Raggiungi con precisione i salti di ottava, senza tensione.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "tech2-014": {
+      "title": "Punto di verifica di Tecnica livello 2",
+      "summary": "Melodia in Sol maggiore che combina scale, salti e crome.",
+      "goal": "Applica le tecniche del livello 2 in un passaggio scorrevole in Sol maggiore.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "tech2-015": {
+      "title": "Finale di Tecnica livello 2",
+      "summary": "Passaggio completo in Sol maggiore, con discesa e cadenza.",
+      "goal": "Dimostra scioltezza lungo tutta l'estensione della scala di Sol maggiore.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    }
+  },
+  "title": "Tecnica livello 2",
+  "summary": "Scale di Sol maggiore e La minore, figure per le dita in stile Hanon, triadi spezzate e cambi di posizione, a partire dalla tecnica del livello 1."
+}

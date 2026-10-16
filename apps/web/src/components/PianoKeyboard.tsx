@@ -1,6 +1,7 @@
 import { useTranslation } from "react-i18next";
 import { formatNote, formatNoteName } from "../i18n/formatNote";
 import { resolveLanguage } from "../i18n/messages";
+import type { Language } from "../i18n/language";
 
 /**
  * A visual piano keyboard spanning C2–B5.
@@ -62,7 +63,7 @@ function buildKeys() {
 const { whites, blacks, totalWidth } = buildKeys();
 
 /** Always-visible label: only on C keys */
-function cLabel(midi: number, language: "en" | "it"): string | null {
+function cLabel(midi: number, language: Language): string | null {
   return midi % 12 === 0 ? formatNote(midi, language) : null;
 }
 

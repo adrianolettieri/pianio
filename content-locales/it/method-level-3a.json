@@ -1,0 +1,167 @@
+{
+  "courseId": "method-level-3a",
+  "exercises": {
+    "m3a-001": {
+      "title": "Figura di cinque note in Do maggiore (MD)",
+      "summary": "Figura di cinque note ascendente e discendente per la mano destra in Do maggiore.",
+      "goal": "Suona con scioltezza nella posizione di Do maggiore, con semiminime e crome.",
+      "license": {
+        "notes": "Esercizio originale"
+      }
+    },
+    "m3a-002": {
+      "title": "Figura di cinque note in Do maggiore (MS)",
+      "summary": "Figura di cinque note ascendente e discendente per la mano sinistra in Do maggiore.",
+      "goal": "Sviluppa l'indipendenza delle dita della mano sinistra tra Do3 e Sol3.",
+      "license": {
+        "notes": "Esercizio originale"
+      }
+    },
+    "m3a-003": {
+      "title": "Melodia in Do maggiore (MD)",
+      "summary": "Melodia semplice in Do maggiore, con gradi congiunti e salti.",
+      "goal": "Leggi e suona una linea melodica in Do maggiore con durate diverse.",
+      "license": {
+        "notes": "Esercizio originale"
+      }
+    },
+    "m3a-004": {
+      "title": "Melodia al basso in Do maggiore (MS)",
+      "summary": "Breve linea melodica al basso in Do maggiore.",
+      "goal": "Leggi una melodia cantabile in Do maggiore in chiave di basso.",
+      "license": {
+        "notes": "Esercizio originale"
+      }
+    },
+    "m3a-005": {
+      "title": "Figura di cinque note in Sol maggiore (MD)",
+      "summary": "Figura di cinque note per la mano destra in Sol maggiore, con un diesis in armatura.",
+      "goal": "Leggi l'armatura di Sol maggiore e suona la figura di cinque note da Sol4 a Re5.",
+      "license": {
+        "notes": "Esercizio originale"
+      }
+    },
+    "m3a-006": {
+      "title": "Figura al basso in Sol maggiore (MS)",
+      "summary": "Figura di cinque note per la mano sinistra in Sol maggiore, da Sol3 a Re4.",
+      "goal": "Leggi l'armatura di Sol maggiore in chiave di basso e suona da Sol3 a Re4.",
+      "license": {
+        "notes": "Esercizio originale"
+      }
+    },
+    "m3a-007": {
+      "title": "Frammento di scala in Sol maggiore (MD)",
+      "summary": "Scala di Sol maggiore di un'ottava, ascendente e discendente, con Fa diesis.",
+      "goal": "Suona la scala completa di Sol maggiore da Sol4 a Sol5, riconoscendo il Fa diesis della tonalità.",
+      "license": {
+        "notes": "Esercizio originale"
+      }
+    },
+    "m3a-008": {
+      "title": "Scala al basso in Sol maggiore (MS)",
+      "summary": "Scala di Sol maggiore di un'ottava in chiave di basso, da Sol2 a Sol3, con Fa diesis.",
+      "goal": "Suona la scala di Sol maggiore in chiave di basso, rispettando il Fa diesis.",
+      "license": {
+        "notes": "Esercizio originale"
+      }
+    },
+    "m3a-009": {
+      "title": "Figura di cinque note in Fa maggiore (MD)",
+      "summary": "Figura di cinque note per la mano destra in Fa maggiore, con un bemolle in armatura e Si bemolle esplicito.",
+      "goal": "Leggi l'armatura di Fa maggiore e suona da Fa4 a Do5, rispettando il Si bemolle.",
+      "license": {
+        "notes": "Esercizio originale"
+      }
+    },
+    "m3a-010": {
+      "title": "Figura al basso in Fa maggiore (MS)",
+      "summary": "Figura di cinque note per la mano sinistra in Fa maggiore, da Fa3 a Do4.",
+      "goal": "Leggi l'armatura di Fa maggiore in chiave di basso e suona da Fa3 a Do4 con Si bemolle.",
+      "license": {
+        "notes": "Esercizio originale"
+      }
+    },
+    "m3a-011": {
+      "title": "Lavender's Blue",
+      "summary": "Canto popolare inglese tradizionale in Fa maggiore, in 3/4.",
+      "goal": "Suona una melodia popolare riconoscibile in Fa maggiore, rispettando il Si bemolle dell'armatura.",
+      "license": {
+        "notes": "Pubblico dominio. Arrangiamento CC0."
+      }
+    },
+    "m3a-012": {
+      "title": "Skip to My Lou",
+      "summary": "Canto popolare americano di danza e gioco in Fa maggiore, in 2/4.",
+      "goal": "Suona una danza vivace in Fa maggiore, con agili figure in crome.",
+      "license": {
+        "notes": "Pubblico dominio. Arrangiamento CC0."
+      }
+    },
+    "m3a-013": {
+      "title": "Scala di La minore armonica (MD)",
+      "summary": "Scala di La minore armonica di un'ottava, ascendente e discendente, con Sol diesis.",
+      "goal": "Suona La minore armonica da La3 a La4, rendendo il Sol diesis come sensibile innalzata.",
+      "license": {
+        "notes": "Esercizio originale"
+      }
+    },
+    "m3a-014": {
+      "title": "Scala di La minore armonica (MS)",
+      "summary": "Scala di La minore armonica di un'ottava in chiave di basso, con Sol diesis.",
+      "goal": "Suona La minore armonica da La2 a La3, rendendo il Sol diesis come sensibile innalzata.",
+      "license": {
+        "notes": "Esercizio originale"
+      }
+    },
+    "m3a-015": {
+      "title": "Mary Had a Little Lamb",
+      "summary": "Noto canto per bambini in Do maggiore, con semplici semiminime e minime.",
+      "goal": "Suona una melodia riconoscibile in Do maggiore, con ritmo regolare e fraseggio chiaro.",
+      "license": {
+        "notes": "Pubblico dominio. Arrangiamento CC0."
+      }
+    },
+    "m3a-016": {
+      "title": "Triadi di Do maggiore — I, IV, V",
+      "summary": "Primo esercizio sugli accordi: triadi di Do, Fa e Sol maggiore suonate simultaneamente.",
+      "goal": "Premi contemporaneamente le tre note di ogni triade e rilasciale in modo netto.",
+      "license": {
+        "notes": "Esercizio originale"
+      }
+    },
+    "m3a-017": {
+      "title": "Accordi spezzati in Do",
+      "summary": "Arpeggia le triadi di I, IV e V grado in figure scorrevoli di crome.",
+      "goal": "Suona con fluidità gli accordi spezzati, ascoltando il colore di ogni triade.",
+      "license": {
+        "notes": "Esercizio originale"
+      }
+    },
+    "m3a-018": {
+      "title": "Brilla, brilla, la stellina (con accordi)",
+      "summary": "Melodia classica in Do maggiore, con triadi di I/IV/V grado alla sinistra: il primo esercizio con accordi a mani unite.",
+      "goal": "Suona la melodia nota con la destra mentre la sinistra sostiene le triadi simultanee.",
+      "license": {
+        "notes": "Pubblico dominio. Arrangiamento CC0."
+      }
+    },
+    "m3a-019": {
+      "title": "Progressione armonica I–IV–V",
+      "summary": "La destra suona triadi spezzate mentre la sinistra tiene accordi simultanei in semibrevi nella progressione I–IV–V–I.",
+      "goal": "Coordina gli arpeggi della destra con le triadi simultanee della sinistra lungo un'intera progressione armonica.",
+      "license": {
+        "notes": "Esercizio originale"
+      }
+    },
+    "m3a-020": {
+      "title": "Riepilogo dei fondamenti del livello 3A",
+      "summary": "Brano conclusivo con tutte le abilità del livello 3A: armature, melodia, accordi simultanei e coordinazione delle mani.",
+      "goal": "Esegui un brano completo che unisce melodia e crome della destra all'accompagnamento in triadi della sinistra.",
+      "license": {
+        "notes": "Esercizio originale"
+      }
+    }
+  },
+  "title": "Metodo livello 3A — Fondamenti delle armature",
+  "summary": "Lettura delle armature, triadi di I/IV/V grado e canti popolari. Do maggiore, Sol maggiore con un diesis, Fa maggiore con un bemolle e La minore armonica: posizioni di cinque note, scale, accordi simultanei e spezzati e arrangiamenti di brani di pubblico dominio."
+}

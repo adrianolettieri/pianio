@@ -15,3 +15,5 @@ export const resources = {
 } as const;
 
 export type Language = keyof typeof resources;
+
+export const languageLabels: Record<Language, string> = { en: "English", it: "Italiano" };

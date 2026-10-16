@@ -1,6 +1,50 @@
+# Stato corrente — completamento italiano, 16 ottobre 2026
+
+**Implementazione EN/IT completata; validazione della consegna B ancora parziale.**
+Tutti i contenuti obbligatori sono tradotti: **6.069/6.069 campi**, 80 corsi e
+1.557 esercizi, zero ripieghi o revisioni mancanti/pendenti/obsolete per i corsi.
+Revisione testuale Codex e uno spartito esaminato visivamente per ognuno degli
+80 corsi; nessuna revisione umana dichiarata. Le 5.427 lacune precedenti sono
+state colmate, inclusi i due chiarimenti di 2A. Sorgenti musicali e traduzioni
+italiane preesistenti conservati senza cambiare valori.
+
+Matrice sui contenuti completi: `check:i18n`, `check:i18n:full`, UI **56/56**,
+contenuti **11/11**, typecheck, MIDI **7/7**, motore **4/4** e build superati.
+Il normale build ora esegue `check:i18n:full` prima di generare. In una copia
+isolata, togliendo `t6e-020.goal`, fallisce prima della generazione per campo
+mancante e revisione obsoleta; il file originale conserva lo stesso SHA-256.
+
+La fase 7 comprende correzioni per storage negato, contrasto del selettore scuro,
+import/export su profilo vuoto, plurali e punti di estensione delle lingue.
+README, [guida nuove lingue](ADDING-A-LANGUAGE.md), [registro editoriale](I18N-CONTENT-REVIEW.md)
+e [rapporto finale con prove e limiti](I18N-VALIDATION-REPORT.md) aggiornati.
+
+Preview statica: 3 cataloghi, 4.671 MusicXML e 1.557 confronti EN/legacy identici,
+ripetuti sui contenuti completi. Nel browser sono stati verificati desktop/mobile,
+chiaro/scuro, selettore, nomi note, zoom, tastiera, diagnostica e anteprima. La
+nuova istruzione italiana più lunga è raggiungibile interamente a 390 px senza
+allargare la pagina. Prestazioni rimisurate contro df5526d con ambiente identico:
+mediane generazione 1,0683 s contro 0,4705 s; build 5,0057 s contro 3,3187 s.
+
+Restano aperti conteggio/esecuzione/risultati reali, continuità con connessione
+MIDI fisica e reset IT manuale. **Prova hardware non eseguita**; non è disponibile
+una tastiera verificata tramite gli strumenti di questa sessione. I corrispondenti
+test con mock passano. Fixture v1 dichiaratamente sintetica, derivata dal contratto
+originale, verificata con completamenti, stelle e date EN/IT nei test; import IT,
+riepilogo EN/IT, ripresa e reset EN riusciti nella prima prova browser. Due
+successivi tentativi del file chooser hanno fallito, quindi non si dichiara riuscito
+il reset IT manuale. Non è stato trovato un export storico reale dell'utente.
+
+Backup browser vuoto verificato nuovamente prima dell'ultimo tentativo; nessun
+dato reale cancellato. Tema riportato a chiaro e lingua IT conservata. Preview arrestata e viewport ripristinato. Nessun
+commit, push, PR o deploy. Le sezioni seguenti conservano la cronologia, compresi
+fallimenti e lacune storiche, e non sostituiscono questo esito corrente.
+
+---
+
 # Stato implementazione multilingua
 
-Aggiornato il 15 ottobre 2026. Base di lavoro verificata: `37aef6c52825aaceadd8620dc6d97621c9e9aef8` (`37aef6c`, branch `feature/add_i18n_support`). Il checkout era pulito prima della fase 2. Nessun commit, push, PR o deploy. Le fasi 1–2, 4 e 5 sono completate; la fase 6 è in corso; le riserve storiche delle fasi 0/3 rimangono esplicite. Consegna A funzionalmente pronta per revisione locale con i limiti riportati nel rapporto corrente della fase 5. Le sezioni di baseline sotto conservano gli esiti storici; la verifica corrente della fase 5 e la successiva correzione della suite motore sono in fondo al documento.
+Aggiornato il 15 ottobre 2026. Base di lavoro verificata: `37aef6c52825aaceadd8620dc6d97621c9e9aef8` (`37aef6c`, branch `feature/add_i18n_support`). Il checkout era pulito prima della fase 2. Nessun commit, push, PR o deploy. Le fasi 1–2, 4 e 5 sono completate; la fase 6 è ora completata (vedi stato corrente); le riserve storiche delle fasi 0/3 rimangono esplicite. Consegna A funzionalmente pronta per revisione locale con i limiti riportati nel rapporto corrente della fase 5. Le sezioni di baseline sotto conservano gli esiti storici; la verifica corrente della fase 5 e la successiva correzione della suite motore sono in fondo al documento.
 
 ## Baseline e ambiente
 
@@ -89,11 +133,11 @@ Stati: **completata** = risultato verificabile disponibile; **parziale** = parte
 | 0. Baseline e inventario | **Parziale** | Inventario stringhe e superfici in `I18N-INVENTORY.md`; glossario in `I18N-GLOSSARY-IT.md`; stato iniziale e misure. Il piano di riferimento è ora presente anche nel checkout. | Conteggi JSON/ID, filtro, generatore e ora build/typecheck di fase 1 verificati. | Resta da documentare install frozen e chiusura completa della baseline. Compatibilità Node/pnpm e comando core-engine ora verificati, 4/4 test. |
 | 1. Fondazione | **Completata** | Registro condiviso `localization.config.json`; i18next/react-i18next e risorse EN/IT nei cinque namespace; selezione/persistenza lingua sicure; init prima del render, sincronizzazione `lang`/titolo/descrizione; checker e test UI. Solo metadati e fondazione, nessuna migrazione UI o progressi. | `check:i18n`, `test:ui` (9/9), `typecheck`, `build` superati. Chiavi inesistenti rilevate dal typecheck. | Nessuna nella fase 1. Il selettore e le migrazioni UI appartengono alle fasi successive. |
 | 2. Messaggi strutturati e note | **Completata** | Codici MIDI, unione discriminata import, adattatori per MIDI/catalogo/spartito, descrittori UI renderizzati al cambio lingua e formatter C/Do. Campi inglesi transitori mantenuti. | Tutti i cinque comandi in “Verifica fase 2”; compatibilità export v1 verificata con fixture. | Migrare in fase 3 i chiamanti legacy annotati nell'inventario e ampliare le traduzioni UI. |
-| 3. Traduzione dell'interfaccia | **Parziale** | Aggiunte risorse UI EN/IT; migrati navigazione attiva, viste di catalogo/corso/progressi, controlli e risultati di pratica, diagnostica, tastiera e spartito. Rimosso `ProgressImportResult.message`; timestamp diagnostici formattati con locale corrente. Mappature esplicite per mani/chiavi, categorie e provenienza. | Checker dizionari, typecheck diretto, 21 test UI (inclusi cambio lingua con notifica visibile e conteggi 0/1/plurale), 7 test MIDI e build eseguiti con binari locali. Ricerca statica dei componenti attivi: nessun copy inglese residuo oltre a marchi, sigle e termini musicali. Revisione visiva non eseguita: Vite riceve `listen EPERM` dal sandbox. `pnpm` resta bloccato senza output anche su `--version`; usati i binari locali equivalenti. | Provare visivamente entrambe le lingue quando la porta locale è disponibile; completare la mappa della politica delle fonti se la UI inizierà a mostrarla. Non avviare la fase 4. |
+| 3. Traduzione dell’interfaccia | **Completata per le viste attive** | Navigazione, catalogo, corso, progressi, pratica, diagnostica, tastiera e spartito usano risorse EN/IT. | Checker, typecheck, test e campioni desktop/mobile in fase 7; plurali corretti. | Esecuzione/risultati con hardware reale nella fase 7; API legacy non attive mantenute per compatibilità. |
 | 4. Pipeline dei contenuti | **Completata** | Schema parziale/locale compatibile, validazione runtime JSON rigorosa, moduli importabili, cataloghi/score EN/IT e legacy, copertura per campo e registro SHA-256. Solo `method-level-1a`: 20 esercizi, 82/82 campi revisionati. | 11 test contenuti; checker ordinario, 21 test UI, 7 test MIDI, typecheck e build superati; ispezione OSMD di due spartiti. Full fallito atteso (79 corsi). Problemi motore preesistenti confermati. | Traduzioni restanti in fase 6; overflow degli obiettivi su vista stretta da considerare nel viewer fasi 5/7. React/selector non modificati. |
 | 5. Cambio lingua completo | **Completata** | Loader validato/cache/deduplicazione, coordinatore UI/contenuti, selettore, differimento audio, riferimenti musicali canonici e viewer con ripristino/ripiego. | 48 test UI, 11 contenuti, 7 MIDI; checker, typecheck e build superati; browser desktop/mobile. | Prova MIDI fisica ancora da eseguire. Suite motore successivamente corretta e superata (4/4). |
-| 6. Traduzione di tutti i contenuti | **In corso** | Registro persistente in `I18N-CONTENT-REVIEW.md`; pilota 1A corrente; tradotti e revisionati gli aggregati `method-level-1`, `method-level-2` e i sottolivelli `method-level-1b`–`1e`; `method-level-2a` è tradotto 80/82 con revisione pendente. | Conteggi effettivi: 80 corsi, 1.557 esercizi, 6.069 campi; 642 campi tradotti, 7 corsi completi, un parziale, nessuna impronta obsoleta. Checker ordinario, test contenuti 11/11 e generazione superati; parità ID/ordine/dati musicali coperta dai test. Esaminato visivamente uno spartito per ciascuno dei sette corsi nuovi con OSMD. Due conflitti sorgente in 2A: “four-line position” contro cinque altezze (m2a-009); tre posizioni dichiarate contro partitura nella sola posizione di Re (m2a-020). Titolo/obiettivo tagliati a viewport stretto per aggregato 1 e 1B: problema fase 7. | Restano 73 corsi non tradotti, 1 corso parziale e 5.427 campi in fallback. Primo campo da chiarire: `m2a-009.goal`, poi `m2a-020.summary`; in seguito proseguire da `method-level-2b`. I comandi pnpm restano bloccati senza output. |
-| 7. Verifica finale e documentazione | **Da fare** | Nessuna. | Nessuna. | Revisione UI completa, prove manuali/hardware se disponibile, documentazione e chiusura della matrice di verifica. |
+| 6. Traduzione di tutti i contenuti | **Completata** | 6.069/6.069 campi IT, 80/80 corsi con revisione testuale Codex corrente; due conflitti 2A chiariti senza cambiare musica. | Checker full, contenuti 11/11, parità musicale/identità, generazione/build; campione OSMD con obiettivo più lungo per tutti gli 80 corsi. | Nessuna traduzione mancante. Nessuna revisione umana ricevuta; prove hardware nella fase 7. |
+| 7. Verifica finale e documentazione | **Implementazione completata, validazione parziale** | Correzioni, documentazione e gate full nel build. | Tutti gli otto comandi passano; build negativo editoriale, confronto prestazionale, preview HTTP e campioni browser documentati. | Consegna B da validare integralmente: hardware MIDI, flussi reali di esecuzione/risultati e reset IT manuale. |
 
 Per l'ordine e la nomenclatura operativa fare riferimento a `PIANO-IMPLEMENTAZIONE-MULTILINGUA.md`.
 

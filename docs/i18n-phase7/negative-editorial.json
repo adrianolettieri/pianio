@@ -1,0 +1,9 @@
+{
+  "command": "pnpm build",
+  "fixture": "/private/tmp/pianio-phase7-missing-editorial",
+  "removed": "it/technique-level-6e/exercises.t6e-020.goal",
+  "exitCode": 1,
+  "originalSha256": "004564714fd9992c87fbf5e760aec07ff22226615dc6ded8bcc1ed5e249d3ece",
+  "originalUnchanged": true,
+  "generatedOutputCreated": false
+}

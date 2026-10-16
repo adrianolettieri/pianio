@@ -1,0 +1,127 @@
+{
+  "courseId": "songs-holiday",
+  "exercises": {
+    "songs-h-001": {
+      "title": "Jingle Bells",
+      "summary": "Il classico di James Pierpont del 1857 in Do maggiore, con ritornello e strofa.",
+      "goal": "Suona il celebre ritornello con energia luminosa e gioiosa.",
+      "license": {
+        "notes": "Melodia di pubblico dominio, arrangiamento originale."
+      }
+    },
+    "songs-h-002": {
+      "title": "Astro del ciel",
+      "summary": "Il dolce canto di Franz Gruber del 1818, in Do maggiore con pedale.",
+      "goal": "Usa un suono delicato e sostenuto dal pedale.",
+      "license": {
+        "notes": "Melodia di pubblico dominio, arrangiamento originale."
+      }
+    },
+    "songs-h-003": {
+      "title": "Gioia al mondo",
+      "summary": "L'inno di Lowell Mason del 1848 in Do maggiore, con scala discendente.",
+      "goal": "Dai un carattere trionfale alla scala iniziale con un solido sostegno del basso.",
+      "license": {
+        "notes": "Melodia di pubblico dominio, arrangiamento originale."
+      }
+    },
+    "songs-h-004": {
+      "title": "O albero di Natale",
+      "summary": "Un canto tradizionale tedesco in Fa maggiore, con andamento di valzer.",
+      "goal": "Suona con un delicato accompagnamento di valzer.",
+      "license": {
+        "notes": "Melodia di pubblico dominio, arrangiamento originale."
+      }
+    },
+    "songs-h-005": {
+      "title": "We Wish You a Merry Christmas",
+      "summary": "Un canto tradizionale inglese in Sol maggiore, da studiare con articolazione staccata.",
+      "goal": "Dai un carattere festoso ed elastico allo staccato.",
+      "license": {
+        "notes": "Melodia di pubblico dominio, arrangiamento originale."
+      }
+    },
+    "songs-h-006": {
+      "title": "Deck the Halls",
+      "summary": "Un canto tradizionale gallese in Fa maggiore, con passaggi in crome.",
+      "goal": "Suona nitide le crome dei passaggi del ritornello.",
+      "license": {
+        "notes": "Melodia di pubblico dominio, arrangiamento originale."
+      }
+    },
+    "songs-h-007": {
+      "title": "The First Noel",
+      "summary": "Un canto tradizionale inglese in Re maggiore, con dolce andamento in 3/4.",
+      "goal": "Usa un suono sostenuto e cantabile.",
+      "license": {
+        "notes": "Melodia di pubblico dominio, arrangiamento originale."
+      }
+    },
+    "songs-h-008": {
+      "title": "Adeste fideles",
+      "summary": "L'inno di John F. Wade del 1751 in Sol maggiore, con pedale.",
+      "goal": "Suona con un tono maestoso, sicuro e sostenuto.",
+      "license": {
+        "notes": "Melodia di pubblico dominio, arrangiamento originale."
+      }
+    },
+    "songs-h-009": {
+      "title": "Hark! The Herald Angels Sing",
+      "summary": "Una melodia di Mendelssohn del 1840 in Fa maggiore.",
+      "goal": "Dai un carattere gioioso all'inno con dinamiche forti e sicure.",
+      "license": {
+        "notes": "Melodia di pubblico dominio, arrangiamento originale."
+      }
+    },
+    "songs-h-010": {
+      "title": "God Rest Ye Merry Gentlemen",
+      "summary": "Un canto tradizionale inglese in Re minore, con alterazioni.",
+      "goal": "Esprimi il caratteristico colore modale del canto in tonalità minore.",
+      "license": {
+        "notes": "Melodia di pubblico dominio, arrangiamento originale."
+      }
+    },
+    "songs-h-011": {
+      "title": "O Holy Night",
+      "summary": "Il capolavoro di Adolphe Adam del 1847 in Do maggiore, con ampia escursione dinamica.",
+      "goal": "Usa il pedale e modella l'espressione dal pianissimo al fortissimo.",
+      "license": {
+        "notes": "Melodia di pubblico dominio, arrangiamento originale."
+      }
+    },
+    "songs-h-012": {
+      "title": "What Child Is This",
+      "summary": "La melodia di Greensleeves con testo natalizio del 1865, in La minore.",
+      "goal": "Mantieni dolce il movimento in 3/4.",
+      "license": {
+        "notes": "Melodia di pubblico dominio, arrangiamento originale."
+      }
+    },
+    "songs-h-013": {
+      "title": "Gli angeli nelle campagne",
+      "summary": "Un canto tradizionale francese in Fa maggiore, con una sezione del Gloria scorrevole.",
+      "goal": "Collega con fluidità le crome del melisma del Gloria.",
+      "license": {
+        "notes": "Melodia di pubblico dominio, arrangiamento originale."
+      }
+    },
+    "songs-h-014": {
+      "title": "Away in a Manger",
+      "summary": "Il delicato canto di William Kirkpatrick del 1895 in Fa maggiore.",
+      "goal": "Suona con il tocco morbido e delicato di una ninna nanna.",
+      "license": {
+        "notes": "Melodia di pubblico dominio, arrangiamento originale."
+      }
+    },
+    "songs-h-015": {
+      "title": "Noi siamo i tre re",
+      "summary": "Il canto di John H. Hopkins del 1857 in Mi minore, in 3/4.",
+      "goal": "Esprimi il carattere distintivo della tonalità minore.",
+      "license": {
+        "notes": "Melodia di pubblico dominio, arrangiamento originale."
+      }
+    }
+  },
+  "title": "Brani natalizi e delle feste",
+  "summary": "Quindici canti natalizi e delle feste di pubblico dominio, da Jingle Bells a O Holy Night, arrangiati per pianoforte con dinamiche e carattere festoso."
+}

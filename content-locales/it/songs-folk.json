@@ -1,0 +1,127 @@
+{
+  "courseId": "songs-folk",
+  "exercises": {
+    "songs-f-001": {
+      "title": "Oh! Susanna",
+      "summary": "Il classico canto popolare americano di Stephen Foster del 1848, in Do maggiore.",
+      "goal": "Suona la melodia allegra con un semplice accompagnamento della sinistra.",
+      "license": {
+        "notes": "Melodia di pubblico dominio, arrangiamento originale."
+      }
+    },
+    "songs-f-002": {
+      "title": "Home on the Range",
+      "summary": "Un classico canto popolare americano del 1873, in Sol maggiore con accompagnamento di valzer.",
+      "goal": "Suona la dolce melodia sopra il basso in stile valzer.",
+      "license": {
+        "notes": "Melodia di pubblico dominio, arrangiamento originale."
+      }
+    },
+    "songs-f-003": {
+      "title": "Buffalo Gals",
+      "summary": "Una canzone americana del 1844, proveniente dalla tradizione dei minstrel show, in Do maggiore.",
+      "goal": "Suona la melodia con vivacità e ritmo preciso.",
+      "license": {
+        "notes": "Melodia di pubblico dominio, arrangiamento originale."
+      }
+    },
+    "songs-f-004": {
+      "title": "She'll Be Coming Round the Mountain",
+      "summary": "Una canzone popolare americana in Sol maggiore.",
+      "goal": "Suona questa melodia energica a mani unite.",
+      "license": {
+        "notes": "Melodia di pubblico dominio, arrangiamento originale."
+      }
+    },
+    "songs-f-005": {
+      "title": "Clementine",
+      "summary": "La classica ballata popolare di Percy Montrose del 1884, in Fa maggiore con andamento di valzer.",
+      "goal": "Suona con un accompagnamento di valzer delicato e dinamiche curate.",
+      "license": {
+        "notes": "Melodia di pubblico dominio, arrangiamento originale."
+      }
+    },
+    "songs-f-006": {
+      "title": "Shenandoah",
+      "summary": "Una melodia popolare americana in Fa maggiore, con pedale espressivo.",
+      "goal": "Usa un suono sostenuto ed espressivo con il pedale.",
+      "license": {
+        "notes": "Melodia di pubblico dominio, arrangiamento originale."
+      }
+    },
+    "songs-f-007": {
+      "title": "Down by the Riverside",
+      "summary": "Uno spiritual tradizionale in Sol maggiore con carattere swing.",
+      "goal": "Mantieni energico il ritmo swing.",
+      "license": {
+        "notes": "Melodia di pubblico dominio, arrangiamento originale."
+      }
+    },
+    "songs-f-008": {
+      "title": "Blow the Man Down",
+      "summary": "Un canto tradizionale marinaresco in Do maggiore, con ritmo di valzer.",
+      "goal": "Dai slancio al canto mantenendo deciso il ritmo di valzer.",
+      "license": {
+        "notes": "Melodia di pubblico dominio, arrangiamento originale."
+      }
+    },
+    "songs-f-009": {
+      "title": "Banks of the Ohio",
+      "summary": "Una ballata popolare americana in Sol maggiore.",
+      "goal": "Suona la melodia lirica sopra il basso della sinistra.",
+      "license": {
+        "notes": "Melodia di pubblico dominio, arrangiamento originale."
+      }
+    },
+    "songs-f-010": {
+      "title": "The Water Is Wide",
+      "summary": "Una melodia tradizionale britannica in Do maggiore, con pedale.",
+      "goal": "Usa un suono sostenuto e cantabile con un pedale delicato.",
+      "license": {
+        "notes": "Melodia di pubblico dominio, arrangiamento originale."
+      }
+    },
+    "songs-f-011": {
+      "title": "Simple Gifts",
+      "summary": "L'inno degli Shaker di Joseph Brackett del 1848, in Fa maggiore.",
+      "goal": "Suona la melodia con grazia e il sostegno della sinistra.",
+      "license": {
+        "notes": "Melodia di pubblico dominio, arrangiamento originale."
+      }
+    },
+    "songs-f-012": {
+      "title": "Turkey in the Straw",
+      "summary": "Una vivace melodia americana della tradizione violinistica in Sol maggiore.",
+      "goal": "Suona con energia e crome nitide.",
+      "license": {
+        "notes": "Melodia di pubblico dominio, arrangiamento originale."
+      }
+    },
+    "songs-f-013": {
+      "title": "Swing Low, Sweet Chariot",
+      "summary": "Uno spiritual tradizionale in Fa maggiore, con dinamiche espressive.",
+      "goal": "Usa un suono caldo e cantabile modellando le dinamiche.",
+      "license": {
+        "notes": "Melodia di pubblico dominio, arrangiamento originale."
+      }
+    },
+    "songs-f-014": {
+      "title": "I've Been Working on the Railroad",
+      "summary": "Un classico canto popolare americano in Sol maggiore, articolato in più sezioni.",
+      "goal": "Dai energia e varietà alle diverse sezioni del brano.",
+      "license": {
+        "notes": "Melodia di pubblico dominio, arrangiamento originale."
+      }
+    },
+    "songs-f-015": {
+      "title": "Greensleeves",
+      "summary": "Una melodia popolare inglese del XVI secolo in La minore, in 3/4.",
+      "goal": "Esprimi il carattere della tonalità minore e rispetta le alterazioni.",
+      "license": {
+        "notes": "Melodia di pubblico dominio, arrangiamento originale."
+      }
+    }
+  },
+  "title": "Brani popolari",
+  "summary": "Quindici canzoni popolari di pubblico dominio da diverse tradizioni, da Oh! Susanna a Simple Gifts, arrangiate per pianoforte con dinamiche e indicazioni espressive."
+}

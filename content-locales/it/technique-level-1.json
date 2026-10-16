@@ -1,0 +1,167 @@
+{
+  "courseId": "technique-level-1",
+  "exercises": {
+    "technique-001": {
+      "title": "Salita in Do maggiore (MD)",
+      "summary": "Scala ascendente di Do maggiore di un'ottava nella mano destra.",
+      "goal": "Suona una scala ascendente regolare, con dita rilassate.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "technique-002": {
+      "title": "Discesa in Do maggiore (MD)",
+      "summary": "Scala discendente di Do maggiore di un'ottava nella mano destra.",
+      "goal": "Suona una scala discendente regolare, con cambi di dito chiari.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "technique-003": {
+      "title": "Salita in Do maggiore (MS)",
+      "summary": "Scala ascendente di Do maggiore di un'ottava nella mano sinistra.",
+      "goal": "Mantieni regolare e rilassata la sinistra in chiave di basso.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "technique-004": {
+      "title": "Discesa in Do maggiore (MS)",
+      "summary": "Scala discendente di Do maggiore di un'ottava nella mano sinistra.",
+      "goal": "Mantieni un suono bilanciato mentre scendi con la sinistra.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "technique-005": {
+      "title": "Slancio di cinque dita (MD)",
+      "summary": "Figura di cinque note della destra, in salita e ritorno.",
+      "goal": "Mantieni le dita curve e il suono regolare nella posizione di cinque note.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "technique-006": {
+      "title": "Slancio di cinque dita (MS)",
+      "summary": "Figura di cinque note della sinistra, in salita e ritorno.",
+      "goal": "Mantieni stabile la sinistra nella posizione di cinque note.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "technique-007": {
+      "title": "Terze spezzate (MD)",
+      "summary": "Terze alternate nella mano destra.",
+      "goal": "Passa nitidamente tra figure ripetute di terze spezzate.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "technique-008": {
+      "title": "Terze spezzate (MS)",
+      "summary": "Terze alternate nella mano sinistra.",
+      "goal": "Muovi fluidamente la sinistra attraverso le figure di terza.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "technique-009": {
+      "title": "Triade spezzata di Do (MD)",
+      "summary": "Triade di Do maggiore spezzata nella mano destra.",
+      "goal": "Suona una triade spezzata con una posizione stabile.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "technique-010": {
+      "title": "Triade spezzata di Do (MS)",
+      "summary": "Triade di Do maggiore spezzata nella mano sinistra.",
+      "goal": "Mantieni una sensazione di arpeggio regolare nella sinistra.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "technique-011": {
+      "title": "Ripetizioni con il secondo dito (MD)",
+      "summary": "Note ripetute controllate nella mano destra.",
+      "goal": "Ripeti lo stesso tasto con regolarità e senza tensione.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "technique-012": {
+      "title": "Ripetizioni con il secondo dito (MS)",
+      "summary": "Note ripetute controllate nella mano sinistra.",
+      "goal": "Ripeti con regolarità nella sinistra senza far cedere il dito.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "technique-013": {
+      "title": "Espansione e ritorno (MD)",
+      "summary": "Brevi movimenti verso l'esterno e l'interno nella stessa posizione.",
+      "goal": "Senti piccole espansioni e contrazioni con regolarità.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "technique-014": {
+      "title": "Espansione e ritorno (MS)",
+      "summary": "Brevi movimenti verso l'esterno e l'interno nella sinistra.",
+      "goal": "Controlla piccole espansioni e ritorni della sinistra.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "technique-015": {
+      "title": "Punto di verifica della tecnica",
+      "summary": "Breve ripasso di scale, figure e movimenti di triade.",
+      "goal": "Passa tra le figure tecniche comuni con ritmo regolare.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "technique-016": {
+      "title": "Salita in Sol maggiore (MD)",
+      "summary": "Scala ascendente di Sol maggiore di un'ottava nella destra.",
+      "goal": "Suona una scala di Sol maggiore regolare, rispettando il Fa diesis.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "technique-017": {
+      "title": "Discesa in Sol maggiore (MD)",
+      "summary": "Scala discendente di Sol maggiore di un'ottava nella destra.",
+      "goal": "Scendi nella scala di Sol maggiore con un peso delle dita uniforme.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "technique-018": {
+      "title": "Cambio di posizione (MD)",
+      "summary": "Passaggio dalla posizione di Do a quella di Sol senza interruzioni.",
+      "goal": "Cambia posizione nitidamente in corrispondenza della stanghetta.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "technique-019": {
+      "title": "Tocco staccato (MD)",
+      "summary": "Tocchi brevi e separati su figure di note ripetute.",
+      "goal": "Suona semiminime staccate con un movimento di sollevamento del polso.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "technique-020": {
+      "title": "Finale di tecnica",
+      "summary": "Ripasso tecnico completo di scale, figure e cambi di posizione.",
+      "goal": "Collega nitidamente le figure tecniche dall'inizio alla fine.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    }
+  },
+  "title": "Tecnica livello 1",
+  "summary": "Esercizi fondamentali originali per le dita, il controllo delle posizioni e la scioltezza nelle scale."
+}

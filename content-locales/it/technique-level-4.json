@@ -1,0 +1,127 @@
+{
+  "courseId": "technique-level-4",
+  "exercises": {
+    "tech4-001": {
+      "title": "Scala di Re maggiore (MD)",
+      "summary": "Scala di Re maggiore su un'ottava alla destra, con Fa diesis e Do diesis.",
+      "goal": "Suona con regolarità e una diteggiatura precisa sulle alterazioni.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "tech4-002": {
+      "title": "Scala di Re maggiore (MS)",
+      "summary": "Scala di Re maggiore su un'ottava alla sinistra, in chiave di basso.",
+      "goal": "Suona con precisione alla sinistra rispettando i diesis.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "tech4-003": {
+      "title": "Re maggiore in moto contrario",
+      "summary": "Le mani percorrono Re maggiore in direzioni opposte.",
+      "goal": "Coordina in modo indipendente le diteggiature sui diesis nel moto contrario.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "tech4-004": {
+      "title": "Frammento di scala cromatica (MD)",
+      "summary": "Un passaggio cromatico da Do4 a Sol4 alla destra.",
+      "goal": "Suona uniformemente ogni semitono tra Do e Sol, senza esitazioni.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "tech4-005": {
+      "title": "Formula Hanon 4 (MD)",
+      "summary": "Quarta formula Hanon, con una figura discendente che alterna salti e gradi congiunti.",
+      "goal": "Sviluppa forza uniforme nel quarto e quinto dito.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "tech4-006": {
+      "title": "Formula Hanon 4 (MS)",
+      "summary": "Quarta formula Hanon alla sinistra, in chiave di basso.",
+      "goal": "Rinforza il quarto e il quinto dito della sinistra.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "tech4-007": {
+      "title": "Arpeggio di Re minore (MD)",
+      "summary": "Arpeggio ascendente e discendente di Re minore alla destra.",
+      "goal": "Mantieni fluidità e un suono uniforme nei diversi registri.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "tech4-008": {
+      "title": "Arpeggio di Sol maggiore (MS)",
+      "summary": "Arpeggio di Sol maggiore alla sinistra, in chiave di basso.",
+      "goal": "Suona gli arpeggi con regolarità alla sinistra.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "tech4-009": {
+      "title": "Preparazione al trillo (MD)",
+      "summary": "Alternanza rapida tra note adiacenti per preparare l'effetto del trillo.",
+      "goal": "Alterna rapidamente le due note con peso e velocità uniformi.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "tech4-010": {
+      "title": "Melodia per terze (MD)",
+      "summary": "Intervalli melodici di terza in un disegno ascendente e discendente.",
+      "goal": "Collega con fluidità le terze in una linea melodica scorrevole.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "tech4-011": {
+      "title": "Studio di velocità in Re maggiore",
+      "summary": "Un passaggio rapido in Re maggiore a 96 BPM per sviluppare la velocità delle dita.",
+      "goal": "Mantieni uniformi le crome veloci, senza tensione.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "tech4-012": {
+      "title": "Salti di ottava e polso libero",
+      "summary": "Salti di ottava per sviluppare estensione e rilassamento del polso.",
+      "goal": "Suona i salti senza tensione, con una caduta rilassata del polso.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "tech4-013": {
+      "title": "Contrasto tra staccato e legato",
+      "summary": "Frasi in Do maggiore alternano staccato e legato per il controllo dell'articolazione.",
+      "goal": "Passa con precisione dal tocco breve dello staccato al legato fluido.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "tech4-014": {
+      "title": "Verifica di Tecnica 4",
+      "summary": "Un passaggio in Re maggiore con figure di scala e arpeggio.",
+      "goal": "Applica le tecniche del livello: tonalità con due diesis e figure arpeggiate.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "tech4-015": {
+      "title": "Finale di Tecnica 4",
+      "summary": "Uno studio completo con scala di Re maggiore, arpeggi, cromatismi e velocità.",
+      "goal": "Dimostra scioltezza nelle tecniche affrontate nel livello 4.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    }
+  },
+  "title": "Tecnica livello 4",
+  "summary": "Scale di Re maggiore e cromatiche, quarta formula Hanon, arpeggi di Re minore e Sol maggiore, preparazione al trillo e moto contrario in Re."
+}

@@ -1,0 +1,80 @@
+
+> pianio@0.1.0 test:content /Users/adriano/Dev/codex/pianio/pianio
+> node --test scripts/test/*.test.mjs
+
+TAP version 13
+# Subtest: strict JSON detects duplicates at every depth, including escaped keys
+ok 1 - strict JSON detects duplicates at every depth, including escaped keys
+  ---
+  duration_ms: 0.698541
+  type: 'test'
+  ...
+# Subtest: complete/partial documents, blanks, required fields and strict field allowlist
+ok 2 - complete/partial documents, blanks, required fields and strict field allowlist
+  ---
+  duration_ms: 1.298708
+  type: 'test'
+  ...
+# Subtest: fallback is per field, empty is not translated, source is never mutated
+ok 3 - fallback is per field, empty is not translated, source is never mutated
+  ---
+  duration_ms: 0.170375
+  type: 'test'
+  ...
+# Subtest: absent contents allowed ordinarily, malformed present files and duplicate source courses rejected
+ok 4 - absent contents allowed ordinarily, malformed present files and duplicate source courses rejected
+  ---
+  duration_ms: 13.835667
+  type: 'test'
+  ...
+# Subtest: review hashes detect source and translation edits and pending batches; never refresh implicitly
+ok 5 - review hashes detect source and translation edits and pending batches; never refresh implicitly
+  ---
+  duration_ms: 4.866916
+  type: 'test'
+  ...
+# Subtest: coverage counts source, translated and fallback fields separately
+ok 6 - coverage counts source, translated and fallback fields separately
+  ---
+  duration_ms: 3.037417
+  type: 'test'
+  ...
+# Subtest: generation isolated in temp dirs; EN/IT identity, order, music, credits and legacy URLs
+ok 7 - generation isolated in temp dirs; EN/IT identity, order, music, credits and legacy URLs
+  ---
+  duration_ms: 27.170167
+  type: 'test'
+  ...
+# Subtest: structural MusicXML baseline preserves chords, two staves, ties, dots, swing data, dynamics and pedal
+ok 8 - structural MusicXML baseline preserves chords, two staves, ties, dots, swing data, dynamics and pedal
+  ---
+  duration_ms: 42.716
+  type: 'test'
+  ...
+# Subtest: real catalog: reviewed lots are complete, every course/exercise retains order and musical fields
+ok 9 - real catalog: reviewed lots are complete, every course/exercise retains order and musical fields
+  ---
+  duration_ms: 190.44325
+  type: 'test'
+  ...
+# Subtest: empty source license notes require no invented translation; legacy source clef is preserved
+ok 10 - empty source license notes require no invented translation; legacy source clef is preserved
+  ---
+  duration_ms: 0.31025
+  type: 'test'
+  ...
+# Subtest: every real legacy English score URL remains readable and byte-identical to localized EN
+ok 11 - every real legacy English score URL remains readable and byte-identical to localized EN
+  ---
+  duration_ms: 15032.814167
+  type: 'test'
+  ...
+1..11
+# tests 11
+# suites 0
+# pass 11
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 15597.468125

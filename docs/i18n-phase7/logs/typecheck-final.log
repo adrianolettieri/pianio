@@ -1,0 +1,8 @@
+
+> pianio@0.1.0 typecheck /Users/adriano/Dev/codex/pianio/pianio
+> pnpm --filter @pianio/web typecheck
+
+
+> @pianio/web@0.1.0 typecheck /Users/adriano/Dev/codex/pianio/pianio/apps/web
+> tsc --noEmit
+

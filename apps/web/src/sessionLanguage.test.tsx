@@ -28,7 +28,7 @@ beforeEach(async () => {
   mock.request.mockClear(); mock.playback.mockClear(); mock.stop.mockClear();
   window.location.hash = "#/courses/method-level-1a/exercises/one";
 });
-afterEach(() => { cleanup(); vi.useRealTimers(); });
+afterEach(() => { cleanup(); vi.useRealTimers(); vi.restoreAllMocks(); });
 function startApp() {
   const loader = createCatalogLoader(vi.fn(async (url: string | URL | Request) => new Response(JSON.stringify(catalogFixture(String(url).includes("/it/") ? "it" : "en")))));
   return render(<LanguageProvider loader={loader} initialLanguage="en"><App /></LanguageProvider>);
@@ -43,6 +43,40 @@ function note(note = 60) {
 }
 const position = () => screen.getByTestId("score").getAttribute("data-position");
 describe("language changes in the actual app with simulated MIDI/audio", () => {
+  it.each([1, 2])("renders %s perfect completions with the Italian singular/plural after switching language", async count => {
+    window.location.hash = "#/progress";
+    const keys = ["method-level-1a/one", "method-level-1a/two"].slice(0, count);
+    localStorage.setItem("pianio:completed", JSON.stringify(keys));
+    localStorage.setItem("pianio:stars", JSON.stringify(Object.fromEntries(keys.map(key => [key, 3]))));
+    startApp();
+    expect(await screen.findByText(`${count} perfect`)).toBeTruthy();
+    await change("it");
+    expect(screen.getByText(`${count} ${count === 1 ? "perfetto" : "perfetti"}`)).toBeTruthy();
+  });
+  it("offers progress import/export on a clean profile in both languages", async () => {
+    window.location.hash = "#/progress";
+    startApp();
+    expect(await screen.findByRole("button", { name: "Import" })).toBeTruthy();
+    expect(screen.getByRole("button", { name: "Export" })).toBeTruthy();
+    await change("it");
+    expect(screen.getByRole("button", { name: "Importa" })).toBeTruthy();
+    expect(screen.getByRole("button", { name: "Esporta" })).toBeTruthy();
+  });
+  it("starts and changes language/theme when storage reads and writes are denied", async () => {
+    vi.spyOn(Storage.prototype, "getItem").mockImplementation(() => { throw new DOMException("Denied", "SecurityError"); });
+    vi.spyOn(Storage.prototype, "setItem").mockImplementation(() => { throw new DOMException("Denied", "SecurityError"); });
+    startApp(); await ready();
+    await change("it");
+    expect(screen.getByRole("button", { name: "Esercitazione" })).toBeTruthy();
+    fireEvent.click(screen.getByRole("button", { name: "Passa al tema scuro" }));
+    expect(document.documentElement.getAttribute("data-theme")).toBe("dark");
+    fireEvent.click(screen.getByRole("button", { name: /Strumenti/ }));
+    fireEvent.click(screen.getByRole("button", { name: "75%" }));
+    await change("en");
+    expect(document.querySelector(".tempo-select-btn.active")?.textContent).toBe("75%");
+    expect(screen.getByRole("button", { name: "Practice" })).toBeTruthy();
+    expect(document.documentElement.getAttribute("data-theme")).toBe("dark");
+  });
   it("preserves matcher, errors, speed, section loop and MIDI subscription; protects selector/editable keyboard input", async () => {
     startApp(); await ready();
     fireEvent.click(screen.getByRole("button", { name: "Connect MIDI" })); await act(async () => {});

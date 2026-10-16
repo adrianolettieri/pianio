@@ -1,0 +1,167 @@
+{
+  "courseId": "method-level-6a",
+  "exercises": {
+    "m6a-001": {
+      "title": "Scala di La bemolle maggiore — Doppio pentagramma",
+      "summary": "Scala di La bemolle maggiore ascendente e discendente nelle due mani.",
+      "goal": "Suona con scioltezza La bemolle maggiore sul doppio pentagramma, rispettando i quattro bemolli della tonalità.",
+      "license": {
+        "notes": "Esercizio originale"
+      }
+    },
+    "m6a-002": {
+      "title": "Studio in La bemolle maggiore — Crome",
+      "summary": "Passaggio scorrevole in crome in La bemolle maggiore, con sostegno tenuto della sinistra.",
+      "goal": "Mantieni regolare il movimento in crome, bilanciando melodia e accompagnamento in La bemolle maggiore.",
+      "license": {
+        "notes": "Esercizio originale"
+      }
+    },
+    "m6a-003": {
+      "title": "Melodia in La bemolle maggiore — Stile barocco",
+      "summary": "Melodia per grado congiunto in stile barocco, con progressione ascendente e cadenza delicata.",
+      "goal": "Dai forma a una linea melodica di ispirazione barocca in La bemolle maggiore, curando la direzione della frase.",
+      "license": {
+        "notes": "Esercizio originale"
+      }
+    },
+    "m6a-004": {
+      "title": "Figura imitativa in La bemolle maggiore",
+      "summary": "La melodia della destra viene imitata una battuta dopo dalla sinistra.",
+      "goal": "Coordina una scrittura imitativa in La bemolle maggiore, mantenendo indipendenti le voci.",
+      "license": {
+        "notes": "Esercizio originale"
+      }
+    },
+    "m6a-005": {
+      "title": "Valzer in La bemolle maggiore — Doppio pentagramma",
+      "summary": "Melodia di valzer in 3/4 sopra note tenute al basso in La bemolle maggiore.",
+      "goal": "Senti l'oscillazione del valzer in 3/4, affrontando i quattro bemolli sul doppio pentagramma.",
+      "license": {
+        "notes": "Esercizio originale"
+      }
+    },
+    "m6a-006": {
+      "title": "Scala di Fa minore armonica — Doppio pentagramma",
+      "summary": "Scala di Fa minore armonica ascendente e discendente nelle due mani, con Mi naturale come sensibile innalzata.",
+      "goal": "Riconosci e suona Mi naturale come settimo grado innalzato di Fa minore armonica, rispettando gli altri bemolli della tonalità.",
+      "license": {
+        "notes": "Esercizio originale"
+      }
+    },
+    "m6a-007": {
+      "title": "Fa minore armonica — Cinque note",
+      "summary": "Figura di cinque note ascendente e discendente nelle due mani in Fa minore.",
+      "goal": "Sviluppa scioltezza sulle cinque note di Fa minore a mani unite, come preparazione alla scala completa.",
+      "license": {
+        "notes": "Esercizio originale"
+      }
+    },
+    "m6a-008": {
+      "title": "Fa minore armonica — Melodia",
+      "summary": "Melodia espressiva con Mi naturale che risolve salendo al Fa.",
+      "goal": "Suona melodicamente Fa minore armonica, lasciando creare tensione al Mi naturale prima della risoluzione sul Fa.",
+      "license": {
+        "notes": "Esercizio originale"
+      }
+    },
+    "m6a-009": {
+      "title": "Fa minore armonica — Studio in crome",
+      "summary": "Studio in crome in Fa minore armonica, con la sensibile innalzata.",
+      "goal": "Mantieni regolare il ritmo in crome in Fa minore armonica, collocando correttamente il Mi naturale.",
+      "license": {
+        "notes": "Esercizio originale"
+      }
+    },
+    "m6a-010": {
+      "title": "Fa minore — Progressione barocca",
+      "summary": "Progressione barocca discendente in Fa minore armonica, con la caratteristica sensibile innalzata.",
+      "goal": "Esegui una progressione discendente in stile barocco in Fa minore armonica, con precisione ritmica.",
+      "license": {
+        "notes": "Esercizio originale"
+      }
+    },
+    "m6a-011": {
+      "title": "Fa minore armonica — Valzer",
+      "summary": "Melodia in stile di valzer in 3/4, con Mi naturale come sensibile innalzata.",
+      "goal": "Dai forma a un valzer in modo minore in 3/4, lasciando al Mi naturale il suo carattere intenso.",
+      "license": {
+        "notes": "Esercizio originale"
+      }
+    },
+    "m6a-012": {
+      "title": "Scala di Do minore armonica — Doppio pentagramma",
+      "summary": "Scala di Do minore armonica ascendente e discendente nelle due mani, con Si naturale come sensibile innalzata.",
+      "goal": "Riconosci e suona Si naturale come settimo grado innalzato di Do minore armonica, rispettando gli altri bemolli della tonalità.",
+      "license": {
+        "notes": "Esercizio originale"
+      }
+    },
+    "m6a-013": {
+      "title": "Do minore armonica — Cinque note",
+      "summary": "Figura di cinque note in Do minore, con movimento in crome nelle due mani.",
+      "goal": "Sviluppa scioltezza sulle cinque note di Do minore nelle due mani, preparando la scala completa.",
+      "license": {
+        "notes": "Esercizio originale"
+      }
+    },
+    "m6a-014": {
+      "title": "Do minore armonica — Melodia",
+      "summary": "Melodia espressiva con Si naturale che risolve salendo al Do.",
+      "goal": "Suona una linea cantabile in Do minore armonica, usando il Si naturale per creare tensione armonica drammatica.",
+      "license": {
+        "notes": "Esercizio originale"
+      }
+    },
+    "m6a-015": {
+      "title": "Do minore armonica — Studio in crome",
+      "summary": "Studio in crome in Do minore armonica, con Si naturale innalzato.",
+      "goal": "Mantieni regolari le crome in Do minore armonica, collocando correttamente il Si naturale.",
+      "license": {
+        "notes": "Esercizio originale"
+      }
+    },
+    "m6a-016": {
+      "title": "Do minore armonica — Progressione barocca",
+      "summary": "Progressione barocca discendente in Do minore armonica, con Si naturale come sensibile.",
+      "goal": "Esegui una progressione barocca discendente in Do minore armonica, con articolazione pulita.",
+      "license": {
+        "notes": "Esercizio originale"
+      }
+    },
+    "m6a-017": {
+      "title": "Do minore armonica — Valzer",
+      "summary": "Brano in stile di valzer in 3/4, con Si naturale come sensibile.",
+      "goal": "Dai forma a un valzer in Do minore armonica, usando il Si naturale per creare tensione espressiva.",
+      "license": {
+        "notes": "Esercizio originale"
+      }
+    },
+    "m6a-018": {
+      "title": "Passi cromatici — Doppio pentagramma",
+      "summary": "Frammento di scala cromatica ascendente e discendente nelle due mani simultaneamente.",
+      "goal": "Suona semitoni cromatici regolari nelle due mani, mantenendo una pulsazione costante.",
+      "license": {
+        "notes": "Esercizio originale"
+      }
+    },
+    "m6a-019": {
+      "title": "Moto contrario in La bemolle maggiore",
+      "summary": "Le mani si muovono in direzioni opposte in La bemolle maggiore: la destra sale, la sinistra scende.",
+      "goal": "Coordina il moto contrario in La bemolle maggiore, mantenendo le mani regolari e dello stesso volume.",
+      "license": {
+        "notes": "Esercizio originale"
+      }
+    },
+    "m6a-020": {
+      "title": "Preludio barocco in La bemolle — Sintesi",
+      "summary": "Preludio barocco di sei battute che combina La bemolle maggiore e Fa minore armonica, a conclusione del livello 6A.",
+      "goal": "Unisci La bemolle maggiore, Fa minore armonica e scrittura barocca in crome in un brano coerente.",
+      "license": {
+        "notes": "Esercizio originale"
+      }
+    }
+  },
+  "title": "Metodo livello 6A — Fondamenti barocchi",
+  "summary": "Consolidamento di La bemolle maggiore sul doppio pentagramma, introduzione di Fa e Do minore armonica, passaggi cromatici e progressioni in stile barocco. Tutti i venti esercizi sono sul doppio pentagramma."
+}

@@ -1,0 +1,10 @@
+{
+  "base": "http://127.0.0.1:4173/",
+  "catalogs": 3,
+  "coursesPerCatalog": 80,
+  "exercisesPerCatalog": 1557,
+  "musicXmlFetched": 4671,
+  "legacyByteComparisons": 1557,
+  "result": "passed",
+  "hosting": "Vite preview; does not emulate Firebase rewrites"
+}

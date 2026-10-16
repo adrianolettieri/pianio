@@ -1,0 +1,167 @@
+{
+  "courseId": "method-level-3b",
+  "exercises": {
+    "m3b-001": {
+      "title": "Sincope in Do maggiore (MD)",
+      "summary": "Attacchi in levare in Do maggiore, con pause di croma per creare la sincope.",
+      "goal": "Suona ritmi sincopati in Do maggiore, mantenendo una pulsazione interiore regolare.",
+      "license": {
+        "notes": "Esercizio originale"
+      }
+    },
+    "m3b-002": {
+      "title": "Sincope al basso in Do maggiore (MS)",
+      "summary": "Attacchi in levare e figure sincopate in Do maggiore in chiave di basso.",
+      "goal": "Suona figure sincopate al basso in Do maggiore con una pulsazione regolare.",
+      "license": {
+        "notes": "Esercizio originale"
+      }
+    },
+    "m3b-003": {
+      "title": "Melodia estesa in Sol maggiore (MD)",
+      "summary": "Melodia di sei battute in Sol maggiore, da Sol4 a Sol5, con Fa diesis.",
+      "goal": "Suona una frase più lunga in Sol maggiore con Fa diesis e sincopi, crescendo verso il mezzoforte.",
+      "license": {
+        "notes": "Esercizio originale"
+      }
+    },
+    "m3b-004": {
+      "title": "Basso esteso in Sol maggiore (MS)",
+      "summary": "Melodia al basso di sei battute in Sol maggiore, da Sol2 a Sol3, con Fa diesis.",
+      "goal": "Suona una frase più lunga al basso in Sol maggiore, con Fa diesis e attacchi sincopati, crescendo verso il mezzoforte.",
+      "license": {
+        "notes": "Esercizio originale"
+      }
+    },
+    "m3b-005": {
+      "title": "Melodia ampliata in Fa maggiore (MD)",
+      "summary": "Melodia di sei battute in Fa maggiore, con Si bemolle e figure sincopate.",
+      "goal": "Suona una melodia estesa in Fa maggiore con Si bemolle e ritmi in levare, dando forma alla dinamica.",
+      "license": {
+        "notes": "Esercizio originale"
+      }
+    },
+    "m3b-006": {
+      "title": "Valzer in Fa maggiore (MD)",
+      "summary": "Melodia di valzer scorrevole in 3/4 in Fa maggiore, con Si bemolle.",
+      "goal": "Suona un valzer lirico in Fa maggiore, leggendo il Si bemolle nell'armatura e nella melodia, con un arco dinamico delicato.",
+      "license": {
+        "notes": "Esercizio originale"
+      }
+    },
+    "m3b-007": {
+      "title": "Scala di Re minore armonica (MD)",
+      "summary": "Scala di Re minore armonica di un'ottava, da Re4 a Re5, con Si bemolle e Do diesis espliciti.",
+      "goal": "Suona Re minore armonica in salita e in discesa, riconoscendo Si bemolle in armatura e Do diesis come settimo grado innalzato.",
+      "license": {
+        "notes": "Esercizio originale"
+      }
+    },
+    "m3b-008": {
+      "title": "Scala di Re minore armonica (MS)",
+      "summary": "Scala di Re minore armonica di un'ottava in chiave di basso, da Re3 a Re4.",
+      "goal": "Suona Re minore armonica in chiave di basso, rispettando Si bemolle e Do diesis.",
+      "license": {
+        "notes": "Esercizio originale"
+      }
+    },
+    "m3b-009": {
+      "title": "Melodia in Re minore (MD)",
+      "summary": "Melodia di sei battute in Re minore armonica, con Si bemolle e Do diesis come sensibile; dinamica piano e pedale di risonanza.",
+      "goal": "Suona una frase musicale in Re minore con la sensibile Do diesis che risolve sul Re, usando pedale e contrasti dinamici.",
+      "license": {
+        "notes": "Esercizio originale"
+      }
+    },
+    "m3b-010": {
+      "title": "Studio ampliato in La minore (MD)",
+      "summary": "Studio di sei battute in La minore armonica, con movimento cromatico sul Sol diesis.",
+      "goal": "Suona linee melodiche in La minore con il Sol diesis come sensibile espressiva e un culmine dinamico.",
+      "license": {
+        "notes": "Esercizio originale"
+      }
+    },
+    "m3b-011": {
+      "title": "Valzer in La minore (MD)",
+      "summary": "Valzer scorrevole in 3/4 in La minore armonica, con Sol diesis come sensibile, dinamica piano e pedale di risonanza.",
+      "goal": "Suona una frase di valzer in La minore, usando espressivamente il Sol diesis, con dinamica delicata e pedale.",
+      "license": {
+        "notes": "Esercizio originale"
+      }
+    },
+    "m3b-012": {
+      "title": "Studio sulla sincope in Do maggiore (MD)",
+      "summary": "Studio di sei battute con varie figure sincopate in Do maggiore.",
+      "goal": "Padroneggia diverse figure sincopate in Do maggiore lungo una frase più estesa.",
+      "license": {
+        "notes": "Esercizio originale"
+      }
+    },
+    "m3b-013": {
+      "title": "Low Bridge, Everybody Down (MD)",
+      "summary": "Canto popolare tradizionale del canale Erie in Sol maggiore: melodia vivace in 2/4 per grado congiunto.",
+      "goal": "Suona questo vivace canto popolare americano in Sol maggiore, mantenendo regolare la pulsazione danzante in 2/4.",
+      "license": {
+        "notes": "Pubblico dominio. Arrangiamento CC0."
+      }
+    },
+    "m3b-014": {
+      "title": "Studio in Fa maggiore (MS)",
+      "summary": "Studio di sei battute per la mano sinistra in Fa maggiore, con crome e sincopi.",
+      "goal": "Sviluppa scioltezza nella mano sinistra in Fa maggiore, con Si bemolle e figure sincopate.",
+      "license": {
+        "notes": "Esercizio originale"
+      }
+    },
+    "m3b-015": {
+      "title": "Studio in Re minore (MS)",
+      "summary": "Studio al basso di sei battute in Re minore armonica, con Si bemolle, Do diesis come sensibile, dinamica piano e pedale.",
+      "goal": "Suona una linea di basso in Re minore con Do diesis come sensibile, dinamica delicata ed espressiva e pedale.",
+      "license": {
+        "notes": "Esercizio originale"
+      }
+    },
+    "m3b-016": {
+      "title": "Valzer in Sol maggiore (MD)",
+      "summary": "Valzer scorrevole in 3/4 in Sol maggiore, con Fa diesis e un'estensione nel registro Sol4–Sol5.",
+      "goal": "Suona un valzer lirico in Sol maggiore, rendendo naturale il Fa diesis nella tonalità e disegnando un arco dinamico delicato.",
+      "license": {
+        "notes": "Esercizio originale"
+      }
+    },
+    "m3b-017": {
+      "title": "Scala di Do maggiore di un'ottava (MD)",
+      "summary": "Scala di Do maggiore di un'ottava, ascendente e discendente da Do4 a Do5, con finale melodico.",
+      "goal": "Suona con scioltezza l'intera scala di Do maggiore nell'estensione di un'ottava.",
+      "license": {
+        "notes": "Esercizio originale"
+      }
+    },
+    "m3b-018": {
+      "title": "Studio sugli intervalli in Do (MD)",
+      "summary": "Studio di sei battute che delinea seconde, terze, quarte e quinte in Do maggiore.",
+      "goal": "Riconosci e suona intervalli di seconda, terza, quarta e quinta in Do maggiore.",
+      "license": {
+        "notes": "Esercizio originale"
+      }
+    },
+    "m3b-019": {
+      "title": "Basso ampliato in Fa maggiore (MS)",
+      "summary": "Studio al basso di sei battute in Fa maggiore, nell'estensione completa da Fa2 a Fa3.",
+      "goal": "Suona una linea di basso in Fa maggiore lungo un'ottava, con sincopi e crome.",
+      "license": {
+        "notes": "Esercizio originale"
+      }
+    },
+    "m3b-020": {
+      "title": "Riepilogo del livello 3B: Do maggiore e La minore (MD)",
+      "summary": "Melodia conclusiva di otto battute che passa da Do maggiore a La minore armonica e ritorna.",
+      "goal": "Affronta il passaggio da Do maggiore a La minore durante il brano, usando espressivamente il Sol diesis e dando forma alla dinamica.",
+      "license": {
+        "notes": "Esercizio originale"
+      }
+    }
+  },
+  "title": "Metodo livello 3B — Ampliamento delle armature",
+  "summary": "Ritmi sincopati, introduzione di Re minore armonica e melodie più lunghe in Do, Sol, Fa maggiore e La minore. Ripasso delle armature con zero alterazioni, un diesis o un bemolle. Dinamica e pedale nei brani minori espressivi, con lavoro a mani separate."
+}

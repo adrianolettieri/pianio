@@ -1,0 +1,167 @@
+{
+  "courseId": "method-level-3c",
+  "exercises": {
+    "m3c-001": {
+      "title": "Ripasso della scala di Do maggiore (MD)",
+      "summary": "Riscaldamento per la destra sulla scala di Do maggiore di un'ottava.",
+      "goal": "Suona con scioltezza la scala da Do4 a Do5 prima del lavoro a mani unite.",
+      "license": {
+        "notes": "Esercizio originale"
+      }
+    },
+    "m3c-002": {
+      "title": "Ripasso della scala di Do maggiore (MS)",
+      "summary": "Riscaldamento per la sinistra sulla scala di Do maggiore di un'ottava.",
+      "goal": "Suona con scioltezza la scala da Do3 a Do4 prima del lavoro a mani unite.",
+      "license": {
+        "notes": "Esercizio originale"
+      }
+    },
+    "m3c-003": {
+      "title": "Sincope in Sol maggiore (MD)",
+      "summary": "Melodia sincopata per la destra nel registro Sol4–Sol5, con Fa diesis.",
+      "goal": "Suona attacchi sincopati in Sol maggiore come riscaldamento a una mano.",
+      "license": {
+        "notes": "Esercizio originale"
+      }
+    },
+    "m3c-004": {
+      "title": "Studio in Fa maggiore (MS)",
+      "summary": "Studio per la sinistra da Fa2 a Do3, con Si bemolle e sincopi.",
+      "goal": "Sviluppa l'indipendenza della sinistra in Fa maggiore, con crome e attacchi in levare.",
+      "license": {
+        "notes": "Esercizio originale"
+      }
+    },
+    "m3c-005": {
+      "title": "Melodia in La minore con Sol diesis (MD)",
+      "summary": "Melodia di valzer per la destra in La minore armonica, con Sol diesis come sensibile.",
+      "goal": "Suona La minore armonica in 3/4, usando espressivamente il Sol diesis.",
+      "license": {
+        "notes": "Esercizio originale"
+      }
+    },
+    "m3c-006": {
+      "title": "Studio in Re minore (MS)",
+      "summary": "Scala e cadenza per la sinistra in Re minore armonica, con Si bemolle e Do diesis.",
+      "goal": "Suona Re minore armonica in chiave di basso, facendo risolvere la sensibile Do diesis sul Re.",
+      "license": {
+        "notes": "Esercizio originale"
+      }
+    },
+    "m3c-007": {
+      "title": "Do maggiore — Introduzione alle mani unite",
+      "summary": "Primo esercizio sul doppio pentagramma: semplice melodia in Do maggiore sopra intervalli armonici al basso.",
+      "goal": "Coordina per la prima volta la melodia della destra con gli intervalli armonici del basso in Do maggiore.",
+      "license": {
+        "notes": "Esercizio originale"
+      }
+    },
+    "m3c-008": {
+      "title": "Melodia in Do maggiore sopra il basso",
+      "summary": "Melodia in crome della destra sopra un basso regolare con sostegno armonico in Do maggiore.",
+      "goal": "Mantieni regolare il basso della sinistra mentre la destra suona una melodia scorrevole in crome.",
+      "license": {
+        "notes": "Esercizio originale"
+      }
+    },
+    "m3c-009": {
+      "title": "Sol maggiore — Mani unite",
+      "summary": "Melodia in Sol maggiore alla destra sopra intervalli armonici alla sinistra, con Fa diesis.",
+      "goal": "Coordina le due mani in Sol maggiore, seguendo l'estensione della melodia della destra.",
+      "license": {
+        "notes": "Esercizio originale"
+      }
+    },
+    "m3c-010": {
+      "title": "Pop Goes the Weasel",
+      "summary": "Canto infantile tradizionale in Sol maggiore, in 3/4: brillante melodia di valzer con accompagnamento ad accordi.",
+      "goal": "Suona questo noto canto popolare con accompagnamento di valzer alla sinistra e un finale forte.",
+      "license": {
+        "notes": "Pubblico dominio. Arrangiamento CC0."
+      }
+    },
+    "m3c-011": {
+      "title": "Fa maggiore — Mani unite",
+      "summary": "Melodia in Fa maggiore alla destra sopra intervalli armonici alla sinistra, con Si bemolle.",
+      "goal": "Coordina entrambe le mani in Fa maggiore, con la melodia della destra da Fa4 a Do5.",
+      "license": {
+        "notes": "Esercizio originale"
+      }
+    },
+    "m3c-012": {
+      "title": "Valzer in Fa maggiore — Mani unite",
+      "summary": "Valzer di sei battute con Si bemolle: melodia alla destra e basso di valzer ad accordi alla sinistra.",
+      "goal": "Suona un valzer in Fa maggiore a mani unite, con accompagnamento ad accordi alla sinistra.",
+      "license": {
+        "notes": "Esercizio originale"
+      }
+    },
+    "m3c-013": {
+      "title": "La minore — Mani unite",
+      "summary": "Melodia di sei battute in La minore armonica con Sol diesis, sopra intervalli al basso; piano e pedale di risonanza.",
+      "goal": "Coordina le mani in La minore, usando espressivamente il Sol diesis come sensibile, con dinamica delicata e pedale.",
+      "license": {
+        "notes": "Esercizio originale"
+      }
+    },
+    "m3c-014": {
+      "title": "Kumbaya",
+      "summary": "Noto spiritual in La minore armonica: melodia delicata in 3/4, accompagnamento di valzer ad accordi e pedale.",
+      "goal": "Suona questo spiritual espressivo con Sol diesis come sensibile e carattere delicato e sostenuto.",
+      "license": {
+        "notes": "Pubblico dominio. Arrangiamento CC0."
+      }
+    },
+    "m3c-015": {
+      "title": "Sincope in Do maggiore — Doppio pentagramma",
+      "summary": "Brano di sei battute con melodia sincopata alla destra sopra una pulsazione regolare della sinistra.",
+      "goal": "Suona la melodia sincopata della destra mentre la sinistra mantiene un basso perfettamente regolare.",
+      "license": {
+        "notes": "Esercizio originale"
+      }
+    },
+    "m3c-016": {
+      "title": "Crome in Sol maggiore — Mani unite",
+      "summary": "Studio di sei battute con passaggi in crome alla destra sopra il basso della sinistra, con Fa diesis.",
+      "goal": "Suona linee scorrevoli in crome in Sol maggiore mentre la sinistra offre il sostegno armonico.",
+      "license": {
+        "notes": "Esercizio originale"
+      }
+    },
+    "m3c-017": {
+      "title": "Brano lirico in Fa maggiore — Mani unite",
+      "summary": "Brano lirico di sei battute con melodia cantabile alla destra e basso ad accordi alla sinistra.",
+      "goal": "Dai forma a una melodia cantabile in Fa maggiore lungo sei battute, coordinando fluidamente le mani.",
+      "license": {
+        "notes": "Esercizio originale"
+      }
+    },
+    "m3c-018": {
+      "title": "Marcia in Do maggiore — Mani unite",
+      "summary": "Marcia di sei battute in 2/4 con crome nitide in entrambe le mani.",
+      "goal": "Suona un brano dal carattere di marcia in Do maggiore, con precisione ritmica in entrambe le mani.",
+      "license": {
+        "notes": "Esercizio originale"
+      }
+    },
+    "m3c-019": {
+      "title": "Re minore — Mani unite",
+      "summary": "Brano di sei battute in Re minore armonica, con Si bemolle, Do diesis come sensibile, dinamica piano e pedale.",
+      "goal": "Coordina le mani in Re minore con una risoluzione espressiva del Do diesis, dinamica delicata e pedale.",
+      "license": {
+        "notes": "Esercizio originale"
+      }
+    },
+    "m3c-020": {
+      "title": "Riepilogo del livello 3C — Do e Sol maggiore",
+      "summary": "Brano conclusivo di otto battute sul doppio pentagramma, attraverso Do e Sol maggiore con Fa diesis.",
+      "goal": "Dimostra scioltezza a mani unite nelle tonalità di Do e Sol maggiore in un brano completo.",
+      "license": {
+        "notes": "Esercizio originale"
+      }
+    }
+  },
+  "title": "Metodo livello 3C — Mani unite in Do, Sol e Fa maggiore",
+  "summary": "Primi esercizi del livello 3 sul doppio pentagramma: Do, Sol, Fa maggiore, La e Re minore, con mani coordinate e dinamica. Pedale nei brani minori lenti; intervalli e accordi di sostegno alla sinistra. Brani di pubblico dominio: Pop Goes the Weasel e Kumbaya."
+}

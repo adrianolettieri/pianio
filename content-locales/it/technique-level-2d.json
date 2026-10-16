@@ -1,0 +1,107 @@
+{
+  "courseId": "technique-level-2d",
+  "exercises": {
+    "t2d-001": {
+      "title": "Piccola marcia in Sol",
+      "summary": "Una marcia in 2/4 per la destra, con passi nitidi in crome in Sol maggiore.",
+      "goal": "Mantieni una pulsazione di marcia decisa e uniforme."
+    },
+    "t2d-002": {
+      "title": "Ninna nanna in Sol",
+      "summary": "Un dolce movimento cullante in 3/4 per la sinistra in Sol maggiore.",
+      "goal": "Suona con morbidezza e continuità alla sinistra."
+    },
+    "t2d-003": {
+      "title": "Canzone allegra in Fa",
+      "summary": "Una melodia vivace e scorrevole in Fa maggiore per la destra, in 4/4.",
+      "goal": "Dai un carattere luminoso alla frase e colloca con naturalezza il Si bemolle."
+    },
+    "t2d-004": {
+      "title": "Danza in Fa",
+      "summary": "Una danza in 2/4 per la sinistra, con crome vivaci in Fa maggiore.",
+      "goal": "Mantieni leggero e agile il movimento di danza della sinistra."
+    },
+    "t2d-005": {
+      "title": "Studio in Sol",
+      "summary": "Passaggi di tipo Hanon e accordi spezzati si alternano alla destra in Sol maggiore.",
+      "goal": "Applica al brano la scioltezza delle scale e degli accordi spezzati."
+    },
+    "t2d-006": {
+      "title": "La trottola",
+      "summary": "Uno studio in Sol maggiore per la sinistra, con accordi spezzati in moto continuo.",
+      "goal": "Mantieni velocità e regolarità alla sinistra."
+    },
+    "t2d-007": {
+      "title": "Melodia serale in Fa",
+      "summary": "Una melodia calma ed espressiva in 3/4 per la destra in Fa maggiore.",
+      "goal": "Sostieni frasi lunghe e tranquille."
+    },
+    "t2d-008": {
+      "title": "Canto del mattino in Sol",
+      "summary": "Una melodia luminosa al risveglio, in 4/4 per la sinistra in Sol maggiore.",
+      "goal": "Dai forma musicale alla frase con un carattere vivace."
+    },
+    "t2d-009": {
+      "title": "Duetto in Sol maggiore",
+      "summary": "Melodia alla destra e basso alla sinistra sul doppio pentagramma in 4/4.",
+      "goal": "Bilancia la melodia e il basso a mani unite."
+    },
+    "t2d-010": {
+      "title": "Valzer in Sol",
+      "summary": "Un valzer in 3/4 con melodia alla destra e accompagnamento alla sinistra.",
+      "goal": "Coordina le mani mantenendo fluido il movimento di valzer."
+    },
+    "t2d-011": {
+      "title": "Marcia in Fa maggiore",
+      "summary": "Una marcia in 2/4 con melodia nitida in crome e basso regolare.",
+      "goal": "Mantieni un ritmo deciso e preciso con entrambe le mani."
+    },
+    "t2d-012": {
+      "title": "Ninna nanna in Fa",
+      "summary": "Un brano dolcemente cullante in 3/4 a mani unite in Fa maggiore.",
+      "goal": "Fai scorrere la melodia sopra un accompagnamento calmo."
+    },
+    "t2d-013": {
+      "title": "Danza popolare in Sol",
+      "summary": "Una danza energica in 2/4 a mani unite in Sol maggiore.",
+      "goal": "Coordina le mani nel carattere vivace della danza."
+    },
+    "t2d-014": {
+      "title": "Inno in Fa maggiore",
+      "summary": "Un brano solenne in 4/4, costruito su suoni lunghi.",
+      "goal": "Sostieni le note lunghe con un carattere raccolto e solenne."
+    },
+    "t2d-015": {
+      "title": "Gavotta in Sol",
+      "summary": "Una danza leggera in 4/4 a mani unite in Sol maggiore.",
+      "goal": "Rendi il ritmo nitido ed elegante."
+    },
+    "t2d-016": {
+      "title": "Notturno in Fa",
+      "summary": "Un brano lento ed espressivo in 3/4 a mani unite in Fa maggiore.",
+      "goal": "Fai cantare la destra sopra un accompagnamento delicato."
+    },
+    "t2d-017": {
+      "title": "Danza contadina",
+      "summary": "Una danza vigorosa in Sol maggiore, in 2/4 a mani unite.",
+      "goal": "Dai energia alla pulsazione coordinando entrambe le mani."
+    },
+    "t2d-018": {
+      "title": "Berceuse in Fa",
+      "summary": "Una ninna nanna in Fa maggiore, con movimento cullante della sinistra in 4/4.",
+      "goal": "Fai cantare la melodia sopra il basso oscillante in crome."
+    },
+    "t2d-019": {
+      "title": "Marcia dei soldati",
+      "summary": "Una marcia audace in Sol maggiore, in 2/4 a mani unite.",
+      "goal": "Avanza con sicurezza e precisione ritmica in entrambe le mani."
+    },
+    "t2d-020": {
+      "title": "Finale in Sol e Fa",
+      "summary": "Un brano di dieci battute in 4/4 che passa tra Sol maggiore e Fa maggiore.",
+      "goal": "Dimostra padronanza delle due posizioni all'interno di un unico brano."
+    }
+  },
+  "title": "Tecnica livello 2D — Applicazione",
+  "summary": "Piccoli brani di carattere in Sol maggiore e Fa maggiore: studi, marce, ninne nanne, valzer e danze applicano le posizioni di cinque dita a contesti espressivi."
+}

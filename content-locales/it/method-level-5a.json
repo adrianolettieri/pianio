@@ -1,0 +1,167 @@
+{
+  "courseId": "method-level-5a",
+  "exercises": {
+    "m5a-001": {
+      "title": "Melodia in Re maggiore",
+      "summary": "Melodia per grado congiunto in Re maggiore, a mani unite, con semplici semiminime e minime.",
+      "goal": "Stabilisci la coordinazione delle mani in Re maggiore, dando forma chiaramente alla melodia.",
+      "license": {
+        "notes": "Composizione originale"
+      }
+    },
+    "m5a-002": {
+      "title": "Crome in Re maggiore",
+      "summary": "Melodia in Re maggiore con passaggi in crome, estesa a sei battute.",
+      "goal": "Suona passaggi in crome in Re maggiore sopra un sostegno regolare della sinistra.",
+      "license": {
+        "notes": "Composizione originale"
+      }
+    },
+    "m5a-003": {
+      "title": "Valzer in Re maggiore",
+      "summary": "Valzer aggraziato in 3/4 in Re maggiore, con melodia ondeggiante.",
+      "goal": "Coordina le mani in 3/4 mentre dai forma a una frase di valzer in Re maggiore.",
+      "license": {
+        "notes": "Composizione originale"
+      }
+    },
+    "m5a-004": {
+      "title": "Studio in Re maggiore",
+      "summary": "Studio di otto battute in Re maggiore, con l'estensione della scala e fraseggio espressivo.",
+      "goal": "Suona un brano più lungo in Re maggiore a mani unite, dando forma naturale alle frasi.",
+      "license": {
+        "notes": "Composizione originale"
+      }
+    },
+    "m5a-005": {
+      "title": "Melodia in La maggiore",
+      "summary": "Melodia per grado congiunto in La maggiore che sale alla quinta, a mani unite.",
+      "goal": "Affronta la tonalità di La maggiore e i suoi tre diesis con coordinazione sicura, rispettando le note scritte.",
+      "license": {
+        "notes": "Composizione originale"
+      }
+    },
+    "m5a-006": {
+      "title": "Crome in La maggiore",
+      "summary": "Melodia in La maggiore con passaggi ascendenti e discendenti in crome.",
+      "goal": "Suona passaggi fluidi in crome in La maggiore sopra un basso regolare.",
+      "license": {
+        "notes": "Composizione originale"
+      }
+    },
+    "m5a-007": {
+      "title": "Valzer in La maggiore",
+      "summary": "Valzer lirico in 3/4 in La maggiore, con melodia scorrevole alla destra.",
+      "goal": "Coordina un valzer in La maggiore in 3/4, modellando l'alternanza di valori lunghi e brevi.",
+      "license": {
+        "notes": "Composizione originale"
+      }
+    },
+    "m5a-008": {
+      "title": "Studio in La maggiore",
+      "summary": "Studio di otto battute in La maggiore, con esplorazione della scala, compresi Sol e Fa diesis.",
+      "goal": "Suona con scioltezza un brano esteso in La maggiore, bilanciando le mani.",
+      "license": {
+        "notes": "Composizione originale"
+      }
+    },
+    "m5a-009": {
+      "title": "Melodia in Si bemolle maggiore",
+      "summary": "Melodia calda in Si bemolle maggiore, con Si e Mi bemolle espliciti.",
+      "goal": "Affronta i due bemolli della tonalità, dando forma sicura alla melodia.",
+      "license": {
+        "notes": "Composizione originale"
+      }
+    },
+    "m5a-010": {
+      "title": "Crome in Si bemolle maggiore",
+      "summary": "Melodia in Si bemolle maggiore fino al Sol5, con passaggi in crome.",
+      "goal": "Suona passaggi fluidi in crome in Si bemolle maggiore, rispettando sempre i bemolli.",
+      "license": {
+        "notes": "Composizione originale"
+      }
+    },
+    "m5a-011": {
+      "title": "Valzer in Si bemolle maggiore",
+      "summary": "Valzer aggraziato in 3/4 in Si bemolle maggiore, con melodia cantabile.",
+      "goal": "Dai forma a una frase di valzer in Si bemolle maggiore in 3/4, bilanciando le mani.",
+      "license": {
+        "notes": "Composizione originale"
+      }
+    },
+    "m5a-012": {
+      "title": "Melodia in Mi bemolle maggiore",
+      "summary": "Melodia per grado congiunto, con Mi, Si e La bemolle espliciti.",
+      "goal": "Acquista sicurezza nei tre bemolli di Mi bemolle maggiore attraverso una melodia cantabile.",
+      "license": {
+        "notes": "Composizione originale"
+      }
+    },
+    "m5a-013": {
+      "title": "Studio in Mi bemolle maggiore",
+      "summary": "Studio di sei battute, con passaggi in crome e frasi ascendenti.",
+      "goal": "Suona passaggi in crome in Mi bemolle maggiore, rispettando tutti i bemolli scritti.",
+      "license": {
+        "notes": "Composizione originale"
+      }
+    },
+    "m5a-014": {
+      "title": "Melodia in La bemolle maggiore",
+      "summary": "Melodia calda in La bemolle maggiore, con i quattro bemolli espliciti.",
+      "goal": "Affronta con sicurezza La bemolle maggiore, compreso il Re bemolle, con fraseggio fluido.",
+      "license": {
+        "notes": "Composizione originale"
+      }
+    },
+    "m5a-015": {
+      "title": "Studio in La bemolle maggiore",
+      "summary": "Studio di sei battute in La bemolle maggiore, con crome che salgono al Fa5.",
+      "goal": "Suona con precisione passaggi in crome in La bemolle maggiore, rispettando i quattro bemolli.",
+      "license": {
+        "notes": "Composizione originale"
+      }
+    },
+    "m5a-016": {
+      "title": "Melodia in Sol minore armonica",
+      "summary": "Melodia in Sol minore armonica con il settimo grado innalzato, Fa diesis, come sensibile drammatica.",
+      "goal": "Riconosci e suona il Fa diesis, settimo grado innalzato che caratterizza Sol minore armonica.",
+      "license": {
+        "notes": "Composizione originale"
+      }
+    },
+    "m5a-017": {
+      "title": "Crome in Sol minore",
+      "summary": "Sol minore armonica con passaggi in crome e Fa diesis come sensibile innalzata.",
+      "goal": "Suona passaggi in crome in Sol minore armonica, coordinando fluidamente le mani.",
+      "license": {
+        "notes": "Composizione originale"
+      }
+    },
+    "m5a-018": {
+      "title": "Valzer in Sol minore",
+      "summary": "Valzer espressivo in 3/4 in Sol minore armonica, dal carattere malinconico.",
+      "goal": "Dai forma a un valzer in Sol minore, mettendo in risalto la sensibile drammatica Fa diesis.",
+      "license": {
+        "notes": "Composizione originale"
+      }
+    },
+    "m5a-019": {
+      "title": "Melodia in Re minore armonica",
+      "summary": "Melodia in Re minore armonica, con Do diesis come sensibile innalzata.",
+      "goal": "Riconosci e suona il Do diesis, settimo grado innalzato che caratterizza Re minore armonica.",
+      "license": {
+        "notes": "Composizione originale"
+      }
+    },
+    "m5a-020": {
+      "title": "Studio in Re minore",
+      "summary": "Studio di sei battute in Re minore armonica, con crome e Do diesis espressivo come sensibile.",
+      "goal": "Suona con scioltezza Re minore armonica, valorizzando la risoluzione Do diesis–Re.",
+      "license": {
+        "notes": "Composizione originale"
+      }
+    }
+  },
+  "title": "Metodo livello 5A — Fondamenti",
+  "summary": "Ripasso delle cinque tonalità del livello 4 e introduzione di Sol e Re minore armonica. Brani sul doppio pentagramma da quattro a otto battute, con andamenti moderati."
+}

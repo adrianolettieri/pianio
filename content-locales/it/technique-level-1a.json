@@ -1,0 +1,167 @@
+{
+  "courseId": "technique-level-1a",
+  "exercises": {
+    "t1a-001": {
+      "title": "Riscaldamento di cinque dita — Semibrevi ascendenti (MD)",
+      "summary": "La destra sale da Do4 a Sol4, con una semibreve per battuta.",
+      "goal": "Stabilisci la diteggiatura della posizione di Do (1–2–3–4–5), con suono uniforme nelle semibrevi.",
+      "license": {
+        "notes": "Composizione originale"
+      }
+    },
+    "t1a-002": {
+      "title": "Riscaldamento di cinque dita — Semibrevi discendenti (MD)",
+      "summary": "La destra scende da Sol4 a Do4, con una semibreve per battuta.",
+      "goal": "Esercita la discesa nella posizione di Do, con dita indipendenti su ogni semibreve.",
+      "license": {
+        "notes": "Composizione originale"
+      }
+    },
+    "t1a-003": {
+      "title": "Minime ascendenti (MD)",
+      "summary": "La destra suona coppie di minime nella posizione di Do, salendo e tornando.",
+      "goal": "Suona fluidamente due minime per battuta, sollevando leggermente il polso tra le note.",
+      "license": {
+        "notes": "Composizione originale"
+      }
+    },
+    "t1a-004": {
+      "title": "Minime discendenti (MD)",
+      "summary": "La destra scende dal Sol4 in coppie di minime, curando la fluidità.",
+      "goal": "Controlla la discesa nella posizione di cinque note, con peso uniforme nelle minime.",
+      "license": {
+        "notes": "Composizione originale"
+      }
+    },
+    "t1a-005": {
+      "title": "Semiminime ascendenti (MD)",
+      "summary": "La destra percorre la posizione di Do in semiminime, in salita e discesa.",
+      "goal": "Suona le semiminime con ritmo uniforme e tempo costante, rispettando i valori conclusivi più lunghi.",
+      "license": {
+        "notes": "Composizione originale"
+      }
+    },
+    "t1a-006": {
+      "title": "Semiminime discendenti (MD)",
+      "summary": "La destra scende dal Sol4 nella posizione di Do in semiminime.",
+      "goal": "Mantieni regolare la durata delle semiminime mentre scendi nella scala di cinque note.",
+      "license": {
+        "notes": "Composizione originale"
+      }
+    },
+    "t1a-007": {
+      "title": "Semiminime in salita e discesa (MD)",
+      "summary": "La destra sale e scende nella posizione di Do lungo quattro battute.",
+      "goal": "Collega fluidamente salita e discesa sulle cinque note, con una pulsazione regolare in semiminime.",
+      "license": {
+        "notes": "Composizione originale"
+      }
+    },
+    "t1a-008": {
+      "title": "Posizione di Do in 3/4 — Minima e semiminima (MD)",
+      "summary": "La destra suona nella posizione di Do in 3/4: una minima e una semiminima per battuta.",
+      "goal": "Senti la pulsazione in 3/4 mentre ti muovi nelle cinque note della posizione di Do.",
+      "license": {
+        "notes": "Composizione originale"
+      }
+    },
+    "t1a-009": {
+      "title": "Posizione di Do in 2/4 — Semiminime (MD)",
+      "summary": "La destra percorre la posizione di Do in 2/4 con andamento di marcia.",
+      "goal": "Sviluppa una pulsazione regolare in due tempi nella destra lungo la posizione di cinque note.",
+      "license": {
+        "notes": "Composizione originale"
+      }
+    },
+    "t1a-010": {
+      "title": "Semibrevi e minime miste (MD)",
+      "summary": "La destra alterna semibrevi e coppie di minime nella posizione di Do.",
+      "goal": "Distingui chiaramente la durata di semibrevi e minime nella posizione di Do.",
+      "license": {
+        "notes": "Composizione originale"
+      }
+    },
+    "t1a-011": {
+      "title": "Riscaldamento di cinque dita — Semibrevi ascendenti (MS)",
+      "summary": "La sinistra sale da Do3 a Sol3, con una semibreve per battuta.",
+      "goal": "Stabilisci la diteggiatura della posizione di Do (5–4–3–2–1), con suono uniforme nelle semibrevi.",
+      "license": {
+        "notes": "Composizione originale"
+      }
+    },
+    "t1a-012": {
+      "title": "Riscaldamento di cinque dita — Semibrevi discendenti (MS)",
+      "summary": "La sinistra scende da Sol3 a Do3, con una semibreve per battuta.",
+      "goal": "Esercita la discesa nella posizione di Do, con dita indipendenti su ogni semibreve.",
+      "license": {
+        "notes": "Composizione originale"
+      }
+    },
+    "t1a-013": {
+      "title": "Minime ascendenti (MS)",
+      "summary": "La sinistra suona coppie di minime nella posizione di Do, salendo e tornando.",
+      "goal": "Suona fluidamente due minime per battuta, sollevando leggermente il polso tra le note.",
+      "license": {
+        "notes": "Composizione originale"
+      }
+    },
+    "t1a-014": {
+      "title": "Minime discendenti (MS)",
+      "summary": "La sinistra scende dal Sol3 in coppie di minime, curando la fluidità.",
+      "goal": "Controlla la discesa nella posizione di cinque note, con peso uniforme nelle minime.",
+      "license": {
+        "notes": "Composizione originale"
+      }
+    },
+    "t1a-015": {
+      "title": "Semiminime ascendenti (MS)",
+      "summary": "La sinistra percorre la posizione di Do in semiminime, in salita e discesa.",
+      "goal": "Suona le semiminime con ritmo uniforme e tempo costante, rispettando i valori conclusivi più lunghi.",
+      "license": {
+        "notes": "Composizione originale"
+      }
+    },
+    "t1a-016": {
+      "title": "Semiminime discendenti (MS)",
+      "summary": "La sinistra scende dal Sol3 nella posizione di Do in semiminime.",
+      "goal": "Mantieni regolare la durata delle semiminime mentre scendi nella scala di cinque note.",
+      "license": {
+        "notes": "Composizione originale"
+      }
+    },
+    "t1a-017": {
+      "title": "Semiminime in salita e discesa (MS)",
+      "summary": "La sinistra sale e scende nella posizione di Do lungo quattro battute.",
+      "goal": "Collega fluidamente salita e discesa sulle cinque note, con una pulsazione regolare in semiminime.",
+      "license": {
+        "notes": "Composizione originale"
+      }
+    },
+    "t1a-018": {
+      "title": "Posizione di Do in 3/4 — Minima e semiminima (MS)",
+      "summary": "La sinistra suona nella posizione di Do in 3/4: una minima e una semiminima per battuta.",
+      "goal": "Senti la pulsazione in 3/4 mentre ti muovi nelle cinque note della posizione di Do.",
+      "license": {
+        "notes": "Composizione originale"
+      }
+    },
+    "t1a-019": {
+      "title": "Posizione di Do in 2/4 — Semiminime (MS)",
+      "summary": "La sinistra percorre la posizione di Do in 2/4 con andamento di marcia.",
+      "goal": "Sviluppa una pulsazione regolare in due tempi nella sinistra lungo la posizione di cinque note.",
+      "license": {
+        "notes": "Composizione originale"
+      }
+    },
+    "t1a-020": {
+      "title": "Semibrevi e minime miste (MS)",
+      "summary": "La sinistra alterna semibrevi e coppie di minime nella posizione di Do.",
+      "goal": "Distingui chiaramente la durata di semibrevi e minime nella posizione di Do.",
+      "license": {
+        "notes": "Composizione originale"
+      }
+    }
+  },
+  "title": "Tecnica livello 1A — Fondamenti",
+  "summary": "Esercizi fondamentali sulle cinque note di Do maggiore a mani separate. Semibrevi, minime e semiminime in 4/4, 3/4 e 2/4, per allenare indipendentemente destra e sinistra nella posizione Do–Sol."
+}

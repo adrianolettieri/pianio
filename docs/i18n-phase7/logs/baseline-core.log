@@ -1,0 +1,9 @@
+
+> @pianio/core-engine@0.1.0 test /private/tmp/pianio-phase7-baseline/packages/core-engine
+> node --test --test-isolation=none src/practice.test.ts
+
+node: bad option: --test-isolation=none
+/private/tmp/pianio-phase7-baseline/packages/core-engine:
+ ERR_PNPM_RECURSIVE_RUN_FIRST_FAIL  @pianio/core-engine@0.1.0 test: `node --test --test-isolation=none src/practice.test.ts`
+Exit status 9
+ WARN   Local package.json exists, but node_modules missing, did you mean to install?

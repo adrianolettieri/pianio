@@ -1,0 +1,167 @@
+{
+  "courseId": "technique-level-5e",
+  "exercises": {
+    "t5e-001": {
+      "title": "Scala veloce di Do maggiore (MD) a 120 BPM",
+      "summary": "Scala estesa di Do maggiore alla destra.",
+      "goal": "Suona con precisione a 120 BPM, senza esitazioni.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t5e-002": {
+      "title": "Scala veloce di Do maggiore a mani unite a 120 BPM",
+      "summary": "Scala di Do maggiore in moto parallelo a mani unite.",
+      "goal": "Sincronizza le mani a 120 BPM e mantieni precise le alterazioni scritte.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t5e-003": {
+      "title": "Scala veloce di Sol maggiore a mani unite a 120 BPM",
+      "summary": "Scala di Sol maggiore in moto parallelo a mani unite.",
+      "goal": "Sincronizza le mani a 120 BPM e mantieni precise le alterazioni scritte.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t5e-004": {
+      "title": "Scala veloce di Re maggiore a mani unite a 120 BPM",
+      "summary": "Scala di Re maggiore in moto parallelo a mani unite.",
+      "goal": "Sincronizza le mani a 120 BPM e mantieni precise le alterazioni scritte.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t5e-005": {
+      "title": "Scala veloce di Fa maggiore a mani unite a 120 BPM",
+      "summary": "Scala di Fa maggiore in moto parallelo a mani unite.",
+      "goal": "Sincronizza le mani a 120 BPM e mantieni precise le alterazioni scritte.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t5e-006": {
+      "title": "Scala veloce di La maggiore a mani unite a 120 BPM",
+      "summary": "Scala di La maggiore in moto parallelo a mani unite.",
+      "goal": "Sincronizza le mani a 120 BPM e mantieni precise le alterazioni scritte.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t5e-007": {
+      "title": "Arpeggio veloce di Do maggiore a mani unite a 100 BPM",
+      "summary": "Arpeggio di Do maggiore a mani unite.",
+      "goal": "Suona a 100 BPM con passaggi delle dita fluidi e precisi.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t5e-008": {
+      "title": "Arpeggio veloce di Sol maggiore a mani unite a 100 BPM",
+      "summary": "Arpeggio di Sol maggiore a mani unite.",
+      "goal": "Suona a 100 BPM con passaggi delle dita fluidi e precisi.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t5e-009": {
+      "title": "Arpeggio veloce di Re maggiore a mani unite a 100 BPM",
+      "summary": "Arpeggio di Re maggiore a mani unite.",
+      "goal": "Suona a 100 BPM con passaggi delle dita fluidi e precisi.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t5e-010": {
+      "title": "Arpeggio veloce di Fa maggiore a mani unite a 100 BPM",
+      "summary": "Arpeggio di Fa maggiore a mani unite.",
+      "goal": "Suona a 100 BPM con passaggi delle dita fluidi e precisi.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t5e-011": {
+      "title": "Arpeggio veloce di La maggiore a mani unite a 100 BPM",
+      "summary": "Arpeggio di La maggiore a mani unite.",
+      "goal": "Suona a 100 BPM con passaggi delle dita fluidi e precisi.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t5e-012": {
+      "title": "Combinazione completa in Do maggiore a mani unite",
+      "summary": "Un passaggio di scala conduce all’arpeggio e agli accordi simultanei in Do maggiore.",
+      "goal": "Completa la combinazione a velocità sostenuta senza interrompere il movimento.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t5e-013": {
+      "title": "Combinazione completa in Sol maggiore a mani unite",
+      "summary": "Un passaggio di scala conduce all’arpeggio e agli accordi simultanei in Sol maggiore.",
+      "goal": "Completa la combinazione a velocità sostenuta senza interrompere il movimento.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t5e-014": {
+      "title": "Combinazione completa in Re maggiore a mani unite",
+      "summary": "Un passaggio di scala conduce all’arpeggio e agli accordi simultanei in Re maggiore.",
+      "goal": "Completa la combinazione a velocità sostenuta senza interrompere il movimento.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t5e-015": {
+      "title": "Combinazione completa in Fa maggiore a mani unite",
+      "summary": "Un passaggio di scala conduce all’arpeggio e agli accordi simultanei in Fa maggiore.",
+      "goal": "Completa la combinazione a velocità sostenuta senza interrompere il movimento.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t5e-016": {
+      "title": "Combinazione completa in La maggiore a mani unite",
+      "summary": "Un passaggio di scala conduce all’arpeggio e agli accordi simultanei in La maggiore.",
+      "goal": "Completa la combinazione a velocità sostenuta senza interrompere il movimento.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t5e-017": {
+      "title": "Moto contrario veloce in Do maggiore a mani unite",
+      "summary": "Scala di Do maggiore in moto contrario a 120 BPM.",
+      "goal": "Controlla la coordinazione delle mani e le alterazioni anche a piena velocità.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t5e-018": {
+      "title": "Moto contrario veloce in Re maggiore a mani unite",
+      "summary": "Scala di Re maggiore in moto contrario a 120 BPM.",
+      "goal": "Controlla la coordinazione delle mani e le alterazioni anche a piena velocità.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t5e-019": {
+      "title": "Lettura a prima vista veloce",
+      "summary": "Tonalità e formule miste da leggere e suonare a tempo senza preparazione.",
+      "goal": "Leggi a prima vista il passaggio a 108 BPM mantenendo la continuità musicale.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t5e-020": {
+      "title": "Prova finale del livello 5 a mani unite",
+      "summary": "Basso albertino, arpeggi, ritmi puntati, formule Hanon e scale veloci riuniti in un esercizio.",
+      "goal": "Dimostra scioltezza nelle tecniche affrontate nel livello 5.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    }
+  },
+  "title": "Tecnica livello 5E — Velocità e padronanza",
+  "summary": "Scale a 120 BPM e arpeggi a 100 BPM, con combinazioni complete nella prova conclusiva del livello 5."
+}

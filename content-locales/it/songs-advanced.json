@@ -1,0 +1,247 @@
+{
+  "courseId": "songs-advanced",
+  "exercises": {
+    "songs-a-001": {
+      "title": "Sonata al chiaro di luna — Primo movimento",
+      "summary": "Il tema iniziale dell'op. 27 n. 2 di Beethoven in Do diesis minore, con basso tenuto e accompagnamento ondeggiante.",
+      "goal": "Mantieni lenta e uniforme la pulsazione della melodia arpeggiata con pedale sostenuto.",
+      "license": {
+        "notes": "Composizione di pubblico dominio. Arrangiamento CC0."
+      }
+    },
+    "songs-a-002": {
+      "title": "Notturno op. 9 n. 2 di Chopin",
+      "summary": "La melodia iniziale del celebre notturno di Chopin in Mi bemolle maggiore, con accompagnamento al basso.",
+      "goal": "Usa un legato cantabile e un fraseggio naturale sopra il basso tenuto.",
+      "license": {
+        "notes": "Composizione di pubblico dominio. Arrangiamento CC0."
+      }
+    },
+    "songs-a-003": {
+      "title": "Largo dalla Sinfonia Dal Nuovo Mondo di Dvořák",
+      "summary": "Il famoso tema noto come Going Home dal secondo movimento della Nona sinfonia, in Mi bemolle maggiore con basso.",
+      "goal": "Usa un suono caldo e nobile con fraseggio delicato sopra il basso tenuto.",
+      "license": {
+        "notes": "Composizione di pubblico dominio. Arrangiamento CC0."
+      }
+    },
+    "songs-a-004": {
+      "title": "Minuetto in Sol — Bach/Petzold",
+      "summary": "Il celebre Minuetto in Sol dal Quaderno di Anna Magdalena Bach, con accompagnamento al basso.",
+      "goal": "Suona con grazia, movimento di valzer e articolazione nitida sopra il basso.",
+      "license": {
+        "notes": "Composizione di pubblico dominio. Arrangiamento CC0."
+      }
+    },
+    "songs-a-005": {
+      "title": "Serenata di Schubert — Ständchen",
+      "summary": "La celebre melodia della Serenata da Schwanengesang, in Re minore con accompagnamento al basso.",
+      "goal": "Usa un tono caldo e intimo con dolce movimento in 3/4 sopra il basso tenuto.",
+      "license": {
+        "notes": "Composizione di pubblico dominio. Arrangiamento CC0."
+      }
+    },
+    "songs-a-006": {
+      "title": "Il mattino di Grieg",
+      "summary": "Il celebre tema iniziale dalla prima suite del Peer Gynt di Grieg, in Mi maggiore con basso.",
+      "goal": "Dai alla frase un carattere dolce di risveglio, facendola crescere gradualmente.",
+      "license": {
+        "notes": "Composizione di pubblico dominio. Arrangiamento CC0."
+      }
+    },
+    "songs-a-007": {
+      "title": "Sarabanda in Re minore di Händel",
+      "summary": "La solenne Sarabanda dalla suite per tastiera HWV 437, con accompagnamento al basso.",
+      "goal": "Mantieni una pulsazione lenta e piena in 3/4, con dignità.",
+      "license": {
+        "notes": "Composizione di pubblico dominio. Arrangiamento CC0."
+      }
+    },
+    "songs-a-008": {
+      "title": "Preludio in Do di Bach, BWV 846",
+      "summary": "L'essenza armonica del celebre Preludio dal Clavicembalo ben temperato, con fondamentali al basso.",
+      "goal": "Modella una linea fluida che segue la celebre successione armonica in Do maggiore.",
+      "license": {
+        "notes": "Composizione di pubblico dominio. Arrangiamento CC0."
+      }
+    },
+    "songs-a-009": {
+      "title": "La primavera di Vivaldi — Le quattro stagioni",
+      "summary": "Il tema iniziale del violino dal concerto La primavera, RV 269, in Mi maggiore con basso.",
+      "goal": "Suona la melodia luminosa e festosa con carattere vivace sopra il basso.",
+      "license": {
+        "notes": "Composizione di pubblico dominio. Arrangiamento CC0."
+      }
+    },
+    "songs-a-010": {
+      "title": "Ave Maria di Bach-Gounod",
+      "summary": "La celebre melodia di Gounod sul Preludio in Do di Bach, con accompagnamento al basso.",
+      "goal": "Usa un suono sostenuto ed etereo collegando le voci con fluidità.",
+      "license": {
+        "notes": "Entrambe le composizioni sono di pubblico dominio. Arrangiamento CC0."
+      }
+    },
+    "songs-a-011": {
+      "title": "Sogno di Schumann — Träumerei",
+      "summary": "L'apertura sognante da Scene infantili, op. 15 n. 7, in Fa maggiore con basso.",
+      "goal": "Mantieni un carattere tenero e raccolto senza affrettare le note lunghe.",
+      "license": {
+        "notes": "Composizione di pubblico dominio. Arrangiamento CC0."
+      }
+    },
+    "songs-a-012": {
+      "title": "Valzer op. 64 n. 2 di Chopin",
+      "summary": "La melodia iniziale del malinconico valzer in Do diesis minore, con accompagnamento al basso.",
+      "goal": "Esprimi il carattere nostalgico e sospirante della melodia.",
+      "license": {
+        "notes": "Composizione di pubblico dominio. Arrangiamento CC0."
+      }
+    },
+    "songs-a-013": {
+      "title": "Sogno d'amore n. 3 di Liszt",
+      "summary": "La celebre melodia di Liebestraum n. 3 in La bemolle maggiore, con basso.",
+      "goal": "Usa un suono ampio e romantico con legato fluido.",
+      "license": {
+        "notes": "Composizione di pubblico dominio. Arrangiamento CC0."
+      }
+    },
+    "songs-a-014": {
+      "title": "Canto di primavera di Mendelssohn",
+      "summary": "La celebre melodia dell'op. 62 n. 6 in La maggiore, con accompagnamento al basso.",
+      "goal": "Suona con carattere leggero e danzante e articolazione nitida.",
+      "license": {
+        "notes": "Composizione di pubblico dominio. Arrangiamento CC0."
+      }
+    },
+    "songs-a-015": {
+      "title": "Patetica di Beethoven — Secondo movimento",
+      "summary": "Il tenero Adagio cantabile dalla Sonata op. 13, in La bemolle maggiore con basso.",
+      "goal": "Usa un tono tenero e cantabile e un fraseggio delicato sopra il basso tenuto.",
+      "license": {
+        "notes": "Composizione di pubblico dominio. Arrangiamento CC0."
+      }
+    },
+    "songs-a-016": {
+      "title": "Invenzione n. 4 in Re minore di Bach",
+      "summary": "L'apertura dell'Invenzione a due voci n. 4, con il caratteristico motivo discendente.",
+      "goal": "Mantieni chiaro il rapporto tra le voci e uniforme l'articolazione delle mani.",
+      "license": {
+        "notes": "Composizione di pubblico dominio. Arrangiamento CC0."
+      }
+    },
+    "songs-a-017": {
+      "title": "Invenzione n. 8 in Fa maggiore di Bach",
+      "summary": "L'apertura dell'Invenzione a due voci n. 8, con il tema ascendente.",
+      "goal": "Usa un legato cantabile e un'articolazione nitida in Fa maggiore.",
+      "license": {
+        "notes": "Composizione di pubblico dominio. Arrangiamento CC0."
+      }
+    },
+    "songs-a-018": {
+      "title": "Invenzione n. 13 in La minore di Bach",
+      "summary": "L'apertura dell'Invenzione a due voci n. 13, con il tema ascendente.",
+      "goal": "Mantieni chiare le voci ed espressivo il carattere minore.",
+      "license": {
+        "notes": "Composizione di pubblico dominio. Arrangiamento CC0."
+      }
+    },
+    "songs-a-019": {
+      "title": "Sonata K. 11 in Do minore di Scarlatti",
+      "summary": "Il tema iniziale della Sonata K. 11, dal carattere barocco drammatico.",
+      "goal": "Usa un'articolazione nitida ed espressione drammatica in Do minore.",
+      "license": {
+        "notes": "Composizione di pubblico dominio. Arrangiamento CC0."
+      }
+    },
+    "songs-a-020": {
+      "title": "Sonata facile K. 545 di Mozart",
+      "summary": "La celebre apertura della sonata in Do maggiore, con accompagnamento alla sinistra ispirato al basso albertino.",
+      "goal": "Mantieni elegante il fraseggio e leggero il tocco classico.",
+      "license": {
+        "notes": "Composizione di pubblico dominio. Arrangiamento CC0."
+      }
+    },
+    "songs-a-021": {
+      "title": "Valzer in Si minore, op. 69 n. 2 di Chopin",
+      "summary": "L'apertura malinconica del valzer postumo di Chopin in Si minore, con basso di valzer.",
+      "goal": "Esprimi nostalgia e flessibilità del fraseggio mantenendo chiaro il disegno musicale.",
+      "license": {
+        "notes": "Composizione di pubblico dominio. Arrangiamento CC0."
+      }
+    },
+    "songs-a-022": {
+      "title": "Mazurca in Si bemolle maggiore, op. 7 n. 1 di Chopin",
+      "summary": "La vivace apertura della mazurca di Chopin, con il caratteristico ritmo di danza.",
+      "goal": "Dai slancio alla danza ed evidenzia il terzo movimento.",
+      "license": {
+        "notes": "Composizione di pubblico dominio. Arrangiamento CC0."
+      }
+    },
+    "songs-a-023": {
+      "title": "Arietta op. 12 n. 1 di Grieg",
+      "summary": "La tenera apertura del primo Pezzo lirico di Grieg in Mi bemolle maggiore.",
+      "goal": "Usa un suono delicato e cantabile con calore.",
+      "license": {
+        "notes": "Composizione di pubblico dominio. Arrangiamento CC0."
+      }
+    },
+    "songs-a-024": {
+      "title": "Valzer op. 12 n. 2 di Grieg",
+      "summary": "L'elegante apertura del valzer dai Pezzi lirici, in La minore con basso di valzer.",
+      "goal": "Mantieni leggero e aggraziato il carattere con fraseggio chiaro.",
+      "license": {
+        "notes": "Composizione di pubblico dominio. Arrangiamento CC0."
+      }
+    },
+    "songs-a-025": {
+      "title": "Romanza senza parole op. 19 n. 1 di Mendelssohn",
+      "summary": "La lirica melodia iniziale della prima Romanza senza parole, in Mi maggiore.",
+      "goal": "Usa un suono caldo e cantabile con fraseggio naturale.",
+      "license": {
+        "notes": "Composizione di pubblico dominio. Arrangiamento CC0."
+      }
+    },
+    "songs-a-026": {
+      "title": "Di paesi e genti lontane, op. 15 n. 1 di Schumann",
+      "summary": "La sognante apertura del primo brano di Scene infantili, in Sol maggiore.",
+      "goal": "Suona con dolcezza sognante e legato fluido.",
+      "license": {
+        "notes": "Composizione di pubblico dominio. Arrangiamento CC0."
+      }
+    },
+    "songs-a-027": {
+      "title": "Preghiera del mattino, op. 39 n. 1 di Čajkovskij",
+      "summary": "La solenne apertura della Preghiera del mattino dall'Album per la gioventù, in Sol maggiore.",
+      "goal": "Mantieni un carattere calmo e raccolto e un collegamento fluido delle voci.",
+      "license": {
+        "notes": "Composizione di pubblico dominio. Arrangiamento CC0."
+      }
+    },
+    "songs-a-028": {
+      "title": "Il funerale della bambola, op. 39 n. 8 di Čajkovskij",
+      "summary": "La cupa marcia dall'Album per la gioventù in Do minore.",
+      "goal": "Mantieni un passo lento e dignitoso con espressione solenne.",
+      "license": {
+        "notes": "Composizione di pubblico dominio. Arrangiamento CC0."
+      }
+    },
+    "songs-a-029": {
+      "title": "Il piccolo pastore di Debussy",
+      "summary": "L'apertura pastorale da Children's Corner, arrangiata in La bemolle maggiore.",
+      "goal": "Usa un suono arioso e sospeso che esprima l'atmosfera pastorale impressionista.",
+      "license": {
+        "notes": "Composizione di pubblico dominio. Arrangiamento CC0."
+      }
+    },
+    "songs-a-030": {
+      "title": "Gnossienne n. 1 di Satie",
+      "summary": "L'apertura ipnotica della prima Gnossienne, in Fa minore con carattere misterioso e modale.",
+      "goal": "Esprimi un'atmosfera eterea e meditativa in Fa minore.",
+      "license": {
+        "notes": "Composizione di pubblico dominio. Arrangiamento CC0."
+      }
+    }
+  },
+  "title": "Brani di livello avanzato",
+  "summary": "Trenta temi classici a mani unite, da Bach e Scarlatti a Chopin, Debussy e Satie, in arrangiamenti con dinamiche, pedale e accompagnamento per chi progredisce nello studio."
+}

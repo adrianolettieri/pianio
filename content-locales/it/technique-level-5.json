@@ -1,0 +1,127 @@
+{
+  "courseId": "technique-level-5",
+  "exercises": {
+    "tech5-001": {
+      "title": "Scala cromatica ascendente (MD)",
+      "summary": "Scala cromatica da Do4 a Do5 in crome alla destra.",
+      "goal": "Suona uniformemente i dodici semitoni, senza esitazioni sui tasti neri.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "tech5-002": {
+      "title": "Scala cromatica ascendente (MS)",
+      "summary": "Scala cromatica da Do3 a Do4 in crome alla sinistra.",
+      "goal": "Suona uniformemente i dodici semitoni alla sinistra in chiave di basso.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "tech5-003": {
+      "title": "Scala cromatica di andata e ritorno (MD)",
+      "summary": "Scala cromatica discendente da Do5 a Do4 e ritorno ascendente.",
+      "goal": "Inverti la direzione sull'ottava con fluidità, senza fermarti.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "tech5-004": {
+      "title": "Cinque dita in La bemolle maggiore (MD)",
+      "summary": "Posizione di cinque dita di La bemolle maggiore alla destra.",
+      "goal": "Suona La bemolle, Si bemolle, Do, Re bemolle e Mi bemolle con diteggiatura precisa.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "tech5-005": {
+      "title": "Cinque dita in La bemolle maggiore (MS)",
+      "summary": "Posizione di cinque dita di La bemolle maggiore alla sinistra, in chiave di basso.",
+      "goal": "Suona comodamente la posizione con quattro bemolli alla sinistra.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "tech5-006": {
+      "title": "Scala di La bemolle maggiore su un'ottava (MD)",
+      "summary": "Scala completa di La bemolle maggiore su un'ottava alla destra.",
+      "goal": "Suona con uniformità e precisione tutti e quattro i bemolli.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "tech5-007": {
+      "title": "Arpeggio di Do maggiore (MD)",
+      "summary": "Triade spezzata di Do maggiore in un arpeggio esteso alla destra.",
+      "goal": "Mantieni fluido l'arpeggio e regolari le crome.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "tech5-008": {
+      "title": "Arpeggio di Sol maggiore (MD)",
+      "summary": "Triade spezzata di Sol maggiore in un arpeggio esteso alla destra.",
+      "goal": "Suona con precisione le note Sol, Si e Re nei diversi registri.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "tech5-009": {
+      "title": "Arpeggio di Fa maggiore (MD)",
+      "summary": "Triade spezzata di Fa maggiore in un arpeggio esteso alla destra.",
+      "goal": "Suona con precisione le note Fa, La e Do nei diversi registri.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "tech5-010": {
+      "title": "Studio di velocità 1 — Seconde ascendenti",
+      "summary": "Una formula in stile Hanon con coppie di note a distanza di seconda, in salita e discesa in Do maggiore.",
+      "goal": "Sviluppa indipendenza e regolarità nelle rapide coppie di note.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "tech5-011": {
+      "title": "Studio di velocità 2 — Passaggi in Sol",
+      "summary": "Rapidi passaggi di scala ascendenti e discendenti in crome in Sol maggiore.",
+      "goal": "Raggiungi il tempo richiesto mantenendo preciso il Fa diesis.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "tech5-012": {
+      "title": "Triadi spezzate Do–Fa–Sol",
+      "summary": "Triadi spezzate continue nelle posizioni di Do, Fa e Sol maggiore.",
+      "goal": "Cambia posizione tra le tre forme di accordo con fluidità, senza fermarti.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "tech5-013": {
+      "title": "Variazione ritmica cromatica",
+      "summary": "Passaggi cromatici con durate miste in semiminime e crome.",
+      "goal": "Avvia i passaggi dalle note lunghe senza perdere la pulsazione.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "tech5-014": {
+      "title": "Melodia in La bemolle maggiore (MD)",
+      "summary": "Una melodia scorrevole di quattro frasi in La bemolle maggiore.",
+      "goal": "Modella la frase collegando con fluidità le note della tonalità.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "tech5-015": {
+      "title": "Studio combinato",
+      "summary": "Uno studio di quattro battute con frammento cromatico, arpeggio di Sol e passaggio di scala.",
+      "goal": "Passa con scioltezza tra cromatismi, arpeggi e scale nello stesso brano.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    }
+  },
+  "title": "Tecnica livello 5",
+  "summary": "Scale cromatiche complete, La bemolle maggiore con quattro bemolli, arpeggi estesi in Do, Sol e Fa, studi di velocità e uno studio che riunisce le abilità del livello 5."
+}

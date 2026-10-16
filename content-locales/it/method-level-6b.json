@@ -1,0 +1,167 @@
+{
+  "courseId": "method-level-6b",
+  "exercises": {
+    "m6b-001": {
+      "title": "Scala di Si bemolle minore armonica — Doppio pentagramma",
+      "summary": "Scala di Si bemolle minore armonica ascendente e discendente nelle due mani, con La naturale come sensibile innalzata.",
+      "goal": "Affronta Si bemolle minore armonica sul doppio pentagramma, collocando La naturale come settimo grado innalzato rispetto all'armatura con cinque bemolli.",
+      "license": {
+        "notes": "Esercizio originale"
+      }
+    },
+    "m6b-002": {
+      "title": "Si bemolle minore armonica — Cinque note",
+      "summary": "Figura di cinque note ascendente e discendente nelle due mani.",
+      "goal": "Sviluppa scioltezza sulle cinque note di Si bemolle minore a mani unite, prima della scala completa.",
+      "license": {
+        "notes": "Esercizio originale"
+      }
+    },
+    "m6b-003": {
+      "title": "Si bemolle minore armonica — Melodia",
+      "summary": "Melodia espressiva con La naturale che risolve salendo al Si bemolle.",
+      "goal": "Dai forma a una linea cantabile in Si bemolle minore armonica, usando il La naturale per creare tensione di sensibile.",
+      "license": {
+        "notes": "Esercizio originale"
+      }
+    },
+    "m6b-004": {
+      "title": "Si bemolle minore armonica — Studio in crome",
+      "summary": "Studio in crome con La naturale come sensibile innalzata.",
+      "goal": "Mantieni regolare il movimento in crome in Si bemolle minore armonica, collocando correttamente il La naturale.",
+      "license": {
+        "notes": "Esercizio originale"
+      }
+    },
+    "m6b-005": {
+      "title": "Si bemolle minore — Progressione barocca",
+      "summary": "Progressione barocca discendente con la caratteristica sensibile La naturale.",
+      "goal": "Esegui una progressione barocca discendente in Si bemolle minore armonica, con precisione ritmica e articolazione pulita.",
+      "license": {
+        "notes": "Esercizio originale"
+      }
+    },
+    "m6b-006": {
+      "title": "Si bemolle minore armonica — Valzer",
+      "summary": "Valzer in 3/4 in cui il La naturale dà slancio drammatico alla melodia.",
+      "goal": "Dai forma a un valzer in Si bemolle minore armonica in 3/4, lasciando al La naturale la sua tensione espressiva.",
+      "license": {
+        "notes": "Esercizio originale"
+      }
+    },
+    "m6b-007": {
+      "title": "Si bemolle minore — Frase classica bilanciata",
+      "summary": "Frase classica di antecedente e conseguente, con risoluzione cadenzale chiara.",
+      "goal": "Suona un periodo classico bilanciato in Si bemolle minore armonica, modellando la domanda dell'antecedente e la risposta del conseguente.",
+      "license": {
+        "notes": "Esercizio originale"
+      }
+    },
+    "m6b-008": {
+      "title": "Si bemolle minore — Melodia ampliata",
+      "summary": "Melodia lirica di sei battute in Si bemolle minore armonica, con esplorazione dell'estensione tonale.",
+      "goal": "Dai forma a un arco musicale più lungo, crescendo verso il La naturale acuto e risolvendo sul Si bemolle.",
+      "license": {
+        "notes": "Esercizio originale"
+      }
+    },
+    "m6b-009": {
+      "title": "Si bemolle minore — Moto contrario",
+      "summary": "Le mani si muovono in direzioni opposte: la destra sale, la sinistra scende.",
+      "goal": "Coordina il moto contrario in Si bemolle minore armonica, mantenendo le voci regolari e indipendenti.",
+      "license": {
+        "notes": "Esercizio originale"
+      }
+    },
+    "m6b-010": {
+      "title": "Fa minore armonica — Frase classica",
+      "summary": "Frase in stile classico in Fa minore armonica, con antecedente e conseguente bilanciati.",
+      "goal": "Applica la struttura di frase classica a Fa minore armonica, lasciando al Mi naturale una chiara tensione cadenzale.",
+      "license": {
+        "notes": "Esercizio originale"
+      }
+    },
+    "m6b-011": {
+      "title": "Do minore armonica — Frase classica",
+      "summary": "Frase classica bilanciata in Do minore armonica, con Si naturale come sensibile.",
+      "goal": "Dai forma ad antecedente e conseguente in Do minore armonica, usando espressivamente il Si naturale.",
+      "license": {
+        "notes": "Esercizio originale"
+      }
+    },
+    "m6b-012": {
+      "title": "La bemolle maggiore — Tema di sonatina classica",
+      "summary": "Tema brillante di sonatina classica in La bemolle maggiore, con passaggi della destra per grado congiunto.",
+      "goal": "Suona un tema di sonatina classica in La bemolle maggiore, con forma della frase chiara e passaggi regolari.",
+      "license": {
+        "notes": "Esercizio originale"
+      }
+    },
+    "m6b-013": {
+      "title": "Passaggio cromatico — Contesto minore",
+      "summary": "Passaggio cromatico ascendente e discendente che risolve su Mi minore, esplorando le dodici altezze cromatiche.",
+      "goal": "Suona semitoni cromatici regolari nelle due mani e risolvi nettamente su Mi minore.",
+      "license": {
+        "notes": "Esercizio originale"
+      }
+    },
+    "m6b-014": {
+      "title": "Scala di Mi minore armonica — Doppio pentagramma",
+      "summary": "Scala di Mi minore armonica ascendente e discendente nelle due mani, con Re diesis come sensibile innalzata.",
+      "goal": "Riconosci e suona Re diesis come settimo grado innalzato di Mi minore armonica, rispettando il Fa diesis della tonalità.",
+      "license": {
+        "notes": "Esercizio originale"
+      }
+    },
+    "m6b-015": {
+      "title": "Mi minore armonica — Melodia",
+      "summary": "Melodia espressiva con Re diesis che risolve salendo al Mi.",
+      "goal": "Suona una linea cantabile in Mi minore armonica, usando il Re diesis per creare tensione armonica verso la tonica.",
+      "license": {
+        "notes": "Esercizio originale"
+      }
+    },
+    "m6b-016": {
+      "title": "Mi minore armonica — Studio in crome",
+      "summary": "Studio in crome con Re diesis come sensibile innalzata.",
+      "goal": "Mantieni regolari le crome in Mi minore armonica, collocando il Re diesis prima della risoluzione oltre la stanghetta.",
+      "license": {
+        "notes": "Esercizio originale"
+      }
+    },
+    "m6b-017": {
+      "title": "Mi minore — Progressione barocca",
+      "summary": "Progressione barocca discendente in Mi minore armonica, con Re diesis come sensibile drammatica.",
+      "goal": "Esegui una progressione barocca discendente in Mi minore armonica, con precisione ritmica pulita.",
+      "license": {
+        "notes": "Esercizio originale"
+      }
+    },
+    "m6b-018": {
+      "title": "Mi minore armonica — Valzer",
+      "summary": "Valzer in 3/4 in cui il Re diesis dà alla danza un carattere drammatico.",
+      "goal": "Dai forma a un valzer minore espressivo in Mi minore armonica, curando la sensibile innalzata nella melodia.",
+      "license": {
+        "notes": "Esercizio originale"
+      }
+    },
+    "m6b-019": {
+      "title": "Mi minore — Moto contrario",
+      "summary": "La destra sale nella scala di Mi minore armonica mentre la sinistra scende simultaneamente.",
+      "goal": "Coordina il moto contrario in Mi minore armonica, bilanciando suono e tempo delle mani.",
+      "license": {
+        "notes": "Esercizio originale"
+      }
+    },
+    "m6b-020": {
+      "title": "Si bemolle minore — Tema classico ampliato",
+      "summary": "Tema classico di sei battute: frase iniziale, progressione, culmine sul La naturale e risoluzione cadenzale.",
+      "goal": "Unisci il vocabolario di Si bemolle minore armonica e il fraseggio classico in un tema completo di sei battute.",
+      "license": {
+        "notes": "Esercizio originale"
+      }
+    }
+  },
+  "title": "Metodo livello 6B — Ampliamento",
+  "summary": "Introduzione di Si bemolle minore armonica, con cinque bemolli e fraseggio classico, e Mi minore armonica, con un diesis come contrasto. Passaggi cromatici e indipendenza delle mani, sempre sul doppio pentagramma."
+}

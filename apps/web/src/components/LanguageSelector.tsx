@@ -1,6 +1,7 @@
 import { useTranslation } from "react-i18next";
 import { useLanguage } from "../i18n/LanguageProvider";
-import { normalizeLanguage } from "../i18n/language";
+import { normalizeLanguage, supportedLanguages } from "../i18n/language";
+import { languageLabels } from "../i18n/resources";
 
 export function LanguageSelector() {
   const { t } = useTranslation("common");
@@ -11,8 +12,7 @@ export function LanguageSelector() {
       const language = normalizeLanguage(e.target.value);
       if (language) requestLanguage(language);
     }}>
-      <option value="it">Italiano</option>
-      <option value="en">English</option>
+      {supportedLanguages.map(language => <option key={language} value={language}>{languageLabels[language]}</option>)}
     </select>
     {pending && <span className="language-pending" role="status">{t(deferred ? "language.deferred" : "language.loading")}</span>}
   </label>;

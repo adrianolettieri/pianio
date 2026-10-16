@@ -1,0 +1,167 @@
+{
+  "courseId": "method-level-6e",
+  "exercises": {
+    "m6e-001": {
+      "title": "Studio di velocità in La bemolle maggiore",
+      "summary": "Passaggi ascendenti e discendenti di scala in crome alla destra, sopra un basso armonico regolare in minime.",
+      "goal": "Sviluppa velocità e regolarità delle dita nella scala di La bemolle maggiore a 108 bpm.",
+      "license": {
+        "notes": "Composizione originale"
+      }
+    },
+    "m6e-002": {
+      "title": "Moto perpetuo in Fa minore armonica",
+      "summary": "Movimento in crome nella scala di Fa minore armonica, con Mi naturale come settimo grado innalzato e sensibile.",
+      "goal": "Mantieni regolare la scrittura in crome del moto perpetuo, delineando l'armonia di Fa minore armonica.",
+      "license": {
+        "notes": "Composizione originale"
+      }
+    },
+    "m6e-003": {
+      "title": "Frammento di canone in Do minore armonica",
+      "summary": "La destra entra con un soggetto ascendente; la sinistra segue due tempi dopo, imitando all'ottava inferiore.",
+      "goal": "Coordina voci indipendenti nella scrittura canonica, mantenendo chiaro il Si naturale come settimo grado innalzato nelle due mani.",
+      "license": {
+        "notes": "Composizione originale"
+      }
+    },
+    "m6e-004": {
+      "title": "Tarantella in Mi minore armonica",
+      "summary": "Danza rapida in Mi minore armonica, con crome propulsive alla destra e sostegno armonico tenuto alla sinistra.",
+      "goal": "Esegui rapidi passaggi in Mi minore armonica, con Re diesis come sensibile, a 116 bpm alla semiminima.",
+      "license": {
+        "notes": "Composizione originale"
+      }
+    },
+    "m6e-005": {
+      "title": "Notturno conclusivo in Si bemolle minore",
+      "summary": "Notturno scorrevole in 3/4 in Si bemolle minore armonica, con melodia tenuta e La naturale come sensibile espressiva.",
+      "goal": "Dai forma a una melodia cantabile in Si bemolle minore lungo dieci battute, curando la conduzione verso la sensibile innalzata.",
+      "license": {
+        "notes": "Composizione originale"
+      }
+    },
+    "m6e-006": {
+      "title": "Studio in Si minore armonica",
+      "summary": "Studio basato sulla scala con crome scorrevoli e La diesis in rilievo al culmine delle frasi.",
+      "goal": "Padroneggia la diteggiatura di Si minore armonica a 100 bpm, con La diesis chiaro che conduce all'ottava.",
+      "license": {
+        "notes": "Composizione originale"
+      }
+    },
+    "m6e-007": {
+      "title": "Frammento di scherzo in Fa diesis minore armonica",
+      "summary": "Scherzo brillante in Fa diesis minore armonica, con Mi diesis come sensibile innalzata e rapidi passaggi in crome.",
+      "goal": "Affronta Fa diesis minore armonica a 112 bpm, trattando Mi diesis, enarmonico di Fa, come sensibile del Fa diesis.",
+      "license": {
+        "notes": "Composizione originale"
+      }
+    },
+    "m6e-008": {
+      "title": "Sonatina in La bemolle maggiore",
+      "summary": "Sonatina lirica di dieci battute in La bemolle maggiore, con melodia in semiminime, passaggi in crome e un ampio culmine.",
+      "goal": "Suona un'esposizione completa di sonatina in La bemolle maggiore, dando forma musicale alle dieci battute.",
+      "license": {
+        "notes": "Composizione originale"
+      }
+    },
+    "m6e-009": {
+      "title": "Soggetto di fuga in Do minore armonica",
+      "summary": "Scrittura fugata a due voci: la destra presenta il soggetto, la sinistra entra una battuta dopo all'ottava inferiore.",
+      "goal": "Bilancia due voci contrappuntistiche indipendenti in Do minore armonica, mantenendo chiaro il Si naturale come settimo grado innalzato.",
+      "license": {
+        "notes": "Composizione originale"
+      }
+    },
+    "m6e-010": {
+      "title": "Romanza in Fa minore armonica",
+      "summary": "Romanza lirica in 3/4, con melodia cantabile e Mi naturale innalzato che risolve sul Fa.",
+      "goal": "Fai cantare la melodia in Fa minore armonica lungo dieci battute, rendendo espressivamente il Mi naturale come settimo grado innalzato.",
+      "license": {
+        "notes": "Composizione originale"
+      }
+    },
+    "m6e-011": {
+      "title": "Allegro in Mi minore armonica",
+      "summary": "Studio energico in crome in Mi minore armonica, con ampia estensione e Re diesis come sensibile.",
+      "goal": "Suona con scioltezza passaggi di scala in Mi minore armonica a 100 bpm, valorizzando il Re diesis innalzato.",
+      "license": {
+        "notes": "Composizione originale"
+      }
+    },
+    "m6e-012": {
+      "title": "Studio brillante in La bemolle maggiore",
+      "summary": "Figurazioni arpeggiate sulle armonie di La bemolle, Re bemolle e Mi bemolle, con ampi accordi spezzati in crome alla destra.",
+      "goal": "Esegui arpeggi fluidi di accordi spezzati nell'armonia di La bemolle maggiore a 108 bpm.",
+      "license": {
+        "notes": "Composizione originale"
+      }
+    },
+    "m6e-013": {
+      "title": "Lento cantabile in Si minore armonica",
+      "summary": "Melodia lenta e cantabile che sale per un'ottava e si sofferma sul La diesis prima di risolvere sul Si.",
+      "goal": "Rendi una lunga linea melodica in Si minore armonica a 58 bpm, mantenendo ogni nota per l'intera durata.",
+      "license": {
+        "notes": "Composizione originale"
+      }
+    },
+    "m6e-014": {
+      "title": "Studio di velocità in Fa diesis minore armonica",
+      "summary": "Studio di velocità di ampia estensione in Fa diesis minore armonica, con Mi diesis come settimo grado innalzato ai culmini delle frasi.",
+      "goal": "Sviluppa velocità e precisione nella scala di Fa diesis minore armonica attraverso le ottave a 100 bpm.",
+      "license": {
+        "notes": "Composizione originale"
+      }
+    },
+    "m6e-015": {
+      "title": "Grande valzer in Si bemolle minore",
+      "summary": "Grande valzer in 3/4 in Si bemolle minore armonica, con melodia ampia e tensione caratteristica del La naturale innalzato.",
+      "goal": "Rendi il carattere del valzer lungo dieci battute, collocando il La naturale come settimo grado innalzato su un tempo forte.",
+      "license": {
+        "notes": "Composizione originale"
+      }
+    },
+    "m6e-016": {
+      "title": "Studio cromatico",
+      "summary": "Scala cromatica ascendente e discendente con sostegno della sinistra, per consolidare le dodici altezze cromatiche.",
+      "goal": "Esegui con scioltezza la scala cromatica completa nelle due direzioni a 88 bpm.",
+      "license": {
+        "notes": "Composizione originale"
+      }
+    },
+    "m6e-017": {
+      "title": "Preludio perpetuo in Fa minore armonica",
+      "summary": "Preludio arpeggiato in moto perpetuo in Fa minore armonica, con accordi spezzati che delineano tonica, sottodominante e dominante.",
+      "goal": "Mantieni regolare la figurazione ad accordi spezzati in Fa minore armonica lungo otto battute a 92 bpm.",
+      "license": {
+        "notes": "Composizione originale"
+      }
+    },
+    "m6e-018": {
+      "title": "Allegro con brio in Si minore armonica",
+      "summary": "Studio rapido ed energico, con crome propulsive fino al Si5 e La diesis come sensibile in evidenza.",
+      "goal": "Suona Si minore armonica a 112 bpm, con articolazione chiara e sicurezza sul La diesis innalzato.",
+      "license": {
+        "notes": "Composizione originale"
+      }
+    },
+    "m6e-019": {
+      "title": "Grande studio in La bemolle maggiore",
+      "summary": "Studio di sintesi di dieci battute, con scale, arpeggi e culmine melodico sul Si bemolle5; riunisce il vocabolario di La bemolle del livello 6.",
+      "goal": "Esegui l'intero brano di sintesi in La bemolle maggiore lungo dieci battute, con tempo costante e regolarità.",
+      "license": {
+        "notes": "Composizione originale"
+      }
+    },
+    "m6e-020": {
+      "title": "Grande finale del Metodo livello 6",
+      "summary": "Finale conclusivo di dodici battute in La minore armonica che riassume il Metodo: scale, salti, Sol diesis innalzato e cadenza finale trionfale.",
+      "goal": "Esegui il grande finale del Metodo livello 6 con musicalità e precisione, riunendo le abilità dei livelli da 1 a 6.",
+      "license": {
+        "notes": "Composizione originale"
+      }
+    }
+  },
+  "title": "Metodo livello 6E — Padronanza",
+  "summary": "Esercizi conclusivi nelle tonalità del livello 6: La bemolle maggiore, Fa, Do, Si bemolle, Mi, Si e Fa diesis minore armonica, più passaggi cromatici. Studi di velocità, moto perpetuo e brani fino a dodici battute completano il percorso Metodo."
+}

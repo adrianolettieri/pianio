@@ -1,0 +1,120 @@
+- link "Vai al contenuto":
+  - /url: "#main-content"
+- banner:
+  - link "Pianio":
+    - /url: "#/courses"
+  - navigation:
+    - link "Corsi":
+      - /url: "#/courses"
+    - link "Progressi":
+      - /url: "#/progress"
+  - generic: Lingua
+  - combobox "Lingua":
+    - option "English" [selected]
+    - option "Italiano"
+  - status: La lingua scelta verrà applicata al termine dell’audio.
+  - generic: Web MIDI disponibile
+  - link "Diagnostica MIDI":
+    - /url: "#/diagnostics"
+  - button "Passa al tema chiaro":
+- main:
+  - navigation "Percorso di navigazione":
+    - link "Corsi":
+      - /url: "#/courses"
+    - generic: /
+    - link "Metodo livello 1A — Fondamenti":
+      - /url: "#/courses/method-level-1a"
+    - generic: /
+    - generic: Pulsazione sul Do
+  - paragraph: I contenuti italiani sono tradotti parzialmente. I corsi e i campi non tradotti usano l’inglese.
+  - link "Metodo livello 1A — Fondamenti":
+    - /url: "#/courses/method-level-1a"
+    - text: Metodo livello 1A — Fondamenti
+  - generic: 1 / 20
+  - link "Prossimo esercizio":
+    - /url: "#/courses/method-level-1a/exercises/c-and-d"
+  - heading "Pulsazione sul Do" [level=2]
+  - paragraph: Suona il Do centrale con un suono regolare, mantenendolo per tutta la durata.
+  - generic: MD
+  - generic: Chiave di violino
+  - generic: 56 bpm
+  - generic: 4/4
+  - generic: R
+  - text: reimposta
+  - text: naviga
+  - button "Esercitazione"
+  - button "Esecuzione"
+  - button "Ascolto…" [disabled]:
+    - text: Ascolto…
+  - button "Riduci": −
+  - generic: 115%
+  - button "Ingrandisci": +
+  - region "Scorri lo spartito in orizzontale per leggere le istruzioni lunghe.":
+  - img "Tastiera del pianoforte":
+    - generic: Do2
+    - generic: Do3
+    - generic: Do4
+    - generic: Do5
+  - button "Connessione…" [disabled]
+  - generic: 0/2
+  - generic: 2 note
+  - text: "Prossima:"
+  - strong: Do4
+  - text: MD
+  - button "Strumenti":
+    - text: Strumenti
+  - complementary:
+    - generic: Scaletta del corso
+    - heading "Metodo livello 1A — Fondamenti" [level=3]
+    - link "Vai al corso":
+      - /url: "#/courses/method-level-1a"
+    - button "Nascondi scaletta":
+    - link "1":
+      - /url: "#/courses/method-level-1a/exercises/single-c-pulse"
+    - link "2":
+      - /url: "#/courses/method-level-1a/exercises/c-and-d"
+    - link "3":
+      - /url: "#/courses/method-level-1a/exercises/three-steps-up"
+    - link "4":
+      - /url: "#/courses/method-level-1a/exercises/step-and-hold"
+    - link "5":
+      - /url: "#/courses/method-level-1a/exercises/skip-to-e"
+    - link "6":
+      - /url: "#/courses/method-level-1a/exercises/c-position-climb"
+    - link "7":
+      - /url: "#/courses/method-level-1a/exercises/quarter-rest-pause"
+    - link "8":
+      - /url: "#/courses/method-level-1a/exercises/half-note-steps"
+    - link "9":
+      - /url: "#/courses/method-level-1a/exercises/three-beat-walk"
+    - link "10":
+      - /url: "#/courses/method-level-1a/exercises/two-beat-march"
+    - link "11":
+      - /url: "#/courses/method-level-1a/exercises/bass-c-pulse"
+    - link "12":
+      - /url: "#/courses/method-level-1a/exercises/bass-c-and-d"
+    - link "13":
+      - /url: "#/courses/method-level-1a/exercises/bass-three-steps"
+    - link "14":
+      - /url: "#/courses/method-level-1a/exercises/bass-skip"
+    - link "15":
+      - /url: "#/courses/method-level-1a/exercises/bass-half-notes"
+    - link "16":
+      - /url: "#/courses/method-level-1a/exercises/bass-rest-steps"
+    - link "17":
+      - /url: "#/courses/method-level-1a/exercises/bass-c-position"
+    - link "18":
+      - /url: "#/courses/method-level-1a/exercises/bass-whole-notes"
+    - link "19":
+      - /url: "#/courses/method-level-1a/exercises/climb-and-return"
+    - link "20":
+      - /url: "#/courses/method-level-1a/exercises/foundation-capstone"
+- contentinfo:
+  - generic: Pianio
+  - generic: Lezioni di pianoforte gratuite e open source che ti ascoltano.
+  - link "GitHub":
+    - /url: https://github.com/ismaelponce/pianio
+    - text: GitHub
+  - link "Licenza MIT":
+    - /url: https://github.com/ismaelponce/pianio/blob/main/LICENSE
+  - text: MIDI

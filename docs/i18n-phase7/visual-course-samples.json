@@ -1,0 +1,502 @@
+[
+  {
+    "start": 0,
+    "samples": [
+      {
+        "course": "method-level-1",
+        "exercise": "method-021",
+        "svg": 1
+      },
+      {
+        "course": "method-level-1a",
+        "exercise": "m1a-017",
+        "svg": 1
+      },
+      {
+        "course": "method-level-1b",
+        "exercise": "m1b-020",
+        "svg": 1
+      },
+      {
+        "course": "method-level-1c",
+        "exercise": "m1c-020",
+        "svg": 1
+      }
+    ]
+  },
+  {
+    "start": 4,
+    "samples": [
+      {
+        "course": "method-level-1d",
+        "exercise": "m1d-001",
+        "svg": 1
+      },
+      {
+        "course": "method-level-1e",
+        "exercise": "m1e-017",
+        "svg": 1
+      },
+      {
+        "course": "method-level-2",
+        "exercise": "method2-009",
+        "svg": 1
+      },
+      {
+        "course": "method-level-2a",
+        "exercise": "m2a-007",
+        "svg": 1
+      }
+    ]
+  },
+  {
+    "start": 8,
+    "samples": [
+      {
+        "course": "method-level-2b",
+        "exercise": "m2b-020",
+        "svg": 1
+      },
+      {
+        "course": "method-level-2c",
+        "exercise": "m2c-020",
+        "svg": 1
+      },
+      {
+        "course": "method-level-2d",
+        "exercise": "m2d-020",
+        "svg": 1
+      },
+      {
+        "course": "method-level-2e",
+        "exercise": "m2e-020",
+        "svg": 1
+      }
+    ]
+  },
+  {
+    "start": 12,
+    "samples": [
+      {
+        "course": "method-level-3",
+        "exercise": "method3-014",
+        "svg": 1
+      },
+      {
+        "course": "method-level-3a",
+        "exercise": "m3a-019",
+        "svg": 1
+      },
+      {
+        "course": "method-level-3b",
+        "exercise": "m3b-020",
+        "svg": 1
+      },
+      {
+        "course": "method-level-3c",
+        "exercise": "m3c-013",
+        "svg": 1
+      }
+    ]
+  },
+  {
+    "start": 16,
+    "samples": [
+      {
+        "course": "method-level-3d",
+        "exercise": "m3d-019",
+        "svg": 1
+      },
+      {
+        "course": "method-level-3e",
+        "exercise": "m3e-005",
+        "svg": 1
+      },
+      {
+        "course": "method-level-4",
+        "exercise": "method4-001",
+        "svg": 1
+      },
+      {
+        "course": "method-level-4a",
+        "exercise": "m4a-001",
+        "svg": 1
+      }
+    ]
+  },
+  {
+    "start": 20,
+    "samples": [
+      {
+        "course": "method-level-4b",
+        "exercise": "m4b-014",
+        "svg": 1
+      },
+      {
+        "course": "method-level-4c",
+        "exercise": "m4c-019",
+        "svg": 1
+      },
+      {
+        "course": "method-level-4d",
+        "exercise": "m4d-004",
+        "svg": 1
+      },
+      {
+        "course": "method-level-4e",
+        "exercise": "m4e-019",
+        "svg": 1
+      }
+    ]
+  },
+  {
+    "start": 24,
+    "samples": [
+      {
+        "course": "method-level-5",
+        "exercise": "method5-005",
+        "svg": 1
+      },
+      {
+        "course": "method-level-5a",
+        "exercise": "m5a-005",
+        "svg": 1
+      },
+      {
+        "course": "method-level-5b",
+        "exercise": "m5b-018",
+        "svg": 1
+      },
+      {
+        "course": "method-level-5c",
+        "exercise": "m5c-019",
+        "svg": 1
+      }
+    ]
+  },
+  {
+    "start": 28,
+    "samples": [
+      {
+        "course": "method-level-5d",
+        "exercise": "m5d-006",
+        "svg": 1
+      },
+      {
+        "course": "method-level-5e",
+        "exercise": "m5e-019",
+        "svg": 1
+      },
+      {
+        "course": "method-level-6",
+        "exercise": "method6-009",
+        "svg": 1
+      },
+      {
+        "course": "method-level-6a",
+        "exercise": "m6a-006",
+        "svg": 1
+      }
+    ]
+  },
+  {
+    "start": 32,
+    "samples": [
+      {
+        "course": "method-level-6b",
+        "exercise": "m6b-001",
+        "svg": 1
+      },
+      {
+        "course": "method-level-6c",
+        "exercise": "m6c-006",
+        "svg": 1
+      },
+      {
+        "course": "method-level-6d",
+        "exercise": "m6d-001",
+        "svg": 1
+      },
+      {
+        "course": "method-level-6e",
+        "exercise": "m6e-009",
+        "svg": 1
+      }
+    ]
+  },
+  {
+    "start": 36,
+    "samples": [
+      {
+        "course": "songs-advanced",
+        "exercise": "songs-a-001",
+        "svg": 1
+      },
+      {
+        "course": "songs-beginner",
+        "exercise": "songs-b-008",
+        "svg": 1
+      },
+      {
+        "course": "songs-folk",
+        "exercise": "songs-f-001",
+        "svg": 1
+      },
+      {
+        "course": "songs-holiday",
+        "exercise": "songs-h-003",
+        "svg": 1
+      }
+    ]
+  },
+  {
+    "start": 40,
+    "samples": [
+      {
+        "course": "songs-hymns",
+        "exercise": "songs-hy-004",
+        "svg": 1
+      },
+      {
+        "course": "songs-intermediate",
+        "exercise": "songs-i-006",
+        "svg": 1
+      },
+      {
+        "course": "songs-jazz-blues",
+        "exercise": "songs-jb-008",
+        "svg": 1
+      },
+      {
+        "course": "songs-pro",
+        "exercise": "songs-p-015",
+        "svg": 1
+      }
+    ]
+  },
+  {
+    "start": 44,
+    "samples": [
+      {
+        "course": "technique-level-1",
+        "exercise": "technique-005",
+        "svg": 1
+      },
+      {
+        "course": "technique-level-1a",
+        "exercise": "t1a-005",
+        "svg": 1
+      },
+      {
+        "course": "technique-level-1b",
+        "exercise": "t1b-005",
+        "svg": 1
+      },
+      {
+        "course": "technique-level-1c",
+        "exercise": "t1c-020",
+        "svg": 1
+      }
+    ]
+  },
+  {
+    "start": 48,
+    "samples": [
+      {
+        "course": "technique-level-1d",
+        "exercise": "t1d-020",
+        "svg": 1
+      },
+      {
+        "course": "technique-level-1e",
+        "exercise": "t1e-015",
+        "svg": 1
+      },
+      {
+        "course": "technique-level-2",
+        "exercise": "tech2-014",
+        "svg": 1
+      },
+      {
+        "course": "technique-level-2a",
+        "exercise": "t2a-006",
+        "svg": 1
+      }
+    ]
+  },
+  {
+    "start": 52,
+    "samples": [
+      {
+        "course": "technique-level-2b",
+        "exercise": "t2b-015",
+        "svg": 1
+      },
+      {
+        "course": "technique-level-2c",
+        "exercise": "t2c-001",
+        "svg": 1
+      },
+      {
+        "course": "technique-level-2d",
+        "exercise": "t2d-003",
+        "svg": 1
+      },
+      {
+        "course": "technique-level-2e",
+        "exercise": "t2e-019",
+        "svg": 1
+      }
+    ]
+  },
+  {
+    "start": 56,
+    "samples": [
+      {
+        "course": "technique-level-3",
+        "exercise": "tech3-014",
+        "svg": 1
+      },
+      {
+        "course": "technique-level-3a",
+        "exercise": "t3a-018",
+        "svg": 1
+      },
+      {
+        "course": "technique-level-3b",
+        "exercise": "t3b-015",
+        "svg": 1
+      },
+      {
+        "course": "technique-level-3c",
+        "exercise": "t3c-006",
+        "svg": 1
+      }
+    ]
+  },
+  {
+    "start": 60,
+    "samples": [
+      {
+        "course": "technique-level-3d",
+        "exercise": "t3d-011",
+        "svg": 1
+      },
+      {
+        "course": "technique-level-3e",
+        "exercise": "t3e-019",
+        "svg": 1
+      },
+      {
+        "course": "technique-level-4",
+        "exercise": "tech4-014",
+        "svg": 1
+      },
+      {
+        "course": "technique-level-4a",
+        "exercise": "t4a-019",
+        "svg": 1
+      }
+    ]
+  },
+  {
+    "start": 64,
+    "samples": [
+      {
+        "course": "technique-level-4b",
+        "exercise": "t4b-001",
+        "svg": 1
+      },
+      {
+        "course": "technique-level-4c",
+        "exercise": "t4c-020",
+        "svg": 1
+      },
+      {
+        "course": "technique-level-4d",
+        "exercise": "t4d-010",
+        "svg": 1
+      },
+      {
+        "course": "technique-level-4e",
+        "exercise": "t4e-001",
+        "svg": 1
+      }
+    ]
+  },
+  {
+    "start": 68,
+    "samples": [
+      {
+        "course": "technique-level-5",
+        "exercise": "tech5-004",
+        "svg": 1
+      },
+      {
+        "course": "technique-level-5a",
+        "exercise": "t5a-019",
+        "svg": 1
+      },
+      {
+        "course": "technique-level-5b",
+        "exercise": "t5b-017",
+        "svg": 1
+      },
+      {
+        "course": "technique-level-5c",
+        "exercise": "t5c-006",
+        "svg": 1
+      }
+    ]
+  },
+  {
+    "start": 72,
+    "samples": [
+      {
+        "course": "technique-level-5d",
+        "exercise": "t5d-020",
+        "svg": 1
+      },
+      {
+        "course": "technique-level-5e",
+        "exercise": "t5e-012",
+        "svg": 1
+      },
+      {
+        "course": "technique-level-6",
+        "exercise": "tech6-014",
+        "svg": 1
+      },
+      {
+        "course": "technique-level-6a",
+        "exercise": "t6a-018",
+        "svg": 1
+      }
+    ]
+  },
+  {
+    "start": 76,
+    "samples": [
+      {
+        "course": "technique-level-6b",
+        "exercise": "t6b-006",
+        "svg": 1
+      },
+      {
+        "course": "technique-level-6c",
+        "exercise": "t6c-001",
+        "svg": 1
+      },
+      {
+        "course": "technique-level-6d",
+        "exercise": "t6d-003",
+        "svg": 1
+      },
+      {
+        "course": "technique-level-6e",
+        "exercise": "t6e-019",
+        "svg": 1
+      }
+    ]
+  }
+]

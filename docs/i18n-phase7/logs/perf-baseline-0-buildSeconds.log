@@ -1,0 +1,33 @@
+
+> pianio@0.1.0 build /private/tmp/pianio-phase7-baseline
+> pnpm generate:content && pnpm --filter @pianio/web build
+
+
+> pianio@0.1.0 generate:content /private/tmp/pianio-phase7-baseline
+> node ./scripts/generate-content.mjs
+
+
+> @pianio/web@0.1.0 build /private/tmp/pianio-phase7-baseline/apps/web
+> vite build
+
+vite v7.3.1 building client environment for production...
+transforming...
+✓ 2716 modules transformed.
+rendering chunks...
+[plugin vite:reporter] 
+(!) /private/tmp/pianio-phase7-baseline/apps/web/src/audio/pianoSampler.ts is dynamically imported by /private/tmp/pianio-phase7-baseline/apps/web/src/App.tsx but also statically imported by /private/tmp/pianio-phase7-baseline/apps/web/src/App.tsx, /private/tmp/pianio-phase7-baseline/apps/web/src/components/ExercisePracticePanel.tsx, dynamic import will not move module into another chunk.
+
+computing gzip size...
+dist/index.html                                    1.84 kB │ gzip:   0.80 kB
+dist/assets/index-BKsaeCEO.css                    83.64 kB │ gzip:  15.47 kB
+dist/assets/vendor-react-C6WxKkic.js              11.32 kB │ gzip:   4.07 kB
+dist/assets/ExercisePracticePanel-ccJtVkvX.js     42.04 kB │ gzip:  14.07 kB
+dist/assets/vendor-tone-CqApq50o.js              233.39 kB │ gzip:  59.86 kB
+dist/assets/index-C4ARaCvk.js                    235.91 kB │ gzip:  73.50 kB
+dist/assets/vendor-osmd-dRwwoeo2.js            1,208.65 kB │ gzip: 318.27 kB
+
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rollupOptions.output.manualChunks to improve chunking: https://rollupjs.org/configuration-options/#output-manualchunks
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+✓ built in 2.44s

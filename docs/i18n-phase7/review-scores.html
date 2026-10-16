@@ -1,0 +1,28 @@
+<!doctype html><html lang="it"><meta charset="utf-8"><title>Revisione spartiti italiani — Pianio</title>
+<style>body{margin:16px;font:16px system-ui;color:#172e3c;background:#eef2f5}h1{font-size:20px}h2{font-size:16px;margin:12px 0 4px}article{background:white;padding:12px;margin:12px 0;overflow:visible}p{margin:4px 0}a{margin-right:20px}svg{display:block}</style>
+<h1>Revisione tecnica OSMD — campione con l'obiettivo più lungo di ogni corso</h1><p>Harness separato dal viewer React, senza accesso ai progressi o a MIDI. Non è una prova hardware.</p>
+<nav><a id="prev">Precedenti</a><a id="next">Successivi</a></nav><p id="status" role="status">Caricamento</p><main></main>
+<script type="module">
+import { r } from '__OSMD_MODULE__';
+const { OpenSheetMusicDisplay } = r();
+const start = Number(new URL(location.href).searchParams.get('start') || 0);
+const lang = new URL(location.href).searchParams.get('lang') || 'it';
+const catalog = await (await fetch(`/generated/${lang}/catalog.json`)).json();
+for (const [id,offset] of [['prev',Math.max(0,start-4)],['next',Math.min(76,start+4)]]) document.getElementById(id).href=`?start=${offset}&lang=${lang}`;
+try {
+ for (const course of catalog.courses.slice(start,start+4)) {
+  const exercise=course.exercises.reduce((a,b)=>a.goal.length>=b.goal.length?a:b);
+  const article=document.createElement('article');article.dataset.course=course.id;article.dataset.exercise=exercise.id;
+  const heading=document.createElement('h2');heading.textContent=`${course.id} / ${exercise.id} — ${exercise.title}`;article.append(heading);
+  const box=document.createElement('div');article.append(box);document.querySelector('main').append(article);
+  const score=new OpenSheetMusicDisplay(box,{backend:'svg',autoResize:false,drawTitle:true,drawComposer:true});
+  const xml=await(await fetch(exercise.scorePath)).text();await score.load(xml);score.render();
+  // Same viewport extension as the production ScoreViewer.fitInstructions.
+  for(const svg of box.querySelectorAll('svg')) {
+   const bounds=svg.getBBox(), view=svg.viewBox.baseVal, right=Math.ceil(bounds.x+bounds.width+16);
+   if(right>view.width){svg.setAttribute('width',String(right));svg.setAttribute('viewBox',`${view.x} ${view.y} ${right} ${view.height}`);}
+  }
+ }
+ document.getElementById('status').textContent=`Completato: corsi ${start+1}–${Math.min(start+4,catalog.courses.length)} di ${catalog.courses.length}, lingua ${lang}`;
+} catch(e){document.getElementById('status').textContent='ERRORE: '+e.message;}
+</script></html>

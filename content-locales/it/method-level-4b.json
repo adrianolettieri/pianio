@@ -1,0 +1,107 @@
+{
+  "courseId": "method-level-4b",
+  "exercises": {
+    "m4b-001": {
+      "title": "Studio in crome in Re maggiore",
+      "summary": "Passaggi scorrevoli di scala in crome per la destra in Re maggiore, con Fa e Do diesis espliciti.",
+      "goal": "Suona passaggi di scala in Re maggiore in crome, rispettando i diesis."
+    },
+    "m4b-002": {
+      "title": "Studio in crome in La maggiore",
+      "summary": "Passaggi in crome per la destra in La maggiore, con Fa, Do e Sol diesis espliciti.",
+      "goal": "Suona a tempo passaggi di scala in La maggiore, rispettando i tre diesis."
+    },
+    "m4b-003": {
+      "title": "Studio di scala in Si bemolle maggiore",
+      "summary": "Scala completa di un'ottava per la sinistra, ascendente e discendente, con Si e Mi bemolle espliciti.",
+      "goal": "Suona con fluidità la scala di Si bemolle maggiore nella sinistra, rispettando i bemolli."
+    },
+    "m4b-004": {
+      "title": "Ampliamento di Mi bemolle maggiore",
+      "summary": "Brano di sei battute per la destra, con passaggi in crome e Mi, La e Si bemolle espliciti.",
+      "goal": "Amplia il vocabolario di Mi bemolle maggiore lungo sei battute, con movimento scorrevole in crome."
+    },
+    "m4b-005": {
+      "title": "Orientamento in La bemolle maggiore",
+      "summary": "Introduzione per la destra alla posizione di cinque note di La bemolle maggiore, con Si, Mi, La e Re bemolle.",
+      "goal": "Orienta la destra in La bemolle maggiore e colloca correttamente i quattro bemolli."
+    },
+    "m4b-006": {
+      "title": "La bemolle maggiore per la sinistra",
+      "summary": "Introduzione di cinque note per la sinistra in chiave di basso, con i quattro bemolli espliciti.",
+      "goal": "Stabilisci la posizione di La bemolle maggiore nella sinistra, rispettando Si, Mi, La e Re bemolle."
+    },
+    "m4b-007": {
+      "title": "Duetto in crome in Re maggiore",
+      "summary": "Brano di sei battute sul doppio pentagramma, con melodia in crome sopra la pulsazione della sinistra.",
+      "goal": "Coordina ritmicamente le crome scorrevoli della destra con la pulsazione regolare della sinistra."
+    },
+    "m4b-008": {
+      "title": "Minuetto in Re maggiore",
+      "summary": "Minuetto di sei battute in Re maggiore, in 3/4, a mani unite.",
+      "goal": "Rendi il carattere aggraziato del minuetto con una precisa pulsazione 1–2–3 in Re maggiore."
+    },
+    "m4b-009": {
+      "title": "Dialogo in La maggiore",
+      "summary": "Conversazione di sei battute tra la melodia della destra e la risposta della sinistra in La maggiore.",
+      "goal": "Dai forma a un dialogo di domanda e risposta tra le mani in La maggiore."
+    },
+    "m4b-010": {
+      "title": "Andante in La maggiore",
+      "summary": "Andante espressivo di otto battute in La maggiore a mani unite.",
+      "goal": "Sostieni una lunga frase lirica in La maggiore lungo otto battute."
+    },
+    "m4b-011": {
+      "title": "Studio in Si bemolle maggiore",
+      "summary": "Studio di sei battute con passaggi in crome alla destra sopra un sostegno regolare della sinistra.",
+      "goal": "Esegui passaggi scorrevoli in crome in Si bemolle maggiore, rispettando Si e Mi bemolle."
+    },
+    "m4b-012": {
+      "title": "Valzer in Si bemolle maggiore",
+      "summary": "Valzer di otto battute in 3/4, con la destra scorrevole sopra l'accompagnamento di valzer della sinistra.",
+      "goal": "Mantieni il carattere del valzer in Si bemolle maggiore lungo otto battute con entrambe le mani."
+    },
+    "m4b-013": {
+      "title": "Studio in Mi bemolle maggiore",
+      "summary": "Studio di sei battute sul doppio pentagramma, con semiminime e crome in Mi bemolle maggiore.",
+      "goal": "Coordina le mani in Mi bemolle maggiore, rispettando tutti e tre i bemolli."
+    },
+    "m4b-014": {
+      "title": "Cantabile in Mi bemolle maggiore",
+      "summary": "Brano cantabile di otto battute, con melodia lirica alla destra e sostegno della sinistra.",
+      "goal": "Dai forma a una frase cantabile in Mi bemolle maggiore, con conduzione fluida delle voci nelle due mani."
+    },
+    "m4b-015": {
+      "title": "Duetto in La bemolle maggiore",
+      "summary": "Primo brano sul doppio pentagramma in La bemolle maggiore, con Si, Mi, La e Re bemolle nelle due mani.",
+      "goal": "Coordina le mani in La bemolle maggiore, rispettando tutti e quattro i bemolli."
+    },
+    "m4b-016": {
+      "title": "Canto in La bemolle maggiore",
+      "summary": "Canto di sei battute a mani unite, con melodia alla destra e armonia alla sinistra.",
+      "goal": "Suona una melodia espressiva in La bemolle maggiore sopra un sostegno armonico regolare della sinistra."
+    },
+    "m4b-017": {
+      "title": "Studio sui contrasti in Re maggiore",
+      "summary": "Brano di otto battute che contrappone minime tenute a passaggi scorrevoli in crome.",
+      "goal": "Controlla il contrasto dinamico tra passaggi tenuti e scorrevoli in Re maggiore."
+    },
+    "m4b-018": {
+      "title": "Serenata nelle tonalità con bemolli",
+      "summary": "Serenata di otto battute in Si bemolle maggiore, con passaggi in crome e ampi archi melodici.",
+      "goal": "Esegui una serenata lirica in Si bemolle maggiore, con movimento fluido in crome nella destra."
+    },
+    "m4b-019": {
+      "title": "Notturno in Mi bemolle maggiore",
+      "summary": "Notturno di otto battute in Mi bemolle maggiore, con fraseggio lento ed espressivo a mani unite.",
+      "goal": "Rendi un suono raccolto e cantabile in Mi bemolle maggiore, bilanciando attentamente le voci."
+    },
+    "m4b-020": {
+      "title": "Riepilogo dell'ampliamento del livello 4B",
+      "summary": "Brano conclusivo di otto battute in Re maggiore, con ampia estensione e scioltezza nelle crome.",
+      "goal": "Dimostra maggiore padronanza di Re maggiore, con crome scorrevoli nelle due mani."
+    }
+  },
+  "title": "Metodo livello 4B — Ampliamento",
+  "summary": "Amplia le tonalità del livello 4 con passaggi in crome, introduce La bemolle maggiore con quattro bemolli e sviluppa l'indipendenza delle mani in Re, La, Si bemolle, Mi bemolle e La bemolle maggiore."
+}

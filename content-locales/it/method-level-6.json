@@ -1,0 +1,127 @@
+{
+  "courseId": "method-level-6",
+  "exercises": {
+    "method6-001": {
+      "title": "Scala di La bemolle maggiore (MD)",
+      "summary": "Scala di La bemolle maggiore di un'ottava per la destra, con i quattro bemolli.",
+      "goal": "Leggi e suona le otto note di La bemolle maggiore, rispettando ogni bemolle.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "method6-002": {
+      "title": "Scala di La bemolle maggiore (MS)",
+      "summary": "Scala di La bemolle maggiore di un'ottava per la sinistra, in chiave di basso.",
+      "goal": "Suona nitidamente La bemolle maggiore in chiave di basso, con i quattro bemolli.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "method6-003": {
+      "title": "Melodia in La bemolle maggiore (MD)",
+      "summary": "Melodia di quattro frasi in La bemolle maggiore, tra tonica, sottodominante e dominante.",
+      "goal": "Dai forma a una melodia lirica in La bemolle maggiore, con conduzione fluida della voce.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "method6-004": {
+      "title": "Studio in crome in La bemolle (MD)",
+      "summary": "La bemolle maggiore ascendente e discendente in crome, con frase conclusiva.",
+      "goal": "Mantieni regolari le crome in La bemolle maggiore, rispettando i quattro bemolli.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "method6-005": {
+      "title": "Valzer in La bemolle",
+      "summary": "Melodia in stile di valzer di sei battute in La bemolle maggiore, in 3/4.",
+      "goal": "Senti l'oscillazione del valzer in 3/4, affrontando i quattro bemolli di La bemolle maggiore.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "method6-006": {
+      "title": "Linea di basso in La bemolle (MS)",
+      "summary": "Figura di basso per la sinistra nelle posizioni armoniche di La bemolle, Re bemolle e Mi bemolle.",
+      "goal": "Suona una linea di basso scorrevole attraverso tre posizioni armoniche di La bemolle maggiore.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "method6-007": {
+      "title": "Scala di Re dorico (MD)",
+      "summary": "Scala di Re dorico per la destra: Re, Mi, Fa, Sol, La, Si, Do, Re; modo minore con sesto grado innalzato.",
+      "goal": "Ascolta e suona il caratteristico sesto grado innalzato del modo dorico.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "method6-008": {
+      "title": "Melodia in Re dorico (MD)",
+      "summary": "Melodia di quattro frasi in Re dorico che evidenzia il Si naturale, sesto grado innalzato.",
+      "goal": "Esprimi il colore modale dorico attraverso una melodia cantabile di quattro frasi.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "method6-009": {
+      "title": "Scala di La dorico (MD)",
+      "summary": "Scala di La dorico: La, Si, Do, Re, Mi, Fa diesis, Sol, La; stessa armatura di Sol maggiore.",
+      "goal": "Suona La dorico, riconoscendo il Fa diesis come sesto grado innalzato accanto al settimo grado naturale.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "method6-010": {
+      "title": "Melodia in La dorico (MD)",
+      "summary": "Melodia di quattro frasi in La dorico, con il colore del Fa diesis.",
+      "goal": "Metti in risalto melodicamente il Fa diesis, sesto grado innalzato di La dorico.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "method6-011": {
+      "title": "Scala di Sol misolidio (MD)",
+      "summary": "Scala di Sol misolidio: Sol, La, Si, Do, Re, Mi, Fa, Sol; modo maggiore con settimo grado abbassato.",
+      "goal": "Suona Sol misolidio, riconoscendo il Fa naturale che abbassa il settimo grado.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "method6-012": {
+      "title": "Melodia in Sol misolidio (MD)",
+      "summary": "Melodia di quattro frasi in Sol misolidio, con Fa naturale come settimo grado abbassato.",
+      "goal": "Esprimi il carattere vicino al blues del modo misolidio attraverso una melodia fluida di quattro frasi.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "method6-013": {
+      "title": "Studio misto nelle tonalità con bemolli",
+      "summary": "Passaggi tra le aree melodiche di Mi bemolle e La bemolle, con le alterazioni scritte.",
+      "goal": "Passa fluidamente tra le aree melodiche di Mi bemolle e La bemolle nello stesso studio.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "method6-014": {
+      "title": "Ritmo sincopato in La bemolle",
+      "summary": "Melodia in La bemolle maggiore con figure di semiminime e coppie di crome.",
+      "goal": "Senti lo slancio ritmico delle figure proposte, leggendo con precisione La bemolle maggiore.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "method6-015": {
+      "title": "Finale in La bemolle",
+      "summary": "Brano di otto battute in La bemolle maggiore, con scale, melodia e fraseggio nelle tonalità con bemolli.",
+      "goal": "Suona un discorso musicale completo in La bemolle maggiore, con suono fluido e ritmo regolare.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    }
+  },
+  "title": "Metodo livello 6",
+  "summary": "La bemolle maggiore con quattro bemolli, scale modali doriche e misolidie, varietà ritmica e finale di otto battute in La bemolle: un ponte tra lettura tonale e modale."
+}

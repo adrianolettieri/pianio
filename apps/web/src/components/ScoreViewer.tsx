@@ -2,13 +2,16 @@ import { useEffect, useRef, useState } from "react";
 import { useTranslation } from "react-i18next";
 import { OpenSheetMusicDisplay } from "opensheetmusicdisplay";
 import { nativeErrorMessage, renderMessage, type MessageDescriptor } from "../i18n/messages";
+import { sourceLanguage, supportedLanguages } from "../i18n/language";
 
 interface ScoreViewerProps { scorePath: string; matchedCount: number }
 type LoadState = "loading" | "ready" | "error";
 const ZOOM_MIN = 0.5, ZOOM_MAX = 1.8, ZOOM_STEP = 0.15;
 
 export function englishScorePath(path: string): string | null {
-  return /^\/generated\/it\/scores\/[a-z0-9-]+\/[a-z0-9-]+\.musicxml$/.test(path) ? path.replace("/generated/it/", "/generated/en/") : null;
+  const match = path.match(/^\/generated\/([a-z-]+)\/scores\/[a-z0-9-]+\/[a-z0-9-]+\.musicxml$/);
+  const locale = supportedLanguages.find(language => language === match?.[1]);
+  return locale && locale !== sourceLanguage ? path.replace(`/generated/${locale}/`, `/generated/${sourceLanguage}/`) : null;
 }
 
 export function ScoreViewer({ scorePath, matchedCount }: ScoreViewerProps) {

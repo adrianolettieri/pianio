@@ -1,5 +1,5 @@
 import i18n from "./index";
-import type { Language } from "./language";
+import { fallbackLanguage, normalizeLanguage, type Language } from "./language";
 import type { MidiSupportDescription } from "@pianio/midi-web";
 import type { ProgressImportResult } from "../progress";
 
@@ -21,7 +21,7 @@ export function renderMessage(message: MessageDescriptor, language?: Language): 
 }
 
 export function resolveLanguage(language: string | undefined): Language {
-  return language?.toLowerCase().split("-")[0] === "it" ? "it" : "en";
+  return normalizeLanguage(language) ?? fallbackLanguage;
 }
 
 export function midiSupportMessages(support: MidiSupportDescription): { summary: MessageDescriptor; detail: MessageDescriptor } {

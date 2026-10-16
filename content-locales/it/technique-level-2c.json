@@ -1,0 +1,107 @@
+{
+  "courseId": "technique-level-2c",
+  "exercises": {
+    "t2c-001": {
+      "title": "Ripasso di Sol maggiore (MD)",
+      "summary": "Ripasso in Sol maggiore per la destra con passaggi in crome e accordi spezzati.",
+      "goal": "Collega con scioltezza i passaggi per grado congiunto e gli arpeggi di Sol maggiore."
+    },
+    "t2c-002": {
+      "title": "Ripasso di Sol maggiore (MS)",
+      "summary": "Ripasso in Sol maggiore per la sinistra con passaggi in crome e accordi spezzati.",
+      "goal": "Collega con scioltezza i passaggi per grado congiunto e gli arpeggi di Sol maggiore."
+    },
+    "t2c-003": {
+      "title": "Ripasso di Fa maggiore (MD)",
+      "summary": "Ripasso in Fa maggiore per la destra con passaggi in crome e accordi spezzati.",
+      "goal": "Alterna con scioltezza il moto per grado congiunto e i passaggi Fa–La–Do."
+    },
+    "t2c-004": {
+      "title": "Ripasso di Fa maggiore (MS)",
+      "summary": "Ripasso in Fa maggiore per la sinistra con passaggi in crome e accordi spezzati.",
+      "goal": "Alterna con scioltezza il moto per grado congiunto e i passaggi Fa–La–Do."
+    },
+    "t2c-005": {
+      "title": "Sol maggiore in una frase estesa (MD)",
+      "summary": "Otto battute in 3/4 per la destra, con passaggi e accordi spezzati in Sol maggiore.",
+      "goal": "Sostieni una frase di otto battute passando con fluidità tra i diversi ritmi."
+    },
+    "t2c-006": {
+      "title": "Fa maggiore con pause (MD)",
+      "summary": "Crome, semiminime e pause di semiminima in Fa maggiore per la destra.",
+      "goal": "Rientra con precisione dopo le pause e suona correttamente il Si bemolle."
+    },
+    "t2c-007": {
+      "title": "Fa maggiore in una frase estesa (MS)",
+      "summary": "Otto battute in 3/4 per la sinistra, con passaggi e accordi spezzati in Fa maggiore.",
+      "goal": "Sviluppa la scioltezza della sinistra e la sicurezza sul Si bemolle3."
+    },
+    "t2c-008": {
+      "title": "Velocità in Sol maggiore (MD)",
+      "summary": "Crome continue in Sol maggiore per la destra a tempo rapido.",
+      "goal": "Mantieni le crome pulite e regolari anche aumentando la velocità."
+    },
+    "t2c-009": {
+      "title": "Velocità in Fa maggiore (MS)",
+      "summary": "Crome continue in Fa maggiore per la sinistra a tempo rapido.",
+      "goal": "Mantieni uniforme il movimento della sinistra in Fa maggiore."
+    },
+    "t2c-010": {
+      "title": "Sol maggiore con pause (MS)",
+      "summary": "Crome, semiminime e pause di semiminima in Sol maggiore per la sinistra.",
+      "goal": "Rispetta tutta la durata delle pause e riprendi con precisione."
+    },
+    "t2c-011": {
+      "title": "Sol maggiore in moto parallelo",
+      "summary": "Le due mani percorrono la posizione di cinque dita di Sol nella stessa direzione.",
+      "goal": "Sincronizza le mani nel moto parallelo."
+    },
+    "t2c-012": {
+      "title": "Sol maggiore in moto contrario",
+      "summary": "La destra sale mentre la sinistra scende in Sol maggiore.",
+      "goal": "Controlla in modo indipendente la direzione delle due mani."
+    },
+    "t2c-013": {
+      "title": "Fa maggiore in moto parallelo",
+      "summary": "Le due mani percorrono insieme la posizione di cinque dita di Fa.",
+      "goal": "Suona correttamente il Si bemolle con entrambe le mani."
+    },
+    "t2c-014": {
+      "title": "Fa maggiore in moto contrario",
+      "summary": "La destra sale e la sinistra scende nella posizione di Fa.",
+      "goal": "Coordina i movimenti contrari e il Si bemolle di ciascuna mano."
+    },
+    "t2c-015": {
+      "title": "Melodia e basso in Sol maggiore",
+      "summary": "Una melodia in crome alla destra incontra un basso in minime alla sinistra.",
+      "goal": "Mantieni indipendenti i due ritmi senza perdere la pulsazione comune."
+    },
+    "t2c-016": {
+      "title": "Melodia e basso in Fa maggiore",
+      "summary": "Una melodia scorrevole alla destra si appoggia a note lunghe della sinistra.",
+      "goal": "Bilancia melodia e basso conservando l'indipendenza ritmica."
+    },
+    "t2c-017": {
+      "title": "Accordi spezzati di Sol a mani unite",
+      "summary": "Le due mani arpeggiano la triade di Sol maggiore.",
+      "goal": "Coordina i passaggi Sol–Si–Re tra le due mani."
+    },
+    "t2c-018": {
+      "title": "Accordi spezzati di Fa a mani unite",
+      "summary": "Le due mani arpeggiano la triade di Fa maggiore.",
+      "goal": "Coordina i passaggi Fa–La–Do tra le due mani."
+    },
+    "t2c-019": {
+      "title": "Sol maggiore sul doppio pentagramma",
+      "summary": "Otto battute in Sol maggiore con melodia alla destra e sostegno armonico alla sinistra.",
+      "goal": "Realizza una frase musicale completa a mani unite in Sol maggiore."
+    },
+    "t2c-020": {
+      "title": "Fa maggiore sul doppio pentagramma",
+      "summary": "Otto battute in Fa maggiore con melodia alla destra e accompagnamento alla sinistra.",
+      "goal": "Completa la frase a mani unite collocando con naturalezza il Si bemolle."
+    }
+  },
+  "title": "Tecnica livello 2C — Combinazione",
+  "summary": "Ripasso a mani separate ed esercizi a mani unite in Sol maggiore e Fa maggiore: moto parallelo e contrario, melodia con basso e coordinazione degli accordi spezzati."
+}

@@ -7,6 +7,8 @@ import { importProgressMessage, midiSupportMessages, renderMessage, type Message
 import { LanguageSelector } from "./components/LanguageSelector";
 import { useLanguage } from "./i18n/LanguageProvider";
 import { isEditingTarget } from "./i18n/shortcuts";
+import { sourceLanguage } from "./i18n/language";
+import { readPreference, savePreference } from "./storage";
 import { startAudio } from "./audio/pianoSampler";
 import { DiagnosticsScreen } from "./screens/DiagnosticsScreen";
 import {
@@ -1030,6 +1032,10 @@ function ProgressScreen({ catalog, progressVersion, onImport }: { catalog: Gener
   const firstExerciseHref = firstMethodCourse
     ? getExerciseHref(firstMethodCourse.id, firstMethodCourse.exercises[0].slug)
     : getCatalogHref();
+  const fileActions = <>
+    <button className="action-link secondary" type="button" onClick={exportProgress}>{t("progress:ui.export")}</button>
+    <button className="action-link secondary" type="button" onClick={handleImport}>{t("progress:ui.import")}</button>
+  </>;
 
   return (
     <div className="screen-stack">
@@ -1039,6 +1045,7 @@ function ProgressScreen({ catalog, progressVersion, onImport }: { catalog: Gener
           <h3>{t("progress:ui.startTitle")}</h3>
           <p>{t("progress:ui.startDescription")}</p>
           <a className="action-link primary" href={firstExerciseHref}>{t("progress:ui.startPractice")}</a>
+          <div className="progress-actions">{fileActions}</div>
         </div>
       ) : (
       <section className="progress-header">
@@ -1049,8 +1056,7 @@ function ProgressScreen({ catalog, progressVersion, onImport }: { catalog: Gener
           </div>
           <div className="progress-actions">
             <a className="action-link primary" href={resumeTarget.href}>{t("progress:ui.continue")}</a>
-            <button className="action-link secondary" type="button" onClick={exportProgress}>{t("progress:ui.export")}</button>
-            <button className="action-link secondary" type="button" onClick={handleImport}>{t("progress:ui.import")}</button>
+            {fileActions}
             <button
               className={`action-link secondary${confirmReset ? " danger" : ""}`}
               type="button"
@@ -1061,7 +1067,6 @@ function ProgressScreen({ catalog, progressVersion, onImport }: { catalog: Gener
             </button>
           </div>
         </div>
-        {importMsg && <p className="import-msg">{renderMessage(importMsg, i18n.language.toLowerCase().startsWith("it") ? "it" : "en")}</p>}
 
         <div className="progress-journey">
           <div className="journey-bar">
@@ -1075,7 +1080,7 @@ function ProgressScreen({ catalog, progressVersion, onImport }: { catalog: Gener
             {total3 > 0 && (
               <>
                 <span className="journey-dot" />
-                <span className="journey-stat"><strong>{total3}</strong> {t("progress:ui.perfect")}</span>
+                <span className="journey-stat">{t("progress:ui.perfect", { count: total3 })}</span>
               </>
             )}
             {streak > 0 && (
@@ -1088,6 +1093,7 @@ function ProgressScreen({ catalog, progressVersion, onImport }: { catalog: Gener
         </div>
       </section>
       )}
+      {importMsg && <p className="import-msg">{renderMessage(importMsg)}</p>}
 
       <div className="section-head">
         <div>
@@ -1180,7 +1186,7 @@ function TopNav({ midi, darkMode, setDarkMode, route }: {
         <LanguageSelector />
         <span className={midi.available ? "midi-indicator ok" : "midi-indicator warn"}>
           <span className="midi-dot" />
-          {renderMessage(midiMessages.summary, i18n.language.toLowerCase().startsWith("it") ? "it" : "en")}
+          {renderMessage(midiMessages.summary)}
         </span>
         <a className="top-nav-settings" href="#/diagnostics" title={t("common:ui.midiDiagnostics")} aria-label={t("common:ui.midiDiagnostics")}>
           <Settings size={16} />
@@ -1204,7 +1210,7 @@ export default function App() {
   const { catalog, error, retry, activeLanguage, contentLanguage } = useLanguage();
   const [progressVersion, setProgressVersion] = useState(0);
   const [sidebarOpen, setSidebarOpen] = useState(true);
-  const [darkMode, setDarkMode] = useState(() => localStorage.getItem("pianio:dark") === "1");
+  const [darkMode, setDarkMode] = useState(() => readPreference("pianio:dark") === "1");
   const handleExerciseComplete = () => { recordPracticeDay(); setProgressVersion((v) => v + 1); };
   const resumeTarget = catalog ? getResumeTarget(catalog) : null;
   const hasProgress = catalog
@@ -1236,7 +1242,7 @@ export default function App() {
     } else {
       document.documentElement.removeAttribute("data-theme");
     }
-    localStorage.setItem("pianio:dark", darkMode ? "1" : "0");
+    savePreference("pianio:dark", darkMode ? "1" : "0");
   }, [darkMode]);
 
   useEffect(() => {
@@ -1457,8 +1463,8 @@ export default function App() {
             {t("common:language.error")} <button type="button" onClick={retry}>{t("common:language.retry")}</button>
           </div>}
           {catalog && activeLanguage !== contentLanguage && <p className="language-notice" role="status">{t("common:language.fallback")}</p>}
-          {activeLanguage === "it" && catalog?.courses.some(c => (c.coverage?.fallbackFields ?? 0) > 0) && <p className="language-notice">{t("common:language.partial")}</p>}
-          {activeLanguage === "it" && (selectedCourse?.coverage?.fallbackFields ?? 0) > 0 && <p className="language-notice">{t("common:language.coursePartial")}</p>}
+          {activeLanguage !== sourceLanguage && catalog?.courses.some(c => (c.coverage?.fallbackFields ?? 0) > 0) && <p className="language-notice">{t("common:language.partial")}</p>}
+          {activeLanguage !== sourceLanguage && (selectedCourse?.coverage?.fallbackFields ?? 0) > 0 && <p className="language-notice">{t("common:language.coursePartial")}</p>}
           {content}
         </section>
       </div>

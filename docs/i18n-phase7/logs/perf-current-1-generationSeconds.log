@@ -1,0 +1,5 @@
+
+> pianio@0.1.0 generate:content /Users/adriano/Dev/codex/pianio/pianio
+> node ./scripts/generate-content.mjs
+
+Generated content: en, it plus English legacy URLs.

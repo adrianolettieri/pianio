@@ -1,10 +1,14 @@
 import { afterEach, describe, expect, it, vi } from "vitest";
-import { importProgress, type ProgressExport } from "./progress";
+import { exportProgress, getBestStars, getCompletedCount, importProgress, isExerciseComplete, resetProgress, type ProgressExport } from "./progress";
+import legacyFixture from "./fixtures/progress-v1.baseline.json";
+import { i18n, initializeI18n } from "./i18n";
+import { importProgressMessage, renderMessage } from "./i18n/messages";
 
 describe("structured progress import", () => {
   afterEach(() => {
     localStorage.clear();
     vi.restoreAllMocks();
+    vi.unstubAllGlobals();
   });
 
   it("returns a coded JSON parse failure", () => {
@@ -33,5 +37,38 @@ describe("structured progress import", () => {
   it("reports storage write failures", () => {
     vi.spyOn(Storage.prototype, "setItem").mockImplementation(() => { throw new Error("quota exceeded"); });
     expect(importProgress(JSON.stringify({ version: 1, completed: [] }))).toMatchObject({ outcome: "failure", code: "progress.import.storage-write-failed", ok: false });
+  });
+
+  it.each(["en", "it"] as const)("round-trips the synthetic baseline v1 fixture in %s, preserving keys, stars, dates and preferences", async language => {
+    // Derived from df5526d's ProgressExport contract; not historical user data.
+    await initializeI18n(language);
+    await i18n.changeLanguage(language);
+    localStorage.setItem("pianio:language", language);
+    localStorage.setItem("pianio:dark", "1");
+    const result = importProgress(JSON.stringify(legacyFixture));
+    expect(result.ok).toBe(true);
+    expect(renderMessage(importProgressMessage(result), language)).toBe(language === "it"
+      ? "Importati 2 esercizi completati." : "Imported 2 completed exercises.");
+    expect(getCompletedCount("method-level-1a")).toBe(2);
+    expect(isExerciseComplete("method-level-1a", "single-c-pulse")).toBe(true);
+    expect(getBestStars("method-level-1a", "single-c-pulse")).toBe(3);
+    expect(getBestStars("method-level-1a", "c-and-d")).toBe(2);
+    expect(JSON.parse(localStorage.getItem("pianio:streak_dates")!)).toEqual(legacyFixture.streakDates);
+    let exported: Blob | undefined;
+    vi.stubGlobal("URL", { createObjectURL: (blob: Blob) => { exported = blob; return "blob:test"; }, revokeObjectURL: vi.fn() });
+    vi.spyOn(HTMLAnchorElement.prototype, "click").mockImplementation(() => {});
+    exportProgress();
+    const json = await new Promise<string>((resolve, reject) => {
+      const reader = new FileReader(); reader.onload = () => resolve(String(reader.result)); reader.onerror = reject; reader.readAsText(exported!);
+    });
+    expect(JSON.parse(json)).toEqual({ ...legacyFixture, exportedAt: expect.any(String) });
+    resetProgress();
+    expect(getCompletedCount("method-level-1a")).toBe(0);
+    expect(getBestStars("method-level-1a", "single-c-pulse")).toBeNull();
+    expect(localStorage.getItem("pianio:streak_dates")).toBeNull();
+    expect(localStorage.getItem("pianio:language")).toBe(language);
+    expect(localStorage.getItem("pianio:dark")).toBe("1");
+    expect(importProgress(json).ok).toBe(true);
+    expect(getCompletedCount("method-level-1a")).toBe(2);
   });
 });

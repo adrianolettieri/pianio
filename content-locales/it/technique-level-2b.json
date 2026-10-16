@@ -1,0 +1,107 @@
+{
+  "courseId": "technique-level-2b",
+  "exercises": {
+    "t2b-001": {
+      "title": "Crome in Sol maggiore (MD)",
+      "summary": "Esercizio sulle cinque note di Sol maggiore, con crome scorrevoli nella destra.",
+      "goal": "Suona crome regolari in salita e discesa nella posizione di Sol maggiore."
+    },
+    "t2b-002": {
+      "title": "Figura in stile Hanon in Sol maggiore (MD)",
+      "summary": "Esercizio in stile Hanon con la figura ripetuta Sol–La–Si–Do–Re–Do–Si–La.",
+      "goal": "Sviluppa un movimento uniforme delle dita lungo tutte e cinque le note di Sol maggiore."
+    },
+    "t2b-003": {
+      "title": "Accordo spezzato di Sol maggiore (MD)",
+      "summary": "Figura sulla triade di Sol maggiore spezzata nella destra: Sol–Si–Re.",
+      "goal": "Arpeggia fluidamente la triade di Sol maggiore nella posizione di cinque note."
+    },
+    "t2b-004": {
+      "title": "Sol maggiore con pause di semiminima (MD)",
+      "summary": "Studio della destra in Sol maggiore con crome, semiminime e pause di semiminima.",
+      "goal": "Mantieni la pulsazione nelle pause e rientra nitidamente sul tempo."
+    },
+    "t2b-005": {
+      "title": "Frase estesa in Sol maggiore (MD)",
+      "summary": "Melodia di otto battute per la destra in Sol maggiore, in 3/4, con fioriture in crome.",
+      "goal": "Sostieni una frase scorrevole in Sol maggiore lungo otto battute."
+    },
+    "t2b-006": {
+      "title": "Crome in Sol maggiore (MS)",
+      "summary": "Esercizio sulle cinque note di Sol maggiore, con crome scorrevoli nella sinistra.",
+      "goal": "Suona crome regolari in salita e discesa nella posizione di Sol maggiore."
+    },
+    "t2b-007": {
+      "title": "Figura in stile Hanon in Sol maggiore (MS)",
+      "summary": "Esercizio in stile Hanon con la figura ripetuta Sol–La–Si–Do–Re–Do–Si–La.",
+      "goal": "Sviluppa un movimento uniforme delle dita lungo tutte e cinque le note di Sol maggiore."
+    },
+    "t2b-008": {
+      "title": "Accordo spezzato di Sol maggiore (MS)",
+      "summary": "Figura sulla triade di Sol maggiore spezzata nella sinistra: Sol–Si–Re.",
+      "goal": "Arpeggia fluidamente la triade di Sol maggiore nella posizione di cinque note."
+    },
+    "t2b-009": {
+      "title": "Sol maggiore con pause di semiminima (MS)",
+      "summary": "Studio della sinistra in Sol maggiore con crome, semiminime e pause di semiminima.",
+      "goal": "Mantieni la pulsazione nelle pause e rientra nitidamente sul tempo."
+    },
+    "t2b-010": {
+      "title": "Frase estesa in Sol maggiore (MS)",
+      "summary": "Melodia di otto battute per la sinistra in Sol maggiore, in 3/4, con fioriture in crome.",
+      "goal": "Sostieni una frase scorrevole in Sol maggiore lungo otto battute."
+    },
+    "t2b-011": {
+      "title": "Crome in Fa maggiore (MD)",
+      "summary": "Esercizio sulle cinque note di Fa maggiore, con crome scorrevoli e Si bemolle nella destra.",
+      "goal": "Suona crome regolari in Fa maggiore, raggiungendo nitidamente il Si bemolle4 anche in velocità."
+    },
+    "t2b-012": {
+      "title": "Figura in stile Hanon in Fa maggiore (MD)",
+      "summary": "Esercizio in stile Hanon con la figura ripetuta Fa–Sol–La–Si bemolle–Do–Si bemolle–La–Sol.",
+      "goal": "Sviluppa regolarità delle dita nelle cinque note di Fa maggiore, con Si bemolle."
+    },
+    "t2b-013": {
+      "title": "Accordo spezzato di Fa maggiore (MD)",
+      "summary": "Figura sulla triade di Fa maggiore spezzata nella destra: Fa–La–Do.",
+      "goal": "Arpeggia fluidamente la triade di Fa maggiore, collocando con precisione La4 e Do5."
+    },
+    "t2b-014": {
+      "title": "Fa maggiore con pause di semiminima (MD)",
+      "summary": "Studio della destra in Fa maggiore con crome, semiminime e pause.",
+      "goal": "Rientra nitidamente dopo le pause e suona con precisione il Si bemolle4 nei ritmi vari."
+    },
+    "t2b-015": {
+      "title": "Frase estesa in Fa maggiore (MD)",
+      "summary": "Melodia di otto battute per la destra in Fa maggiore in 3/4, con Si bemolle in un contesto musicale.",
+      "goal": "Suona una frase scorrevole in Fa maggiore lungo otto battute, collocando naturalmente il Si bemolle."
+    },
+    "t2b-016": {
+      "title": "Crome in Fa maggiore (MS)",
+      "summary": "Esercizio sulle cinque note di Fa maggiore, con crome scorrevoli e Si bemolle nella sinistra.",
+      "goal": "Suona crome regolari in Fa maggiore, raggiungendo nitidamente il Si bemolle3 anche in velocità."
+    },
+    "t2b-017": {
+      "title": "Figura in stile Hanon in Fa maggiore (MS)",
+      "summary": "Esercizio in stile Hanon con la figura ripetuta Fa–Sol–La–Si bemolle–Do–Si bemolle–La–Sol.",
+      "goal": "Sviluppa regolarità delle dita nelle cinque note di Fa maggiore, con Si bemolle."
+    },
+    "t2b-018": {
+      "title": "Accordo spezzato di Fa maggiore (MS)",
+      "summary": "Figura sulla triade di Fa maggiore spezzata nella sinistra: Fa–La–Do.",
+      "goal": "Arpeggia fluidamente la triade di Fa maggiore, collocando con precisione La3 e Do4."
+    },
+    "t2b-019": {
+      "title": "Fa maggiore con pause di semiminima (MS)",
+      "summary": "Studio della sinistra in Fa maggiore con crome, semiminime e pause.",
+      "goal": "Rientra nitidamente dopo le pause e suona con precisione il Si bemolle3 nei ritmi vari."
+    },
+    "t2b-020": {
+      "title": "Frase estesa in Fa maggiore (MS)",
+      "summary": "Melodia di otto battute per la sinistra in Fa maggiore in 3/4, con Si bemolle in un contesto musicale.",
+      "goal": "Suona una frase scorrevole in Fa maggiore lungo otto battute, collocando naturalmente il Si bemolle."
+    }
+  },
+  "title": "Tecnica livello 2B — Ampliamento",
+  "summary": "Crome, pause di semiminima, figure in stile Hanon e accordi spezzati in Sol e Fa maggiore. Esercizi a mani separate per velocità e scioltezza."
+}

@@ -1,0 +1,50 @@
+[
+  {
+    "command": "pnpm check:i18n",
+    "exitCode": 0,
+    "seconds": 0.26,
+    "log": "completion-01.log"
+  },
+  {
+    "command": "pnpm check:i18n:full",
+    "exitCode": 0,
+    "seconds": 0.258,
+    "log": "completion-02.log"
+  },
+  {
+    "command": "pnpm test:ui",
+    "exitCode": 0,
+    "seconds": 2.362,
+    "log": "completion-03.log"
+  },
+  {
+    "command": "pnpm test:content",
+    "exitCode": 0,
+    "seconds": 15.74,
+    "log": "completion-04.log"
+  },
+  {
+    "command": "pnpm typecheck",
+    "exitCode": 0,
+    "seconds": 1.961,
+    "log": "completion-05.log"
+  },
+  {
+    "command": "pnpm test",
+    "exitCode": 0,
+    "seconds": 0.614,
+    "log": "completion-06.log"
+  },
+  {
+    "command": "pnpm --filter @pianio/core-engine test",
+    "exitCode": 0,
+    "seconds": 0.204,
+    "log": "completion-07.log"
+  },
+  {
+    "command": "pnpm build",
+    "exitCode": 0,
+    "seconds": 5.096,
+    "log": "completion-08.log"
+  }
+]

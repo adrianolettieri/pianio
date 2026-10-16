@@ -61,3 +61,10 @@ docs/*
 # Phase 5 session coordination and browser verification evidence.
 !docs/I18N-LANGUAGE-SESSION.md
 !docs/i18n-phase5/
+
+# Phase 7 validation records and contributor instructions.
+!docs/I18N-GLOSSARY-IT.md
+!docs/I18N-VALIDATION-REPORT.md
+!docs/ADDING-A-LANGUAGE.md
+!docs/i18n-phase7/
+!docs/i18n-phase7/logs/*.log

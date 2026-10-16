@@ -1,0 +1,127 @@
+{
+  "courseId": "songs-hymns",
+  "exercises": {
+    "songs-hy-001": {
+      "title": "Amazing Grace",
+      "summary": "Il celebre inno in Sol maggiore, con pedale delicato.",
+      "goal": "Usa un suono caldo e cantabile con cambi di pedale fluidi.",
+      "license": {
+        "notes": "Composizione di pubblico dominio. Arrangiamento CC0."
+      }
+    },
+    "songs-hy-002": {
+      "title": "How Great Thou Art",
+      "summary": "Il maestoso inno di origine svedese in Si bemolle maggiore, con ampia escursione dinamica.",
+      "goal": "Fai crescere le dinamiche dal piano al fortissimo.",
+      "license": {
+        "notes": "Composizione di pubblico dominio. Arrangiamento CC0."
+      }
+    },
+    "songs-hy-003": {
+      "title": "Be Thou My Vision",
+      "summary": "Un antico inno irlandese in Mi bemolle maggiore, con andamento scorrevole in 3/4.",
+      "goal": "Mantieni un ritmo dolce e ondeggiante.",
+      "license": {
+        "notes": "Melodia tradizionale di pubblico dominio. Arrangiamento CC0."
+      }
+    },
+    "songs-hy-004": {
+      "title": "Santo, santo, santo",
+      "summary": "La maestosa melodia di inno di John B. Dykes in Re maggiore.",
+      "goal": "Usa dinamiche decise e sicure per esprimere la solennità del brano.",
+      "license": {
+        "notes": "Composizione di pubblico dominio. Arrangiamento CC0."
+      }
+    },
+    "songs-hy-005": {
+      "title": "Rock of Ages",
+      "summary": "Il classico inno di Thomas Hastings in Do maggiore, con semplice andamento di valzer.",
+      "goal": "Mantieni dolce e regolare il ritmo in 3/4.",
+      "license": {
+        "notes": "Composizione di pubblico dominio. Arrangiamento CC0."
+      }
+    },
+    "songs-hy-006": {
+      "title": "Abide With Me",
+      "summary": "L'inno di William Monk in Mi bemolle maggiore, con pedale.",
+      "goal": "Suona con raccoglimento, pedale sostenuto e dinamiche delicate.",
+      "license": {
+        "notes": "Composizione di pubblico dominio. Arrangiamento CC0."
+      }
+    },
+    "songs-hy-007": {
+      "title": "Forte rocca è il nostro Dio",
+      "summary": "Il vigoroso inno della Riforma di Martin Lutero in Do maggiore.",
+      "goal": "Usa un suono deciso e sicuro.",
+      "license": {
+        "notes": "Composizione di pubblico dominio. Arrangiamento CC0."
+      }
+    },
+    "songs-hy-008": {
+      "title": "Nearer My God to Thee",
+      "summary": "Il celebre inno di Lowell Mason in Sol maggiore, con delicato accompagnamento della sinistra.",
+      "goal": "Collega le frasi con fluidità e carattere meditativo.",
+      "license": {
+        "notes": "Composizione di pubblico dominio. Arrangiamento CC0."
+      }
+    },
+    "songs-hy-009": {
+      "title": "What a Friend We Have in Jesus",
+      "summary": "L'inno di Charles Converse in Fa maggiore, dal carattere consolatorio.",
+      "goal": "Usa un suono caldo e rassicurante.",
+      "license": {
+        "notes": "Composizione di pubblico dominio. Arrangiamento CC0."
+      }
+    },
+    "songs-hy-010": {
+      "title": "The Old Rugged Cross",
+      "summary": "L'inno gospel di George Bennard in Si bemolle maggiore.",
+      "goal": "Modella l'espressione facendo crescere le dinamiche.",
+      "license": {
+        "notes": "Composizione di pubblico dominio. Arrangiamento CC0."
+      }
+    },
+    "songs-hy-011": {
+      "title": "It Is Well with My Soul",
+      "summary": "L'intenso inno di Philip Bliss in Do maggiore, con ampia escursione dinamica.",
+      "goal": "Disegna un arco espressivo dal piano al fortissimo.",
+      "license": {
+        "notes": "Composizione di pubblico dominio. Arrangiamento CC0."
+      }
+    },
+    "songs-hy-012": {
+      "title": "Come Thou Fount of Every Blessing",
+      "summary": "Il gioioso inno di Robert Robinson in Re maggiore.",
+      "goal": "Suona con energia ritmica e carattere esuberante.",
+      "license": {
+        "notes": "Composizione di pubblico dominio. Arrangiamento CC0."
+      }
+    },
+    "songs-hy-013": {
+      "title": "Fairest Lord Jesus",
+      "summary": "Una serena melodia della Slesia in Fa maggiore.",
+      "goal": "Usa un legato fluido e cantabile.",
+      "license": {
+        "notes": "Melodia tradizionale di pubblico dominio. Arrangiamento CC0."
+      }
+    },
+    "songs-hy-014": {
+      "title": "Dossologia — Lode a Dio, fonte di ogni benedizione",
+      "summary": "La melodia Old Hundredth di Louis Bourgeois in Sol maggiore, semplice e maestosa.",
+      "goal": "Suona questa dossologia con un tono ampio e sicuro.",
+      "license": {
+        "notes": "Composizione di pubblico dominio. Arrangiamento CC0."
+      }
+    },
+    "songs-hy-015": {
+      "title": "For the Beauty of the Earth",
+      "summary": "Il gioioso inno di Conrad Kocher in Fa maggiore.",
+      "goal": "Suona con energia luminosa e gioiosa.",
+      "license": {
+        "notes": "Composizione di pubblico dominio. Arrangiamento CC0."
+      }
+    }
+  },
+  "title": "Inni e musica sacra",
+  "summary": "Quindici inni di pubblico dominio, da Amazing Grace a For the Beauty of the Earth, arrangiati per pianoforte con dinamiche, sostegno armonico e pedale negli inni lenti."
+}

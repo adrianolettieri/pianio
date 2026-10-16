@@ -1,0 +1,167 @@
+{
+  "courseId": "method-level-2d",
+  "exercises": {
+    "m2d-001": {
+      "title": "Crome in Re",
+      "summary": "La mano destra introduce coppie di crome nella posizione di Re.",
+      "goal": "Suona coppie di crome regolari nella posizione di Re, rispettando il Fa diesis.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "m2d-002": {
+      "title": "Crome in Sol",
+      "summary": "La mano destra esplora le crome nella posizione di Sol, fino al Re5.",
+      "goal": "Suona passaggi in crome nella posizione di Sol in modo regolare e a tempo.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "m2d-003": {
+      "title": "Crome in La minore",
+      "summary": "La mano destra introduce le crome nella posizione di La minore.",
+      "goal": "Suona figure in crome in La minore, con carattere scorrevole e scuro.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "m2d-004": {
+      "title": "Danza vivace in Re",
+      "summary": "La mano destra suona una danza vivace nella posizione di Re, in 2/4, con crome.",
+      "goal": "Mantieni regolari le crome con un andamento di danza in 2/4.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "m2d-005": {
+      "title": "Crome in Re al basso",
+      "summary": "La mano sinistra suona passaggi in crome nella posizione di Re.",
+      "goal": "Suona crome nella posizione di Re in chiave di basso, rispettando il Fa diesis.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "m2d-006": {
+      "title": "Crome in Sol al basso",
+      "summary": "La mano sinistra suona passaggi in crome nella posizione di Sol.",
+      "goal": "Suona crome nella posizione di Sol in chiave di basso, con suono regolare.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "m2d-007": {
+      "title": "Crome in La minore al basso",
+      "summary": "La mano sinistra suona figure in crome nella posizione di La minore al basso.",
+      "goal": "Suona crome in La minore in chiave di basso, con espressione e scorrevolezza.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "m2d-008": {
+      "title": "Canto in Re con crome",
+      "summary": "La mano destra canta una melodia in Re con crome mentre la sinistra sostiene il basso.",
+      "goal": "Suona figure melodiche in crome sopra un basso regolare della mano sinistra.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "m2d-009": {
+      "title": "Canto in Sol con crome",
+      "summary": "La mano destra suona una melodia in Sol con crome sopra la linea di basso.",
+      "goal": "Bilancia le figure melodiche in crome con il basso della mano sinistra nella posizione di Sol.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "m2d-010": {
+      "title": "Canto in La minore con crome",
+      "summary": "Melodia in La minore con crome sopra un basso tenuto.",
+      "goal": "Suona figure in crome in La minore, con carattere espressivo e scorrevole.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "m2d-011": {
+      "title": "Valzer in Re con crome",
+      "summary": "Mani unite in un valzer nella posizione di Re, con decorazioni in crome.",
+      "goal": "Aggiungi decorazioni in crome alla melodia di un valzer nella posizione di Re.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "m2d-012": {
+      "title": "Valzer in Sol con crome",
+      "summary": "Mani unite in un valzer nella posizione di Sol, con figure in crome.",
+      "goal": "Coordina con entrambe le mani le decorazioni in crome del valzer nella posizione di Sol.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "m2d-013": {
+      "title": "Vivace in Re a mani unite",
+      "summary": "Mani unite in una danza vivace nella posizione di Re, in 2/4, con crome.",
+      "goal": "Coordina con entrambe le mani figure di danza in crome nel metro di 2/4.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "m2d-014": {
+      "title": "Vivace in Sol a mani unite",
+      "summary": "Mani unite in una danza vivace nella posizione di Sol, con crome in 2/4.",
+      "goal": "Mantieni nitide e a tempo le figure in crome nella posizione di Sol, con entrambe le mani.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "m2d-015": {
+      "title": "Danza in La minore",
+      "summary": "Mani unite in una danza in tre tempi in La minore, con figure in crome.",
+      "goal": "Suona una danza dal carattere di valzer in La minore, con figure in crome e mani unite.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "m2d-016": {
+      "title": "Brano musicale in Re",
+      "summary": "Brano di sei battute nella posizione di Re, con crome e valori più lunghi, a mani unite.",
+      "goal": "Dai forma a una frase musicale completa nella posizione di Re, con ritmo variato e due mani.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "m2d-017": {
+      "title": "Brano musicale in Sol",
+      "summary": "Brano di sei battute nella posizione di Sol, con figure in crome e mani unite.",
+      "goal": "Dai forma a una frase musicale completa nella posizione di Sol, con crome e sostegno del basso.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "m2d-018": {
+      "title": "Notturno in La minore",
+      "summary": "Brano lento ed espressivo in La minore, con ornamenti in crome e basso tenuto.",
+      "goal": "Suona un brano lirico in modo minore, usando le crome per ornare la melodia.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "m2d-019": {
+      "title": "Canto applicativo in Re",
+      "summary": "Canto di sei battute per la mano destra nella posizione di Re, con crome e un arco musicale.",
+      "goal": "Suona un discorso musicale completo nella posizione di Re, variando il ritmo con le crome.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "m2d-020": {
+      "title": "Riepilogo dell'applicazione",
+      "summary": "Brano conclusivo di sei battute sul doppio pentagramma nella posizione di Re, con melodia in crome e sostegno del basso.",
+      "goal": "Dimostra padronanza delle abilità del livello 2D: crome, posizione di Re, mani unite e fraseggio musicale.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    }
+  },
+  "title": "Metodo livello 2D — Applicazione",
+  "summary": "Arrivano le crome nelle posizioni di Re, Sol e La minore: brani più veloci e musicali con entrambe le mani."
+}

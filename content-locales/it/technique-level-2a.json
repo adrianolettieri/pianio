@@ -1,0 +1,107 @@
+{
+  "courseId": "technique-level-2a",
+  "exercises": {
+    "t2a-001": {
+      "title": "Introduzione a Sol maggiore (MD)",
+      "summary": "Introduzione della destra alla posizione di cinque note di Sol maggiore.",
+      "goal": "Trova e nomina le cinque note della posizione di Sol maggiore: Sol, La, Si, Do, Re."
+    },
+    "t2a-002": {
+      "title": "Gradi congiunti in Sol maggiore (MD)",
+      "summary": "Movimento ascendente e discendente per grado congiunto nella destra.",
+      "goal": "Suona fluidamente per grado congiunto tutte e cinque le note della posizione di Sol maggiore."
+    },
+    "t2a-003": {
+      "title": "Salti in Sol maggiore (MD)",
+      "summary": "Salti di terza e quinta della destra nella posizione di Sol maggiore.",
+      "goal": "Passa con sicurezza tra terze e quinte nella posizione di Sol maggiore."
+    },
+    "t2a-004": {
+      "title": "Valzer in Sol maggiore (MD)",
+      "summary": "Esercizio della destra in Sol maggiore in 3/4.",
+      "goal": "Senti la figura in tre tempi mentre ti muovi nella posizione di Sol maggiore."
+    },
+    "t2a-005": {
+      "title": "Melodia in Sol maggiore (MD)",
+      "summary": "Melodia più lunga per la destra in Sol maggiore, con gradi congiunti e salti.",
+      "goal": "Suona una frase scorrevole in Sol maggiore, dandole una forma naturale."
+    },
+    "t2a-006": {
+      "title": "Introduzione a Sol maggiore (MS)",
+      "summary": "Introduzione della sinistra alla posizione di cinque note di Sol maggiore.",
+      "goal": "Trova e nomina le cinque note della posizione di Sol maggiore nella sinistra: Sol, La, Si, Do, Re."
+    },
+    "t2a-007": {
+      "title": "Gradi congiunti in Sol maggiore (MS)",
+      "summary": "Movimento della sinistra per grado congiunto nelle cinque note di Sol maggiore.",
+      "goal": "Sviluppa scioltezza nella sinistra attraverso i gradi congiunti di Sol maggiore."
+    },
+    "t2a-008": {
+      "title": "Sol maggiore in 2/4 (MS)",
+      "summary": "Esercizio della sinistra in Sol maggiore in 2/4, con ritmi vari.",
+      "goal": "Suona frasi nitide in due tempi in Sol maggiore con la sinistra."
+    },
+    "t2a-009": {
+      "title": "Valzer in Sol maggiore (MS)",
+      "summary": "Esercizio della sinistra in Sol maggiore in 3/4.",
+      "goal": "Senti la pulsazione in tre tempi mentre affronti Sol maggiore con la sinistra."
+    },
+    "t2a-010": {
+      "title": "Melodia in Sol maggiore (MS)",
+      "summary": "Melodia estesa della sinistra in Sol maggiore, con gradi congiunti e salti.",
+      "goal": "Sviluppa indipendenza e fraseggio musicale della sinistra in Sol maggiore."
+    },
+    "t2a-011": {
+      "title": "Introduzione a Fa maggiore (MD)",
+      "summary": "Introduzione della destra alla posizione di cinque note di Fa maggiore, con Si bemolle.",
+      "goal": "Individua e suona naturalmente il Si bemolle4 nella posizione di cinque note di Fa maggiore."
+    },
+    "t2a-012": {
+      "title": "Gradi congiunti in Fa maggiore (MD)",
+      "summary": "Movimento ascendente e discendente per grado congiunto nella destra in Fa maggiore.",
+      "goal": "Suona fluidamente Fa, Sol, La, Si bemolle e Do, collocando con precisione il Si bemolle."
+    },
+    "t2a-013": {
+      "title": "Salti in Fa maggiore (MD)",
+      "summary": "Terze e quinte della destra nella posizione di cinque note di Fa maggiore.",
+      "goal": "Raggiungi con precisione il Si bemolle4 nei salti in Fa maggiore."
+    },
+    "t2a-014": {
+      "title": "Valzer in Fa maggiore (MD)",
+      "summary": "Esercizio della destra in Fa maggiore in 3/4, con Si bemolle in un contesto musicale.",
+      "goal": "Colloca naturalmente il Si bemolle4 in una frase scorrevole in metro ternario."
+    },
+    "t2a-015": {
+      "title": "Melodia in Fa maggiore (MD)",
+      "summary": "Melodia estesa della destra in Fa maggiore, con tutte e cinque le note.",
+      "goal": "Suona una frase scorrevole in Fa maggiore, collocando con sicurezza il Si bemolle."
+    },
+    "t2a-016": {
+      "title": "Introduzione a Fa maggiore (MS)",
+      "summary": "Introduzione della sinistra alla posizione di cinque note di Fa maggiore, con Si bemolle.",
+      "goal": "Individua il Si bemolle3 nella sinistra e percorri le cinque note della posizione di Fa maggiore."
+    },
+    "t2a-017": {
+      "title": "Gradi congiunti in Fa maggiore (MS)",
+      "summary": "Movimento della sinistra per grado congiunto nelle cinque note di Fa maggiore.",
+      "goal": "Sali e scendi fluidamente in Fa maggiore con la sinistra, suonando nitidamente il Si bemolle3."
+    },
+    "t2a-018": {
+      "title": "Fa maggiore in 2/4 (MS)",
+      "summary": "Esercizio della sinistra in Fa maggiore in 2/4, con Si bemolle in evidenza.",
+      "goal": "Consolida la posizione del Si bemolle3 in frasi nitide in due tempi."
+    },
+    "t2a-019": {
+      "title": "Valzer in Fa maggiore (MS)",
+      "summary": "Esercizio della sinistra in Fa maggiore in 3/4.",
+      "goal": "Suona una frase fluida in metro ternario nella posizione di Fa maggiore con la sinistra."
+    },
+    "t2a-020": {
+      "title": "Melodia in Fa maggiore (MS)",
+      "summary": "Melodia estesa della sinistra in Fa maggiore, con tutte e cinque le note.",
+      "goal": "Sviluppa fraseggio e scioltezza sul Si bemolle3 lungo un passaggio più esteso in Fa maggiore."
+    }
+  },
+  "title": "Tecnica livello 2A — Fondamenti",
+  "summary": "Fondamenti sulle cinque note di Sol e Fa maggiore. Esercizi a mani separate che introducono nuove posizioni con semibrevi, minime e semiminime."
+}

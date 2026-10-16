@@ -9,6 +9,7 @@ import {
   type ParsedMidiEvent
 } from "@pianio/midi-web";
 import { formatNote } from "../i18n/formatNote";
+import type { Language } from "../i18n/language";
 import { midiSupportMessages, nativeErrorMessage, renderMessage, resolveLanguage, type MessageDescriptor } from "../i18n/messages";
 
 interface LoggedMidiEvent {
@@ -46,7 +47,7 @@ function createEmptySession(inputs: MidiInputSummary[] = []): MidiDebugSession {
   };
 }
 
-function formatTimestamp(value: string | null, language: "en" | "it", notYet: string): string {
+function formatTimestamp(value: string | null, language: Language, notYet: string): string {
   if (!value) {
     return notYet;
   }
@@ -57,7 +58,7 @@ function formatRawData(data: readonly number[]): string {
   return data.map((value) => value.toString(16).padStart(2, "0")).join(" ");
 }
 
-function formatEventSummary(event: ParsedMidiEvent, language: "en" | "it", t: (key: string, options?: Record<string, unknown>) => string): string {
+function formatEventSummary(event: ParsedMidiEvent, language: Language, t: (key: string, options?: Record<string, unknown>) => string): string {
   if (event.type === "sustain") {
     return event.engaged ? t("ui.event.pedalDown") : t("ui.event.pedalUp");
   }

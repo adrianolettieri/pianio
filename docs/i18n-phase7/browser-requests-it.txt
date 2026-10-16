@@ -1,0 +1,3 @@
+/generated/it/scores/method-level-1b/whole-note-voyage.musicxml
+/generated/it/catalog.json
+/generated/it/scores/method-level-1b/whole-note-voyage.musicxml

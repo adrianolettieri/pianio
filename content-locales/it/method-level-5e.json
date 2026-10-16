@@ -1,0 +1,167 @@
+{
+  "courseId": "method-level-5e",
+  "exercises": {
+    "m5e-001": {
+      "title": "Studio di velocità in Re maggiore",
+      "summary": "Passaggi scorrevoli in crome in Re maggiore, con andamento brillante.",
+      "goal": "Suona passaggi fluidi e regolari in crome in Re maggiore, rispettando le altezze nelle due mani.",
+      "license": {
+        "notes": "Composizione originale"
+      }
+    },
+    "m5e-002": {
+      "title": "Grande studio in Re maggiore",
+      "summary": "Studio di dodici battute in Re maggiore, con frasi in ritmi misti di crome e semiminime.",
+      "goal": "Mantieni scioltezza in Re maggiore lungo dodici battute, dando forma espressiva alla melodia.",
+      "license": {
+        "notes": "Composizione originale"
+      }
+    },
+    "m5e-003": {
+      "title": "Finale di sonatina in Re maggiore",
+      "summary": "Finale di sonatina di dodici battute in Re maggiore, con energici passaggi in crome.",
+      "goal": "Esegui un finale di sonatina convincente in Re maggiore, con passaggi sicuri e fraseggio chiaro.",
+      "license": {
+        "notes": "Composizione originale"
+      }
+    },
+    "m5e-004": {
+      "title": "Studio di velocità in La maggiore",
+      "summary": "Passaggi scorrevoli in crome in La maggiore fino al Fa diesis5.",
+      "goal": "Suona passaggi regolari in crome in La maggiore in un'ampia estensione, con entrambe le mani.",
+      "license": {
+        "notes": "Composizione originale"
+      }
+    },
+    "m5e-005": {
+      "title": "Grande studio in La maggiore",
+      "summary": "Studio di dodici battute in La maggiore, con ritmi misti e linee melodiche scorrevoli.",
+      "goal": "Mantieni scioltezza in La maggiore lungo dodici battute, con fraseggio espressivo.",
+      "license": {
+        "notes": "Composizione originale"
+      }
+    },
+    "m5e-006": {
+      "title": "Finale di sonatina in La maggiore",
+      "summary": "Finale di sonatina di dodici battute in La maggiore, con brillanti passaggi in crome.",
+      "goal": "Esegui un finale di sonatina in La maggiore, con passaggi sicuri e cantabili.",
+      "license": {
+        "notes": "Composizione originale"
+      }
+    },
+    "m5e-007": {
+      "title": "Studio rapido in Si bemolle maggiore",
+      "summary": "Passaggi scorrevoli in crome in Si bemolle maggiore fino al Sol5.",
+      "goal": "Suona passaggi fluidi in crome da Si bemolle4 a Sol5 e ritorno.",
+      "license": {
+        "notes": "Composizione originale"
+      }
+    },
+    "m5e-008": {
+      "title": "Padronanza di Si bemolle maggiore",
+      "summary": "Brano avanzato di dodici battute in Si bemolle maggiore, con passaggi scorrevoli in crome.",
+      "goal": "Suona con scioltezza un brano esteso in Si bemolle maggiore, bilanciando sempre le due mani.",
+      "license": {
+        "notes": "Composizione originale"
+      }
+    },
+    "m5e-009": {
+      "title": "Studio di velocità in Mi bemolle maggiore",
+      "summary": "Passaggi scorrevoli in crome in Mi bemolle maggiore, con i tre bemolli.",
+      "goal": "Suona passaggi fluidi in crome nell'estensione della scala di Mi bemolle maggiore.",
+      "license": {
+        "notes": "Composizione originale"
+      }
+    },
+    "m5e-010": {
+      "title": "Padronanza di Mi bemolle maggiore",
+      "summary": "Brano avanzato di dodici battute in Mi bemolle maggiore, con passaggi scorrevoli in crome e semiminime.",
+      "goal": "Suona un brano esteso in Mi bemolle maggiore con scioltezza e forma musicale.",
+      "license": {
+        "notes": "Composizione originale"
+      }
+    },
+    "m5e-011": {
+      "title": "Studio in La bemolle maggiore",
+      "summary": "Passaggi scorrevoli in crome in La bemolle maggiore, con i quattro bemolli.",
+      "goal": "Suona passaggi fluidi in crome nell'estensione della scala di La bemolle maggiore.",
+      "license": {
+        "notes": "Composizione originale"
+      }
+    },
+    "m5e-012": {
+      "title": "Grande brano in La bemolle maggiore",
+      "summary": "Brano di dodici battute in La bemolle maggiore, con linee melodiche scorrevoli e accompagnamento attivo.",
+      "goal": "Mantieni scioltezza e forma musicale in La bemolle maggiore lungo dodici battute.",
+      "license": {
+        "notes": "Composizione originale"
+      }
+    },
+    "m5e-013": {
+      "title": "Studio in Fa diesis maggiore",
+      "summary": "Passaggi scorrevoli in crome in Fa diesis maggiore, con La e Re diesis.",
+      "goal": "Suona con scioltezza passaggi in crome in Fa diesis maggiore, rispettando le alterazioni scritte.",
+      "license": {
+        "notes": "Composizione originale"
+      }
+    },
+    "m5e-014": {
+      "title": "Padronanza di Fa diesis maggiore",
+      "summary": "Brano avanzato di dodici battute in Fa diesis maggiore, con ritmi misti e fraseggio sostenuto.",
+      "goal": "Sostieni Fa diesis maggiore lungo dodici battute, con passaggi sciolti e fraseggio pulito.",
+      "license": {
+        "notes": "Composizione originale"
+      }
+    },
+    "m5e-015": {
+      "title": "Studio di velocità in Sol minore",
+      "summary": "Passaggi scorrevoli in crome in Sol minore armonica, con Fa diesis come settimo grado innalzato.",
+      "goal": "Suona con scioltezza passaggi in crome in Sol minore armonica, valorizzando la sensibile Fa diesis.",
+      "license": {
+        "notes": "Composizione originale"
+      }
+    },
+    "m5e-016": {
+      "title": "Grande studio in Sol minore",
+      "summary": "Studio di dodici battute in Sol minore, con linee scorrevoli e risoluzioni melodiche.",
+      "goal": "Sostieni l'espressione in Sol minore lungo dodici battute, rispettando le altezze scritte.",
+      "license": {
+        "notes": "Composizione originale"
+      }
+    },
+    "m5e-017": {
+      "title": "Padronanza di Sol minore",
+      "summary": "Brano avanzato di dodici battute in Sol minore armonica, con espressione drammatica.",
+      "goal": "Suona un ampio brano in Sol minore, con risoluzione della sensibile Fa diesis e piena estensione.",
+      "license": {
+        "notes": "Composizione originale"
+      }
+    },
+    "m5e-018": {
+      "title": "Studio di velocità in Re minore",
+      "summary": "Passaggi scorrevoli in crome in Re minore armonica, con Do diesis come settimo grado innalzato.",
+      "goal": "Suona con scioltezza passaggi in crome in Re minore armonica, con Do diesis come sensibile.",
+      "license": {
+        "notes": "Composizione originale"
+      }
+    },
+    "m5e-019": {
+      "title": "Grande studio in Re minore",
+      "summary": "Studio di dodici battute in Re minore, con passaggi scorrevoli in crome.",
+      "goal": "Sostieni l'espressione in Re minore lungo dodici battute, curando le risoluzioni delle frasi scritte.",
+      "license": {
+        "notes": "Composizione originale"
+      }
+    },
+    "m5e-020": {
+      "title": "Grande riepilogo del livello 5",
+      "summary": "Brano conclusivo di sedici battute che contrappone Re minore armonica e Re maggiore.",
+      "goal": "Suona con scioltezza il riepilogo del livello 5, affrontando il passaggio da Re minore a Re maggiore.",
+      "license": {
+        "notes": "Composizione originale"
+      }
+    }
+  },
+  "title": "Metodo livello 5E — Padronanza",
+  "summary": "Studi di velocità, passaggi estesi e brani più lunghi nelle tonalità del livello 5. Tutti sul doppio pentagramma, da otto a sedici battute, con andamenti più veloci da 76 a 88 bpm."
+}

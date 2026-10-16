@@ -1,0 +1,8 @@
+
+> pianio@0.1.0 typecheck /private/tmp/pianio-phase7-baseline
+> pnpm --filter @pianio/web typecheck
+
+
+> @pianio/web@0.1.0 typecheck /private/tmp/pianio-phase7-baseline/apps/web
+> tsc --noEmit
+

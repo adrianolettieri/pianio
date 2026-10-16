@@ -1,0 +1,4 @@
+
+> pianio@0.1.0 generate:content /private/tmp/pianio-phase7-baseline
+> node ./scripts/generate-content.mjs
+

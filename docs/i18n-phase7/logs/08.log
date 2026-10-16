@@ -1,0 +1,34 @@
+
+> pianio@0.1.0 build /Users/adriano/Dev/codex/pianio/pianio
+> pnpm generate:content && pnpm --filter @pianio/web build
+
+
+> pianio@0.1.0 generate:content /Users/adriano/Dev/codex/pianio/pianio
+> node ./scripts/generate-content.mjs
+
+Generated content: en, it plus English legacy URLs.
+
+> @pianio/web@0.1.0 build /Users/adriano/Dev/codex/pianio/pianio/apps/web
+> vite build
+
+vite v7.3.1 building client environment for production...
+transforming...
+✓ 2765 modules transformed.
+rendering chunks...
+[plugin vite:reporter] 
+(!) /Users/adriano/Dev/codex/pianio/pianio/apps/web/src/audio/pianoSampler.ts is dynamically imported by /Users/adriano/Dev/codex/pianio/pianio/apps/web/src/App.tsx but also statically imported by /Users/adriano/Dev/codex/pianio/pianio/apps/web/src/App.tsx, /Users/adriano/Dev/codex/pianio/pianio/apps/web/src/components/ExercisePracticePanel.tsx, dynamic import will not move module into another chunk.
+
+computing gzip size...
+dist/index.html                                    1.87 kB │ gzip:   0.80 kB
+dist/assets/index-CiIjGmXo.css                    84.82 kB │ gzip:  15.79 kB
+dist/assets/vendor-react-C6WxKkic.js              11.32 kB │ gzip:   4.07 kB
+dist/assets/ExercisePracticePanel-BqPu_E8K.js     44.91 kB │ gzip:  14.91 kB
+dist/assets/vendor-tone-CqApq50o.js              233.39 kB │ gzip:  59.86 kB
+dist/assets/index-Cgo6Qxvd.js                    320.59 kB │ gzip: 100.84 kB
+dist/assets/vendor-osmd-dRwwoeo2.js            1,208.65 kB │ gzip: 318.27 kB
+
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rollupOptions.output.manualChunks to improve chunking: https://rollupjs.org/configuration-options/#output-manualchunks
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+✓ built in 3.69s

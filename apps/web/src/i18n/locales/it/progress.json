@@ -19,12 +19,14 @@
     "reset": "Reimposta",
     "confirmReset": "Confermi il ripristino?",
     "complete": "completati",
-    "perfect": "perfetti",
     "dayStreak_one": "{{count}} giorno consecutivo",
     "dayStreak_other": "{{count}} giorni consecutivi",
     "yourCourses": "I tuoi corsi",
     "byCategory": "Progressi per categoria",
     "dayStreak_many": "{{count}} giorni consecutivi",
-    "ofComplete": "su {{count}} completati"
+    "ofComplete": "su {{count}} completati",
+    "perfect_one": "{{count}} perfetto",
+    "perfect_other": "{{count}} perfetti",
+    "perfect_many": "{{count}} perfetti"
   }
 }

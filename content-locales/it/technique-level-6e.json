@@ -1,0 +1,167 @@
+{
+  "courseId": "technique-level-6e",
+  "exercises": {
+    "t6e-001": {
+      "title": "Studio in Do maggiore a mani unite",
+      "summary": "Passaggi di scala, arpeggi e accordi combinati in Do maggiore.",
+      "goal": "Suona lo studio con precisione a 108 BPM.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t6e-002": {
+      "title": "Studio in Sol maggiore a mani unite",
+      "summary": "Passaggi di scala, arpeggi e accordi in Sol maggiore.",
+      "goal": "Suona lo studio a 108 BPM rispettando il Fa diesis.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t6e-003": {
+      "title": "Studio in Re maggiore a mani unite",
+      "summary": "Scala, arpeggio e terze combinati in Re maggiore.",
+      "goal": "Suona lo studio a 104 BPM rispettando Fa diesis e Do diesis.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t6e-004": {
+      "title": "Studio in Fa maggiore a mani unite",
+      "summary": "Scala, arpeggio e figure di trillo in Fa maggiore.",
+      "goal": "Suona lo studio a 104 BPM rispettando il Si bemolle.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t6e-005": {
+      "title": "Studio in La maggiore a mani unite",
+      "summary": "Scala, arpeggio e abbellimenti combinati in La maggiore.",
+      "goal": "Suona lo studio a 100 BPM rispettando i tre diesis.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t6e-006": {
+      "title": "Studio in Si bemolle maggiore a mani unite",
+      "summary": "Scala, arpeggio e seste in Si bemolle maggiore.",
+      "goal": "Suona lo studio a 96 BPM rispettando i due bemolli.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t6e-007": {
+      "title": "Studio in Mi bemolle maggiore a mani unite",
+      "summary": "Formule di scala e arpeggio in Mi bemolle maggiore.",
+      "goal": "Suona lo studio a 96 BPM rispettando i tre bemolli.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t6e-008": {
+      "title": "Studio in La bemolle maggiore a mani unite",
+      "summary": "Formule di scala e arpeggio nella tonalità di La bemolle maggiore.",
+      "goal": "Suona lo studio a 92 BPM rispettando i quattro bemolli.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t6e-009": {
+      "title": "Catena veloce di scale in diverse tonalità (MD)",
+      "summary": "Passaggi di scala in diverse tonalità si susseguono a 120 BPM.",
+      "goal": "Cambia tonalità senza interruzioni anche a piena velocità.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t6e-010": {
+      "title": "Catena veloce di arpeggi in diverse tonalità (MD)",
+      "summary": "Arpeggi in diverse tonalità si susseguono a 108 BPM.",
+      "goal": "Cambia arpeggio con fluidità al tempo di esecuzione.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t6e-011": {
+      "title": "Studio di ottave in Do maggiore (MD)",
+      "summary": "Un passaggio di scala e arpeggio per ottave al tempo di esecuzione.",
+      "goal": "Suona le ottave a 88 BPM con espressione musicale.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t6e-012": {
+      "title": "Studio di terze in Sol maggiore a mani unite",
+      "summary": "Un passaggio di terze doppie con entrambe le mani al tempo di esecuzione.",
+      "goal": "Dai forma musicale alle terze a mani unite a 80 BPM.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t6e-013": {
+      "title": "Studio di trilli in Re maggiore a mani unite",
+      "summary": "Trilli prolungati con accompagnamento in Re maggiore.",
+      "goal": "Sostieni i trilli sopra armonie variate a 96 BPM.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t6e-014": {
+      "title": "Studio sul basso albertino in Fa maggiore a mani unite",
+      "summary": "Una melodia scorrevole sopra basso albertino in Fa maggiore al tempo di esecuzione.",
+      "goal": "Realizza una tessitura elegante in stile classico a 88 BPM.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t6e-015": {
+      "title": "Studio swing in Do maggiore a mani unite",
+      "summary": "Un passaggio jazz con carattere swing e basso camminato.",
+      "goal": "Dai forma musicale allo studio swing a 108 BPM.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t6e-016": {
+      "title": "Studio in moto contrario in Do maggiore a mani unite",
+      "summary": "Passaggi di scala e arpeggio in moto contrario a tempo sostenuto.",
+      "goal": "Coordina le formule in moto contrario a 112 BPM.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t6e-017": {
+      "title": "Studio cromatico a mani unite",
+      "summary": "Un passaggio cromatico completo con entrambe le mani al tempo di esecuzione.",
+      "goal": "Mantieni precisi i cromatismi a mani unite a 108 BPM.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t6e-018": {
+      "title": "Studio sul ritmo puntato in La maggiore a mani unite",
+      "summary": "Formule in semiminime puntate e arpeggi in La maggiore.",
+      "goal": "Dai forma musicale ai ritmi puntati a 96 BPM.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t6e-019": {
+      "title": "Studio da concerto in Do maggiore a mani unite",
+      "summary": "Un passaggio completo riunisce diverse tecniche nella penultima prova.",
+      "goal": "Suona a 112 BPM integrando le tecniche del livello in un unico brano.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t6e-020": {
+      "title": "Prova finale del livello 6 a mani unite",
+      "summary": "Scale, arpeggi, ottave, terze e trilli nella prova conclusiva al tempo di esecuzione.",
+      "goal": "Dimostra scioltezza e controllo nelle tecniche del livello 6.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    }
+  },
+  "title": "Tecnica livello 6E — Padronanza virtuosistica",
+  "summary": "Esercizi conclusivi combinano scale, arpeggi, ottave, terze, trilli e abbellimenti in diverse tonalità al tempo di esecuzione."
+}

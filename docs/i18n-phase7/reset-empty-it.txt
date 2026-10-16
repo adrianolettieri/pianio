@@ -1,0 +1,353 @@
+- link "Vai al contenuto":
+  - /url: "#main-content"
+- banner:
+  - link "Pianio":
+    - /url: "#/courses"
+  - navigation:
+    - link "Corsi":
+      - /url: "#/courses"
+    - link "Progressi" [active]:
+      - /url: "#/progress"
+  - generic: Lingua
+  - combobox "Lingua":
+    - option "English"
+    - option "Italiano" [selected]
+  - generic: Web MIDI disponibile
+  - link "Diagnostica MIDI":
+    - /url: "#/diagnostics"
+  - button "Passa al tema scuro":
+- main:
+  - paragraph: I contenuti italiani sono tradotti parzialmente. I corsi e i campi non tradotti usano l’inglese.
+  - heading "Inizia il tuo percorso" [level=3]
+  - paragraph: Completa il primo esercizio per iniziare a seguire i tuoi progressi. Ogni nota contribuisce alla prima stella.
+  - link "Inizia a esercitarti":
+    - /url: "#/courses/method-level-1a/exercises/single-c-pulse"
+  - button "Esporta"
+  - button "Importa"
+  - generic: I tuoi corsi
+  - heading "Progressi per categoria" [level=2]
+  - heading "Metodo" [level=3]
+  - text: 600 esercizi
+  - generic "Fondamenti": A
+  - generic "Elementi di base": B
+  - generic "Abilità integrate": C
+  - generic "Pratica applicata": D
+  - generic "Perfezionamento": E
+  - generic: "1"
+  - link "1A":
+    - /url: "#/courses/method-level-1a"
+    - generic: ♪
+    - generic: 1A
+  - link "1B":
+    - /url: "#/courses/method-level-1b"
+    - generic: ♪
+    - generic: 1B
+  - link "1C":
+    - /url: "#/courses/method-level-1c"
+    - generic: ♪
+    - generic: 1C
+  - link "1D":
+    - /url: "#/courses/method-level-1d"
+    - generic: ♪
+    - generic: 1D
+  - link "1E":
+    - /url: "#/courses/method-level-1e"
+    - generic: ♪
+    - generic: 1E
+  - generic: "2"
+  - link "2A":
+    - /url: "#/courses/method-level-2a"
+    - generic: ♪
+    - generic: 2A
+  - link "2B":
+    - /url: "#/courses/method-level-2b"
+    - generic: ♪
+    - generic: 2B
+  - link "2C":
+    - /url: "#/courses/method-level-2c"
+    - generic: ♪
+    - generic: 2C
+  - link "2D":
+    - /url: "#/courses/method-level-2d"
+    - generic: ♪
+    - generic: 2D
+  - link "2E":
+    - /url: "#/courses/method-level-2e"
+    - generic: ♪
+    - generic: 2E
+  - generic: "3"
+  - link "3A":
+    - /url: "#/courses/method-level-3a"
+    - generic: ♪
+    - generic: 3A
+  - link "3B":
+    - /url: "#/courses/method-level-3b"
+    - generic: ♪
+    - generic: 3B
+  - link "3C":
+    - /url: "#/courses/method-level-3c"
+    - generic: ♪
+    - generic: 3C
+  - link "3D":
+    - /url: "#/courses/method-level-3d"
+    - generic: ♪
+    - generic: 3D
+  - link "3E":
+    - /url: "#/courses/method-level-3e"
+    - generic: ♪
+    - generic: 3E
+  - generic: "4"
+  - link "4A":
+    - /url: "#/courses/method-level-4a"
+    - generic: ♪
+    - generic: 4A
+  - link "4B":
+    - /url: "#/courses/method-level-4b"
+    - generic: ♪
+    - generic: 4B
+  - link "4C":
+    - /url: "#/courses/method-level-4c"
+    - generic: ♪
+    - generic: 4C
+  - link "4D":
+    - /url: "#/courses/method-level-4d"
+    - generic: ♪
+    - generic: 4D
+  - link "4E":
+    - /url: "#/courses/method-level-4e"
+    - generic: ♪
+    - generic: 4E
+  - generic: "5"
+  - link "5A":
+    - /url: "#/courses/method-level-5a"
+    - generic: ♪
+    - generic: 5A
+  - link "5B":
+    - /url: "#/courses/method-level-5b"
+    - generic: ♪
+    - generic: 5B
+  - link "5C":
+    - /url: "#/courses/method-level-5c"
+    - generic: ♪
+    - generic: 5C
+  - link "5D":
+    - /url: "#/courses/method-level-5d"
+    - generic: ♪
+    - generic: 5D
+  - link "5E":
+    - /url: "#/courses/method-level-5e"
+    - generic: ♪
+    - generic: 5E
+  - generic: "6"
+  - link "6A":
+    - /url: "#/courses/method-level-6a"
+    - generic: ♪
+    - generic: 6A
+  - link "6B":
+    - /url: "#/courses/method-level-6b"
+    - generic: ♪
+    - generic: 6B
+  - link "6C":
+    - /url: "#/courses/method-level-6c"
+    - generic: ♪
+    - generic: 6C
+  - link "6D":
+    - /url: "#/courses/method-level-6d"
+    - generic: ♪
+    - generic: 6D
+  - link "6E":
+    - /url: "#/courses/method-level-6e"
+    - generic: ♪
+    - generic: 6E
+  - heading "Tecnica" [level=3]
+  - text: 600 esercizi
+  - generic "Fondamenti": A
+  - generic "Elementi di base": B
+  - generic "Abilità integrate": C
+  - generic "Pratica applicata": D
+  - generic "Perfezionamento": E
+  - generic: "1"
+  - link "1A":
+    - /url: "#/courses/technique-level-1a"
+    - generic: ♪
+    - generic: 1A
+  - link "1B":
+    - /url: "#/courses/technique-level-1b"
+    - generic: ♪
+    - generic: 1B
+  - link "1C":
+    - /url: "#/courses/technique-level-1c"
+    - generic: ♪
+    - generic: 1C
+  - link "1D":
+    - /url: "#/courses/technique-level-1d"
+    - generic: ♪
+    - generic: 1D
+  - link "1E":
+    - /url: "#/courses/technique-level-1e"
+    - generic: ♪
+    - generic: 1E
+  - generic: "2"
+  - link "2A":
+    - /url: "#/courses/technique-level-2a"
+    - generic: ♪
+    - generic: 2A
+  - link "2B":
+    - /url: "#/courses/technique-level-2b"
+    - generic: ♪
+    - generic: 2B
+  - link "2C":
+    - /url: "#/courses/technique-level-2c"
+    - generic: ♪
+    - generic: 2C
+  - link "2D":
+    - /url: "#/courses/technique-level-2d"
+    - generic: ♪
+    - generic: 2D
+  - link "2E":
+    - /url: "#/courses/technique-level-2e"
+    - generic: ♪
+    - generic: 2E
+  - generic: "3"
+  - link "3A":
+    - /url: "#/courses/technique-level-3a"
+    - generic: ♪
+    - generic: 3A
+  - link "3B":
+    - /url: "#/courses/technique-level-3b"
+    - generic: ♪
+    - generic: 3B
+  - link "3C":
+    - /url: "#/courses/technique-level-3c"
+    - generic: ♪
+    - generic: 3C
+  - link "3D":
+    - /url: "#/courses/technique-level-3d"
+    - generic: ♪
+    - generic: 3D
+  - link "3E":
+    - /url: "#/courses/technique-level-3e"
+    - generic: ♪
+    - generic: 3E
+  - generic: "4"
+  - link "4A":
+    - /url: "#/courses/technique-level-4a"
+    - generic: ♪
+    - generic: 4A
+  - link "4B":
+    - /url: "#/courses/technique-level-4b"
+    - generic: ♪
+    - generic: 4B
+  - link "4C":
+    - /url: "#/courses/technique-level-4c"
+    - generic: ♪
+    - generic: 4C
+  - link "4D":
+    - /url: "#/courses/technique-level-4d"
+    - generic: ♪
+    - generic: 4D
+  - link "4E":
+    - /url: "#/courses/technique-level-4e"
+    - generic: ♪
+    - generic: 4E
+  - generic: "5"
+  - link "5A":
+    - /url: "#/courses/technique-level-5a"
+    - generic: ♪
+    - generic: 5A
+  - link "5B":
+    - /url: "#/courses/technique-level-5b"
+    - generic: ♪
+    - generic: 5B
+  - link "5C":
+    - /url: "#/courses/technique-level-5c"
+    - generic: ♪
+    - generic: 5C
+  - link "5D":
+    - /url: "#/courses/technique-level-5d"
+    - generic: ♪
+    - generic: 5D
+  - link "5E":
+    - /url: "#/courses/technique-level-5e"
+    - generic: ♪
+    - generic: 5E
+  - generic: "6"
+  - link "6A":
+    - /url: "#/courses/technique-level-6a"
+    - generic: ♪
+    - generic: 6A
+  - link "6B":
+    - /url: "#/courses/technique-level-6b"
+    - generic: ♪
+    - generic: 6B
+  - link "6C":
+    - /url: "#/courses/technique-level-6c"
+    - generic: ♪
+    - generic: 6C
+  - link "6D":
+    - /url: "#/courses/technique-level-6d"
+    - generic: ♪
+    - generic: 6D
+  - link "6E":
+    - /url: "#/courses/technique-level-6e"
+    - generic: ♪
+    - generic: 6E
+  - heading "Brani" [level=3]
+  - text: 165 esercizi
+  - link "Beginner Livello 2 30 esercizi":
+    - /url: "#/courses/songs-beginner"
+    - generic: ♪
+    - heading "Beginner" [level=4]
+    - generic: Livello 2
+    - generic: 30 esercizi
+  - link "Folk Livello 3 15 esercizi":
+    - /url: "#/courses/songs-folk"
+    - generic: ♪
+    - heading "Folk" [level=4]
+    - generic: Livello 3
+    - generic: 15 esercizi
+  - link "Holiday Livello 3 15 esercizi":
+    - /url: "#/courses/songs-holiday"
+    - generic: ♪
+    - heading "Holiday" [level=4]
+    - generic: Livello 3
+    - generic: 15 esercizi
+  - link "Hymns & Sacred Livello 3 15 esercizi":
+    - /url: "#/courses/songs-hymns"
+    - generic: ♪
+    - heading "Hymns & Sacred" [level=4]
+    - generic: Livello 3
+    - generic: 15 esercizi
+  - link "Intermediate Livello 3 30 esercizi":
+    - /url: "#/courses/songs-intermediate"
+    - generic: ♪
+    - heading "Intermediate" [level=4]
+    - generic: Livello 3
+    - generic: 30 esercizi
+  - link "Jazz & Blues Livello 3 15 esercizi":
+    - /url: "#/courses/songs-jazz-blues"
+    - generic: ♪
+    - heading "Jazz & Blues" [level=4]
+    - generic: Livello 3
+    - generic: 15 esercizi
+  - link "Advanced Livello 4 30 esercizi":
+    - /url: "#/courses/songs-advanced"
+    - generic: ♪
+    - heading "Advanced" [level=4]
+    - generic: Livello 4
+    - generic: 30 esercizi
+  - link "Pro Livello 6 15 esercizi":
+    - /url: "#/courses/songs-pro"
+    - generic: ♪
+    - heading "Pro" [level=4]
+    - generic: Livello 6
+    - generic: 15 esercizi
+- contentinfo:
+  - generic: Pianio
+  - generic: Lezioni di pianoforte gratuite e open source che ti ascoltano.
+  - link "GitHub":
+    - /url: https://github.com/ismaelponce/pianio
+    - text: GitHub
+  - link "Licenza MIT":
+    - /url: https://github.com/ismaelponce/pianio/blob/main/LICENSE
+  - text: MIDI

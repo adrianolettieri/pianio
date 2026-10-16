@@ -1,0 +1,167 @@
+{
+  "courseId": "technique-level-6c",
+  "exercises": {
+    "t6c-001": {
+      "title": "Terze parallele ascendenti in Do maggiore (MD)",
+      "summary": "Terze parallele ascendenti alla destra in Do maggiore.",
+      "goal": "Collega le terze con legato, bilanciando le due note senza vuoti tra le coppie.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t6c-002": {
+      "title": "Terze parallele ascendenti in Do maggiore (MS)",
+      "summary": "Terze parallele ascendenti alla sinistra in Do maggiore.",
+      "goal": "Sviluppa un legato uniforme nelle doppie note della sinistra.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t6c-003": {
+      "title": "Terze parallele in Do maggiore a mani unite",
+      "summary": "Terze parallele in Do maggiore con entrambe le mani.",
+      "goal": "Sincronizza le mani nelle terze, curando la coordinazione.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t6c-004": {
+      "title": "Terze parallele in Sol maggiore (MD)",
+      "summary": "Terze parallele ascendenti alla destra in Sol maggiore.",
+      "goal": "Mantieni il legato nelle terze rispettando il Fa diesis.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t6c-005": {
+      "title": "Terze parallele in Fa maggiore (MD)",
+      "summary": "Terze parallele ascendenti alla destra in Fa maggiore.",
+      "goal": "Mantieni il legato nelle terze rispettando il Si bemolle.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t6c-006": {
+      "title": "Seste parallele ascendenti in Do maggiore (MD)",
+      "summary": "Seste parallele ascendenti alla destra in Do maggiore.",
+      "goal": "Collega le seste con legato controllando l’apertura più ampia della mano.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t6c-007": {
+      "title": "Seste parallele ascendenti in Do maggiore (MS)",
+      "summary": "Seste parallele ascendenti alla sinistra in Do maggiore.",
+      "goal": "Sviluppa la tecnica delle seste alla sinistra con una posizione più ampia.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t6c-008": {
+      "title": "Seste parallele in Sol maggiore (MD)",
+      "summary": "Seste parallele alla destra in Sol maggiore.",
+      "goal": "Mantieni il legato e controlla l’apertura della mano rispettando il Fa diesis.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t6c-009": {
+      "title": "Seste parallele in Fa maggiore (MD)",
+      "summary": "Seste parallele alla destra in Fa maggiore.",
+      "goal": "Mantieni il legato e controlla l’apertura della mano rispettando il Si bemolle.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t6c-010": {
+      "title": "Terze parallele in Re maggiore (MD)",
+      "summary": "Terze parallele ascendenti alla destra in Re maggiore.",
+      "goal": "Suona le doppie note con precisione rispettando Fa diesis e Do diesis.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t6c-011": {
+      "title": "Terze parallele in La maggiore (MD)",
+      "summary": "Terze parallele ascendenti alla destra in La maggiore.",
+      "goal": "Suona le doppie note con precisione rispettando i tre diesis.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t6c-012": {
+      "title": "Terze in crome in Do maggiore (MD)",
+      "summary": "Terze parallele in crome, con suddivisione doppia rispetto alle semiminime.",
+      "goal": "Mantieni il legato nelle terze anche nella suddivisione più rapida.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t6c-013": {
+      "title": "Seste in crome in Do maggiore (MD)",
+      "summary": "Seste parallele in crome alla destra in Do maggiore.",
+      "goal": "Controlla con agilità l’apertura e la chiusura della mano.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t6c-014": {
+      "title": "Terze parallele in Sol maggiore a mani unite",
+      "summary": "Terze parallele in Sol maggiore con entrambe le mani.",
+      "goal": "Sincronizza le terze nelle due mani.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t6c-015": {
+      "title": "Seste parallele in Do maggiore a mani unite",
+      "summary": "Seste parallele in Do maggiore con entrambe le mani.",
+      "goal": "Sincronizza le seste sviluppando la coordinazione delle doppie note.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t6c-016": {
+      "title": "Terze cromatiche (MD)",
+      "summary": "Terze parallele ascendono cromaticamente per semitoni.",
+      "goal": "Collega con fluidità le terze cromatiche sviluppando l’indipendenza delle dita.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t6c-017": {
+      "title": "Melodia per terze sopra il basso in Do",
+      "summary": "Melodia alla destra in terze sopra note di basso della sinistra.",
+      "goal": "Applica la tecnica delle terze a una linea melodica espressiva.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t6c-018": {
+      "title": "Melodia per seste sopra il basso in Sol",
+      "summary": "Melodia alla destra in seste sopra un basso in Sol maggiore.",
+      "goal": "Modella la linea melodica controllando l’apertura più ampia della mano.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t6c-019": {
+      "title": "Terze veloci in Do maggiore (MD)",
+      "summary": "Terze parallele a tempo sostenuto per sviluppare velocità nelle doppie note.",
+      "goal": "Suona le terze in semiminime a 84 BPM unendo velocità e precisione.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t6c-020": {
+      "title": "Ripasso di terze e seste a mani unite",
+      "summary": "Terze e seste combinate nella prova conclusiva del livello 6C.",
+      "goal": "Dimostra scioltezza nei due intervalli e coordinazione di entrambe le mani.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    }
+  },
+  "title": "Tecnica livello 6C — Terze e seste doppie",
+  "summary": "Terze e seste parallele in Do, Sol, Fa, Re e La maggiore per sviluppare la tecnica legata delle doppie note nel repertorio romantico."
+}

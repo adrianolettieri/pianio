@@ -1,3 +1,25 @@
+# Inventario corrente — verifica del 16 ottobre 2026
+
+Il censimento storico segue sotto. Stato verificabile della fase 7:
+
+| Superficie | Stato corrente / prova |
+| --- | --- |
+| UI attiva, cinque namespace | EN/IT presenti; checker ordinario e typecheck superati. Catalogo, corso, pratica, diagnostica e progressi esaminati nel browser. Esecuzione e risultati verificati con mock, non con MIDI reale. |
+| Selettore, tooltip e focus | Generato da registro e nomi lingua; contrasto scuro corretto usando `--paper`. Tab, R e frecce provati sul selettore; test con sessione già avanzata. |
+| Preferenze | Lingua sicura già presente; tema, strumenti e velocità ora resistono a letture/scritture negate senza impedire l'avvio. Prova di integrazione EN→IT→EN. |
+| Progressi | Import/export disponibili anche a profilo vuoto; notifiche tradotte al render. Fixture v1 sintetica con due completamenti, stelle 3/2 e date ISO, round-trip e reset EN/IT testati. Browser: import IT, visualizzazione EN/IT, ripresa e reset EN; stato vuoto ripristinato. |
+| Note e messaggi | Formatter C4/Do4, termini e date via lingua attiva. Tipi e risoluzione lingua condivisi; nessuna nuova lingua attivata. |
+| Spartiti | Estensione/scorrimento della fase 5 confermati per istruzione lunga 1B a 390 px; pagina larga 390 px, regione 368 px, contenuto 793 px scorribile fino a 425 px. Zoom 115% conservato EN/IT su desktop. Nuovo massimo italiano m6d-001 provato a 390 px: regione 368 px, scorrimento massimo 1.310 px, testo finale raggiungibile da tastiera. |
+| Contenuti | 6.069/6.069 campi IT, 80/80 corsi completi e revisionati testualmente da Codex; zero ripieghi o revisioni obsolete. Uno spartito per corso esaminato con OSMD; dettagli nel registro editoriale. |
+| Output e rete | EN/IT/legacy verificati via HTTP; al riavvio IT richiesti solo catalogo e spartito IT. Entrambi i dizionari UI nel bundle per scelta progettuale. |
+| Superfici non attive | `HomeScreen.tsx` ancora non importata. Campi MIDI legacy e formatter tecnico conservati per compatibilità. |
+
+Prove, schermate, matrice e limitazioni: [I18N-VALIDATION-REPORT.md](I18N-VALIDATION-REPORT.md).
+Il testo sotto conserva il censimento iniziale e le tappe intermedie: le frasi
+“da migrare” o “fase 5 da fare” non descrivono lo stato corrente.
+
+---
+
 # Inventario i18n
 
 Inventario iniziale del checkout `df5526d19f3c319757d003ffdfb32b925ef01397`, rilevato il 15 ottobre 2026. È una mappa per l'estrazione futura: non introduce i18n e non cambia il comportamento dell'app. Le chiavi sono nomi semantici proposti, non API già implementate. Chiavi con parametri vanno interpolate (per esempio `{{count}}`, `{{name}}`, `{{current}}`, `{{total}}`).

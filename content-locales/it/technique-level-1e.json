@@ -1,0 +1,107 @@
+{
+  "courseId": "technique-level-1e",
+  "exercises": {
+    "t1e-001": {
+      "title": "Crome in moto perpetuo (MD)",
+      "summary": "Passaggi scorrevoli in crome per la destra sulle cinque note di Do maggiore.",
+      "goal": "Mantieni tempo e suono uniformi nelle cinque dita, anche in velocità."
+    },
+    "t1e-002": {
+      "title": "Crome in moto perpetuo (MS)",
+      "summary": "Passaggi scorrevoli in crome per la sinistra sulle cinque note di Do maggiore.",
+      "goal": "Mantieni tempo e suono uniformi nelle cinque dita, anche in velocità."
+    },
+    "t1e-003": {
+      "title": "Studio di velocità (MD)",
+      "summary": "Studio di velocità per la destra, con ritmi vari e figure ascendenti e discendenti.",
+      "goal": "Aumenta la velocità delle dita mantenendo ogni nota chiara e controllata."
+    },
+    "t1e-004": {
+      "title": "Studio di velocità (MS)",
+      "summary": "Studio di velocità per la sinistra, con ritmi vari e figure ascendenti e discendenti.",
+      "goal": "Aumenta la velocità delle dita mantenendo ogni nota chiara e controllata."
+    },
+    "t1e-005": {
+      "title": "Scioltezza nei ritmi misti (MD)",
+      "summary": "Studio per la destra con crome, semiminime e minime.",
+      "goal": "Passa fluidamente tra le durate senza perdere il tempo."
+    },
+    "t1e-006": {
+      "title": "Scioltezza nei ritmi misti (MS)",
+      "summary": "Studio per la sinistra con crome, semiminime e minime.",
+      "goal": "Passa fluidamente tra le durate senza perdere il tempo."
+    },
+    "t1e-007": {
+      "title": "Scioltezza nel metro ternario (MD)",
+      "summary": "Studio in 3/4 per la destra, con ritmi di crome e semiminime.",
+      "goal": "Raggiungi scioltezza nel metro ternario con raggruppamenti ritmici vari."
+    },
+    "t1e-008": {
+      "title": "Scioltezza nel metro ternario (MS)",
+      "summary": "Studio in 3/4 per la sinistra, con ritmi di crome e semiminime.",
+      "goal": "Raggiungi scioltezza nel metro ternario con raggruppamenti ritmici vari."
+    },
+    "t1e-009": {
+      "title": "Crome in moto perpetuo a mani unite",
+      "summary": "Studio in crome a mani unite, in moto parallelo.",
+      "goal": "Coordina le mani nei passaggi scorrevoli in crome."
+    },
+    "t1e-010": {
+      "title": "Studio parallelo esteso",
+      "summary": "Esercizio di otto battute sul doppio pentagramma, in moto parallelo e con ritmi vari.",
+      "goal": "Sostieni la coordinazione lungo una frase più lunga in moto parallelo."
+    },
+    "t1e-011": {
+      "title": "Studio in moto contrario",
+      "summary": "Le mani si muovono in direzioni opposte lungo sei battute.",
+      "goal": "Sviluppa il controllo indipendente delle mani in moto contrario."
+    },
+    "t1e-012": {
+      "title": "Indipendenza: melodia e basso",
+      "summary": "La destra suona una melodia in crome mentre la sinistra tiene il basso in minime.",
+      "goal": "Sviluppa l'indipendenza ritmica tra le mani."
+    },
+    "t1e-013": {
+      "title": "Danza veloce in 2/4",
+      "summary": "Danza vivace in 2/4 a mani unite, in moto parallelo.",
+      "goal": "Ottieni articolazione nitida e precisione ritmica in un 2/4 veloce."
+    },
+    "t1e-014": {
+      "title": "Scioltezza nel valzer in 3/4",
+      "summary": "Valzer di otto battute a mani unite, con ruoli di melodia e basso.",
+      "goal": "Suona un valzer completo con fraseggio naturale e scorrevolezza ritmica."
+    },
+    "t1e-015": {
+      "title": "Padronanza estesa delle figure in stile Hanon",
+      "summary": "Esercizio di sei battute in stile Hanon a mani unite, con movimenti ascendenti e discendenti.",
+      "goal": "Dimostra piena indipendenza delle cinque dita nelle figure in stile Hanon, a tempo."
+    },
+    "t1e-016": {
+      "title": "Scioltezza nelle frasi lunghe",
+      "summary": "Esercizio di dieci battute sul doppio pentagramma, per sostenere la linea musicale nelle frasi lunghe.",
+      "goal": "Mantieni suono e ritmo costanti lungo una frase musicale estesa."
+    },
+    "t1e-017": {
+      "title": "Scatto di velocità in parallelo",
+      "summary": "Breve esercizio veloce in parallelo per sviluppare la rapidità delle dita.",
+      "goal": "Suona nitidamente le crome parallele all'andamento più rapido proposto."
+    },
+    "t1e-018": {
+      "title": "Moto contrario esteso",
+      "summary": "Studio di otto battute in moto contrario, con le mani che si espandono in direzioni opposte.",
+      "goal": "Segui con sicurezza il moto contrario lungo una frase estesa."
+    },
+    "t1e-019": {
+      "title": "Grande finale: padronanza di Do maggiore",
+      "summary": "Finale di dieci battute sul doppio pentagramma, con le abilità tecniche del livello 1.",
+      "goal": "Dimostra piena padronanza della tecnica sulle cinque note di Do maggiore."
+    },
+    "t1e-020": {
+      "title": "Esibizione tecnica del livello 1",
+      "summary": "Brano finale sul doppio pentagramma, con tutti i ritmi, le due mani e le cinque note di Do.",
+      "goal": "Esegui il brano conclusivo con sicurezza, regolarità ed espressione musicale."
+    }
+  },
+  "title": "Tecnica livello 1E — Padronanza",
+  "summary": "Studi di velocità, esercizi di crome in moto perpetuo e brani estesi per la scioltezza. Completa Tecnica livello 1."
+}

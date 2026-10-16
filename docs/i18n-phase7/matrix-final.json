@@ -1,0 +1,51 @@
+[
+  {
+    "command": "pnpm check:i18n",
+    "exitCode": 0,
+    "seconds": 0.244,
+    "log": "final-01.log"
+  },
+  {
+    "command": "pnpm check:i18n:full",
+    "exitCode": 1,
+    "seconds": 0.251,
+    "log": "final-02.log"
+  },
+  {
+    "command": "pnpm test:ui",
+    "exitCode": 0,
+    "seconds": 2.303,
+    "log": "ui-final.log"
+  },
+  {
+    "command": "pnpm test:content",
+    "exitCode": 0,
+    "seconds": 2.305,
+    "log": "final-04.log"
+  },
+  {
+    "command": "pnpm typecheck",
+    "exitCode": 0,
+    "seconds": 1.799,
+    "log": "typecheck-final.log"
+  },
+  {
+    "command": "pnpm test",
+    "exitCode": 0,
+    "seconds": 0.668,
+    "log": "final-06.log"
+  },
+  {
+    "command": "pnpm --filter @pianio/core-engine test",
+    "exitCode": 0,
+    "seconds": 0.231,
+    "log": "final-07.log"
+  },
+  {
+    "command": "pnpm build",
+    "exitCode": 0,
+    "seconds": 5.0847,
+    "log": "perf-current-2-buildSeconds.log",
+    "measurement": "median of three successful runs; individual runs in performance.json"
+  }
+]

@@ -1,0 +1,167 @@
+{
+  "courseId": "method-level-2e",
+  "exercises": {
+    "m2e-001": {
+      "title": "Studio in crome in Re (MD)",
+      "summary": "Scioltezza della mano destra nella posizione di Re, con andamento brillante.",
+      "goal": "Suona con fluidità sequenze di crome e ritmi misti nella posizione di Re.",
+      "license": {
+        "notes": "Esercizio originale"
+      }
+    },
+    "m2e-002": {
+      "title": "Studio di velocità in Sol (MD)",
+      "summary": "Passaggi per grado congiunto e salti della mano destra nella posizione di Sol.",
+      "goal": "Sviluppa scioltezza tra Sol4 e Re5, con crome e spostamenti di posizione.",
+      "license": {
+        "notes": "Esercizio originale"
+      }
+    },
+    "m2e-003": {
+      "title": "Studio sul pentacordo di La minore (MD)",
+      "summary": "Figure in crome per la mano destra nel pentacordo di La minore.",
+      "goal": "Suona con fluidità le figure sulle cinque note di La minore, usando le crome.",
+      "license": {
+        "notes": "Esercizio originale"
+      }
+    },
+    "m2e-004": {
+      "title": "Crome in Re al basso (MS)",
+      "summary": "Scioltezza della mano sinistra nelle crome, nella posizione di Re al basso.",
+      "goal": "Sviluppa l'indipendenza della mano sinistra nelle crome nella posizione di Re.",
+      "license": {
+        "notes": "Esercizio originale"
+      }
+    },
+    "m2e-005": {
+      "title": "Studio in Sol al basso (MS)",
+      "summary": "Studio in crome per la mano sinistra nella posizione di Sol, nel registro grave.",
+      "goal": "Sviluppa scioltezza nella mano sinistra tra Sol2 e Re3, con le crome.",
+      "license": {
+        "notes": "Esercizio originale"
+      }
+    },
+    "m2e-006": {
+      "title": "Mattino nella posizione di Re",
+      "summary": "Melodia luminosa di sei battute sopra un basso regolare nella posizione di Re.",
+      "goal": "Coordina la melodia della mano destra, con crome, con la pulsazione del basso della sinistra.",
+      "license": {
+        "notes": "Esercizio originale"
+      }
+    },
+    "m2e-007": {
+      "title": "Valzer nella posizione di Sol",
+      "summary": "Valzer scorrevole in 3/4 nella posizione di Sol, con movimento melodico in crome.",
+      "goal": "Suona l'accompagnamento del valzer con la sinistra mentre la destra si muove in crome.",
+      "license": {
+        "notes": "Esercizio originale"
+      }
+    },
+    "m2e-008": {
+      "title": "Studio in La minore",
+      "summary": "Studio di sei battute in La minore, con crome scorrevoli.",
+      "goal": "Coordina entrambe le mani nelle figure sul pentacordo di La minore.",
+      "license": {
+        "notes": "Esercizio originale"
+      }
+    },
+    "m2e-009": {
+      "title": "Danza nella posizione di Re",
+      "summary": "Danza vivace in 2/4, animata dalle crome nella posizione di Re.",
+      "goal": "Coordina i tempi del basso della sinistra con le figure di danza in crome della destra.",
+      "license": {
+        "notes": "Esercizio originale"
+      }
+    },
+    "m2e-010": {
+      "title": "Studio sulla sincope in Re",
+      "summary": "Introduce attacchi in levare con pause di croma nella posizione di Re.",
+      "goal": "Suona con regolarità i ritmi sincopati della destra sopra una solida pulsazione in semiminime della sinistra.",
+      "license": {
+        "notes": "Esercizio originale"
+      }
+    },
+    "m2e-011": {
+      "title": "Studio nella posizione di Sol",
+      "summary": "Studio di sei battute con passaggi in crome tra Sol4 e Re5.",
+      "goal": "Raggiungi scioltezza nella posizione di Sol mentre la sinistra offre un sostegno armonico regolare.",
+      "license": {
+        "notes": "Esercizio originale"
+      }
+    },
+    "m2e-012": {
+      "title": "Valzer in La minore",
+      "summary": "Valzer delicato in La minore, con ornamenti melodici in crome.",
+      "goal": "Coordina il basso del valzer in 3/4 con la melodia in crome della destra in La minore.",
+      "license": {
+        "notes": "Esercizio originale"
+      }
+    },
+    "m2e-013": {
+      "title": "Marcia in crome",
+      "summary": "Marcia nitida in 2/4 nella posizione di Re, con crome in entrambe le voci.",
+      "goal": "Suona le figure di marcia in crome mantenendo le due mani perfettamente allineate.",
+      "license": {
+        "notes": "Esercizio originale"
+      }
+    },
+    "m2e-014": {
+      "title": "Ninna nanna nella posizione di Sol",
+      "summary": "Ninna nanna lenta e lirica di otto battute nella posizione di Sol.",
+      "goal": "Mantieni un suono cantabile nella posizione di Sol lungo otto battute, con andamento lento.",
+      "license": {
+        "notes": "Esercizio originale"
+      }
+    },
+    "m2e-015": {
+      "title": "Serenata nella posizione di Re",
+      "summary": "Melodia cantabile di otto battute nella posizione di Re, con fraseggio lirico.",
+      "goal": "Dai forma a una melodia cantabile di otto battute, coordinando con fluidità le mani unite.",
+      "license": {
+        "notes": "Esercizio originale"
+      }
+    },
+    "m2e-016": {
+      "title": "Canto sincopato in Sol",
+      "summary": "Attacchi sincopati in levare nella posizione di Sol, sopra una pulsazione regolare della sinistra.",
+      "goal": "Senti la sincope negli attacchi in levare e mantieni regolare la sinistra.",
+      "license": {
+        "notes": "Esercizio originale"
+      }
+    },
+    "m2e-017": {
+      "title": "Allegretto nella posizione di Re",
+      "summary": "Studio veloce di otto battute per sviluppare la velocità nelle crome nella posizione di Re.",
+      "goal": "Esegui rapidi passaggi in crome nella posizione di Re con andamento di allegretto.",
+      "license": {
+        "notes": "Esercizio originale"
+      }
+    },
+    "m2e-018": {
+      "title": "Canto serale in La minore",
+      "summary": "Canto lento ed espressivo di otto battute in La minore, con frasi in crome.",
+      "goal": "Dai forma a una melodia lirica in La minore, mantenendo leggero e regolare l'accompagnamento della sinistra.",
+      "license": {
+        "notes": "Esercizio originale"
+      }
+    },
+    "m2e-019": {
+      "title": "Studio tra posizioni: da Re a Sol",
+      "summary": "Brano di otto battute che inizia nella posizione di Re e passa a quella di Sol.",
+      "goal": "Esegui un cambio fluido dalla posizione di Re a quella di Sol durante il brano, mantenendo la continuità.",
+      "license": {
+        "notes": "Esercizio originale"
+      }
+    },
+    "m2e-020": {
+      "title": "Riepilogo conclusivo del livello 2",
+      "summary": "Brano di otto battute sul doppio pentagramma che unisce le posizioni di Re, Sol e La minore.",
+      "goal": "Dimostra padronanza delle posizioni del livello 2: crome scorrevoli, sincopi e scioltezza nei cambi di posizione.",
+      "license": {
+        "notes": "Esercizio originale"
+      }
+    }
+  },
+  "title": "Metodo livello 2E — Padronanza",
+  "summary": "Esercizi avanzati nelle posizioni di Re con Fa diesis, Sol e La minore. Scioltezza nelle crome, semplici sincopi e brani fino a otto battute, con ampio lavoro a mani unite."
+}

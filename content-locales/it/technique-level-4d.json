@@ -1,0 +1,167 @@
+{
+  "courseId": "technique-level-4d",
+  "exercises": {
+    "t4d-001": {
+      "title": "Studio in stile Czerny in Re maggiore (MD)",
+      "summary": "Un esercizio di indipendenza delle dita in Re maggiore, tra gradi congiunti e salti.",
+      "goal": "Mantieni regolari le crome e nitida l'articolazione.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t4d-002": {
+      "title": "Studio in stile Czerny in La maggiore a mani unite",
+      "summary": "Un esercizio di indipendenza delle dita a mani unite in La maggiore.",
+      "goal": "Coordina le mani nel moto parallelo per grado congiunto.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t4d-003": {
+      "title": "Studio in stile Czerny in Si bemolle maggiore (MD)",
+      "summary": "Indipendenza delle dita in Si bemolle maggiore, con figure per salti.",
+      "goal": "Mantieni uniforme l'articolazione passando per i bemolli.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t4d-004": {
+      "title": "Studio in stile Czerny in Mi bemolle maggiore a mani unite",
+      "summary": "Uno studio a mani unite con fraseggio legato in Mi bemolle maggiore.",
+      "goal": "Suona con fluidità coordinando le mani.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t4d-005": {
+      "title": "Studio in stile Czerny in La bemolle maggiore (MD)",
+      "summary": "Un esercizio di indipendenza delle dita in La bemolle maggiore.",
+      "goal": "Mantieni chiarezza su tutti e quattro i bemolli.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t4d-006": {
+      "title": "Contrasti dinamici in Re maggiore",
+      "summary": "Passaggi di scala in Re maggiore con transizioni dal piano al forte.",
+      "goal": "Esegui cambi dinamici precisi senza perdere la regolarità ritmica.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t4d-007": {
+      "title": "Contrasti dinamici in Si bemolle maggiore",
+      "summary": "Passaggi in Si bemolle maggiore nell'escursione dinamica da pp a ff.",
+      "goal": "Controlla con fluidità i contrasti tra dinamiche estreme.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t4d-008": {
+      "title": "Studio sul crescendo in Mi bemolle maggiore",
+      "summary": "Un crescendo graduale da pp a ff attraverso otto battute.",
+      "goal": "Aumenta l'intensità con gradualità e uniformità.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t4d-009": {
+      "title": "Cambi dinamici improvvisi in La maggiore",
+      "summary": "Cambi repentini dal forte al piano e viceversa.",
+      "goal": "Esegui con precisione i cambi dinamici improvvisi.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t4d-010": {
+      "title": "Contrasti dinamici negli accordi",
+      "summary": "Accordi simultanei nelle tonalità del livello 4 con dinamiche variate.",
+      "goal": "Suona gli accordi controllando con precisione ciascun livello dinamico.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t4d-011": {
+      "title": "Pedale e armonia tenuta in Re maggiore",
+      "summary": "Il pedale di risonanza collega le armonie in Re maggiore.",
+      "goal": "Esegui cambi di pedale puliti tra le armonie.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t4d-012": {
+      "title": "Pedale e armonia tenuta in Si bemolle maggiore",
+      "summary": "Tecnica del pedale con cambi armonici in Si bemolle maggiore.",
+      "goal": "Mantieni pulite le transizioni di pedale.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t4d-013": {
+      "title": "Pedale e armonia tenuta in Mi bemolle maggiore",
+      "summary": "Tecnica del pedale su successioni armoniche in Mi bemolle maggiore.",
+      "goal": "Esegui cambi di pedale puliti nella tonalità con tre bemolli.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t4d-014": {
+      "title": "Tecnica del cambio di pedale",
+      "summary": "Cambi di pedale sugli accordi nelle tonalità del livello 4.",
+      "goal": "Cambia il pedale con precisione a ogni nuovo accordo.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t4d-015": {
+      "title": "Formula Hanon 1 in Re maggiore",
+      "summary": "La formula Hanon ascendente e discendente trasposta in Re maggiore.",
+      "goal": "Sviluppa l'indipendenza delle dita con la formula in Re.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t4d-016": {
+      "title": "Formula Hanon 1 in Si bemolle maggiore",
+      "summary": "La formula Hanon trasposta in Si bemolle maggiore.",
+      "goal": "Sviluppa l'indipendenza delle dita con la formula in Si bemolle.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t4d-017": {
+      "title": "Formula Hanon 2 in La maggiore",
+      "summary": "La seconda formula Hanon trasposta in La maggiore, con distanze più ampie tra le dita.",
+      "goal": "Sviluppa estensione e indipendenza delle dita in La maggiore.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t4d-018": {
+      "title": "Formula Hanon a mani unite in Re maggiore",
+      "summary": "Le mani suonano la formula Hanon in moto parallelo in Re maggiore.",
+      "goal": "Coordina le mani nella formula Hanon.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t4d-019": {
+      "title": "Studio con dinamiche e pedale",
+      "summary": "Sfumature dinamiche e tecnica del pedale si combinano in Re maggiore.",
+      "goal": "Controlla contemporaneamente dinamiche e pedale.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t4d-020": {
+      "title": "Verso la padronanza delle tonalità del livello 4",
+      "summary": "Uno studio nelle cinque tonalità del livello con dinamiche e pedale, in preparazione al 4E.",
+      "goal": "Affronta le cinque tonalità controllando dinamiche e pedale.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    }
+  },
+  "title": "Tecnica livello 4D — Studi, dinamiche e pedale",
+  "summary": "Studi per l'indipendenza delle dita ispirati a Czerny, formule Hanon, contrasti dinamici e tecnica del pedale nelle tonalità di Re, La, Si bemolle, Mi bemolle e La bemolle."
+}
