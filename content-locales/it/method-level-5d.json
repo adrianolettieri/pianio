@@ -1,0 +1,167 @@
+{
+  "courseId": "method-level-5d",
+  "exercises": {
+    "m5d-001": {
+      "title": "Romanza in Re maggiore",
+      "summary": "Romanza cantabile in Re maggiore, con accompagnamento a basso albertino.",
+      "goal": "Dai forma a una melodia lirica in Re maggiore sopra gli accordi spezzati del basso albertino alla sinistra.",
+      "license": {
+        "notes": "Composizione originale"
+      }
+    },
+    "m5d-002": {
+      "title": "Notturno in Re maggiore",
+      "summary": "Notturno lento ed espressivo in Re maggiore, con accompagnamento scorrevole a basso albertino.",
+      "goal": "Fai cantare la melodia del notturno in Re maggiore sopra un delicato basso ad accordi spezzati.",
+      "license": {
+        "notes": "Composizione originale"
+      }
+    },
+    "m5d-003": {
+      "title": "Marcia in Re maggiore",
+      "summary": "Marcia nitida in Re maggiore, in 2/4, con ritmi energici senza valori puntati.",
+      "goal": "Suona una marcia in Re maggiore in 2/4, con articolazione pulita e pulsazione regolare.",
+      "license": {
+        "notes": "Composizione originale"
+      }
+    },
+    "m5d-004": {
+      "title": "Aria in La maggiore",
+      "summary": "Aria aggraziata in La maggiore, con melodia cantabile e accompagnamento a basso albertino.",
+      "goal": "Dai forma a una melodia elegante in La maggiore sopra gli accordi spezzati del basso albertino.",
+      "license": {
+        "notes": "Composizione originale"
+      }
+    },
+    "m5d-005": {
+      "title": "Barcarola in La maggiore",
+      "summary": "Barcarola scorrevole in La maggiore, in 3/4, con linea melodica ondeggiante.",
+      "goal": "Fai cantare la melodia della barcarola in La maggiore sopra un accompagnamento cullante in 3/4.",
+      "license": {
+        "notes": "Composizione originale"
+      }
+    },
+    "m5d-006": {
+      "title": "Pastorale in Si bemolle maggiore",
+      "summary": "Pastorale delicata in Si bemolle maggiore, con accompagnamento a basso albertino.",
+      "goal": "Dai forma a una melodia cantabile in Si bemolle maggiore sopra gli accordi spezzati e scorrevoli del basso albertino.",
+      "license": {
+        "notes": "Composizione originale"
+      }
+    },
+    "m5d-007": {
+      "title": "Danza in Si bemolle maggiore",
+      "summary": "Danza vivace in Si bemolle maggiore, in 2/4, con articolazione nitida.",
+      "goal": "Suona una danza animata in Si bemolle maggiore in 2/4, con passaggi puliti in crome.",
+      "license": {
+        "notes": "Composizione originale"
+      }
+    },
+    "m5d-008": {
+      "title": "Romanza in Mi bemolle maggiore",
+      "summary": "Romanza calda in Mi bemolle maggiore, con accompagnamento ad accordi spezzati a basso albertino.",
+      "goal": "Dai forma a una melodia lirica in Mi bemolle maggiore sopra i delicati accordi spezzati del basso albertino.",
+      "license": {
+        "notes": "Composizione originale"
+      }
+    },
+    "m5d-009": {
+      "title": "Minuetto in Mi bemolle maggiore",
+      "summary": "Minuetto solenne in Mi bemolle maggiore, in 3/4, con fraseggio melodico elegante.",
+      "goal": "Suona un minuetto in Mi bemolle maggiore in 3/4, con linee aggraziate e mani bilanciate.",
+      "license": {
+        "notes": "Composizione originale"
+      }
+    },
+    "m5d-010": {
+      "title": "Ninna nanna in La bemolle maggiore",
+      "summary": "Ninna nanna tenera in La bemolle maggiore, con il delicato dondolio del basso albertino.",
+      "goal": "Dai forma a una ninna nanna rasserenante in La bemolle maggiore, con un accompagnamento delicato a basso albertino.",
+      "license": {
+        "notes": "Composizione originale"
+      }
+    },
+    "m5d-011": {
+      "title": "Notturno in La bemolle maggiore",
+      "summary": "Notturno lento e sognante in La bemolle maggiore, con accompagnamento scorrevole a basso albertino.",
+      "goal": "Rendi la melodia del notturno in La bemolle maggiore, con fraseggio espressivo e basso albertino.",
+      "license": {
+        "notes": "Composizione originale"
+      }
+    },
+    "m5d-012": {
+      "title": "Preludio in Fa diesis maggiore",
+      "summary": "Preludio scorrevole in Fa diesis maggiore, con linee melodiche tenute.",
+      "goal": "Suona un preludio aggraziato in Fa diesis maggiore, rispettando le altezze della tonalità con sei diesis.",
+      "license": {
+        "notes": "Composizione originale"
+      }
+    },
+    "m5d-013": {
+      "title": "Sarabanda in Fa diesis maggiore",
+      "summary": "Sarabanda solenne in Fa diesis maggiore, in 3/4, con rilievo sul secondo tempo.",
+      "goal": "Dai forma a una sarabanda dignitosa in Fa diesis maggiore, con il caratteristico peso metrico in 3/4.",
+      "license": {
+        "notes": "Composizione originale"
+      }
+    },
+    "m5d-014": {
+      "title": "Elegia in Sol minore",
+      "summary": "Elegia raccolta in Sol minore, con linee melodiche tenute.",
+      "goal": "Rendi un'elegia lenta in Sol minore con fraseggio espressivo, rispettando le altezze scritte.",
+      "license": {
+        "notes": "Composizione originale"
+      }
+    },
+    "m5d-015": {
+      "title": "Notturno in Sol minore",
+      "summary": "Notturno scuro ed espressivo in Sol minore armonica, con frasi tenute.",
+      "goal": "Suona un notturno in Sol minore con espressione profonda e risoluzione della sensibile Fa diesis.",
+      "license": {
+        "notes": "Composizione originale"
+      }
+    },
+    "m5d-016": {
+      "title": "Danza in Sol minore",
+      "summary": "Danza animata in Sol minore armonica, in 3/4, con passaggi sulla sensibile Fa diesis.",
+      "goal": "Suona una danza in Sol minore in 3/4, con ritmi nitidi e risoluzioni espressive del Fa diesis.",
+      "license": {
+        "notes": "Composizione originale"
+      }
+    },
+    "m5d-017": {
+      "title": "Romanza in Re minore",
+      "summary": "Romanza malinconica in Re minore, con accompagnamento a basso albertino.",
+      "goal": "Dai forma alla melodia della romanza in Re minore sopra gli accordi spezzati e scorrevoli del basso albertino.",
+      "license": {
+        "notes": "Composizione originale"
+      }
+    },
+    "m5d-018": {
+      "title": "Barcarola in Re minore",
+      "summary": "Barcarola ondeggiante in Re minore armonica, in 3/4, con Do diesis come sensibile.",
+      "goal": "Suona una barcarola in Re minore in 3/4, con accompagnamento cullante e risoluzioni del Do diesis.",
+      "license": {
+        "notes": "Composizione originale"
+      }
+    },
+    "m5d-019": {
+      "title": "Notturno in Re minore",
+      "summary": "Notturno lento e introspettivo in Re minore armonica, con accompagnamento a basso albertino.",
+      "goal": "Rendi un notturno in Re minore con espressione profonda e la sensibile Do diesis.",
+      "license": {
+        "notes": "Composizione originale"
+      }
+    },
+    "m5d-020": {
+      "title": "Finale in Re minore",
+      "summary": "Finale drammatico di dodici battute in Re minore armonica, con energici passaggi in crome.",
+      "goal": "Suona un finale ampio in Re minore, con risoluzioni della sensibile Do diesis e piena estensione.",
+      "license": {
+        "notes": "Composizione originale"
+      }
+    }
+  },
+  "title": "Metodo livello 5D — Applicazione",
+  "summary": "Brani di carattere nelle tonalità del livello 5, con figure di accompagnamento a basso albertino. Ogni brano ha da otto a dodici battute sul doppio pentagramma."
+}

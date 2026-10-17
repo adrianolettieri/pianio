@@ -22,6 +22,15 @@ describe("language provider", () => {
     expect(loader.load).toHaveBeenCalledWith("en");
   });
 
+  it("loads the Italian catalog and synchronizes localized metadata", async () => {
+    const loader = { load: vi.fn().mockResolvedValue(catalogFixture("it")) };
+    render(<LanguageProvider loader={loader} initialLanguage="it"><Probe /></LanguageProvider>);
+    await waitFor(() => expect(state()).toMatchObject({ activeLanguage: "it", contentLanguage: "it", pending: false, error: false }));
+    expect(document.documentElement.lang).toBe("it");
+    expect(document.title).toBe("Pianio — Lezioni di piano gratuite e aperte");
+    expect(loader.load).toHaveBeenCalledWith("it");
+  });
+
   it("preserves the session after a load failure and supports retry", async () => {
     const loader = { load: vi.fn().mockRejectedValueOnce(Error("temporary")).mockResolvedValueOnce(catalogFixture("en")) };
     function RetryProbe() {

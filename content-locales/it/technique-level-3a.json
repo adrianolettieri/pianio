@@ -1,0 +1,107 @@
+{
+  "courseId": "technique-level-3a",
+  "exercises": {
+    "t3a-001": {
+      "title": "Scala di Do maggiore (MD)",
+      "summary": "Scala ascendente e discendente di Do maggiore alla destra.",
+      "goal": "Suona la scala con fluidità e una diteggiatura corretta."
+    },
+    "t3a-002": {
+      "title": "Scala di Do maggiore a mani unite",
+      "summary": "Le mani percorrono la scala di Do maggiore in moto parallelo.",
+      "goal": "Coordina le mani mantenendo sincronizzati gli attacchi."
+    },
+    "t3a-003": {
+      "title": "Accordo spezzato di Do maggiore (MD)",
+      "summary": "Formula Do–Mi–Sol–Do ascendente e discendente alla destra.",
+      "goal": "Collega con fluidità le note dell'accordo spezzato di Do maggiore."
+    },
+    "t3a-004": {
+      "title": "Accordo spezzato di Do maggiore (MS)",
+      "summary": "Formula Do–Mi–Sol–Do ascendente e discendente alla sinistra.",
+      "goal": "Collega con fluidità le note dell'accordo spezzato di Do maggiore."
+    },
+    "t3a-005": {
+      "title": "Arpeggio di Do maggiore (MD)",
+      "summary": "Arpeggio ascendente e discendente di Do maggiore alla destra.",
+      "goal": "Suona Do–Mi–Sol–Do con fluidità usando il passaggio del pollice."
+    },
+    "t3a-006": {
+      "title": "Scala di Sol maggiore (MD)",
+      "summary": "Scala ascendente e discendente di Sol maggiore alla destra, con Fa diesis.",
+      "goal": "Suona con fluidità rispettando il Fa diesis della tonalità."
+    },
+    "t3a-007": {
+      "title": "Scala di Sol maggiore a mani unite",
+      "summary": "Le mani percorrono la scala di Sol maggiore in moto parallelo.",
+      "goal": "Coordina le mani e colloca correttamente il Fa diesis."
+    },
+    "t3a-008": {
+      "title": "Accordo spezzato e arpeggio di Sol",
+      "summary": "Formule di accordo spezzato e arpeggio di Sol maggiore alla destra.",
+      "goal": "Collega con scioltezza le due formule in Sol maggiore."
+    },
+    "t3a-009": {
+      "title": "Scala di Fa maggiore (MD)",
+      "summary": "Scala ascendente e discendente di Fa maggiore alla destra, con Si bemolle.",
+      "goal": "Suona con fluidità rispettando il Si bemolle della tonalità."
+    },
+    "t3a-010": {
+      "title": "Scala di Fa maggiore a mani unite",
+      "summary": "Le mani percorrono la scala di Fa maggiore in moto parallelo.",
+      "goal": "Coordina le mani e colloca correttamente il Si bemolle."
+    },
+    "t3a-011": {
+      "title": "Accordo spezzato e arpeggio di Fa",
+      "summary": "Formule di accordo spezzato e arpeggio di Fa maggiore alla destra.",
+      "goal": "Collega con scioltezza le due formule in Fa maggiore."
+    },
+    "t3a-012": {
+      "title": "Scala di La minore armonica (MD)",
+      "summary": "Scala di La minore armonica alla destra, con Sol diesis.",
+      "goal": "Suona la scala riconoscendo il Sol diesis come sensibile."
+    },
+    "t3a-013": {
+      "title": "Scala di La minore armonica a mani unite",
+      "summary": "Le mani percorrono La minore armonica in moto parallelo.",
+      "goal": "Coordina le mani rispettando l'alterazione Sol diesis."
+    },
+    "t3a-014": {
+      "title": "Accordo spezzato e arpeggio di La minore",
+      "summary": "Formule di accordo spezzato e arpeggio di La minore alla destra.",
+      "goal": "Passa con fluidità tra accordi spezzati e arpeggi di La minore."
+    },
+    "t3a-015": {
+      "title": "Scala di Re minore armonica (MD)",
+      "summary": "Scala di Re minore armonica alla destra, con Si bemolle e Do diesis.",
+      "goal": "Suona la scala riconoscendo il Do diesis come sensibile."
+    },
+    "t3a-016": {
+      "title": "Scala di Re minore armonica a mani unite",
+      "summary": "Le mani percorrono Re minore armonica in moto parallelo.",
+      "goal": "Coordina le mani rispettando Si bemolle e Do diesis."
+    },
+    "t3a-017": {
+      "title": "Successione I–IV–V in Do",
+      "summary": "Accordi simultanei di Do, Fa, Sol e Do maggiore.",
+      "goal": "Suona la successione I–IV–V–I in Do maggiore con accordi compatti e uniformi."
+    },
+    "t3a-018": {
+      "title": "Successione I–IV–V in Sol",
+      "summary": "Accordi simultanei di Sol, Do, Re e Sol maggiore.",
+      "goal": "Suona la successione I–IV–V–I in Sol maggiore con accordi compatti e uniformi."
+    },
+    "t3a-019": {
+      "title": "Successione I–IV–V in Fa",
+      "summary": "Accordi simultanei di Fa, Si bemolle, Do e Fa maggiore.",
+      "goal": "Suona la successione I–IV–V–I in Fa maggiore con accordi compatti e uniformi."
+    },
+    "t3a-020": {
+      "title": "Ripasso di scale e accordi in Do, Sol e Fa",
+      "summary": "Passaggi di scala conducono ad accordi simultanei in Do, Sol e Fa maggiore.",
+      "goal": "Passa con scioltezza dalle scale agli accordi nelle tre tonalità."
+    }
+  },
+  "title": "Tecnica livello 3A — Fondamenti delle tonalità",
+  "summary": "Scale di Do, Sol e Fa maggiore, La e Re minore armonica. Accordi spezzati, arpeggi e successioni di accordi simultanei I–IV–V nelle diverse tonalità."
+}

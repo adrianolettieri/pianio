@@ -1,0 +1,127 @@
+{
+  "courseId": "method-level-4",
+  "exercises": {
+    "method4-001": {
+      "title": "Scala di Sol di un'ottava (MD)",
+      "summary": "Scala di Sol maggiore per la destra lungo un'ottava completa, con Fa diesis.",
+      "goal": "Leggi e suona regolarmente le otto note della scala di Sol maggiore, rispettando il Fa diesis.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "method4-002": {
+      "title": "Scala di Sol di un'ottava (MS)",
+      "summary": "Scala di Sol maggiore per la sinistra lungo un'ottava completa in chiave di basso.",
+      "goal": "Leggi e suona Sol maggiore in chiave di basso, con Fa diesis corretto.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "method4-003": {
+      "title": "Cinque note in Re maggiore (MD)",
+      "summary": "Figura di cinque note per la destra in Re maggiore, tonalità con Fa diesis e Do diesis.",
+      "goal": "Suona la figura di Re maggiore con la destra, rispettando il Fa diesis scritto.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "method4-004": {
+      "title": "Cinque note in Re maggiore (MS)",
+      "summary": "Figura di cinque note per la sinistra in Re maggiore, in chiave di basso.",
+      "goal": "Suona nella posizione di Re maggiore con la sinistra, rispettando i diesis scritti.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "method4-005": {
+      "title": "Studio sul ritmo sincopato",
+      "summary": "Melodia che presenta la successione semiminima–croma–croma–semiminima–semiminima.",
+      "goal": "Senti e suona lo slancio in levare delle figure ritmiche proposte.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "method4-006": {
+      "title": "Studio in crome",
+      "summary": "Do maggiore ascendente e discendente in crome, in un'estensione ampliata.",
+      "goal": "Mantieni regolari le crome nei cambi di registro lungo un passaggio di scala esteso.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "method4-007": {
+      "title": "Arpeggio al basso (MS)",
+      "summary": "Figura di accordi spezzati per la sinistra nelle posizioni di Do e Sol al basso.",
+      "goal": "Suona una linea di basso arpeggiata e scorrevole in chiave di basso.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "method4-008": {
+      "title": "Melodia in Sol maggiore",
+      "summary": "Melodia estesa in Sol maggiore nell'ampiezza di un'ottava completa.",
+      "goal": "Suona una melodia scorrevole in Sol maggiore, rispettando tutti i Fa diesis.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "method4-009": {
+      "title": "Valzer in Sol maggiore",
+      "summary": "Melodia di valzer scorrevole in Sol maggiore, con il colore del Fa diesis.",
+      "goal": "Suona Sol maggiore in 3/4, con un fraseggio di valzer aggraziato.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "method4-010": {
+      "title": "Melodia in Re minore",
+      "summary": "Melodia in Re minore naturale, con il colore espressivo del Si bemolle.",
+      "goal": "Senti la sonorità di Re minore lungo una frase, rispettando il Si bemolle.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "method4-011": {
+      "title": "Sincope in crome",
+      "summary": "Figure in crome che lavorano sugli attacchi tra i tempi e sullo slancio ritmico.",
+      "goal": "Colloca con precisione le crome tra i tempi, senza accelerare.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "method4-012": {
+      "title": "Melodia di accordi spezzati in Sol maggiore",
+      "summary": "Melodia costruita su arpeggi ascendenti e discendenti della triade di Sol maggiore.",
+      "goal": "Collega i suoni della triade in un unico arco melodico fluido.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "method4-013": {
+      "title": "Melodia con salti di registro",
+      "summary": "Salti ampi tra registri che richiedono una rapida lettura visiva.",
+      "goal": "Leggi e suona senza esitazioni salti ampi nell'estensione di due ottave.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "method4-014": {
+      "title": "Ripasso del livello 4",
+      "summary": "Frase di ripasso che unisce Re maggiore, diesis e ritmi misti.",
+      "goal": "Applica le abilità del livello 4: tonalità con due diesis, figure ritmiche e ampia estensione.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "method4-015": {
+      "title": "Finale del livello 4",
+      "summary": "Melodia completa che combina Sol maggiore, varietà ritmica e salti ampi.",
+      "goal": "Dimostra scioltezza nel livello 4: tonalità con diesis, varietà ritmica ed estensione.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    }
+  },
+  "title": "Metodo livello 4",
+  "summary": "Scale di Sol e Re maggiore, tonalità con due diesis, ritmi sincopati, accordi spezzati e valzer in Sol, verso la lettura di livello principiante avanzato."
+}

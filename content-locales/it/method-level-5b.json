@@ -1,0 +1,167 @@
+{
+  "courseId": "method-level-5b",
+  "exercises": {
+    "m5b-001": {
+      "title": "Ampliamento di Re maggiore",
+      "summary": "Re maggiore con passaggi ascendenti in crome sopra la pulsazione del basso.",
+      "goal": "Suona passaggi fluidi in crome in Re maggiore, con coordinazione regolare a mani unite.",
+      "license": {
+        "notes": "Composizione originale"
+      }
+    },
+    "m5b-002": {
+      "title": "Studio in Re maggiore",
+      "summary": "Studio di otto battute in Re maggiore, con ritmi misti di semiminime e crome.",
+      "goal": "Sviluppa scioltezza nell'estensione di Re maggiore, con fraseggio espressivo.",
+      "license": {
+        "notes": "Composizione originale"
+      }
+    },
+    "m5b-003": {
+      "title": "Danza in Re maggiore",
+      "summary": "Danza vivace in 3/4 in Re maggiore, con passaggi ornamentali in crome.",
+      "goal": "Dai forma a una danza animata in Re maggiore, con figure fluide in crome in 3/4.",
+      "license": {
+        "notes": "Composizione originale"
+      }
+    },
+    "m5b-004": {
+      "title": "Frammento di sonatina in Re maggiore",
+      "summary": "Frammento di sonatina di otto battute, con melodia cantabile e accompagnamento attivo.",
+      "goal": "Suona un brano più lungo in Re maggiore, con melodia espressiva e varietà nella sinistra.",
+      "license": {
+        "notes": "Composizione originale"
+      }
+    },
+    "m5b-005": {
+      "title": "Ampliamento di La maggiore",
+      "summary": "La maggiore con crome scorrevoli che salgono al Fa diesis5.",
+      "goal": "Affronta il registro superiore di La maggiore con passaggi fluidi in crome.",
+      "license": {
+        "notes": "Composizione originale"
+      }
+    },
+    "m5b-006": {
+      "title": "Studio in La maggiore",
+      "summary": "Studio di otto battute che include Sol e Fa diesis per esplorare la scala completa.",
+      "goal": "Suona il vocabolario completo della scala di La maggiore in uno studio a mani unite.",
+      "license": {
+        "notes": "Composizione originale"
+      }
+    },
+    "m5b-007": {
+      "title": "Danza in La maggiore",
+      "summary": "Danza animata in 3/4 in La maggiore, con ornamenti in crome.",
+      "goal": "Dai forma a una danza in La maggiore in 3/4, usando le crome per ornare la melodia.",
+      "license": {
+        "notes": "Composizione originale"
+      }
+    },
+    "m5b-008": {
+      "title": "Frammento di sonatina in La maggiore",
+      "summary": "Frammento di sonatina di otto battute, con passaggi scorrevoli e fraseggio espressivo.",
+      "goal": "Sostieni lo slancio musicale lungo otto battute in La maggiore a mani unite.",
+      "license": {
+        "notes": "Composizione originale"
+      }
+    },
+    "m5b-009": {
+      "title": "Ampliamento di Si bemolle maggiore",
+      "summary": "Si bemolle maggiore con passaggi ascendenti in crome fino al Sol5.",
+      "goal": "Suona passaggi fluidi in crome in Si bemolle maggiore, rispettando costantemente i bemolli.",
+      "license": {
+        "notes": "Composizione originale"
+      }
+    },
+    "m5b-010": {
+      "title": "Sonatina in Si bemolle maggiore",
+      "summary": "Frammento di sonatina di otto battute, con melodia vivace e articolata.",
+      "goal": "Suona un brano esteso in Si bemolle maggiore, con fraseggio naturale e mani bilanciate.",
+      "license": {
+        "notes": "Composizione originale"
+      }
+    },
+    "m5b-011": {
+      "title": "Ampliamento di Mi bemolle maggiore",
+      "summary": "Mi bemolle maggiore con passaggi ascendenti in crome nell'estensione della scala.",
+      "goal": "Suona con scioltezza passaggi in crome in Mi bemolle maggiore, rispettando La e Mi bemolle.",
+      "license": {
+        "notes": "Composizione originale"
+      }
+    },
+    "m5b-012": {
+      "title": "Ampliamento di La bemolle maggiore",
+      "summary": "La bemolle maggiore con passaggi scorrevoli in crome fino al Fa5.",
+      "goal": "Affronta i quattro bemolli di La bemolle maggiore con passaggi sicuri in crome.",
+      "license": {
+        "notes": "Composizione originale"
+      }
+    },
+    "m5b-013": {
+      "title": "Sonatina in La bemolle maggiore",
+      "summary": "Frammento di sonatina di otto battute, con linee melodiche scorrevoli.",
+      "goal": "Sostieni la forma musicale lungo otto battute in La bemolle maggiore, bilanciando le mani.",
+      "license": {
+        "notes": "Composizione originale"
+      }
+    },
+    "m5b-014": {
+      "title": "Ampliamento di Sol minore",
+      "summary": "Sol minore armonica con passaggi ascendenti in crome e la sensibile drammatica Fa diesis.",
+      "goal": "Suona passaggi in crome in Sol minore armonica, mettendo in risalto il settimo grado innalzato.",
+      "license": {
+        "notes": "Composizione originale"
+      }
+    },
+    "m5b-015": {
+      "title": "Minuetto in Sol minore",
+      "summary": "Minuetto espressivo in 3/4 in Sol minore armonica, con ornamenti in crome.",
+      "goal": "Dai forma a un minuetto in Sol minore in 3/4, bilanciando melodia e basso con espressione.",
+      "license": {
+        "notes": "Composizione originale"
+      }
+    },
+    "m5b-016": {
+      "title": "Ampliamento di Re minore",
+      "summary": "Re minore armonica con passaggi in crome e Do diesis come sensibile espressiva.",
+      "goal": "Suona passaggi in crome in Re minore armonica, valorizzando la risoluzione Do diesis–Re.",
+      "license": {
+        "notes": "Composizione originale"
+      }
+    },
+    "m5b-017": {
+      "title": "Danza in Re minore",
+      "summary": "Danza animata in 3/4 in Re minore armonica, con figure in crome.",
+      "goal": "Dai forma a una danza in Re minore in 3/4, mettendo in risalto la sensibile drammatica Do diesis.",
+      "license": {
+        "notes": "Composizione originale"
+      }
+    },
+    "m5b-018": {
+      "title": "Primi passi in Fa diesis maggiore",
+      "summary": "Introduzione a Fa diesis maggiore con una semplice melodia in semiminime e minime e le alterazioni scritte.",
+      "goal": "Affronta Fa diesis maggiore, tonalità con sei diesis, rispettando le note presenti, compresi La e Do diesis.",
+      "license": {
+        "notes": "Composizione originale"
+      }
+    },
+    "m5b-019": {
+      "title": "Melodia in Fa diesis maggiore",
+      "summary": "Melodia in Fa diesis maggiore fino al Re diesis5, con La e Re diesis espliciti.",
+      "goal": "Suona le note della scala di Fa diesis maggiore rispettando le altezze con diesis.",
+      "license": {
+        "notes": "Composizione originale"
+      }
+    },
+    "m5b-020": {
+      "title": "Studio in Fa diesis maggiore",
+      "summary": "Studio di sei battute in Fa diesis maggiore, con passaggi in crome e una linea melodica scorrevole.",
+      "goal": "Sviluppa scioltezza in Fa diesis maggiore attraverso passaggi in crome, bilanciando le mani.",
+      "license": {
+        "notes": "Composizione originale"
+      }
+    }
+  },
+  "title": "Metodo livello 5B — Ampliamento",
+  "summary": "Approfondisce le cinque tonalità del livello 4 con passaggi in crome, introduce Fa diesis maggiore con sei diesis e amplia Sol e Re minore armonica. Brani sul doppio pentagramma da quattro a otto battute."
+}

@@ -1,0 +1,167 @@
+{
+  "courseId": "technique-level-6d",
+  "exercises": {
+    "t6d-001": {
+      "title": "Scala di Do in ottave simultanee (MD)",
+      "summary": "Ottave simultanee ascendenti e discendenti in Do maggiore alla destra.",
+      "goal": "Suona a 72 BPM con polso rilassato e senza tensione.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t6d-002": {
+      "title": "Scala di Do in ottave simultanee (MS)",
+      "summary": "Ottave simultanee ascendenti in Do maggiore alla sinistra.",
+      "goal": "Usa la rotazione del polso senza irrigidire il braccio.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t6d-003": {
+      "title": "Ottave spezzate in Do maggiore (MD)",
+      "summary": "Alternanza tra la nota inferiore e quella superiore di ogni ottava in Do maggiore.",
+      "goal": "Mantieni fluide le ottave spezzate facendo oscillare il polso tra pollice e mignolo.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t6d-004": {
+      "title": "Ottave spezzate in Do maggiore (MS)",
+      "summary": "Ottave spezzate ascendenti in Do maggiore alla sinistra.",
+      "goal": "Sviluppa la flessibilità del polso nelle ottave spezzate della sinistra.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t6d-005": {
+      "title": "Scala di Sol in ottave simultanee (MD)",
+      "summary": "Ottave simultanee in Sol maggiore alla destra.",
+      "goal": "Mantieni rilassato il polso e preciso il Fa diesis.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t6d-006": {
+      "title": "Ottave spezzate in Sol maggiore (MD)",
+      "summary": "Ottave spezzate ascendenti e discendenti in Sol maggiore.",
+      "goal": "Suona con precisione il Fa diesis nelle ottave spezzate.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t6d-007": {
+      "title": "Scala di Re in ottave simultanee (MD)",
+      "summary": "Ottave simultanee in Re maggiore alla destra.",
+      "goal": "Suona con precisione Fa diesis e Do diesis nelle ottave.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t6d-008": {
+      "title": "Scala di Fa in ottave simultanee (MD)",
+      "summary": "Ottave simultanee in Fa maggiore alla destra.",
+      "goal": "Suona con precisione il Si bemolle nelle ottave.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t6d-009": {
+      "title": "Ottave simultanee in Do a mani unite",
+      "summary": "Le mani suonano ottave simultanee in moto parallelo in Do maggiore.",
+      "goal": "Sincronizza i passaggi per ottave delle due mani.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t6d-010": {
+      "title": "Ottave spezzate in Do a mani unite",
+      "summary": "Ottave spezzate in Do maggiore con entrambe le mani.",
+      "goal": "Sincronizza le ottave spezzate e le rapide oscillazioni dei polsi.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t6d-011": {
+      "title": "Scala di La in ottave simultanee (MD)",
+      "summary": "Ottave simultanee in La maggiore alla destra.",
+      "goal": "Rispetta i tre diesis della tonalità nelle ottave.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t6d-012": {
+      "title": "Scala di Si bemolle in ottave simultanee (MD)",
+      "summary": "Ottave simultanee in Si bemolle maggiore alla destra.",
+      "goal": "Rispetta i due bemolli della tonalità nelle ottave.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t6d-013": {
+      "title": "Ottave spezzate in Re maggiore (MD)",
+      "summary": "Ottave spezzate ascendenti in Re maggiore alla destra.",
+      "goal": "Mantieni precise le alterazioni scritte e fluido il movimento.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t6d-014": {
+      "title": "Ottave cromatiche (MD)",
+      "summary": "Ottave simultanee ascendono cromaticamente da Do a Sol.",
+      "goal": "Mantieni fluido il movimento e flessibile il polso nelle ottave cromatiche.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t6d-015": {
+      "title": "Ottave veloci in Do maggiore (MD)",
+      "summary": "Ottave simultanee a tempo sostenuto in Do maggiore.",
+      "goal": "Suona a 84 BPM mantenendo rilassato il polso.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t6d-016": {
+      "title": "Melodia in ottave in Do maggiore (MD)",
+      "summary": "Una frase melodica interamente in ottave applica la tecnica alla musica.",
+      "goal": "Unisci sonorità ed espressione nella melodia in ottave.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t6d-017": {
+      "title": "Ottave simultanee in Sol a mani unite",
+      "summary": "Ottave simultanee in Sol maggiore con entrambe le mani.",
+      "goal": "Sincronizza le mani nei passaggi per ottave.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t6d-018": {
+      "title": "Ottave spezzate veloci in Do maggiore (MD)",
+      "summary": "Ottave spezzate in Do maggiore a 92 BPM.",
+      "goal": "Mantieni rapide e fluide le oscillazioni del polso.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t6d-019": {
+      "title": "Ottave in moto contrario in Do a mani unite",
+      "summary": "Le mani percorrono le ottave in direzioni opposte, con la destra in salita e la sinistra in discesa.",
+      "goal": "Controlla la coordinazione nelle ottave in moto contrario.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t6d-020": {
+      "title": "Ripasso delle ottave a mani unite",
+      "summary": "Ottave simultanee e spezzate combinate nella prova conclusiva del livello 6D.",
+      "goal": "Dimostra scioltezza nelle ottave con entrambe le mani.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    }
+  },
+  "title": "Tecnica livello 6D — Passaggi di ottave",
+  "summary": "Ottave simultanee, ottave spezzate e passaggi di scala per ottave in diverse tonalità, per sviluppare flessibilità del polso e sonorità nel repertorio avanzato."
+}

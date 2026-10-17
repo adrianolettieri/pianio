@@ -1,0 +1,247 @@
+{
+  "courseId": "songs-beginner",
+  "exercises": {
+    "songs-b-001": {
+      "title": "Inno alla gioia",
+      "summary": "Il celebre tema della Nona sinfonia di Beethoven, in Do maggiore con un semplice basso alla sinistra.",
+      "goal": "Suona la melodia dell'Inno alla gioia con il sostegno del basso.",
+      "license": {
+        "notes": "Composizione originale di pubblico dominio. Arrangiamento CC0."
+      }
+    },
+    "songs-b-002": {
+      "title": "Brilla, brilla, stellina",
+      "summary": "La classica filastrocca in Do maggiore, con un semplice accompagnamento della sinistra.",
+      "goal": "Suona tutta la melodia con il sostegno del basso alla sinistra.",
+      "license": {
+        "notes": "Melodia tradizionale di pubblico dominio. Arrangiamento CC0."
+      }
+    },
+    "songs-b-003": {
+      "title": "Mary aveva un agnellino",
+      "summary": "La celebre canzone per bambini nella posizione di Do maggiore.",
+      "goal": "Suona a memoria la melodia completa.",
+      "license": {
+        "notes": "Melodia tradizionale di pubblico dominio. Arrangiamento CC0."
+      }
+    },
+    "songs-b-004": {
+      "title": "Hot Cross Buns",
+      "summary": "Una semplice canzone inglese su tre note, ideale per la prima melodia.",
+      "goal": "Suona con precisione usando soltanto Mi, Re e Do.",
+      "license": {
+        "notes": "Melodia tradizionale di pubblico dominio. Arrangiamento CC0."
+      }
+    },
+    "songs-b-005": {
+      "title": "Jingle Bells",
+      "summary": "Il famoso ritornello natalizio in Do maggiore, con basso alla sinistra.",
+      "goal": "Suona il ritornello con energia, ritmo regolare e sostegno del basso.",
+      "license": {
+        "notes": "Composizione di pubblico dominio. Arrangiamento CC0."
+      }
+    },
+    "songs-b-006": {
+      "title": "Nella vecchia fattoria",
+      "summary": "La classica canzone della fattoria in Do maggiore.",
+      "goal": "Distingui con chiarezza semiminime e minime.",
+      "license": {
+        "notes": "Melodia tradizionale di pubblico dominio. Arrangiamento CC0."
+      }
+    },
+    "songs-b-007": {
+      "title": "Oh! Susanna",
+      "summary": "La celebre canzone popolare di Stephen Foster in Do maggiore, con semplice basso alla sinistra.",
+      "goal": "Suona melodia e ritornello con il sostegno della sinistra.",
+      "license": {
+        "notes": "Composizione di pubblico dominio. Arrangiamento CC0."
+      }
+    },
+    "songs-b-008": {
+      "title": "Tanti auguri a te",
+      "summary": "La nota canzone di compleanno in Fa maggiore, in 3/4 con basso in stile valzer.",
+      "goal": "Suona in tempo di valzer con il sostegno del basso e cura delle dinamiche.",
+      "license": {
+        "notes": "Melodia dichiarata di pubblico dominio (Good Morning to All). Arrangiamento CC0."
+      }
+    },
+    "songs-b-009": {
+      "title": "Amazing Grace",
+      "summary": "Il celebre inno di John Newton in 3/4, con un delicato basso alla sinistra.",
+      "goal": "Usa un suono cantabile con un accompagnamento morbido.",
+      "license": {
+        "notes": "Testo e melodia dell’inno di pubblico dominio. Arrangiamento CC0."
+      }
+    },
+    "songs-b-010": {
+      "title": "London Bridge Is Falling Down",
+      "summary": "La classica filastrocca inglese in Do maggiore.",
+      "goal": "Suona con un ritmo vivace e regolare.",
+      "license": {
+        "notes": "Melodia tradizionale di pubblico dominio. Arrangiamento CC0."
+      }
+    },
+    "songs-b-011": {
+      "title": "Skip to My Lou",
+      "summary": "Una vivace canzone da ballo della tradizione americana in Do maggiore.",
+      "goal": "Usa un tocco brillante e ritmico.",
+      "license": {
+        "notes": "Melodia tradizionale di pubblico dominio. Arrangiamento CC0."
+      }
+    },
+    "songs-b-012": {
+      "title": "Camptown Races",
+      "summary": "La vivace canzone popolare di Stephen Foster in Do maggiore.",
+      "goal": "Suona con un carattere allegro ed elastico.",
+      "license": {
+        "notes": "Composizione di pubblico dominio. Arrangiamento CC0."
+      }
+    },
+    "songs-b-013": {
+      "title": "Simple Gifts",
+      "summary": "Il celebre inno degli Shaker di Joseph Brackett in Do maggiore.",
+      "goal": "Modella una frase tranquilla e scorrevole.",
+      "license": {
+        "notes": "Inno degli Shaker di pubblico dominio. Arrangiamento CC0."
+      }
+    },
+    "songs-b-014": {
+      "title": "Fra Martino",
+      "summary": "Il classico canone francese in Do maggiore, noto anche come Frère Jacques.",
+      "goal": "Mantieni un ritmo uniforme e una linea melodica chiara.",
+      "license": {
+        "notes": "Melodia tradizionale di pubblico dominio. Arrangiamento CC0."
+      }
+    },
+    "songs-b-015": {
+      "title": "Yankee Doodle",
+      "summary": "Il classico canto patriottico americano in Do maggiore.",
+      "goal": "Suona semiminime vivaci e regolari.",
+      "license": {
+        "notes": "Melodia tradizionale di pubblico dominio. Arrangiamento CC0."
+      }
+    },
+    "songs-b-016": {
+      "title": "Baa Baa Black Sheep",
+      "summary": "Una classica filastrocca inglese in Do maggiore, sulla stessa melodia di Brilla, brilla, stellina.",
+      "goal": "Mantieni regolari le semiminime.",
+      "license": {
+        "notes": "Melodia tradizionale di pubblico dominio. Arrangiamento CC0."
+      }
+    },
+    "songs-b-017": {
+      "title": "Rema, rema, la barchetta",
+      "summary": "Il celebre canone in Do maggiore, qui in tempo di 3/4.",
+      "goal": "Suona con un movimento dolcemente cullante.",
+      "license": {
+        "notes": "Melodia tradizionale di pubblico dominio. Arrangiamento CC0."
+      }
+    },
+    "songs-b-018": {
+      "title": "This Old Man",
+      "summary": "Una filastrocca numerata in Do maggiore, con un ritornello orecchiabile.",
+      "goal": "Suona semiminime nitide ed elastiche.",
+      "license": {
+        "notes": "Melodia tradizionale di pubblico dominio. Arrangiamento CC0."
+      }
+    },
+    "songs-b-019": {
+      "title": "Pop Goes the Weasel",
+      "summary": "Una filastrocca tradizionale inglese in Sol maggiore, con un finale a sorpresa.",
+      "goal": "Suona in 3/4 con carattere leggero e giocoso.",
+      "license": {
+        "notes": "Melodia tradizionale di pubblico dominio. Arrangiamento CC0."
+      }
+    },
+    "songs-b-020": {
+      "title": "Chopsticks",
+      "summary": "La famosa melodia da duetto in Do maggiore, arrangiata per pianoforte solo.",
+      "goal": "Mantieni regolare il ritmo in 3/4.",
+      "license": {
+        "notes": "Composizione di pubblico dominio. Arrangiamento CC0."
+      }
+    },
+    "songs-b-021": {
+      "title": "Lightly Row",
+      "summary": "Una dolce melodia popolare tedesca in Do maggiore, classica tra i primi brani.",
+      "goal": "Collega le note con fluidità.",
+      "license": {
+        "notes": "Melodia tradizionale di pubblico dominio. Arrangiamento CC0."
+      }
+    },
+    "songs-b-022": {
+      "title": "Go Tell Aunt Rhody",
+      "summary": "Una canzone popolare americana in Do maggiore, frequente nei metodi per pianoforte.",
+      "goal": "Usa un suono chiaro e cantabile.",
+      "license": {
+        "notes": "Melodia tradizionale di pubblico dominio. Arrangiamento CC0."
+      }
+    },
+    "songs-b-023": {
+      "title": "Le ruote del bus",
+      "summary": "La celebre canzone per bambini in Do maggiore.",
+      "goal": "Mantieni una pulsazione allegra e regolare.",
+      "license": {
+        "notes": "Melodia tradizionale di pubblico dominio. Arrangiamento CC0."
+      }
+    },
+    "songs-b-024": {
+      "title": "Hickory Dickory Dock",
+      "summary": "Una classica filastrocca inglese in Do maggiore, con andamento di valzer.",
+      "goal": "Suona in 3/4 con tocco leggero.",
+      "license": {
+        "notes": "Melodia tradizionale di pubblico dominio. Arrangiamento CC0."
+      }
+    },
+    "songs-b-025": {
+      "title": "Jack e Jill",
+      "summary": "Una filastrocca tradizionale in Do maggiore.",
+      "goal": "Mantieni un ritmo vivace e uniforme.",
+      "license": {
+        "notes": "Melodia tradizionale di pubblico dominio. Arrangiamento CC0."
+      }
+    },
+    "songs-b-026": {
+      "title": "Michael Row the Boat Ashore",
+      "summary": "Uno spiritual afroamericano in Do maggiore, con delicato accompagnamento della sinistra.",
+      "goal": "Suona con un tono fluido e cantabile sopra il sostegno del basso.",
+      "license": {
+        "notes": "Melodia tradizionale di pubblico dominio. Arrangiamento CC0."
+      }
+    },
+    "songs-b-027": {
+      "title": "When the Saints Go Marching In",
+      "summary": "La classica marcia spiritual in Sol maggiore, con basso alla sinistra.",
+      "goal": "Suona con energia sopra un basso solido.",
+      "license": {
+        "notes": "Melodia tradizionale di pubblico dominio. Arrangiamento CC0."
+      }
+    },
+    "songs-b-028": {
+      "title": "Hush Little Baby",
+      "summary": "Una dolce ninna nanna in Do maggiore da suonare piano e con fluidità.",
+      "goal": "Usa un suono tranquillo e rassicurante.",
+      "license": {
+        "notes": "Melodia tradizionale di pubblico dominio. Arrangiamento CC0."
+      }
+    },
+    "songs-b-029": {
+      "title": "This Little Light of Mine",
+      "summary": "Uno spiritual gioioso in Sol maggiore, con accompagnamento della sinistra.",
+      "goal": "Suona con energia luminosa e solido sostegno del basso.",
+      "license": {
+        "notes": "Melodia tradizionale di pubblico dominio. Arrangiamento CC0."
+      }
+    },
+    "songs-b-030": {
+      "title": "Zum Gali Gali",
+      "summary": "Una suggestiva canzone popolare israeliana di lavoro in La minore.",
+      "goal": "Mantieni lo slancio ritmico con il sostegno della sinistra.",
+      "license": {
+        "notes": "Melodia tradizionale di pubblico dominio. Arrangiamento CC0."
+      }
+    }
+  },
+  "title": "Brani per principianti",
+  "summary": "Trenta melodie di pubblico dominio, dall'Inno alla gioia a Zum Gali Gali, in arrangiamenti per principianti con dinamiche semplici e accompagnamento della sinistra in alcuni brani."
+}

@@ -1,0 +1,167 @@
+{
+  "courseId": "technique-level-4b",
+  "exercises": {
+    "t4b-001": {
+      "title": "Scala di Si bemolle maggiore (MD)",
+      "summary": "Scala di Si bemolle maggiore alla destra, con Si bemolle e Mi bemolle.",
+      "goal": "Suona con uniformità e precisione i due bemolli alla destra. Lavora a 84 BPM.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t4b-002": {
+      "title": "Scala di Si bemolle maggiore (MS)",
+      "summary": "Scala di Si bemolle maggiore alla sinistra, con Si bemolle e Mi bemolle.",
+      "goal": "Suona con uniformità e precisione i due bemolli alla sinistra.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t4b-003": {
+      "title": "Scala di Si bemolle maggiore a mani unite",
+      "summary": "Scala di Si bemolle maggiore in moto parallelo a mani unite.",
+      "goal": "Sincronizza le mani su tutti i due bemolli.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t4b-004": {
+      "title": "Accordo spezzato di Si bemolle maggiore",
+      "summary": "Accordo spezzato ascendente e discendente di Si bemolle maggiore.",
+      "goal": "Suona con fluidità le note della triade di Si bemolle maggiore.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t4b-005": {
+      "title": "Arpeggio di Si bemolle maggiore",
+      "summary": "Arpeggio di Si bemolle maggiore su un’ottava.",
+      "goal": "Mantieni fluidi i passaggi delle dita nell’arpeggio.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t4b-006": {
+      "title": "Scala di Mi bemolle maggiore (MD)",
+      "summary": "Scala di Mi bemolle maggiore alla destra, con Si bemolle, Mi bemolle e La bemolle.",
+      "goal": "Suona con uniformità e precisione i tre bemolli alla destra.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t4b-007": {
+      "title": "Scala di Mi bemolle maggiore (MS)",
+      "summary": "Scala di Mi bemolle maggiore alla sinistra, con Si bemolle, Mi bemolle e La bemolle.",
+      "goal": "Suona con uniformità e precisione i tre bemolli alla sinistra.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t4b-008": {
+      "title": "Scala di Mi bemolle maggiore a mani unite",
+      "summary": "Scala di Mi bemolle maggiore in moto parallelo a mani unite.",
+      "goal": "Sincronizza le mani su tutti i tre bemolli.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t4b-009": {
+      "title": "Accordo spezzato di Mi bemolle maggiore",
+      "summary": "Accordo spezzato ascendente e discendente di Mi bemolle maggiore.",
+      "goal": "Suona con fluidità le note della triade di Mi bemolle maggiore.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t4b-010": {
+      "title": "Arpeggio di Mi bemolle maggiore",
+      "summary": "Arpeggio di Mi bemolle maggiore su un’ottava.",
+      "goal": "Mantieni fluidi i passaggi delle dita nell’arpeggio.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t4b-011": {
+      "title": "Scala di La bemolle maggiore (MD)",
+      "summary": "Scala di La bemolle maggiore alla destra, con Si bemolle, Mi bemolle, La bemolle e Re bemolle.",
+      "goal": "Suona con uniformità e precisione i quattro bemolli alla destra.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t4b-012": {
+      "title": "Scala di La bemolle maggiore (MS)",
+      "summary": "Scala di La bemolle maggiore alla sinistra, con Si bemolle, Mi bemolle, La bemolle e Re bemolle.",
+      "goal": "Suona con uniformità e precisione i quattro bemolli alla sinistra.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t4b-013": {
+      "title": "Scala di La bemolle maggiore a mani unite",
+      "summary": "Scala di La bemolle maggiore in moto parallelo a mani unite.",
+      "goal": "Sincronizza le mani su tutti i quattro bemolli.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t4b-014": {
+      "title": "Accordo spezzato di La bemolle maggiore",
+      "summary": "Accordo spezzato ascendente e discendente di La bemolle maggiore.",
+      "goal": "Suona con fluidità le note della triade di La bemolle maggiore.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t4b-015": {
+      "title": "Arpeggio di La bemolle maggiore",
+      "summary": "Arpeggio di La bemolle maggiore su un’ottava.",
+      "goal": "Mantieni fluidi i passaggi delle dita nell’arpeggio.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t4b-016": {
+      "title": "Accordo spezzato di Si bemolle minore",
+      "summary": "Formula Si bemolle–Re bemolle–Fa a mani unite.",
+      "goal": "Coordina le mani nell’accordo spezzato di Si bemolle minore.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t4b-017": {
+      "title": "Arpeggio di Mi bemolle minore",
+      "summary": "Arpeggio Mi bemolle–Sol bemolle–Si bemolle a mani unite.",
+      "goal": "Mantieni fluidi e coordinati i passaggi delle dita.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t4b-018": {
+      "title": "Successione I–IV–V in Si bemolle maggiore",
+      "summary": "Successione Si bemolle–Mi bemolle–Fa–Si bemolle con accordi simultanei.",
+      "goal": "Suona con precisione la successione I–IV–V–I in Si bemolle maggiore.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t4b-019": {
+      "title": "Successione I–IV–V in Mi bemolle maggiore",
+      "summary": "Successione Mi bemolle–La bemolle–Si bemolle–Mi bemolle con accordi simultanei.",
+      "goal": "Suona con precisione la successione I–IV–V–I in Mi bemolle maggiore.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t4b-020": {
+      "title": "Ripasso delle scale con bemolli",
+      "summary": "Le scale di Si bemolle, Mi bemolle e La bemolle maggiore si susseguono a mani unite.",
+      "goal": "Collega con fluidità le tre scale in un unico esercizio.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    }
+  },
+  "title": "Tecnica livello 4B — Si bemolle, Mi bemolle e La bemolle maggiore",
+  "summary": "Scale e accordi spezzati in Si bemolle, Mi bemolle e La bemolle maggiore per sviluppare scioltezza nelle tonalità con bemolli, a mani separate e unite."
+}

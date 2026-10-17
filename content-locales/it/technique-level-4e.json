@@ -1,0 +1,167 @@
+{
+  "courseId": "technique-level-4e",
+  "exercises": {
+    "t4e-001": {
+      "title": "Velocità in Re maggiore a mani unite",
+      "summary": "Scala di Re maggiore a mani unite a 100 BPM.",
+      "goal": "Mantieni nitida l’articolazione e precise le alterazioni anche a velocità sostenuta.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t4e-002": {
+      "title": "Velocità in La maggiore a mani unite",
+      "summary": "Scala di La maggiore a mani unite a 100 BPM.",
+      "goal": "Mantieni nitida l’articolazione e precise le alterazioni anche a velocità sostenuta.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t4e-003": {
+      "title": "Velocità in Si bemolle maggiore a mani unite",
+      "summary": "Scala di Si bemolle maggiore a mani unite a 96 BPM.",
+      "goal": "Mantieni nitida l’articolazione e precise le alterazioni anche a velocità sostenuta.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t4e-004": {
+      "title": "Velocità in Mi bemolle maggiore a mani unite",
+      "summary": "Scala di Mi bemolle maggiore a mani unite a 96 BPM.",
+      "goal": "Mantieni nitida l’articolazione e precise le alterazioni anche a velocità sostenuta.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t4e-005": {
+      "title": "Velocità in La bemolle maggiore a mani unite",
+      "summary": "Scala di La bemolle maggiore a mani unite a 92 BPM.",
+      "goal": "Mantieni nitida l’articolazione e precise le alterazioni anche a velocità sostenuta.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t4e-006": {
+      "title": "Arpeggio veloce di Re maggiore",
+      "summary": "Arpeggio di Re maggiore a mani unite a 96 BPM.",
+      "goal": "Mantieni fluidi i passaggi delle dita anche a velocità sostenuta.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t4e-007": {
+      "title": "Arpeggio veloce di La maggiore",
+      "summary": "Arpeggio di La maggiore a mani unite a 96 BPM.",
+      "goal": "Mantieni fluidi i passaggi delle dita anche a velocità sostenuta.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t4e-008": {
+      "title": "Arpeggio veloce di Si bemolle maggiore",
+      "summary": "Arpeggio di Si bemolle maggiore a mani unite a 92 BPM.",
+      "goal": "Mantieni fluidi i passaggi delle dita anche a velocità sostenuta.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t4e-009": {
+      "title": "Arpeggio veloce di Mi bemolle maggiore",
+      "summary": "Arpeggio di Mi bemolle maggiore a mani unite a 92 BPM.",
+      "goal": "Mantieni fluidi i passaggi delle dita anche a velocità sostenuta.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t4e-010": {
+      "title": "Arpeggio veloce di La bemolle maggiore",
+      "summary": "Arpeggio di La bemolle maggiore a mani unite a 88 BPM.",
+      "goal": "Mantieni fluidi i passaggi delle dita anche a velocità sostenuta.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t4e-011": {
+      "title": "Combinazione completa in Re maggiore",
+      "summary": "Scala, arpeggio e successione di accordi in Re maggiore, con dinamiche.",
+      "goal": "Completa la combinazione a tempo, rispettando le dinamiche indicate.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t4e-012": {
+      "title": "Combinazione completa in La maggiore",
+      "summary": "Scala, arpeggio e successione di accordi in La maggiore, con dinamiche.",
+      "goal": "Completa la combinazione a tempo, rispettando le dinamiche indicate.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t4e-013": {
+      "title": "Combinazione completa in Si bemolle maggiore",
+      "summary": "Scala, arpeggio e successione di accordi in Si bemolle maggiore, con dinamiche.",
+      "goal": "Completa la combinazione a tempo, rispettando le dinamiche indicate.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t4e-014": {
+      "title": "Combinazione completa in Mi bemolle maggiore",
+      "summary": "Scala, arpeggio e successione di accordi in Mi bemolle maggiore, con dinamiche.",
+      "goal": "Completa la combinazione a tempo, rispettando le dinamiche indicate.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t4e-015": {
+      "title": "Combinazione completa in La bemolle maggiore",
+      "summary": "Scala, arpeggio e successione di accordi in La bemolle maggiore, con dinamiche.",
+      "goal": "Completa la combinazione a tempo, rispettando le dinamiche indicate.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t4e-016": {
+      "title": "Moto contrario veloce in Re maggiore",
+      "summary": "Scala di Re maggiore in moto contrario a 96 BPM.",
+      "goal": "Coordina le mani in moto contrario a velocità sostenuta.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t4e-017": {
+      "title": "Moto contrario veloce in Mi bemolle maggiore",
+      "summary": "Scala di Mi bemolle maggiore in moto contrario a 92 BPM.",
+      "goal": "Coordina le mani in moto contrario a velocità sostenuta.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t4e-018": {
+      "title": "Lettura a prima vista con diesis",
+      "summary": "Un passaggio misto in Re e La maggiore per esercitare la lettura dei diesis.",
+      "goal": "Leggi e suona un passaggio nuovo nelle tonalità con diesis.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t4e-019": {
+      "title": "Lettura a prima vista con bemolli",
+      "summary": "Un passaggio misto in Si bemolle e Mi bemolle maggiore per esercitare la lettura dei bemolli.",
+      "goal": "Leggi e suona un passaggio nuovo nelle tonalità con bemolli.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t4e-020": {
+      "title": "Prova finale del livello 4",
+      "summary": "Le cinque tonalità del livello in un unico esercizio, con dinamiche, accordi e arpeggi.",
+      "goal": "Dimostra padronanza delle cinque tonalità in un’unica esecuzione.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    }
+  },
+  "title": "Tecnica livello 4E — Padronanza delle combinazioni",
+  "summary": "Esercizi di velocità, combinazioni complete, moto contrario a tempo e prove nelle cinque tonalità del livello 4: Re, La, Si bemolle, Mi bemolle e La bemolle maggiore."
+}

@@ -2,8 +2,9 @@ import type { Language } from "./language";
 
 const NOTE_NAMES: Record<Language, readonly string[]> = {
   en: ["C", "C#", "D", "D#", "E", "F", "F#", "G", "G#", "A", "A#", "B"],
+  it: ["Do", "Do#", "Re", "Re#", "Mi", "Fa", "Fa#", "Sol", "Sol#", "La", "La#", "Si"],
 };
-const INVALID_NOTE_LABEL: Record<Language, string> = { en: "Note" };
+const INVALID_NOTE_LABEL: Record<Language, string> = { en: "Note", it: "Nota" };
 
 /** UI note spelling. MIDI numbers and enharmonic spelling remain unchanged. */
 export function formatNote(midi: number, language: Language = "en"): string {

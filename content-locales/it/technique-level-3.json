@@ -1,0 +1,127 @@
+{
+  "courseId": "technique-level-3",
+  "exercises": {
+    "tech3-001": {
+      "title": "Scala di Fa maggiore (MD)",
+      "summary": "Scala di Fa maggiore su un'ottava alla destra, con Si bemolle.",
+      "goal": "Suona con regolarità e una diteggiatura sicura sul Si bemolle.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "tech3-002": {
+      "title": "Scala di Fa maggiore (MS)",
+      "summary": "Scala di Fa maggiore su un'ottava alla sinistra, in chiave di basso.",
+      "goal": "Percorri con scioltezza la scala e il Si bemolle alla sinistra.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "tech3-003": {
+      "title": "Re minore naturale (MD)",
+      "summary": "Scala di Re minore naturale ascendente e discendente alla destra.",
+      "goal": "Riconosci il carattere della scala minore naturale suonandola alla destra.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "tech3-004": {
+      "title": "Re minore naturale (MS)",
+      "summary": "Scala di Re minore naturale alla sinistra, in chiave di basso.",
+      "goal": "Assimila il disegno della scala di Re minore naturale alla sinistra.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "tech3-005": {
+      "title": "Do maggiore in moto contrario",
+      "summary": "Le mani percorrono Do maggiore in direzioni opposte a partire da Do4.",
+      "goal": "Coordina movimenti indipendenti delle mani nel moto contrario.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "tech3-006": {
+      "title": "Formula Hanon 2 (MD)",
+      "summary": "Formula Hanon 2 alla destra, con salita 1–2–3–4–5 e accenti variati.",
+      "goal": "Sviluppa l'indipendenza delle dita con la seconda formula Hanon.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "tech3-007": {
+      "title": "Formula Hanon 2 (MS)",
+      "summary": "Seconda formula Hanon alla sinistra, in chiave di basso.",
+      "goal": "Sviluppa l'indipendenza della sinistra con la seconda formula Hanon.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "tech3-008": {
+      "title": "Formula Hanon 3 (MD)",
+      "summary": "Terza formula Hanon: passaggio ascendente con gruppi di dita 1–3–2–4.",
+      "goal": "Sviluppa l'indipendenza del terzo e del quarto dito.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "tech3-009": {
+      "title": "Arpeggio di Do maggiore (MD)",
+      "summary": "Accordi spezzati di Do maggiore in forma di arpeggio alla destra.",
+      "goal": "Collega con fluidità Do–Mi–Sol mantenendo uniforme il suono nei diversi registri.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "tech3-010": {
+      "title": "Arpeggio di Sol maggiore (MD)",
+      "summary": "Arpeggio ascendente e discendente di Sol maggiore alla destra.",
+      "goal": "Applica la tecnica dell'arpeggio mantenendo un suono omogeneo.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "tech3-011": {
+      "title": "Rotazione del polso",
+      "summary": "Terze alternate per sviluppare una rotazione fluida del polso.",
+      "goal": "Usa la rotazione dell'avambraccio per collegare le terze senza tensione.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "tech3-012": {
+      "title": "Studio sui contrasti dinamici",
+      "summary": "Un passaggio di scala per modellare il suono dal piano al forte.",
+      "goal": "Aumenta gradualmente il peso del suono lungo la scala, rispettando le dinamiche.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "tech3-013": {
+      "title": "Scala staccata",
+      "summary": "Scala di Do maggiore in semiminime per controllare l'articolazione staccata.",
+      "goal": "Suona ogni nota breve e nitida mantenendo il ritmo.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "tech3-014": {
+      "title": "Verifica di Tecnica 3",
+      "summary": "Un passaggio in Fa maggiore con arpeggi e articolazioni variate.",
+      "goal": "Applica la tecnica del livello: tonalità con bemolle, arpeggi e contrasto tra staccato e legato.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "tech3-015": {
+      "title": "Finale di Tecnica 3",
+      "summary": "Uno studio completo con scale, arpeggi e modellazione dinamica.",
+      "goal": "Dimostra scioltezza nelle tecniche affrontate nel livello 3.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    }
+  },
+  "title": "Tecnica livello 3",
+  "summary": "Scale di Fa maggiore e Re minore, moto contrario, formule Hanon 2 e 3, arpeggi, rotazione del polso e controllo della dinamica."
+}

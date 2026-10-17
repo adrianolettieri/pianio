@@ -1,0 +1,167 @@
+{
+  "courseId": "technique-level-5d",
+  "exercises": {
+    "t5d-001": {
+      "title": "Formula Hanon 4 in Do maggiore (MD)",
+      "summary": "Formula ascendente 1–3–2–4–3–5 in Do maggiore alla destra.",
+      "goal": "Suona con regolarità, senza accenti involontari sulle dita più deboli.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t5d-002": {
+      "title": "Formula Hanon 4 in Do maggiore (MS)",
+      "summary": "Formula ascendente 1–3–2–4–3–5 in Do maggiore alla sinistra.",
+      "goal": "Rendi la formula della sinistra regolare quanto quella della destra.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t5d-003": {
+      "title": "Formula Hanon 4 in Do maggiore a mani unite",
+      "summary": "Le mani suonano la quarta formula in moto parallelo.",
+      "goal": "Sincronizza le mani senza accelerare né rallentare.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t5d-004": {
+      "title": "Formula Hanon 5 in Do maggiore (MD)",
+      "summary": "Formula ondulata ascendente 1–2–3–4–5–4–3–2 alla destra.",
+      "goal": "Dai lo stesso peso a ogni dito nel movimento ondulato.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t5d-005": {
+      "title": "Formula Hanon 5 in Do maggiore a mani unite",
+      "summary": "Le mani suonano la formula ondulata in moto parallelo.",
+      "goal": "Sincronizza il movimento ondulato delle mani.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t5d-006": {
+      "title": "Formula Hanon 6 in Sol maggiore (MD)",
+      "summary": "Formula per terze ascendenti, con gruppi 1–3, 2–4 e 3–5 in Sol maggiore.",
+      "goal": "Suona le terze con regolarità rispettando il Fa diesis.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t5d-007": {
+      "title": "Formula Hanon 6 in Sol maggiore a mani unite",
+      "summary": "Formula per terze in Sol maggiore a mani unite.",
+      "goal": "Sincronizza le mani nella formula per terze.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t5d-008": {
+      "title": "Formula Hanon 7 in Re maggiore (MD)",
+      "summary": "Formula con salti alternati 1–3–5–3–2–4 in Re maggiore.",
+      "goal": "Mantieni uniforme il movimento passando per Fa diesis e Do diesis.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t5d-009": {
+      "title": "Formula Hanon 7 in Re maggiore a mani unite",
+      "summary": "Formula per salti in Re maggiore a mani unite.",
+      "goal": "Sincronizza le mani nei salti.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t5d-010": {
+      "title": "Formula Hanon 8 in Fa maggiore (MD)",
+      "summary": "Formula di avvicinamento dal grado inferiore alle note di Fa maggiore.",
+      "goal": "Mantieni uniforme la figura e preciso il Si bemolle.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t5d-011": {
+      "title": "Formula Hanon 8 in Fa maggiore a mani unite",
+      "summary": "Formula di avvicinamento dal grado inferiore in Fa maggiore, a mani unite.",
+      "goal": "Sincronizza le mani nelle figure di avvicinamento.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t5d-012": {
+      "title": "Formula Hanon 9 in La maggiore (MD)",
+      "summary": "Terze spezzate ascendenti e discendenti in La maggiore.",
+      "goal": "Suona le terze spezzate con regolarità rispettando i tre diesis.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t5d-013": {
+      "title": "Formula Hanon 9 in La maggiore a mani unite",
+      "summary": "Terze spezzate in La maggiore a mani unite.",
+      "goal": "Sincronizza le mani e le tre alterazioni nelle terze spezzate.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t5d-014": {
+      "title": "Formula Hanon 10 in Si bemolle maggiore (MD)",
+      "summary": "Formula a zigzag ascendente 1–3–2–1–2–4–3–2 in Si bemolle maggiore.",
+      "goal": "Suona a 84 BPM rispettando Si bemolle e Mi bemolle.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t5d-015": {
+      "title": "Formula Hanon 10 in Si bemolle maggiore a mani unite",
+      "summary": "Formula a zigzag in Si bemolle maggiore a mani unite.",
+      "goal": "Sincronizza le mani nella formula con bemolli.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t5d-016": {
+      "title": "Hanon in moto contrario in Do a mani unite",
+      "summary": "La destra sale mentre la sinistra scende.",
+      "goal": "Mantieni la regolarità mentre le mani si muovono in direzioni opposte.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t5d-017": {
+      "title": "Hanon in moto contrario in Sol a mani unite",
+      "summary": "Formula in moto contrario in Sol maggiore, con Fa diesis.",
+      "goal": "Coordina con fluidità i percorsi delle mani in moto contrario.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t5d-018": {
+      "title": "Hanon con accenti spostati in Do maggiore (MD)",
+      "summary": "Una formula di scala in Do da studiare spostando l'accento ogni tre note.",
+      "goal": "Senti lo spostamento dei gruppi ritmici rispetto alle stanghette di battuta.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t5d-019": {
+      "title": "Formula Hanon in Mi bemolle maggiore a mani unite",
+      "summary": "Gradi congiunti e salti combinano elementi di scala e arpeggio in Mi bemolle maggiore.",
+      "goal": "Sviluppa indipendenza delle mani rispettando i tre bemolli.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t5d-020": {
+      "title": "Ripasso Hanon nelle diverse tonalità a mani unite",
+      "summary": "Una successione di formule in diverse tonalità nella prova conclusiva del livello 5D.",
+      "goal": "Dimostra indipendenza delle dita con un movimento regolare, veloce e controllato.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    }
+  },
+  "title": "Tecnica livello 5D — Indipendenza delle dita in stile Hanon",
+  "summary": "Esercizi originali in stile Hanon in diverse tonalità per sviluppare regolarità, forza e agilità di tutte le dita."
+}

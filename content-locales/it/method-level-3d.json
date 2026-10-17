@@ -1,0 +1,167 @@
+{
+  "courseId": "method-level-3d",
+  "exercises": {
+    "m3d-001": {
+      "title": "Canto del mattino (MD)",
+      "summary": "Melodia mattutina luminosa e scorrevole in Do maggiore, da piano a mezzoforte.",
+      "goal": "Suona una melodia lirica in Do maggiore, con crome fluide e delicate variazioni dinamiche.",
+      "license": {
+        "notes": "Esercizio originale"
+      }
+    },
+    "m3d-002": {
+      "title": "Basso camminante in Sol maggiore (MS)",
+      "summary": "Basso camminante da Sol2 a Sol3, con Fa diesis e dinamica da mezzoforte a forte.",
+      "goal": "Suona un basso camminante di ispirazione jazz in Sol maggiore, controllando con regolarità la dinamica.",
+      "license": {
+        "notes": "Esercizio originale"
+      }
+    },
+    "m3d-003": {
+      "title": "Red River Valley",
+      "summary": "Noto canto popolare americano in Fa maggiore: melodia tenera e lirica con dinamica piano.",
+      "goal": "Suona una melodia popolare sentimentale in Fa maggiore, con fraseggio espressivo e dinamica delicata.",
+      "license": {
+        "notes": "Pubblico dominio. Arrangiamento CC0."
+      }
+    },
+    "m3d-004": {
+      "title": "Notturno in La minore (MD)",
+      "summary": "Notturno lento ed espressivo in La minore armonica, con Sol diesis come sensibile, dinamica piano e pedale.",
+      "goal": "Suona una melodia raccolta in La minore con pedale tenuto e un culmine forte sul Sol diesis.",
+      "license": {
+        "notes": "Esercizio originale"
+      }
+    },
+    "m3d-005": {
+      "title": "Blues swing di dodici battute in Do (MD)",
+      "summary": "Melodia blues di dodici battute per la destra in Do, con swing e Si bemolle come settimo grado abbassato.",
+      "goal": "Suona un blues di dodici battute con ritmo swing: ritarda le crome in levare per dare il carattere blues.",
+      "license": {
+        "notes": "Esercizio originale"
+      }
+    },
+    "m3d-006": {
+      "title": "Inno del mattino",
+      "summary": "Brano raccolto in stile d'inno in Do maggiore, a mani unite; inizio piano e parte centrale mezzoforte.",
+      "goal": "Dai forma dinamica alla scrittura d'inno: inizio delicato, parte centrale più piena e chiusura delicata.",
+      "license": {
+        "notes": "Esercizio originale"
+      }
+    },
+    "m3d-007": {
+      "title": "Danza del villaggio",
+      "summary": "Valzer vivace in Sol maggiore che evoca una festa campestre, con dinamica forte.",
+      "goal": "Suona un valzer saltellante in Sol maggiore con l'energia sicura del forte.",
+      "license": {
+        "notes": "Esercizio originale"
+      }
+    },
+    "m3d-008": {
+      "title": "Canto della filatrice",
+      "summary": "Brano di otto battute in Fa maggiore, con crome continue e dinamica da mezzoforte a forte.",
+      "goal": "Mantieni un flusso scorrevole di crome, con ripresa forte nella seconda metà.",
+      "license": {
+        "notes": "Esercizio originale"
+      }
+    },
+    "m3d-009": {
+      "title": "Ninna nanna in La minore",
+      "summary": "Ninna nanna delicata e cullante in La minore armonica, piano e con pedale di risonanza.",
+      "goal": "Suona una ninna nanna delicata con pedale tenuto, lasciando risuonare insieme le armonie.",
+      "license": {
+        "notes": "Esercizio originale"
+      }
+    },
+    "m3d-010": {
+      "title": "Sarabanda in Re minore",
+      "summary": "Sarabanda solenne in Re minore armonica, con pedale di risonanza e contrasti dinamici.",
+      "goal": "Suona una sarabanda dignitosa con cambi di pedale e un culmine forte sulla sensibile Do diesis.",
+      "license": {
+        "notes": "Esercizio originale"
+      }
+    },
+    "m3d-011": {
+      "title": "Marcia in Do maggiore",
+      "summary": "Marcia nitida in 2/4 in Do maggiore, con mani allineate e carattere fiero, in forte.",
+      "goal": "Suona una marcia precisa con dinamica forte decisa e ritmo nitido.",
+      "license": {
+        "notes": "Esercizio originale"
+      }
+    },
+    "m3d-012": {
+      "title": "Gavotta in Sol maggiore",
+      "summary": "Gavotta di otto battute in Sol maggiore, con elegante movimento in crome e dinamica da mezzoforte a forte.",
+      "goal": "Suona una gavotta cortese in Sol maggiore, con la seconda metà forte per creare contrasto.",
+      "license": {
+        "notes": "Esercizio originale"
+      }
+    },
+    "m3d-013": {
+      "title": "Perché è un bravo ragazzo",
+      "summary": "Canto tradizionale di festa in Fa maggiore, in 3/4: mani unite, accompagnamento di valzer alla sinistra e pedale.",
+      "goal": "Suona una melodia popolare nota con accompagnamento di valzer, pedale tenuto e contrasti dinamici.",
+      "license": {
+        "notes": "Pubblico dominio. Arrangiamento CC0."
+      }
+    },
+    "m3d-014": {
+      "title": "Elegia in La minore",
+      "summary": "Elegia di otto battute in La minore armonica, lenta e intensamente espressiva, con pedale e arco dinamico.",
+      "goal": "Dai forma a una frase lunga con pedale, crescendo fino al culmine forte sul Sol diesis e tornando al piano.",
+      "license": {
+        "notes": "Esercizio originale"
+      }
+    },
+    "m3d-015": {
+      "title": "Minuetto in Do maggiore",
+      "summary": "Minuetto classico di otto battute in Do maggiore, con la grazia del mezzoforte.",
+      "goal": "Suona un minuetto aggraziato, con dinamica più leggera nella sezione B e suono più pieno al ritorno.",
+      "license": {
+        "notes": "Esercizio originale"
+      }
+    },
+    "m3d-016": {
+      "title": "Studio di stile in Sol maggiore",
+      "summary": "Studio di sei battute in Sol maggiore con andamento più veloce, forte e finale fortissimo.",
+      "goal": "Sviluppa velocità e scioltezza in Sol maggiore, con dinamica energica fino al fortissimo.",
+      "license": {
+        "notes": "Esercizio originale"
+      }
+    },
+    "m3d-017": {
+      "title": "Serenata in Fa maggiore — Mani unite",
+      "summary": "Serenata lirica di sei battute in Fa maggiore, con destra cantabile, sostegno della sinistra e pedale di risonanza.",
+      "goal": "Dai forma a una melodia cantabile con pedale e un arco dinamico da mezzopiano a mezzoforte.",
+      "license": {
+        "notes": "Esercizio originale"
+      }
+    },
+    "m3d-018": {
+      "title": "Valzer in La minore",
+      "summary": "Valzer espressivo in La minore armonica, da piano a mezzoforte al culmine sul Sol diesis.",
+      "goal": "Suona un valzer in La minore con inizio delicato e crescita dinamica espressiva sul Sol diesis.",
+      "license": {
+        "notes": "Esercizio originale"
+      }
+    },
+    "m3d-019": {
+      "title": "Notturno in Re minore",
+      "summary": "Notturno di otto battute in Re minore armonica, piano con pedale e culmine mezzoforte sul Do diesis.",
+      "goal": "Suona un notturno lento in Re minore con pedale, intensificando il suono verso il Do diesis e poi attenuandolo.",
+      "license": {
+        "notes": "Esercizio originale"
+      }
+    },
+    "m3d-020": {
+      "title": "Riepilogo del livello 3D — Viaggio tra tre tonalità",
+      "summary": "Brano conclusivo di otto battute sul doppio pentagramma, attraverso Do maggiore, Sol maggiore e La minore, con un arco dinamico completo.",
+      "goal": "Dimostra padronanza del livello 3D: fraseggio espressivo, dinamica e carattere attraverso tre tonalità.",
+      "license": {
+        "notes": "Esercizio originale"
+      }
+    }
+  },
+  "title": "Metodo livello 3D — Brani di carattere",
+  "summary": "Brani di carattere, canti popolari ed estratti musicali in Do, Sol, Fa maggiore, La e Re minore armonica. Introduzione al blues di dodici battute con swing. Dinamica, pedale e fraseggio espressivo, con quindici esercizi sul doppio pentagramma."
+}

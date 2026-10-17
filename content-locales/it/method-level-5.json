@@ -1,0 +1,127 @@
+{
+  "courseId": "method-level-5",
+  "exercises": {
+    "method5-001": {
+      "title": "Scala di Si bemolle maggiore (MD)",
+      "summary": "Scala di Si bemolle maggiore di un'ottava per la destra, con Si e Mi bemolle.",
+      "goal": "Leggi e suona le otto note di Si bemolle maggiore, rispettando entrambi i bemolli.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "method5-002": {
+      "title": "Scala di Si bemolle maggiore (MS)",
+      "summary": "Scala di Si bemolle maggiore di un'ottava per la sinistra, in chiave di basso.",
+      "goal": "Leggi e suona Si bemolle maggiore in chiave di basso, con Si e Mi bemolle corretti.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "method5-003": {
+      "title": "Cinque note in Mi bemolle maggiore (MD)",
+      "summary": "Figura di cinque note per la destra in Mi bemolle maggiore, con tre bemolli.",
+      "goal": "Suona le cinque note di Mi bemolle maggiore rispettando Mi, La e Si bemolle.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "method5-004": {
+      "title": "Cinque note in Mi bemolle maggiore (MS)",
+      "summary": "Figura di cinque note per la sinistra in Mi bemolle maggiore, in chiave di basso.",
+      "goal": "Affronta Mi bemolle maggiore con tre bemolli nella mano sinistra.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "method5-005": {
+      "title": "Melodia in Si bemolle maggiore (MD)",
+      "summary": "Melodia cantabile di quattro battute in Si bemolle maggiore, costruita sui gradi della triade.",
+      "goal": "Dai forma a una melodia lirica in Si bemolle maggiore, collegando musicalmente i suoni della triade nelle frasi.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "method5-006": {
+      "title": "Scala di Mi bemolle maggiore di un'ottava (MD)",
+      "summary": "Scala completa di Mi bemolle maggiore per la destra, con i tre bemolli.",
+      "goal": "Suona nitidamente l'intera scala di Mi bemolle maggiore, collocando correttamente ogni bemolle.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "method5-007": {
+      "title": "Scala di Mi bemolle maggiore di un'ottava (MS)",
+      "summary": "Scala completa di Mi bemolle maggiore per la sinistra, in chiave di basso.",
+      "goal": "Leggi e suona l'intera scala di Mi bemolle maggiore in chiave di basso, con tre bemolli.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "method5-008": {
+      "title": "Valzer in Si bemolle",
+      "summary": "Melodia in stile di valzer in Si bemolle maggiore, in 3/4, lungo una frase completa.",
+      "goal": "Senti l'oscillazione del valzer in 3/4 mentre suoni una melodia fluida in Si bemolle maggiore.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "method5-009": {
+      "title": "Studio in crome in Si bemolle",
+      "summary": "Si bemolle maggiore ascendente e discendente in crome, in un'estensione ampliata.",
+      "goal": "Mantieni regolari le crome nei cambi di registro in una tonalità con bemolli.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "method5-010": {
+      "title": "Linea di basso in Si bemolle (MS)",
+      "summary": "Figura di basso per la sinistra nelle posizioni armoniche di Si bemolle, Mi bemolle e Fa.",
+      "goal": "Suona una linea di basso scorrevole attraverso tre posizioni armoniche di Si bemolle maggiore.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "method5-011": {
+      "title": "Melodia in Mi bemolle maggiore (MD)",
+      "summary": "Melodia scorrevole in Mi bemolle maggiore, con tonica, terza, quinta e sesta.",
+      "goal": "Suona una frase fluida in Mi bemolle maggiore, rispettando La e Si bemolle.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "method5-012": {
+      "title": "Studio a ritmi misti in Si bemolle",
+      "summary": "Melodia in Si bemolle con minime, semiminime e crome.",
+      "goal": "Mantieni i valori lunghi mentre esegui rapidi passaggi in crome in una tonalità con bemolli.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "method5-013": {
+      "title": "Cinque note in Sol minore (MD)",
+      "summary": "Figura sulle cinque note di Sol minore naturale, relativa minore di Si bemolle maggiore.",
+      "goal": "Senti il colore più scuro della relativa minore, che condivide l'armatura di Si bemolle maggiore.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "method5-014": {
+      "title": "Melodia in Sol minore",
+      "summary": "Melodia di quattro frasi in Sol minore naturale, con l'armatura di Si bemolle maggiore.",
+      "goal": "Metti in contrasto il carattere minore con quello dei brani in Si bemolle maggiore studiati nel livello.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "method5-015": {
+      "title": "Cantabile in Si bemolle",
+      "summary": "Brano scorrevole di otto battute in Si bemolle maggiore, con le abilità del livello 5.",
+      "goal": "Suona un brano lirico in Si bemolle maggiore, con fraseggio fluido e ritmo regolare.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    }
+  },
+  "title": "Metodo livello 5",
+  "summary": "Si bemolle maggiore con due bemolli, Mi bemolle maggiore con tre bemolli, relative minori, studi in crome e brani in stile di valzer verso la lettura di livello intermedio."
+}

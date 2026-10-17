@@ -1,0 +1,127 @@
+{
+  "courseId": "songs-pro",
+  "exercises": {
+    "songs-p-001": {
+      "title": "Preludio e fuga in Do minore di Bach, BWV 847",
+      "summary": "L'apertura drammatica del Preludio in Do minore dal primo libro del Clavicembalo ben temperato.",
+      "goal": "Mantieni lo slancio e nitida l'articolazione di entrambe le mani in Do minore.",
+      "license": {
+        "notes": "Composizione di pubblico dominio. Arrangiamento CC0."
+      }
+    },
+    "songs-p-002": {
+      "title": "Patetica di Beethoven — Adagio cantabile",
+      "summary": "Un arrangiamento dell'Adagio cantabile dalla Sonata Patetica in La bemolle maggiore.",
+      "goal": "Usa un suono sostenuto e cantabile con fraseggio legato accurato.",
+      "license": {
+        "notes": "Composizione di pubblico dominio. Arrangiamento CC0."
+      }
+    },
+    "songs-p-003": {
+      "title": "Notturno in Si bemolle minore, op. 9 n. 1 di Chopin",
+      "summary": "La suggestiva apertura del primo notturno pubblicato di Chopin, con melodia ampia.",
+      "goal": "Usa un suono scuro ed espressivo e un fraseggio ampio in 6/4.",
+      "license": {
+        "notes": "Composizione di pubblico dominio. Arrangiamento CC0."
+      }
+    },
+    "songs-p-004": {
+      "title": "Studio op. 10 n. 3 di Chopin — Tristezza",
+      "summary": "La celebre melodia dello studio di Chopin in Mi maggiore, noto come Tristesse.",
+      "goal": "Fai cantare intensamente la melodia in legato sopra l'accompagnamento.",
+      "license": {
+        "notes": "Composizione di pubblico dominio. Arrangiamento CC0."
+      }
+    },
+    "songs-p-005": {
+      "title": "Clair de lune di Debussy",
+      "summary": "L'apertura eterea di Clair de lune dalla Suite bergamasque, in Re bemolle maggiore.",
+      "goal": "Usa un suono luminoso e leggero che evochi la luce lunare sull'acqua.",
+      "license": {
+        "notes": "Composizione di pubblico dominio. Arrangiamento CC0."
+      }
+    },
+    "songs-p-006": {
+      "title": "Consolazione n. 3 di Liszt",
+      "summary": "La serena melodia della celebre Consolazione in Re bemolle maggiore, dal lirismo romantico.",
+      "goal": "Usa un suono caldo e rasserenante con legato continuo.",
+      "license": {
+        "notes": "Composizione di pubblico dominio. Arrangiamento CC0."
+      }
+    },
+    "songs-p-007": {
+      "title": "Preludio in Do diesis minore, op. 3 n. 2 di Rachmaninov",
+      "summary": "La celebre apertura con accordi simili a campane del Preludio in Do diesis minore.",
+      "goal": "Dai peso e risonanza agli accordi iniziali, poi slancio alla melodia agitata.",
+      "license": {
+        "notes": "Composizione di pubblico dominio. Arrangiamento CC0."
+      }
+    },
+    "songs-p-008": {
+      "title": "Sonata al chiaro di luna di Beethoven — Terzo movimento",
+      "summary": "Il tempestoso Presto agitato conclusivo della sonata in Do diesis minore.",
+      "goal": "Suona gli arpeggi agitati con energia controllata e articolazione nitida.",
+      "license": {
+        "notes": "Composizione di pubblico dominio. Arrangiamento CC0."
+      }
+    },
+    "songs-p-009": {
+      "title": "Concerto italiano di Bach — Primo movimento",
+      "summary": "La brillante apertura del Concerto italiano in Fa maggiore, pagina di virtuosismo tastieristico.",
+      "goal": "Usa un'energia luminosa e orchestrale con cambi dinamici a terrazze nitidi.",
+      "license": {
+        "notes": "Composizione di pubblico dominio. Arrangiamento CC0."
+      }
+    },
+    "songs-p-010": {
+      "title": "Improvviso op. 90 n. 3 di Schubert",
+      "summary": "La melodia serena e scorrevole dell'Improvviso in Sol bemolle maggiore, di intenso lirismo.",
+      "goal": "Usa un legato dolce e cantabile con fraseggio continuo.",
+      "license": {
+        "notes": "Composizione di pubblico dominio. Arrangiamento CC0."
+      }
+    },
+    "songs-p-011": {
+      "title": "Ballata n. 1 di Chopin — Apertura",
+      "summary": "Il suggestivo tema iniziale della prima Ballata in Sol minore, capolavoro romantico.",
+      "goal": "Esprimi una grandiosità tragica con fraseggio ampio in 6/4.",
+      "license": {
+        "notes": "Composizione di pubblico dominio. Arrangiamento CC0."
+      }
+    },
+    "songs-p-012": {
+      "title": "Fantasia in Re minore, K. 397 di Mozart",
+      "summary": "L'apertura drammatica della Fantasia in Re minore, dal carattere improvvisativo.",
+      "goal": "Esprimi i contrasti drammatici con articolazione nitida in Re minore.",
+      "license": {
+        "notes": "Composizione di pubblico dominio. Arrangiamento CC0."
+      }
+    },
+    "songs-p-013": {
+      "title": "Per Elisa di Beethoven — Arrangiamento",
+      "summary": "Un arrangiamento del celebre brano pianistico di Beethoven in La minore.",
+      "goal": "Mantieni nitida l'articolazione ed espressivi i contrasti tra le frasi.",
+      "license": {
+        "notes": "Composizione di pubblico dominio. Arrangiamento CC0."
+      }
+    },
+    "songs-p-014": {
+      "title": "Concerto per pianoforte in La minore di Grieg — Apertura",
+      "summary": "La famosa apertura a cascata del concerto di Grieg, dall'ingresso fortemente drammatico.",
+      "goal": "Suona l'accordo iniziale e il passaggio a cascata con sonorità e precisione.",
+      "license": {
+        "notes": "Composizione di pubblico dominio. Arrangiamento CC0."
+      }
+    },
+    "songs-p-015": {
+      "title": "The Entertainer di Joplin — Arrangiamento",
+      "summary": "Un arrangiamento del celebre ragtime di Scott Joplin.",
+      "goal": "Mantieni la pulsazione ragtime regolare, le sincopi nitide e il movimento del basso.",
+      "license": {
+        "notes": "Composizione di pubblico dominio. Arrangiamento CC0."
+      }
+    }
+  },
+  "title": "Brani per esperti",
+  "summary": "Quindici temi da Bach a Rachmaninov in arrangiamenti per il livello più impegnativo, con accordi, abbellimenti e dinamiche da concerto."
+}

@@ -1,0 +1,167 @@
+{
+  "courseId": "method-level-2b",
+  "exercises": {
+    "m2b-001": {
+      "title": "Passi e salti in Re",
+      "summary": "La mano destra alterna gradi congiunti e salti nella posizione di Re.",
+      "goal": "Distingui i movimenti tra note adiacenti dai salti che scavalcano una nota nella posizione di Re.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "m2b-002": {
+      "title": "Canto nella posizione di Re",
+      "summary": "Brano melodico di cinque battute nella posizione di Re, con semiminime e minime.",
+      "goal": "Suona una melodia scorrevole nella posizione di Re, leggendo il Fa diesis come alterazione momentanea.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "m2b-003": {
+      "title": "Valzer in Re",
+      "summary": "Valzer di sei battute che esplora tutte e cinque le note della posizione di Re.",
+      "goal": "Suona un valzer nella posizione di Re, con un chiaro slancio in tre tempi.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "m2b-004": {
+      "title": "Marcia in Re",
+      "summary": "Marcia di sei battute nella posizione di Re, in 2/4.",
+      "goal": "Suona figure nitide in due tempi nella posizione di Re, con andamento di marcia.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "m2b-005": {
+      "title": "Passi e salti in Sol",
+      "summary": "La mano destra alterna gradi congiunti e salti nella posizione di Sol, fino al Re5.",
+      "goal": "Distingui passi e salti nella posizione di Sol, compreso il salto al Re5.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "m2b-006": {
+      "title": "Canto nella posizione di Sol",
+      "summary": "Brano melodico di cinque battute nella posizione di Sol, con semiminime e minime.",
+      "goal": "Dai direzione e risoluzione a una melodia scorrevole nella posizione di Sol.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "m2b-007": {
+      "title": "Valzer in Sol",
+      "summary": "Valzer di sei battute nella posizione di Sol.",
+      "goal": "Mantieni il carattere ondeggiante del valzer in tre tempi nella posizione di Sol.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "m2b-008": {
+      "title": "Marcia in Sol",
+      "summary": "Marcia di sei battute nella posizione di Sol, in 2/4.",
+      "goal": "Suona figure nitide in due tempi nella posizione di Sol, con andamento di marcia.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "m2b-009": {
+      "title": "Salti in La minore",
+      "summary": "La mano destra esplora terze e salti nelle cinque note della posizione di La minore.",
+      "goal": "Suona con sicurezza le terze La–Do, Si–Re e Do–Mi nella posizione di La minore.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "m2b-010": {
+      "title": "Valzer in La minore",
+      "summary": "Valzer di sei battute in La minore, dal carattere scuro ed espressivo.",
+      "goal": "Senti la pulsazione in tre tempi del valzer in una tonalità minore.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "m2b-011": {
+      "title": "Passi e salti in Re al basso",
+      "summary": "La mano sinistra alterna gradi congiunti e salti nella posizione di Re.",
+      "goal": "Riconosci e suona gradi congiunti e salti nella posizione di Re in chiave di basso.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "m2b-012": {
+      "title": "Canto in Re al basso",
+      "summary": "Linea melodica di cinque battute nella posizione di Re in chiave di basso.",
+      "goal": "Suona una melodia musicale al basso nella posizione di Re, dando forma alla frase.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "m2b-013": {
+      "title": "Passi e salti in Sol al basso",
+      "summary": "Gradi congiunti e salti della mano sinistra nella posizione di Sol in chiave di basso.",
+      "goal": "Suona con chiarezza terze e salti nella posizione di Sol in chiave di basso.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "m2b-014": {
+      "title": "Canto in Sol al basso",
+      "summary": "Linea melodica di cinque battute nella posizione di Sol in chiave di basso.",
+      "goal": "Dai forma alla melodia al basso in Sol, con suono regolare e fraseggio chiaro.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "m2b-015": {
+      "title": "Salti in La minore al basso",
+      "summary": "Terze e salti della mano sinistra nella posizione di La minore al basso.",
+      "goal": "Suona le terze nella posizione di La minore al basso, con un suono scuro e ben definito.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "m2b-016": {
+      "title": "Melodia nella posizione di Re",
+      "summary": "Melodia di sei battute nella posizione di Re, con un arco completo di salita e discesa.",
+      "goal": "Suona un arco melodico completo nella posizione di Re, dando direzione alla frase.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "m2b-017": {
+      "title": "Melodia nella posizione di Sol",
+      "summary": "Melodia di sei battute nella posizione di Sol, che sale al Re5 e ridiscende.",
+      "goal": "Suona con sicurezza una melodia che percorre tutta la posizione di Sol fino al Re5.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "m2b-018": {
+      "title": "Canto in La minore",
+      "summary": "Melodia di sei battute in La minore, dal carattere malinconico e scorrevole.",
+      "goal": "Suona una frase completa in La minore, esprimendo il carattere del modo minore.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "m2b-019": {
+      "title": "Canto in La minore al basso",
+      "summary": "Melodia di sei battute in La minore, in chiave di basso.",
+      "goal": "Dai forma a una melodia completa in La minore al basso, curando suono e fraseggio.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "m2b-020": {
+      "title": "Riepilogo del livello 2B",
+      "summary": "Brano conclusivo di sei battute nella posizione di Re, con gradi congiunti, salti e durate diverse.",
+      "goal": "Dimostra scioltezza nella posizione di Re: Fa diesis corretto, passi e salti chiari e fraseggio musicale.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    }
+  },
+  "title": "Metodo livello 2B — Ampliamento",
+  "summary": "Gradi congiunti e salti nelle posizioni di Re, Sol e La minore, con ritmi più vari e melodie più lunghe. Le alterazioni sono sempre indicate davanti alle note."
+}

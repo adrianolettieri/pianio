@@ -1,0 +1,167 @@
+{
+  "courseId": "technique-level-5c",
+  "exercises": {
+    "t5c-001": {
+      "title": "Scala puntata di Do maggiore (MD)",
+      "summary": "Scala di Do maggiore con la formula semiminima puntata e croma.",
+      "goal": "Mantieni regolare la pulsazione nel ritmo puntato.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t5c-002": {
+      "title": "Scala puntata di Do maggiore (MS)",
+      "summary": "Scala di Do maggiore alla sinistra con semiminima puntata e croma.",
+      "goal": "Mantieni fluido il ritmo puntato alla sinistra.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t5c-003": {
+      "title": "Scala puntata di Sol maggiore a mani unite",
+      "summary": "Scala di Sol maggiore con semiminima puntata e croma in entrambe le mani.",
+      "goal": "Sincronizza le mani nel ritmo puntato.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t5c-004": {
+      "title": "Formule puntate in Re maggiore (MD)",
+      "summary": "Frammenti di scala con semiminima puntata e croma in Re maggiore.",
+      "goal": "Suona con precisione Fa diesis e Do diesis nel ritmo puntato a 80 BPM.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t5c-005": {
+      "title": "Scala puntata di Fa maggiore a mani unite",
+      "summary": "Scala di Fa maggiore con semiminima puntata e croma in entrambe le mani.",
+      "goal": "Sincronizza il ritmo puntato rispettando il Si bemolle.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t5c-006": {
+      "title": "Arpeggio puntato di Do maggiore (MD)",
+      "summary": "Arpeggio di Do maggiore con semiminima puntata e croma.",
+      "goal": "Applica all'arpeggio il ritmo puntato, una figura frequente nello stile classico.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t5c-007": {
+      "title": "Ritmi puntati e regolari in Do maggiore (MD)",
+      "summary": "Alternanza tra figure puntate e crome regolari.",
+      "goal": "Passa dal ritmo puntato a quello regolare all'interno della stessa frase.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t5c-008": {
+      "title": "Crome swing in Do maggiore (MD)",
+      "summary": "Crome scritte regolari con esecuzione swing, spostando i levare verso la suddivisione ternaria.",
+      "goal": "Senti la pulsazione swing ed esegui le coppie di crome in modo disuguale.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t5c-009": {
+      "title": "Crome swing in Sol maggiore (MD)",
+      "summary": "Formule di crome swing in Sol maggiore.",
+      "goal": "Mantieni il carattere swing e la precisione sul Fa diesis.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t5c-010": {
+      "title": "Crome swing in Fa maggiore (MS)",
+      "summary": "Formule di crome swing alla sinistra in Fa maggiore.",
+      "goal": "Sviluppa il senso dello swing alla sinistra, utile nelle linee di basso jazz.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t5c-011": {
+      "title": "Basso camminato swing in Do (MS)",
+      "summary": "Basso camminato alla sinistra sulla successione I–IV–V in Do.",
+      "goal": "Attraversa i cambi di accordo con una pulsazione swing stabile.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t5c-012": {
+      "title": "Crome swing a mani unite in Do maggiore",
+      "summary": "Crome swing alla destra sopra la pulsazione del basso alla sinistra.",
+      "goal": "Coordina le mani mantenendo il carattere swing della melodia.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t5c-013": {
+      "title": "Scala puntata di La maggiore a mani unite",
+      "summary": "Scala di La maggiore con semiminima puntata e croma a mani unite.",
+      "goal": "Controlla i tre diesis nel ritmo puntato di entrambe le mani.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t5c-014": {
+      "title": "Scala blues swing in Do (MD)",
+      "summary": "Scala blues Do–Mi bemolle–Fa–Fa diesis–Sol–Si bemolle–Do con carattere swing.",
+      "goal": "Suona la scala blues mantenendo il senso ritmico dello swing.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t5c-015": {
+      "title": "Scala blues swing in Fa (MD)",
+      "summary": "Scala blues Fa–La bemolle–Si bemolle–Si–Do–Mi bemolle–Fa con carattere swing.",
+      "goal": "Applica lo swing alla scala blues di Fa.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t5c-016": {
+      "title": "Arpeggi swing a mani unite in Do maggiore",
+      "summary": "Formule arpeggiate swing nella successione I–IV–V–I.",
+      "goal": "Applica il senso dello swing alle figure arpeggiate coordinando le mani.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t5c-017": {
+      "title": "Scala puntata di Si bemolle maggiore (MD)",
+      "summary": "Scala di Si bemolle maggiore con semiminima puntata e croma.",
+      "goal": "Suona con precisione Si bemolle e Mi bemolle nel ritmo puntato a 76 BPM.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t5c-018": {
+      "title": "Basso camminato swing in Sol (MS)",
+      "summary": "Basso camminato alla sinistra sulla successione I–IV–V in Sol.",
+      "goal": "Mantieni il senso dello swing durante i cambi di accordo.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t5c-019": {
+      "title": "Ritmo puntato e swing in Do maggiore",
+      "summary": "Crome swing alla destra sopra un basso con valori puntati alla sinistra.",
+      "goal": "Sovrapponi i diversi ritmi sviluppando l'indipendenza delle mani.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t5c-020": {
+      "title": "Ripasso di ritmi puntati e swing a mani unite",
+      "summary": "Formule puntate e swing in Do, Sol e Fa nella prova conclusiva del livello 5C.",
+      "goal": "Dimostra scioltezza nelle formule puntate e swing studiate.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    }
+  },
+  "title": "Tecnica livello 5C — Ritmi puntati e swing",
+  "summary": "Formule ritmiche puntate ed esercizi sullo swing per controllare suddivisioni disuguali e il senso del tempo nel jazz."
+}

@@ -1,0 +1,22 @@
+{
+  "courseId": "method-level-2",
+  "title": "Metodo livello 2",
+  "summary": "Posizioni ampliate, tempo in 3/4, melodie in crome ed estensioni più ampie della mano, in continuità con il livello 1.",
+  "exercises": {
+    "method2-001": { "title": "Passi nella posizione di Re", "summary": "Lettura di cinque note a partire dal Re4, con un diesis in chiave.", "goal": "Muoviti nella posizione di Re includendo il Fa diesis.", "license": { "notes": "Scritto per il percorso didattico iniziale aperto." } },
+    "method2-002": { "title": "Posizione di Re in chiave di basso", "summary": "La mano sinistra nella posizione di Re in chiave di basso.", "goal": "Leggi le note della posizione di Re in chiave di basso.", "license": { "notes": "Scritto per il percorso didattico iniziale aperto." } },
+    "method2-003": { "title": "Camminata di crome", "summary": "Crome continue nella posizione di cinque dita di Do.", "goal": "Mantieni le crome regolari e costanti.", "license": { "notes": "Scritto per il percorso didattico iniziale aperto." } },
+    "method2-004": { "title": "Passo di valzer", "summary": "Primo brano in 3/4.", "goal": "Senti la pulsazione del valzer in tre tempi.", "license": { "notes": "Scritto per il percorso didattico iniziale aperto." } },
+    "method2-005": { "title": "Valzer in chiave di basso", "summary": "La mano sinistra suona in 3/4.", "goal": "Conta tre tempi per battuta in chiave di basso.", "license": { "notes": "Scritto per il percorso didattico iniziale aperto." } },
+    "method2-006": { "title": "Introduzione alla posizione di Sol", "summary": "La mano destra legge dal Sol4 al Re5.", "goal": "Sposta la mano nella posizione di Sol e leggi con scioltezza.", "license": { "notes": "Scritto per il percorso didattico iniziale aperto." } },
+    "method2-007": { "title": "Posizione di Sol in chiave di basso", "summary": "La mano sinistra nella posizione di Sol in chiave di basso.", "goal": "Leggi la posizione di cinque dita di Sol in chiave di basso.", "license": { "notes": "Scritto per il percorso didattico iniziale aperto." } },
+    "method2-008": { "title": "Alternanza di salti e passi", "summary": "Alternanza di movimenti per grado congiunto e salti.", "goal": "Riconosci e suona in sequenza i gradi congiunti e i salti.", "license": { "notes": "Scritto per il percorso didattico iniziale aperto." } },
+    "method2-009": { "title": "Melodia a durate miste", "summary": "Un brano combina minime, semiminime e crome.", "goal": "Passa con fluidità da una durata di nota all’altra all’interno della frase.", "license": { "notes": "Scritto per il percorso didattico iniziale aperto." } },
+    "method2-010": { "title": "Camminata in La minore", "summary": "La mano sinistra legge lo schema di cinque dita di La minore.", "goal": "Suona la posizione minore naturale in chiave di basso.", "license": { "notes": "Scritto per il percorso didattico iniziale aperto." } },
+    "method2-011": { "title": "Ottave in eco", "summary": "Una frase in chiave di violino viene ripetuta un’ottava più in basso.", "goal": "Leggi schemi identici a diverse altezze d’ottava.", "license": { "notes": "Scritto per il percorso didattico iniziale aperto." } },
+    "method2-012": { "title": "Melodia in forma di valzer", "summary": "Melodia scorrevole in 3/4.", "goal": "Dai forma a una melodia di valzer con il suo andamento in tre tempi.", "license": { "notes": "Scritto per il percorso didattico iniziale aperto." } },
+    "method2-013": { "title": "Linea di basso in crome", "summary": "La mano sinistra si muove in crome.", "goal": "Mantieni scorrevole la linea di basso in crome.", "license": { "notes": "Scritto per il percorso didattico iniziale aperto." } },
+    "method2-014": { "title": "Ripasso del livello 2", "summary": "Melodia nella posizione di Sol che combina tutti i ritmi del livello 2.", "goal": "Applica la posizione di Sol e le diverse durate in un solo brano.", "license": { "notes": "Scritto per il percorso didattico iniziale aperto." } },
+    "method2-015": { "title": "Finale del livello 2", "summary": "Sequenza completa ascendente e discendente che usa tutte le posizioni del livello 2.", "goal": "Leggi con scioltezza nelle posizioni di Do, Sol e Re.", "license": { "notes": "Scritto per il percorso didattico iniziale aperto." } }
+  }
+}

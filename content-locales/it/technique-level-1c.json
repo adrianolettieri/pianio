@@ -1,0 +1,167 @@
+{
+  "courseId": "technique-level-1c",
+  "exercises": {
+    "t1c-001": {
+      "title": "Ripasso ritmico completo — Posizione di Do (MD)",
+      "summary": "La destra combina minime, semiminime e crome in una frase di sei battute tra Do4 e Sol4.",
+      "goal": "Passa con scioltezza tra le diverse durate della destra nello stesso esercizio.",
+      "license": {
+        "notes": "Composizione originale"
+      }
+    },
+    "t1c-002": {
+      "title": "Ripasso ritmico completo — Posizione di Do (MS)",
+      "summary": "La sinistra combina minime, semiminime e crome in una frase di sei battute tra Do3 e Sol3.",
+      "goal": "Passa con scioltezza tra le diverse durate della sinistra nello stesso esercizio.",
+      "license": {
+        "notes": "Composizione originale"
+      }
+    },
+    "t1c-003": {
+      "title": "Terze e crome (MD)",
+      "summary": "La destra combina salti di terza e crome scorrevoli tra Do4 e Sol4.",
+      "goal": "Collega salti e gradi congiunti con le crome, rendendo fluidi i passaggi.",
+      "license": {
+        "notes": "Composizione originale"
+      }
+    },
+    "t1c-004": {
+      "title": "Terze e crome (MS)",
+      "summary": "La sinistra combina salti di terza e crome scorrevoli tra Do3 e Sol3.",
+      "goal": "Collega salti e gradi congiunti con le crome, rendendo fluidi i passaggi.",
+      "license": {
+        "notes": "Composizione originale"
+      }
+    },
+    "t1c-005": {
+      "title": "Figure in stile Hanon e semiminime (MD)",
+      "summary": "La destra alterna cellule in crome in stile Hanon e salti in semiminime lungo sei battute.",
+      "goal": "Metti in contrasto la figura scorrevole in stile Hanon con salti ben definiti in semiminime.",
+      "license": {
+        "notes": "Composizione originale"
+      }
+    },
+    "t1c-006": {
+      "title": "Figure in stile Hanon e semiminime (MS)",
+      "summary": "La sinistra alterna cellule in crome in stile Hanon e salti in semiminime lungo sei battute.",
+      "goal": "Metti in contrasto la figura scorrevole in stile Hanon con salti ben definiti in semiminime.",
+      "license": {
+        "notes": "Composizione originale"
+      }
+    },
+    "t1c-007": {
+      "title": "3/4 con crome (MD)",
+      "summary": "La destra combina semiminime e crome in 3/4 tra Do4 e Sol4.",
+      "goal": "Senti la pulsazione in tre tempi mentre la suddividi in crome nella destra.",
+      "license": {
+        "notes": "Composizione originale"
+      }
+    },
+    "t1c-008": {
+      "title": "3/4 con crome (MS)",
+      "summary": "La sinistra combina semiminime e crome in 3/4 tra Do3 e Sol3.",
+      "goal": "Senti la pulsazione in tre tempi mentre la suddividi in crome nella sinistra.",
+      "license": {
+        "notes": "Composizione originale"
+      }
+    },
+    "t1c-009": {
+      "title": "Pause e brevi passaggi in crome (MD)",
+      "summary": "La destra alterna pause e brevi passaggi in crome, curando il silenzio e gli attacchi precisi.",
+      "goal": "Colloca i brevi passaggi in crome subito dopo le pause, con precisione ritmica.",
+      "license": {
+        "notes": "Composizione originale"
+      }
+    },
+    "t1c-010": {
+      "title": "Pause e brevi passaggi in crome (MS)",
+      "summary": "La sinistra alterna pause e brevi passaggi in crome, curando il silenzio e gli attacchi precisi.",
+      "goal": "Colloca i brevi passaggi in crome subito dopo le pause, con precisione ritmica.",
+      "license": {
+        "notes": "Composizione originale"
+      }
+    },
+    "t1c-011": {
+      "title": "Semibrevi — Mani in parallelo",
+      "summary": "Le mani suonano le stesse note della posizione di Do, a distanza di un'ottava, in semibrevi.",
+      "goal": "Ascolta il bilanciamento delle mani mentre tieni insieme le semibrevi.",
+      "license": {
+        "notes": "Composizione originale"
+      }
+    },
+    "t1c-012": {
+      "title": "Minime — Mani in parallelo",
+      "summary": "Le mani suonano coppie di minime in ottave parallele nella posizione di Do.",
+      "goal": "Sincronizza attacchi e rilasci delle minime nelle due mani.",
+      "license": {
+        "notes": "Composizione originale"
+      }
+    },
+    "t1c-013": {
+      "title": "Semiminime — Mani in parallelo",
+      "summary": "Le mani suonano semiminime in ottave parallele, salendo e scendendo nella posizione di Do.",
+      "goal": "Mantieni le mani esattamente insieme su una pulsazione regolare in semiminime.",
+      "license": {
+        "notes": "Composizione originale"
+      }
+    },
+    "t1c-014": {
+      "title": "Moto contrario — Posizione di Do",
+      "summary": "La destra sale mentre la sinistra scende, poi entrambe invertono la direzione.",
+      "goal": "Muovi le mani indipendentemente in direzioni opposte nella posizione di Do.",
+      "license": {
+        "notes": "Composizione originale"
+      }
+    },
+    "t1c-015": {
+      "title": "Melodia e accompagnamento — Posizione di Do",
+      "summary": "La destra suona una melodia in semiminime e crome mentre la sinistra tiene minime regolari.",
+      "goal": "Mantieni regolari le minime della sinistra mentre la destra affronta indipendentemente ritmi vari.",
+      "license": {
+        "notes": "Composizione originale"
+      }
+    },
+    "t1c-016": {
+      "title": "Crome — Mani in parallelo",
+      "summary": "Le mani suonano passaggi in crome in ottave parallele nella posizione di Do.",
+      "goal": "Sincronizza esattamente i passaggi in crome delle due mani con andamento moderato.",
+      "license": {
+        "notes": "Composizione originale"
+      }
+    },
+    "t1c-017": {
+      "title": "Figura in stile Hanon — Mani unite",
+      "summary": "Le mani eseguono la cellula Do–Re–Mi–Fa–Sol–Fa–Mi–Re in ottave parallele.",
+      "goal": "Coordina simultaneamente la figura di cinque note in stile Hanon nelle due mani.",
+      "license": {
+        "notes": "Composizione originale"
+      }
+    },
+    "t1c-018": {
+      "title": "Moto contrario — Ritmi misti",
+      "summary": "Le mani procedono in direzioni opposte nella posizione di Do, con minime, semiminime e crome.",
+      "goal": "Mantieni l'indipendenza del moto contrario mentre leggi simultaneamente durate diverse.",
+      "license": {
+        "notes": "Composizione originale"
+      }
+    },
+    "t1c-019": {
+      "title": "Mani unite in 3/4",
+      "summary": "Le mani suonano nella posizione di Do in ottave parallele, nel metro di valzer in 3/4.",
+      "goal": "Senti la pulsazione di valzer in tre tempi con entrambe le mani unite.",
+      "license": {
+        "notes": "Composizione originale"
+      }
+    },
+    "t1c-020": {
+      "title": "Studio nella posizione di Do — Mani unite",
+      "summary": "Studio di otto battute sul doppio pentagramma: semiminime, crome, passaggi in stile Hanon e salti, con mani in ottave parallele.",
+      "goal": "Esegui lo studio completo in Do maggiore a mani unite, dimostrando padronanza delle tecniche del livello 1.",
+      "license": {
+        "notes": "Composizione originale"
+      }
+    }
+  },
+  "title": "Tecnica livello 1C — Combinazione",
+  "summary": "Combina i materiali dei livelli 1A e 1B — durate, figure in stile Hanon, salti di terza e pause — e introduce la coordinazione a mani unite in Do maggiore. Dieci ripassi a mani separate e dieci esercizi sul doppio pentagramma, con moto parallelo, moto contrario e uno studio completo."
+}

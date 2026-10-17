@@ -1,0 +1,167 @@
+{
+  "courseId": "technique-level-6a",
+  "exercises": {
+    "t6a-001": {
+      "title": "Trillo Do–Re (MD)",
+      "summary": "Trillo scritto per esteso alternando Do4 e Re4 in crome.",
+      "goal": "Suona con regolarità a 100 BPM, senza accentare nessuna delle due note.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t6a-002": {
+      "title": "Trillo Re–Mi (MD)",
+      "summary": "Trillo scritto per esteso alternando Re4 e Mi4.",
+      "goal": "Mantieni regolare il trillo con la coppia di dita 2–3.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t6a-003": {
+      "title": "Trillo Mi–Fa (MD)",
+      "summary": "Trillo scritto per esteso alternando Mi4 e Fa4.",
+      "goal": "Sviluppa controllo e regolarità nella coppia di dita 3–4.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t6a-004": {
+      "title": "Trillo Fa–Sol (MD)",
+      "summary": "Trillo scritto per esteso alternando Fa4 e Sol4.",
+      "goal": "Esercita la coppia di dita 4–5 a 96 BPM.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t6a-005": {
+      "title": "Trilli sui gradi di Do maggiore (MD)",
+      "summary": "Brevi trilli sui gradi della scala ascendente di Do maggiore.",
+      "goal": "Sposta con fluidità la posizione della mano tra i trilli.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t6a-006": {
+      "title": "Trilli sui gradi di Do maggiore (MS)",
+      "summary": "Brevi trilli sui gradi della scala di Do maggiore alla sinistra.",
+      "goal": "Sviluppa forza e regolarità nei trilli della sinistra lungo la scala.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t6a-007": {
+      "title": "Trilli sui gradi di Sol maggiore (MD)",
+      "summary": "Brevi trilli sui gradi della scala di Sol maggiore.",
+      "goal": "Percorri la scala con trilli precisi sul Fa diesis.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t6a-008": {
+      "title": "Trilli sui gradi di Re maggiore (MD)",
+      "summary": "Brevi trilli sui gradi della scala di Re maggiore.",
+      "goal": "Mantieni precisi Fa diesis e Do diesis nei trilli.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t6a-009": {
+      "title": "Trilli sui gradi di Fa maggiore (MD)",
+      "summary": "Brevi trilli sui gradi della scala di Fa maggiore.",
+      "goal": "Mantieni preciso il Si bemolle nei trilli.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t6a-010": {
+      "title": "Trilli sui gradi di La maggiore (MD)",
+      "summary": "Brevi trilli sui gradi della scala di La maggiore.",
+      "goal": "Controlla i tre diesis nei trilli della scala.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t6a-011": {
+      "title": "Trillo lungo Do–Re con risoluzione (MD)",
+      "summary": "Un trillo prolungato tra Do e Re risolve su Mi, come preparazione ai trilli barocchi.",
+      "goal": "Sostieni il trillo con regolarità e risolvi con precisione sulla nota di arrivo.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t6a-012": {
+      "title": "Trillo lungo Mi–Fa con risoluzione (MD)",
+      "summary": "Un trillo prolungato tra Mi e Fa risolve su Sol.",
+      "goal": "Mantieni regolare la coppia 3–4 e risolvi con precisione.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t6a-013": {
+      "title": "Trillo con accompagnamento in Do a mani unite",
+      "summary": "Trillo alla destra sopra accordi tenuti alla sinistra.",
+      "goal": "Mantieni regolare il trillo mentre l'altra mano sostiene gli accordi.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t6a-014": {
+      "title": "Trillo con accompagnamento in Sol a mani unite",
+      "summary": "Trillo alla destra sopra accordi di Sol maggiore alla sinistra.",
+      "goal": "Mantieni regolare il trillo durante i cambi di accordo.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t6a-015": {
+      "title": "Trilli sui gradi di Si bemolle maggiore (MD)",
+      "summary": "Brevi trilli sui gradi della scala di Si bemolle maggiore.",
+      "goal": "Esegui i trilli rispettando i due bemolli.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t6a-016": {
+      "title": "Trilli sui gradi di Mi bemolle maggiore (MD)",
+      "summary": "Brevi trilli sui gradi della scala di Mi bemolle maggiore.",
+      "goal": "Esegui i trilli rispettando i tre bemolli.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t6a-017": {
+      "title": "Trillo veloce Do–Re a 112 BPM (MD)",
+      "summary": "Un trillo a tempo sostenuto per sviluppare velocità delle dita.",
+      "goal": "Mantieni regolare il trillo a 112 BPM unendo velocità e controllo.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t6a-018": {
+      "title": "Catena di trilli ascendenti in Do (MD)",
+      "summary": "Brevi trilli si susseguono lungo la scala di Do maggiore senza interruzioni.",
+      "goal": "Cambia posizione senza interrompere la catena di trilli, tipica dello stile barocco.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t6a-019": {
+      "title": "Catena di trilli ascendenti in Do (MS)",
+      "summary": "Brevi trilli si susseguono lungo la scala di Do maggiore alla sinistra.",
+      "goal": "Sviluppa forza nei trilli della sinistra lungo il percorso ascendente.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t6a-020": {
+      "title": "Ripasso dei trilli a mani unite",
+      "summary": "Esercizi di trillo in Do, Sol e Re nella prova conclusiva del livello 6A.",
+      "goal": "Dimostra scioltezza nei trilli con entrambe le mani in diverse tonalità.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    }
+  },
+  "title": "Tecnica livello 6A — Esercizi sui trilli",
+  "summary": "Formule di trillo scritte per esteso sui gradi delle scale in diverse tonalità, per sviluppare velocità e regolarità nell'esecuzione degli abbellimenti."
+}

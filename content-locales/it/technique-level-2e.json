@@ -1,0 +1,167 @@
+{
+  "courseId": "technique-level-2e",
+  "exercises": {
+    "t2e-001": {
+      "title": "Scala veloce di Do maggiore (MD)",
+      "summary": "Scala di Do maggiore in crome alla destra, a 100 BPM.",
+      "goal": "Suona con sicurezza e continuità, senza esitazioni.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t2e-002": {
+      "title": "Scala veloce di Sol maggiore (MD)",
+      "summary": "Scala di Sol maggiore in crome alla destra, a 100 BPM.",
+      "goal": "Mantieni regolarità e precisione sul Fa diesis.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t2e-003": {
+      "title": "Scala veloce di Re maggiore (MD)",
+      "summary": "Scala di Re maggiore in crome alla destra, a 96 BPM.",
+      "goal": "Suona con sicurezza il Fa diesis e il Do diesis.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t2e-004": {
+      "title": "Scala veloce di La minore (MD)",
+      "summary": "Scala di La minore naturale in crome alla destra, a 96 BPM.",
+      "goal": "Mantieni il movimento fluido e uniforme nella scala minore.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t2e-005": {
+      "title": "Scala veloce di Do maggiore (MS)",
+      "summary": "Scala di Do maggiore alla sinistra, da Do3 a Do4, a 100 BPM.",
+      "goal": "Rendi regolari e sicure le crome della sinistra.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t2e-006": {
+      "title": "Scala veloce di Sol maggiore (MS)",
+      "summary": "Scala di Sol maggiore alla sinistra, da Sol2 a Sol3, a 100 BPM.",
+      "goal": "Mantieni uniformità e precisione sul Fa diesis alla sinistra.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t2e-007": {
+      "title": "Moto contrario in Do maggiore a mani unite",
+      "summary": "La destra sale mentre la sinistra scende in Do maggiore.",
+      "goal": "Mantieni fluidi e indipendenti i due movimenti.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t2e-008": {
+      "title": "Moto contrario in Sol maggiore a mani unite",
+      "summary": "Le mani si muovono in direzioni opposte in Sol maggiore.",
+      "goal": "Coordina le mani e suona correttamente il Fa diesis in entrambe.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t2e-009": {
+      "title": "Scioltezza sulle cinque note di Do (MD)",
+      "summary": "La posizione di Do alla destra con ritmi vari in semiminime, crome e valori lunghi.",
+      "goal": "Passa con scioltezza tra i diversi valori ritmici.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t2e-010": {
+      "title": "Scioltezza sulle cinque note di Sol (MD)",
+      "summary": "Ritmi vari nella posizione di cinque dita di Sol maggiore alla destra.",
+      "goal": "Mantieni la posizione e la regolarità nei cambi di ritmo.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t2e-011": {
+      "title": "Esercizio sui diesis (MD)",
+      "summary": "Fa diesis, Do diesis e Sol diesis inseriti in brevi frasi alla destra.",
+      "goal": "Riconosci le alterazioni e raggiungi con precisione i tasti neri.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t2e-012": {
+      "title": "Esercizio sui bemolli (MD)",
+      "summary": "Si bemolle, Mi bemolle e La bemolle inseriti in brevi frasi alla destra.",
+      "goal": "Riconosci i bemolli e suona con precisione i tasti corrispondenti.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t2e-013": {
+      "title": "Ritmo sincopato in Do maggiore (MD)",
+      "summary": "Entrate in levare e pause di croma nella posizione di Do alla destra.",
+      "goal": "Mantieni la pulsazione mentre gli attacchi si spostano sul levare.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t2e-014": {
+      "title": "Ritmo sincopato in Sol maggiore (MD)",
+      "summary": "Una figura ritmica sincopata in Sol maggiore alla destra.",
+      "goal": "Mantieni preciso il ritmo e sicuro il Fa diesis.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t2e-015": {
+      "title": "Scala veloce di Do maggiore a mani unite",
+      "summary": "Scala in moto parallelo a mani unite, a 96 BPM.",
+      "goal": "Sincronizza le mani mantenendo uniforme ogni croma.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t2e-016": {
+      "title": "Scala veloce di Sol maggiore a mani unite",
+      "summary": "Scala di Sol maggiore in moto parallelo, a 96 BPM.",
+      "goal": "Mantieni le mani sincronizzate e i Fa diesis precisi.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t2e-017": {
+      "title": "Scala veloce di Re maggiore a mani unite",
+      "summary": "Scala di Re maggiore in moto parallelo, a 92 BPM.",
+      "goal": "Coordina le mani e le alterazioni della tonalità.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t2e-018": {
+      "title": "Sincopi a mani unite in Do maggiore",
+      "summary": "La destra suona un ritmo sincopato sopra una pulsazione regolare in semiminime alla sinistra.",
+      "goal": "Conserva l'indipendenza ritmica senza perdere il tempo comune.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t2e-019": {
+      "title": "Lettura a prima vista in più tonalità",
+      "summary": "Brevi frasi nelle posizioni di Do, Sol e Re richiedono cambi rapidi alla destra.",
+      "goal": "Riconosci la nuova posizione e prosegui la lettura senza interrompere la pulsazione.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t2e-020": {
+      "title": "Prova finale del livello 2 a mani unite",
+      "summary": "Una prova conclusiva con le tonalità del livello, il moto contrario e i ritmi sincopati.",
+      "goal": "Riunisci precisione, indipendenza e scioltezza nelle tecniche studiate.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    }
+  },
+  "title": "Tecnica livello 2E — Padronanza",
+  "summary": "Consolidamento delle tonalità del livello 2: Do, Sol e Re maggiore e La minore. Scale veloci, moto contrario, sincopi, alterazioni e una prova finale riuniscono le abilità acquisite."
+}

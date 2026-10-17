@@ -1,0 +1,127 @@
+{
+  "courseId": "technique-level-6",
+  "exercises": {
+    "tech6-001": {
+      "title": "Scala cromatica di andata e ritorno (MD)",
+      "summary": "Scala cromatica da Do4 a Do5 e immediato ritorno a Do4 alla destra.",
+      "goal": "Inverti la direzione all'ottava senza interrompere il flusso regolare delle crome.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "tech6-002": {
+      "title": "Scala cromatica di andata e ritorno (MS)",
+      "summary": "Scala cromatica da Do3 a Do4 e ritorno a Do3 alla sinistra.",
+      "goal": "Inverti la direzione all'ottava senza fermarti.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "tech6-003": {
+      "title": "Arpeggio di Mi bemolle maggiore (MD)",
+      "summary": "Triade spezzata di Mi bemolle maggiore in un arpeggio esteso alla destra.",
+      "goal": "Mantieni fluido l'arpeggio e regolari le crome.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "tech6-004": {
+      "title": "Arpeggio di Mi bemolle maggiore (MS)",
+      "summary": "Triade spezzata di Mi bemolle maggiore in un arpeggio esteso alla sinistra.",
+      "goal": "Mantieni regolari le crome nell'arpeggio in chiave di basso.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "tech6-005": {
+      "title": "Arpeggio di Si bemolle maggiore (MD)",
+      "summary": "Triade spezzata di Si bemolle maggiore su due ottave, con ritorno.",
+      "goal": "Esegui con precisione l'arpeggio mantenendo un tempo regolare.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "tech6-006": {
+      "title": "Arpeggio di La bemolle maggiore (MD)",
+      "summary": "Triade spezzata di La bemolle maggiore su due ottave, con ritorno.",
+      "goal": "Suona con precisione le note della triade nella tonalità con quattro bemolli.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "tech6-007": {
+      "title": "Scala di Mi bemolle di andata e ritorno (MD)",
+      "summary": "Scala ascendente e discendente di Mi bemolle maggiore in crome alla destra.",
+      "goal": "Inverti la direzione in cima alla scala senza interrompere la pulsazione.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "tech6-008": {
+      "title": "Terze in stile Hanon (MD)",
+      "summary": "Una formula ascendente e discendente in Do maggiore con salti di terza.",
+      "goal": "Sviluppa l'indipendenza delle dita nei rapidi salti di terza.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "tech6-009": {
+      "title": "Studio di velocità 3 — Passaggi in La bemolle",
+      "summary": "Rapidi passaggi di scala ascendenti, discendenti e una frase conclusiva in La bemolle maggiore.",
+      "goal": "Raggiungi un tempo più rapido mantenendo precisi i quattro bemolli.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "tech6-010": {
+      "title": "Studio di velocità 4 — Passaggi in Mi bemolle",
+      "summary": "Rapidi passaggi di scala ascendenti, discendenti e una frase conclusiva in Mi bemolle maggiore.",
+      "goal": "Raggiungi un tempo più rapido mantenendo precisi i tre bemolli.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "tech6-011": {
+      "title": "Arpeggio di Si bemolle maggiore (MS)",
+      "summary": "Triade spezzata di Si bemolle maggiore in un arpeggio esteso in chiave di basso.",
+      "goal": "Suona l'arpeggio con fluidità alla sinistra.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "tech6-012": {
+      "title": "Scala di Mi bemolle maggiore (MS)",
+      "summary": "Scala completa di Mi bemolle maggiore su un'ottava alla sinistra.",
+      "goal": "Suona con precisione la scala e i tre bemolli in chiave di basso.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "tech6-013": {
+      "title": "Cromatismi e scale a confronto",
+      "summary": "Un passaggio alterna cromatismi e frammenti di scala diatonica.",
+      "goal": "Passa senza esitazioni tra le diteggiature cromatiche e diatoniche.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "tech6-014": {
+      "title": "Seste melodiche (MD)",
+      "summary": "Uno studio sui salti melodici di sesta ascendenti e discendenti in Do maggiore.",
+      "goal": "Raggiungi ogni sesta con precisione mantenendo cantabile la linea nei cambi di registro.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "tech6-015": {
+      "title": "Studio finale in Mi bemolle",
+      "summary": "Uno studio di sei battute combina scala, arpeggio, frammento cromatico e frase conclusiva.",
+      "goal": "Passa con fluidità tra tre tecniche diverse all'interno di un'unica frase musicale.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    }
+  },
+  "title": "Tecnica livello 6",
+  "summary": "Scale cromatiche di andata e ritorno, arpeggi di Mi bemolle, Si bemolle e La bemolle, terze in stile Hanon, studi di velocità, salti melodici di sesta e uno studio conclusivo."
+}

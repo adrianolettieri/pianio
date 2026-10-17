@@ -1,0 +1,82 @@
+{
+  "midi": {
+    "support": {
+      "environment-not-browser": {
+        "summary": "API del browser non disponibili",
+        "detail": "Questo controllo è significativo solo nel browser."
+      },
+      "insecure-context": {
+        "summary": "È richiesto un contesto sicuro",
+        "detail": "Per accedere a Web MIDI sui siti pubblicati serve HTTPS."
+      },
+      "api-unavailable": {
+        "summary": "Web MIDI non esposto",
+        "detail": "Il browser corrente non espone navigator.requestMIDIAccess."
+      },
+      "available": {
+        "summary": "Web MIDI disponibile",
+        "detail": "Questo browser può richiedere l'accesso MIDI e rilevare i dispositivi compatibili."
+      }
+    },
+    "error": {
+      "permission-denied": "Il permesso MIDI è stato negato.",
+      "security": "Il browser ha bloccato l'accesso MIDI per motivi di sicurezza.",
+      "aborted": "La richiesta di accesso MIDI è stata interrotta.",
+      "invalid-state": "Non è stato possibile completare la richiesta MIDI nello stato corrente.",
+      "unsupported": "Il browser non supporta questa richiesta MIDI.",
+      "unknown": "Impossibile richiedere l'accesso MIDI."
+    }
+  },
+  "ui": {
+    "event": "Evento",
+    "title": "Diagnostica",
+    "midiCheck": "Controllo MIDI",
+    "intro": "Richiedi l’accesso Web MIDI, verifica gli ingressi collegati e registra note e pedale direttamente nel browser.",
+    "requestAgain": "Richiedi di nuovo l’accesso MIDI",
+    "requestAccess": "Richiedi accesso MIDI",
+    "requesting": "Richiesta accesso…",
+    "resetSession": "Reimposta sessione",
+    "browserReadiness": "Compatibilità del browser",
+    "validationHint": "Verifica consigliata: Chrome desktop con HTTPS. Questa schermata è utile anche senza tastiera collegata.",
+    "session": "Sessione",
+    "debugState": "Stato diagnostico",
+    "permissionIdle": "Permesso non richiesto",
+    "permissionWaiting": "In attesa del permesso",
+    "permissionGranted": "Accesso consentito",
+    "permissionFailed": "Richiesta non riuscita",
+    "started": "Avvio sessione",
+    "lastUpdate": "Ultimo aggiornamento",
+    "accessRequested": "Accesso richiesto",
+    "accessGranted": "Accesso consentito",
+    "requestCount": "Numero di richieste",
+    "capturedEvents": "Eventi acquisiti",
+    "notYet": "Non ancora",
+    "inputs": "Ingressi",
+    "devices": "Dispositivi MIDI rilevati",
+    "visibleCount": "{{count}} visibili",
+    "noInputs": "Nessun ingresso MIDI rilevato",
+    "noInputsHint": "Dopo aver concesso il permesso, qui appariranno i dispositivi compatibili. Puoi lasciare aperta questa pagina mentre colleghi una tastiera.",
+    "unnamedInput": "Ingresso senza nome",
+    "unknownManufacturer": "Produttore sconosciuto",
+    "events": "Eventi",
+    "recentTraffic": "Attività MIDI recente",
+    "loggingHint": "Registra solo messaggi di nota premuta, nota rilasciata e pedale.",
+    "noEvents": "Nessun evento MIDI corrispondente",
+    "noEventsHint": "Premi i tasti o muovi il pedale dopo aver concesso l’accesso. Gli altri messaggi vengono ignorati.",
+    "recentEventsLabel": "Eventi MIDI recenti",
+    "time": "Ora",
+    "details": "Dettagli",
+    "source": "Origine",
+    "raw": "Dati grezzi",
+    "unknownInput": "Ingresso sconosciuto",
+    "deviceState": {
+      "connected": "Collegato",
+      "disconnected": "Scollegato"
+    },
+    "connectionState": {
+      "open": "Aperta",
+      "closed": "Chiusa",
+      "pending": "In attesa"
+    }
+  }
+}

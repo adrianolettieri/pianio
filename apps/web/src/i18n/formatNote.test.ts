@@ -13,6 +13,13 @@ describe("UI note formatting", () => {
     expect(formatNoteName(66)).toBe("F#");
   });
 
+  it("uses Italian note names and labels", () => {
+    expect(formatNote(60, "it")).toBe("Do4");
+    expect(formatNote(61, "it")).toBe("Do#4");
+    expect(formatNoteName(67, "it")).toBe("Sol");
+    expect(formatNote(-1, "it")).toBe("Nota -1");
+  });
+
   it("reports invalid values without treating them as MIDI notes", () => {
     expect(formatNote(-1)).toBe("Note -1");
     expect(formatNote(128)).toBe("Note 128");

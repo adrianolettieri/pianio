@@ -1,0 +1,247 @@
+{
+  "courseId": "songs-intermediate",
+  "exercises": {
+    "songs-i-001": {
+      "title": "Canone in Re di Pachelbel",
+      "summary": "La celebre melodia del Canone in Re maggiore con accordi simultanei alla sinistra.",
+      "goal": "Mantieni fluide le semiminime della melodia sopra gli accordi tenuti.",
+      "license": {
+        "notes": "Composizione barocca di pubblico dominio. Arrangiamento CC0."
+      }
+    },
+    "songs-i-002": {
+      "title": "Ninna nanna di Brahms",
+      "summary": "La celebre ninna nanna di Johannes Brahms in Sol maggiore, con delicati accordi alla sinistra.",
+      "goal": "Suona con il dolce movimento cullante del valzer sopra gli accordi tenuti.",
+      "license": {
+        "notes": "Composizione di pubblico dominio. Arrangiamento CC0."
+      }
+    },
+    "songs-i-003": {
+      "title": "Danny Boy",
+      "summary": "La celebre melodia irlandese in Fa maggiore, con arco dinamico e accordi alla sinistra.",
+      "goal": "Usa un legato cantabile sopra l'accompagnamento di accordi tenuti.",
+      "license": {
+        "notes": "Melodia tradizionale di pubblico dominio. Arrangiamento CC0."
+      }
+    },
+    "songs-i-004": {
+      "title": "Greensleeves",
+      "summary": "La classica ballata rinascimentale inglese in La minore, con accordi della scala minore armonica alla sinistra.",
+      "goal": "Esprimi il colore minore sopra l'accompagnamento di accordi tenuti.",
+      "license": {
+        "notes": "Melodia tradizionale di pubblico dominio. Arrangiamento CC0."
+      }
+    },
+    "songs-i-005": {
+      "title": "Scarborough Fair",
+      "summary": "Una suggestiva ballata popolare inglese nell'ambito di Re minore, con accordi tenuti alla sinistra.",
+      "goal": "Esprimi il carattere modale e popolare con un fraseggio fluido.",
+      "license": {
+        "notes": "Melodia tradizionale di pubblico dominio. Arrangiamento CC0."
+      }
+    },
+    "songs-i-006": {
+      "title": "Minuetto in Sol",
+      "summary": "Il famoso Minuetto in Sol dal Quaderno di Anna Magdalena Bach, con accordi simultanei alla sinistra.",
+      "goal": "Suona con grazia sopra gli accordi tenuti di tonica, sottodominante e dominante.",
+      "license": {
+        "notes": "Composizione barocca di pubblico dominio. Arrangiamento CC0."
+      }
+    },
+    "songs-i-007": {
+      "title": "Il cigno",
+      "summary": "La serena melodia per violoncello di Saint-Saëns, in Sol maggiore con accordi tenuti alla sinistra.",
+      "goal": "Sostieni un legato lungo e cantabile sopra il delicato accompagnamento.",
+      "license": {
+        "notes": "Composizione di pubblico dominio. Arrangiamento CC0."
+      }
+    },
+    "songs-i-008": {
+      "title": "Gymnopédie n. 1",
+      "summary": "La sognante Gymnopédie di Erik Satie in Re maggiore, con accordi sospesi alla sinistra.",
+      "goal": "Dai un carattere lento e fluttuante sopra l'accompagnamento di accordi tenuti.",
+      "license": {
+        "notes": "Composizione di pubblico dominio. Arrangiamento CC0."
+      }
+    },
+    "songs-i-009": {
+      "title": "Ave Maria di Schubert",
+      "summary": "La melodia raccolta di Schubert in Do maggiore, con accordi tenuti alla sinistra.",
+      "goal": "Usa un suono sostenuto e devoto sopra accordi delicati.",
+      "license": {
+        "notes": "Composizione di pubblico dominio. Arrangiamento CC0."
+      }
+    },
+    "songs-i-010": {
+      "title": "Per Elisa — Tema iniziale",
+      "summary": "Il celebre tema iniziale di Beethoven in La minore, con accordi alla sinistra.",
+      "goal": "Alterna con precisione i semitoni sopra gli accordi minori tenuti.",
+      "license": {
+        "notes": "Composizione di pubblico dominio. Arrangiamento CC0."
+      }
+    },
+    "songs-i-011": {
+      "title": "Marcia turca",
+      "summary": "Il famoso tema Alla turca di Mozart in La minore, con sostegno armonico alla sinistra.",
+      "goal": "Mantieni nitida l'articolazione sopra gli accordi regolari della sinistra.",
+      "license": {
+        "notes": "Composizione di pubblico dominio. Arrangiamento CC0."
+      }
+    },
+    "songs-i-012": {
+      "title": "Gesù, gioia del desiderio umano",
+      "summary": "Il celebre tema corale di Bach in Sol maggiore, con accordi alla sinistra.",
+      "goal": "Esprimi un carattere spirituale sopra l'accompagnamento di accordi tenuti.",
+      "license": {
+        "notes": "Composizione barocca di pubblico dominio. Arrangiamento CC0."
+      }
+    },
+    "songs-i-013": {
+      "title": "House of the Rising Sun",
+      "summary": "La suggestiva canzone popolare americana in La minore, con successione di accordi alla sinistra.",
+      "goal": "Dai un tono scuro ed espressivo alla melodia sopra i cambi di accordo.",
+      "license": {
+        "notes": "Melodia tradizionale di pubblico dominio. Arrangiamento CC0."
+      }
+    },
+    "songs-i-014": {
+      "title": "La Paloma",
+      "summary": "La celebre canzone ispano-cubana in Fa maggiore, con accompagnamento di accordi alla sinistra.",
+      "goal": "Mantieni fluido e ondeggiante il fraseggio sopra i cambi armonici.",
+      "license": {
+        "notes": "Composizione di pubblico dominio. Arrangiamento CC0."
+      }
+    },
+    "songs-i-015": {
+      "title": "Clair de lune — Tema",
+      "summary": "Il tema del capolavoro lunare di Debussy, arrangiato in Do maggiore con accordi alla sinistra.",
+      "goal": "Usa un tocco morbido e luminoso sopra accordi delicati.",
+      "license": {
+        "notes": "Composizione di pubblico dominio. Arrangiamento CC0."
+      }
+    },
+    "songs-i-016": {
+      "title": "Minuetto in Sol minore di Petzold",
+      "summary": "Il brano compagno del celebre Minuetto in Sol, dal carattere più scuro ed espressivo.",
+      "goal": "Modella con espressione le frasi in tonalità minore.",
+      "license": {
+        "notes": "Composizione di pubblico dominio. Arrangiamento CC0."
+      }
+    },
+    "songs-i-017": {
+      "title": "Musette in Re, BWV Anh. 126",
+      "summary": "Un grazioso brano dal Quaderno di Bach, luminoso e danzante.",
+      "goal": "Suona con un carattere leggero e pastorale.",
+      "license": {
+        "notes": "Composizione di pubblico dominio. Arrangiamento CC0."
+      }
+    },
+    "songs-i-018": {
+      "title": "Sonatina op. 36 n. 1 — Primo movimento, Clementi",
+      "summary": "L'apertura della più famosa sonatina di Clementi, luminosa e classica.",
+      "goal": "Mantieni nitida l'articolazione e chiaro lo stile classico.",
+      "license": {
+        "notes": "Composizione di pubblico dominio. Arrangiamento CC0."
+      }
+    },
+    "songs-i-019": {
+      "title": "Sonatina op. 36 n. 2 — Primo movimento, Clementi",
+      "summary": "La seconda sonatina di Clementi, più lirica, in Sol maggiore.",
+      "goal": "Fai cantare la melodia sopra una sinistra nitida, ispirata al basso albertino.",
+      "license": {
+        "notes": "Composizione di pubblico dominio. Arrangiamento CC0."
+      }
+    },
+    "songs-i-020": {
+      "title": "Marcia in Re, BWV Anh. 122",
+      "summary": "Una marcia solenne dal Quaderno di Anna Magdalena Bach.",
+      "goal": "Mantieni il ritmo fermo e regolare.",
+      "license": {
+        "notes": "Composizione di pubblico dominio. Arrangiamento CC0."
+      }
+    },
+    "songs-i-021": {
+      "title": "Scozzese in Sol, WoO 23",
+      "summary": "La vivace danza scozzese di Beethoven in Sol maggiore.",
+      "goal": "Suona con energia e ritmo nitido.",
+      "license": {
+        "notes": "Composizione di pubblico dominio. Arrangiamento CC0."
+      }
+    },
+    "songs-i-022": {
+      "title": "Danza tedesca in Do di Haydn",
+      "summary": "La graziosa danza tedesca di Haydn, elegante e spensierata.",
+      "goal": "Mantieni il movimento di valzer aggraziato e ondeggiante.",
+      "license": {
+        "notes": "Composizione di pubblico dominio. Arrangiamento CC0."
+      }
+    },
+    "songs-i-023": {
+      "title": "Bagatella in La minore, op. 119 n. 9 di Beethoven",
+      "summary": "Una breve bagatella di Beethoven, intima e lirica.",
+      "goal": "Suona con espressione delicata.",
+      "license": {
+        "notes": "Composizione di pubblico dominio. Arrangiamento CC0."
+      }
+    },
+    "songs-i-024": {
+      "title": "Melodia, op. 68 n. 1 di Schumann",
+      "summary": "Il dolce brano iniziale dell'Album per la gioventù di Schumann.",
+      "goal": "Usa un suono caldo e cantabile nella semplice melodia.",
+      "license": {
+        "notes": "Composizione di pubblico dominio. Arrangiamento CC0."
+      }
+    },
+    "songs-i-025": {
+      "title": "Marcia dei soldati, op. 68 n. 2 di Schumann",
+      "summary": "La celebre marcia di Schumann, decisa e ritmica.",
+      "goal": "Mantieni lo staccato nitido e il ritmo vigoroso.",
+      "license": {
+        "notes": "Composizione di pubblico dominio. Arrangiamento CC0."
+      }
+    },
+    "songs-i-026": {
+      "title": "Il cavaliere selvaggio, op. 68 n. 8 di Schumann",
+      "summary": "L'energico brano al galoppo di Schumann in La minore.",
+      "goal": "Mantieni lo slancio del galoppo e nitidi gli accordi.",
+      "license": {
+        "notes": "Composizione di pubblico dominio. Arrangiamento CC0."
+      }
+    },
+    "songs-i-027": {
+      "title": "Arabesca, op. 100 n. 2 di Burgmüller",
+      "summary": "La popolare Arabesca di Burgmüller, rapida e brillante in La minore.",
+      "goal": "Suona lo studio con un movimento delle dita leggero e rapido.",
+      "license": {
+        "notes": "Composizione di pubblico dominio. Arrangiamento CC0."
+      }
+    },
+    "songs-i-028": {
+      "title": "Pastorale, op. 100 n. 3 di Burgmüller",
+      "summary": "La dolce Pastorale di Burgmüller, calma e scorrevole in Sol maggiore.",
+      "goal": "Mantieni un legato pastorale fluido e dinamiche delicate.",
+      "license": {
+        "notes": "Composizione di pubblico dominio. Arrangiamento CC0."
+      }
+    },
+    "songs-i-029": {
+      "title": "Atmosfera mattutina, op. 140 n. 1 di Gurlitt",
+      "summary": "Il sereno brano del mattino di Cornelius Gurlitt, dolce e scorrevole.",
+      "goal": "Usa un legato calmo e fluido con dinamiche morbide.",
+      "license": {
+        "notes": "Composizione di pubblico dominio. Arrangiamento CC0."
+      }
+    },
+    "songs-i-030": {
+      "title": "Serenata, op. 183 n. 6 di Reinecke",
+      "summary": "La graziosa serenata di Carl Reinecke, elegante e lirica in Fa maggiore.",
+      "goal": "Modella il fraseggio con fluidità e usa un pedale delicato.",
+      "license": {
+        "notes": "Composizione di pubblico dominio. Arrangiamento CC0."
+      }
+    }
+  },
+  "title": "Brani di livello intermedio",
+  "summary": "Trenta melodie di pubblico dominio, dal Canone di Pachelbel al Cavaliere selvaggio di Schumann, con dinamiche, accompagnamento della sinistra e fraseggio espressivo."
+}

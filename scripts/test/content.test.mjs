@@ -202,8 +202,10 @@ test('real source catalog retains every course, exercise and musical field', asy
   const report = contentReport(content);
   assert.equal(report.issues.length, 0);
   assert.equal(source.courses.length, 80);
-  assert.equal(report.rows.length, 80);
-  assert.ok(report.rows.every(row => row.locale === 'en'));
+  assert.equal(report.rows.length, content.courses.length * content.config.supportedLanguages.length);
+  assert.equal(report.rows.filter(row => row.locale === 'en').length, content.courses.length);
+  assert.ok(report.rows.filter(row => row.locale === 'en').every(row => row.sourceFields === row.totalFields));
+  assert.ok(report.rows.filter(row => row.locale === 'it').every(row => row.translatedFields === row.totalFields));
   for (const [index, course] of content.courses.entries()) {
     assert.equal(source.courses[index].id, course.courseId);
     assert.deepEqual(source.courses[index].exercises.map(e => [e.id, e.slug]), course.exercises.map(e => [e.id, e.slug]));

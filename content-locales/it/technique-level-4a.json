@@ -1,0 +1,167 @@
+{
+  "courseId": "technique-level-4a",
+  "exercises": {
+    "t4a-001": {
+      "title": "Scala di Re maggiore (MD)",
+      "summary": "Scala ascendente e discendente di Re maggiore su un'ottava alla destra.",
+      "goal": "Suona con precisione Fa diesis e Do diesis a 84 BPM.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t4a-002": {
+      "title": "Scala di Re maggiore (MS)",
+      "summary": "Scala ascendente e discendente di Re maggiore su un'ottava alla sinistra.",
+      "goal": "Mantieni un suono uniforme passando per Fa diesis e Do diesis.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t4a-003": {
+      "title": "Scala di Re maggiore a mani unite",
+      "summary": "Scala di Re maggiore in moto parallelo a mani unite.",
+      "goal": "Sincronizza le mani sui Fa diesis e Do diesis.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t4a-004": {
+      "title": "Accordo spezzato di Re maggiore (MD)",
+      "summary": "Formula ascendente e discendente Re–Fa diesis–La.",
+      "goal": "Suona con fluidità l'accordo spezzato e il Fa diesis.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t4a-005": {
+      "title": "Arpeggio di Re maggiore (MD)",
+      "summary": "Arpeggio ascendente e discendente di Re maggiore su un'ottava.",
+      "goal": "Mantieni fluidi i passaggi delle dita nell'arpeggio.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t4a-006": {
+      "title": "Scala di La maggiore (MD)",
+      "summary": "Scala di La maggiore alla destra, con Fa diesis, Do diesis e Sol diesis.",
+      "goal": "Suona con uniformità e precisione tutti e tre i diesis.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t4a-007": {
+      "title": "Scala di La maggiore (MS)",
+      "summary": "Scala di La maggiore alla sinistra, con Fa diesis, Do diesis e Sol diesis.",
+      "goal": "Suona con precisione i tre diesis alla sinistra.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t4a-008": {
+      "title": "Scala di La maggiore a mani unite",
+      "summary": "Scala di La maggiore in moto parallelo a mani unite.",
+      "goal": "Sincronizza le mani su tutte e tre le alterazioni.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t4a-009": {
+      "title": "Accordo spezzato di La maggiore (MD)",
+      "summary": "Formula ascendente e discendente La–Do diesis–Mi.",
+      "goal": "Suona con fluidità l'accordo spezzato e il Do diesis.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t4a-010": {
+      "title": "Arpeggio di La maggiore (MD)",
+      "summary": "Arpeggio ascendente e discendente di La maggiore su un'ottava.",
+      "goal": "Mantieni fluidi i passaggi delle dita nell'arpeggio.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t4a-011": {
+      "title": "Scala di Re minore armonica (MD)",
+      "summary": "Scala di Re minore armonica alla destra, con Do diesis.",
+      "goal": "Controlla il caratteristico intervallo di seconda aumentata.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t4a-012": {
+      "title": "Scala di Re minore armonica (MS)",
+      "summary": "Scala di Re minore armonica alla sinistra, con Do diesis.",
+      "goal": "Collega con fluidità Si bemolle e Do diesis.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t4a-013": {
+      "title": "Scala di Re minore armonica a mani unite",
+      "summary": "Scala di Re minore armonica in moto parallelo.",
+      "goal": "Sincronizza le mani sul settimo grado innalzato.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t4a-014": {
+      "title": "Scala di La minore armonica (MD)",
+      "summary": "Scala di La minore armonica alla destra, con Sol diesis.",
+      "goal": "Suona con precisione il settimo grado innalzato.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t4a-015": {
+      "title": "Scala di La minore armonica (MS)",
+      "summary": "Scala di La minore armonica alla sinistra, con Sol diesis.",
+      "goal": "Usa una diteggiatura fluida sul Sol diesis.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t4a-016": {
+      "title": "Scala di La minore armonica a mani unite",
+      "summary": "Scala di La minore armonica in moto parallelo.",
+      "goal": "Sincronizza le mani sul settimo grado innalzato.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t4a-017": {
+      "title": "Accordo spezzato di Re minore",
+      "summary": "Formula Re–Fa–La a mani unite.",
+      "goal": "Suona con fluidità l'accordo spezzato con entrambe le mani.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t4a-018": {
+      "title": "Arpeggio di La minore a mani unite",
+      "summary": "Arpeggio La–Do–Mi su un'ottava a mani unite.",
+      "goal": "Mantieni fluidi e coordinati i passaggi delle dita.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t4a-019": {
+      "title": "Successione I–IV–V in Re maggiore",
+      "summary": "Successione Re–Sol–La–Re con accordi simultanei.",
+      "goal": "Suona la successione I–IV–V–I con sonorità compatta e bilanciata.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t4a-020": {
+      "title": "Ripasso delle scale di Re e La maggiore",
+      "summary": "Le scale di Re e La maggiore si susseguono a mani unite.",
+      "goal": "Collega senza interruzioni le due scale in un unico esercizio.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    }
+  },
+  "title": "Tecnica livello 4A — Fondamenti di Re e La maggiore",
+  "summary": "Scale, accordi spezzati e arpeggi di Re e La maggiore, insieme alle scale minori armoniche di Re e La, per sviluppare scioltezza nelle tonalità con diesis."
+}

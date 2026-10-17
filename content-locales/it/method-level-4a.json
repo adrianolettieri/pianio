@@ -1,0 +1,107 @@
+{
+  "courseId": "method-level-4a",
+  "exercises": {
+    "m4a-001": {
+      "title": "Orientamento in Re maggiore",
+      "summary": "Introduzione di cinque note per la destra in Re maggiore, con le alterazioni scritte davanti alle note.",
+      "goal": "Orienta la destra nella posizione di Re maggiore e rispetta il Fa diesis scritto; l'armatura della tonalità comprende anche Do diesis."
+    },
+    "m4a-002": {
+      "title": "Re maggiore per la sinistra",
+      "summary": "Studio di cinque note per la sinistra in Re maggiore, in chiave di basso, con alterazioni esplicite.",
+      "goal": "Stabilisci la posizione di Re maggiore nella sinistra e riconosci il Fa diesis nel registro grave."
+    },
+    "m4a-003": {
+      "title": "Studio di scala in Re maggiore",
+      "summary": "Scala di Re maggiore per la destra da Re4 a Re5 e ritorno, con Do diesis e Fa diesis espliciti.",
+      "goal": "Suona la scala completa di Re maggiore di un'ottava, ascendente e discendente, con la destra."
+    },
+    "m4a-004": {
+      "title": "Orientamento in La maggiore",
+      "summary": "Introduzione per la destra alla posizione di La maggiore, tonalità con Do, Fa e Sol diesis.",
+      "goal": "Orienta la destra nella posizione di La maggiore e riconosci i tre diesis della tonalità."
+    },
+    "m4a-005": {
+      "title": "La maggiore per la sinistra",
+      "summary": "Studio di cinque note per la sinistra in La maggiore, in chiave di basso, con Do e Sol diesis espliciti.",
+      "goal": "Stabilisci la posizione di La maggiore nella sinistra, rispettando i diesis."
+    },
+    "m4a-006": {
+      "title": "Orientamento in Si bemolle maggiore",
+      "summary": "Introduzione di cinque note per la destra in Si bemolle maggiore, con Si e Mi bemolle espliciti.",
+      "goal": "Orienta la destra nella posizione di Si bemolle maggiore e suona chiaramente Si e Mi bemolle."
+    },
+    "m4a-007": {
+      "title": "Si bemolle maggiore per la sinistra",
+      "summary": "Studio di cinque note per la sinistra in Si bemolle maggiore, in chiave di basso, con Si e Mi bemolle.",
+      "goal": "Stabilisci la posizione di Si bemolle maggiore nella sinistra, rispettando i bemolli."
+    },
+    "m4a-008": {
+      "title": "Orientamento in Mi bemolle maggiore",
+      "summary": "Introduzione di cinque note per la destra in Mi bemolle maggiore, con Mi, La e Si bemolle espliciti.",
+      "goal": "Orienta la destra in Mi bemolle maggiore e affronta con chiarezza i tre bemolli."
+    },
+    "m4a-009": {
+      "title": "Duetto in Re maggiore",
+      "summary": "Primo brano sul doppio pentagramma in Re maggiore: melodia alla destra e sostegno al basso della sinistra.",
+      "goal": "Coordina le due mani in Re maggiore, rispettando Fa diesis e Do diesis dove scritti nelle voci."
+    },
+    "m4a-010": {
+      "title": "Melodia in Re maggiore con basso",
+      "summary": "Brano di sei battute sul doppio pentagramma, con melodia scorrevole alla destra e sostegno armonico alla sinistra.",
+      "goal": "Dai forma a una frase melodica in Re maggiore mantenendo regolare il basso della sinistra."
+    },
+    "m4a-011": {
+      "title": "La maggiore sul doppio pentagramma",
+      "summary": "Primo brano sul doppio pentagramma in La maggiore, con melodia alla destra e sostegno della sinistra.",
+      "goal": "Coordina le mani in La maggiore, rispettando le alterazioni della tonalità nelle note scritte."
+    },
+    "m4a-012": {
+      "title": "Canto in La maggiore",
+      "summary": "Canto di sei battute in La maggiore a mani unite: la destra canta, la sinistra sostiene con regolarità.",
+      "goal": "Mantieni un fraseggio musicale in La maggiore lungo sei battute con entrambe le mani."
+    },
+    "m4a-013": {
+      "title": "Si bemolle maggiore sul doppio pentagramma",
+      "summary": "Primo brano sul doppio pentagramma in Si bemolle maggiore: melodia con Si e Mi bemolle e sostegno al basso.",
+      "goal": "Coordina le mani in Si bemolle maggiore, rispettando Si e Mi bemolle in entrambe le voci."
+    },
+    "m4a-014": {
+      "title": "Valzer in Si bemolle maggiore",
+      "summary": "Valzer di sei battute in Si bemolle maggiore, in 3/4, con Si e Mi bemolle espliciti.",
+      "goal": "Mantieni un carattere di valzer aggraziato in 3/4, affrontando Si e Mi bemolle nelle due mani."
+    },
+    "m4a-015": {
+      "title": "Introduzione a Mi bemolle maggiore",
+      "summary": "Primo brano sul doppio pentagramma in Mi bemolle maggiore, con Mi, La e Si bemolle espliciti.",
+      "goal": "Coordina le mani in Mi bemolle maggiore e colloca correttamente tutti e tre i bemolli."
+    },
+    "m4a-016": {
+      "title": "Studio in Mi bemolle maggiore",
+      "summary": "Brano di sei battute sul doppio pentagramma in Mi bemolle maggiore, con la destra fino al Si bemolle4 e oltre.",
+      "goal": "Affronta un'estensione più ampia di Mi bemolle maggiore nelle due mani lungo sei battute."
+    },
+    "m4a-017": {
+      "title": "Andante in Re maggiore",
+      "summary": "Andante di otto battute in Re maggiore a mani unite, con la destra cantabile sopra un solido sostegno armonico.",
+      "goal": "Sostieni una lunga linea melodica in Re maggiore mentre la sinistra offre un sostegno armonico chiaro."
+    },
+    "m4a-018": {
+      "title": "Pastorale in La maggiore",
+      "summary": "Pastorale di otto battute in La maggiore a mani unite, con frasi espressive.",
+      "goal": "Suona un brano lirico in La maggiore rispettando le alterazioni nelle due mani."
+    },
+    "m4a-019": {
+      "title": "Serenata in Si bemolle maggiore",
+      "summary": "Serenata di otto battute in Si bemolle maggiore a mani unite, con un profilo melodico fluido.",
+      "goal": "Esegui un brano scorrevole in Si bemolle maggiore, con Si e Mi bemolle corretti nelle due voci."
+    },
+    "m4a-020": {
+      "title": "Brano sui fondamenti tonali del livello 4",
+      "summary": "Brano conclusivo di otto battute in Re maggiore, con tecniche ed estensione del livello 4A.",
+      "goal": "Dimostra scioltezza in Re maggiore a mani unite lungo un discorso musicale completo."
+    }
+  },
+  "title": "Metodo livello 4A — Fondamenti",
+  "summary": "Introduzione a Re, La, Si bemolle e Mi bemolle maggiore. Orientamento nelle posizioni di cinque note, passaggi di scala e primi brani sul doppio pentagramma nelle nuove tonalità."
+}

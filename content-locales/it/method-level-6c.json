@@ -1,0 +1,167 @@
+{
+  "courseId": "method-level-6c",
+  "exercises": {
+    "m6c-001": {
+      "title": "Scala di Si minore armonica — Doppio pentagramma",
+      "summary": "Scala di Si minore armonica ascendente e discendente nelle due mani, con La diesis come sensibile innalzata.",
+      "goal": "Affronta Si minore armonica sul doppio pentagramma, collocando La diesis come settimo grado innalzato rispetto all'armatura con due diesis.",
+      "license": {
+        "notes": "Esercizio originale"
+      }
+    },
+    "m6c-002": {
+      "title": "Si minore armonica — Cinque note",
+      "summary": "Figura di cinque note ascendente e discendente nelle due mani.",
+      "goal": "Sviluppa scioltezza sulle cinque note di Si minore a mani unite, prima della scala completa.",
+      "license": {
+        "notes": "Esercizio originale"
+      }
+    },
+    "m6c-003": {
+      "title": "Si minore armonica — Melodia",
+      "summary": "Melodia espressiva con La diesis che risolve salendo al Si.",
+      "goal": "Dai forma a una linea cantabile in Si minore armonica, usando il La diesis per creare tensione di sensibile.",
+      "license": {
+        "notes": "Esercizio originale"
+      }
+    },
+    "m6c-004": {
+      "title": "Si minore armonica — Studio in crome",
+      "summary": "Studio in crome con La diesis come sensibile innalzata.",
+      "goal": "Mantieni regolare il movimento in crome in Si minore armonica, collocando il La diesis prima della risoluzione oltre la stanghetta.",
+      "license": {
+        "notes": "Esercizio originale"
+      }
+    },
+    "m6c-005": {
+      "title": "Si minore — Progressione barocca",
+      "summary": "Progressione barocca discendente con La diesis come sensibile caratteristica.",
+      "goal": "Esegui una progressione barocca discendente in Si minore armonica, con articolazione pulita e precisione ritmica.",
+      "license": {
+        "notes": "Esercizio originale"
+      }
+    },
+    "m6c-006": {
+      "title": "Scala di Fa diesis minore armonica — Doppio pentagramma",
+      "summary": "Scala di Fa diesis minore armonica ascendente e discendente nelle due mani, con Mi diesis come sensibile innalzata.",
+      "goal": "Affronta Fa diesis minore armonica sul doppio pentagramma, collocando Mi diesis come settimo grado innalzato rispetto all'armatura con tre diesis.",
+      "license": {
+        "notes": "Esercizio originale"
+      }
+    },
+    "m6c-007": {
+      "title": "Fa diesis minore armonica — Cinque note",
+      "summary": "Figura di cinque note ascendente e discendente nelle due mani.",
+      "goal": "Sviluppa scioltezza sulle cinque note di Fa diesis minore a mani unite, prima della scala completa.",
+      "license": {
+        "notes": "Esercizio originale"
+      }
+    },
+    "m6c-008": {
+      "title": "Fa diesis minore armonica — Melodia",
+      "summary": "Melodia espressiva con Mi diesis che risolve salendo al Fa diesis.",
+      "goal": "Dai forma a una linea cantabile in Fa diesis minore armonica, usando il Mi diesis per creare tensione di sensibile.",
+      "license": {
+        "notes": "Esercizio originale"
+      }
+    },
+    "m6c-009": {
+      "title": "Fa diesis minore armonica — Studio in crome",
+      "summary": "Studio in crome con Mi diesis come sensibile innalzata.",
+      "goal": "Mantieni regolare il movimento in crome in Fa diesis minore armonica, collocando correttamente il Mi diesis.",
+      "license": {
+        "notes": "Esercizio originale"
+      }
+    },
+    "m6c-010": {
+      "title": "Fa diesis minore — Progressione barocca",
+      "summary": "Progressione barocca discendente con Mi diesis come sensibile.",
+      "goal": "Esegui una progressione barocca discendente in Fa diesis minore armonica, con articolazione pulita.",
+      "license": {
+        "notes": "Esercizio originale"
+      }
+    },
+    "m6c-011": {
+      "title": "Fa minore — Tema di notturno romantico",
+      "summary": "Tema lento di notturno romantico in Fa minore armonica, con fraseggio lirico.",
+      "goal": "Suona il tema con andamento lento e suono cantabile, curando la forma della frase e la risoluzione del Mi naturale.",
+      "license": {
+        "notes": "Esercizio originale"
+      }
+    },
+    "m6c-012": {
+      "title": "Do minore — Tema romantico",
+      "summary": "Tema romantico di sei battute in Do minore armonica, con uso espressivo del Si naturale.",
+      "goal": "Dai forma a un arco melodico romantico in Do minore armonica, creando tensione con il Si naturale e risolvendo drammaticamente.",
+      "license": {
+        "notes": "Esercizio originale"
+      }
+    },
+    "m6c-013": {
+      "title": "Si bemolle minore — Elegia romantica",
+      "summary": "Elegia lenta di sei battute in Si bemolle minore armonica, resa intensa dal La naturale.",
+      "goal": "Suona un'elegia romantica: fai cantare la melodia e risolvere dolcemente il La naturale sul Si bemolle.",
+      "license": {
+        "notes": "Esercizio originale"
+      }
+    },
+    "m6c-014": {
+      "title": "Si minore — Frase classica bilanciata",
+      "summary": "Frase classica di antecedente e conseguente in Si minore armonica, con risoluzione cadenzale chiara.",
+      "goal": "Suona un periodo classico bilanciato in Si minore armonica, dando forma a domanda e risposta.",
+      "license": {
+        "notes": "Esercizio originale"
+      }
+    },
+    "m6c-015": {
+      "title": "Fa diesis minore — Frase classica bilanciata",
+      "summary": "Frase classica di antecedente e conseguente, con Mi diesis che conduce al Fa diesis.",
+      "goal": "Suona un periodo classico bilanciato in Fa diesis minore armonica, modellando tensione dell'antecedente e risoluzione del conseguente.",
+      "license": {
+        "notes": "Esercizio originale"
+      }
+    },
+    "m6c-016": {
+      "title": "La minore — Stile romantico",
+      "summary": "Brano romantico di sei battute in La minore armonica, che riprende il vocabolario noto in un nuovo contesto espressivo.",
+      "goal": "Applica il carattere romantico a La minore armonica: fai cantare la melodia, modella la frase e senti la risoluzione del Sol diesis.",
+      "license": {
+        "notes": "Esercizio originale"
+      }
+    },
+    "m6c-017": {
+      "title": "Re minore — Stile romantico",
+      "summary": "Brano romantico di sei battute in Re minore armonica, con Do diesis come sensibile espressiva.",
+      "goal": "Suona in uno stile romantico espressivo: fai emergere la melodia e la tensione del Do diesis prima del Re.",
+      "license": {
+        "notes": "Esercizio originale"
+      }
+    },
+    "m6c-018": {
+      "title": "Si minore — Studio ampliato",
+      "summary": "Studio di sei battute in Si minore armonica, con movimento in crome e frase conclusiva lirica.",
+      "goal": "Sostieni passaggi sciolti in crome in Si minore armonica lungo sei battute, approdando a una cadenza raccolta.",
+      "license": {
+        "notes": "Esercizio originale"
+      }
+    },
+    "m6c-019": {
+      "title": "Fa diesis minore — Brano ampliato",
+      "summary": "Brano lirico di sei battute in Fa diesis minore armonica, che ne esplora l'estensione espressiva.",
+      "goal": "Dai forma a un arco musicale, crescendo verso il Mi diesis e risolvendo con convinzione sul Fa diesis.",
+      "license": {
+        "notes": "Esercizio originale"
+      }
+    },
+    "m6c-020": {
+      "title": "Notturno in Si minore — Sintesi del livello 6C",
+      "summary": "Tema di notturno romantico di otto battute in Si minore armonica, con il vocabolario del livello 6C.",
+      "goal": "Unisci Si minore armonica e linguaggi barocchi e romantici in un notturno di otto battute, dando risalto alla melodia e all'arco della frase.",
+      "license": {
+        "notes": "Esercizio originale"
+      }
+    }
+  },
+  "title": "Metodo livello 6C — Combinazione",
+  "summary": "Introduzione di Si minore armonica con due diesis e Fa diesis minore armonica con tre diesis. Caratteri romantici nelle tonalità minori del livello 6 e sintesi di linguaggi barocchi, classici e romantici, sempre sul doppio pentagramma."
+}

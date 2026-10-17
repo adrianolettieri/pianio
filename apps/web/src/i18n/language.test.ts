@@ -10,6 +10,7 @@ describe("language selection", () => {
   it("normalizes supported regional tags and rejects unsupported values", () => {
     expect(normalizeLanguage("en-US")).toBe("en");
     expect(normalizeLanguage("EN_us")).toBe("en");
+    expect(normalizeLanguage("it-IT")).toBe("it");
     expect(normalizeLanguage("fr-FR")).toBeUndefined();
     expect(normalizeLanguage({})).toBeUndefined();
   });
@@ -19,6 +20,8 @@ describe("language selection", () => {
     expect(resolveLanguage({ storage, navigatorLanguages: ["fr-FR", "en-US"] })).toBe("en");
     expect(resolveLanguage({ storage: { getItem: () => "broken", setItem: () => undefined }, navigatorLanguages: ["fr", "en-US"] })).toBe("en");
     expect(resolveLanguage({ storage: null, navigatorLanguages: ["fr-FR"] })).toBe("en");
+    expect(resolveLanguage({ storage: { getItem: () => "it-IT", setItem: () => undefined }, navigatorLanguages: ["en-US"] })).toBe("it");
+    expect(resolveLanguage({ storage: null, navigatorLanguages: ["fr-FR", "it-IT"] })).toBe("it");
   });
 
   it("remembers explicit choices when storage is absent or throws", () => {

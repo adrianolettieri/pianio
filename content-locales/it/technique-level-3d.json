@@ -1,0 +1,107 @@
+{
+  "courseId": "technique-level-3d",
+  "exercises": {
+    "t3d-001": {
+      "title": "Studio per l'indipendenza delle dita n. 1",
+      "summary": "Uno studio in stile Czerny in Do maggiore per l'indipendenza della destra.",
+      "goal": "Mantieni uniforme e indipendente il movimento delle dita nei passaggi in crome."
+    },
+    "t3d-002": {
+      "title": "Studio per l'indipendenza delle dita n. 2",
+      "summary": "Uno studio in stile Czerny con formule discendenti in Do maggiore.",
+      "goal": "Mantieni indipendenza e regolarità nei passaggi discendenti."
+    },
+    "t3d-003": {
+      "title": "Studio per l'indipendenza delle dita n. 3",
+      "summary": "Uno studio in stile Czerny con formule alternate alla destra in Sol maggiore.",
+      "goal": "Sviluppa agilità nelle formule alternate in Sol maggiore."
+    },
+    "t3d-004": {
+      "title": "Studio per l'indipendenza delle dita n. 4",
+      "summary": "Uno studio in stile Czerny in Do maggiore per l'indipendenza della sinistra.",
+      "goal": "Sviluppa agilità della sinistra nei passaggi continui."
+    },
+    "t3d-005": {
+      "title": "Studio per l'indipendenza delle dita n. 5",
+      "summary": "Le due mani suonano formule in stile Czerny in moto parallelo.",
+      "goal": "Coordina le mani nelle formule per l'indipendenza delle dita."
+    },
+    "t3d-006": {
+      "title": "Successione di accordi in Do — Piano",
+      "summary": "Successione I–IV–V–I in Do maggiore con dinamica piano.",
+      "goal": "Controlla la sonorità degli accordi nella dinamica piano."
+    },
+    "t3d-007": {
+      "title": "Successione di accordi in Do — Forte",
+      "summary": "Successione I–IV–V–I in Do maggiore con dinamica forte.",
+      "goal": "Suona gli accordi con un forte sicuro e controllato."
+    },
+    "t3d-008": {
+      "title": "Successione di accordi in Sol — Mezzoforte",
+      "summary": "Successione I–IV–V–I in Sol maggiore con dinamica mezzoforte.",
+      "goal": "Mantieni un mezzoforte uniforme e moderato negli accordi."
+    },
+    "t3d-009": {
+      "title": "Accordi e contrasti dinamici",
+      "summary": "Piano e forte si alternano in una successione di accordi.",
+      "goal": "Controlla il contrasto tra accordi delicati e sonori."
+    },
+    "t3d-010": {
+      "title": "Accordi in crescendo",
+      "summary": "Una successione di accordi con intensità crescente.",
+      "goal": "Modella un crescendo graduale dal piano al forte."
+    },
+    "t3d-011": {
+      "title": "Pedale e armonie tenute I",
+      "summary": "Il pedale sostiene il basso mentre la destra suona la melodia.",
+      "goal": "Esercita il controllo del pedale sulle armonie tenute, rispettando le indicazioni scritte."
+    },
+    "t3d-012": {
+      "title": "Pedale e armonie tenute II",
+      "summary": "Tecnica del pedale con armonie variate in Sol maggiore.",
+      "goal": "Ascolta i cambi armonici e controlla il pedale secondo le indicazioni scritte."
+    },
+    "t3d-013": {
+      "title": "Pedale e melodia legata",
+      "summary": "Il pedale sostiene una melodia scorrevole sopra un basso tenuto.",
+      "goal": "Usa il pedale per collegare la melodia mentre il basso risuona."
+    },
+    "t3d-014": {
+      "title": "Cambi di pedale puliti",
+      "summary": "Solleva e riabbassa il pedale tra i cambi di accordo.",
+      "goal": "Esegui cambi di pedale puliti evitando di confondere le armonie."
+    },
+    "t3d-015": {
+      "title": "Blues di dodici battute in Do — Accordi (MD)",
+      "summary": "La destra suona gli accordi I–IV–V nel blues di dodici battute in Do.",
+      "goal": "Assimila la forma fondamentale del blues con accordi simultanei."
+    },
+    "t3d-016": {
+      "title": "Blues di dodici battute in Do — Basso (MS)",
+      "summary": "La sinistra suona un basso camminato nel blues di dodici battute in Do.",
+      "goal": "Mantieni scorrevole il basso camminato lungo la forma del blues."
+    },
+    "t3d-017": {
+      "title": "Blues di dodici battute in Do — Mani unite",
+      "summary": "Accordi alla destra e basso camminato alla sinistra nel blues di dodici battute.",
+      "goal": "Combina gli accordi e il basso camminato nella forma del blues."
+    },
+    "t3d-018": {
+      "title": "Esercizio in stile Hanon n. 1",
+      "summary": "Una formula ascendente e discendente sulle cinque dita per svilupparne l'indipendenza.",
+      "goal": "Suona la formula 1–2–3–4–5 con un suono uniforme."
+    },
+    "t3d-019": {
+      "title": "Esercizio in stile Hanon n. 2",
+      "summary": "Una formula discendente in stile Hanon per l'indipendenza delle dita.",
+      "goal": "Mantieni uniforme e controllato il movimento discendente."
+    },
+    "t3d-020": {
+      "title": "Esercizio in stile Hanon n. 3",
+      "summary": "Le due mani suonano formule in stile Hanon in moto parallelo.",
+      "goal": "Coordina le mani nelle formule per le dita."
+    }
+  },
+  "title": "Tecnica livello 3D — Applicazione",
+  "summary": "Studi per l'indipendenza delle dita ispirati a Czerny, successioni di accordi con dinamiche, pedale su armonie tenute, blues di dodici battute ed esercizi in stile Hanon."
+}

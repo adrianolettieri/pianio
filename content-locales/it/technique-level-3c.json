@@ -1,0 +1,107 @@
+{
+  "courseId": "technique-level-3c",
+  "exercises": {
+    "t3c-001": {
+      "title": "Do maggiore a mani unite a 80 BPM",
+      "summary": "Scala di Do maggiore a mani unite al tempo di esecuzione.",
+      "goal": "Suona con fluidità a mani unite a 80 BPM."
+    },
+    "t3c-002": {
+      "title": "Sol maggiore a mani unite a 80 BPM",
+      "summary": "Scala di Sol maggiore a mani unite al tempo di esecuzione.",
+      "goal": "Suona con fluidità a mani unite a 80 BPM."
+    },
+    "t3c-003": {
+      "title": "Fa maggiore a mani unite a 80 BPM",
+      "summary": "Scala di Fa maggiore a mani unite al tempo di esecuzione.",
+      "goal": "Suona con fluidità a mani unite a 80 BPM."
+    },
+    "t3c-004": {
+      "title": "La minore armonica a mani unite a 80 BPM",
+      "summary": "Scala di La minore armonica a mani unite al tempo di esecuzione.",
+      "goal": "Suona con fluidità a mani unite a 80 BPM."
+    },
+    "t3c-005": {
+      "title": "Re minore armonica a mani unite a 80 BPM",
+      "summary": "Scala di Re minore armonica a mani unite al tempo di esecuzione.",
+      "goal": "Suona con fluidità a mani unite a 80 BPM."
+    },
+    "t3c-006": {
+      "title": "Accordo di Do maggiore allo stato fondamentale",
+      "summary": "Accordo Do–Mi–Sol in ritmi variati.",
+      "goal": "Bilancia uniformemente i suoni dell'accordo allo stato fondamentale."
+    },
+    "t3c-007": {
+      "title": "Primo rivolto di Do maggiore",
+      "summary": "Accordo di Do maggiore nella disposizione Mi–Sol–Do.",
+      "goal": "Bilancia uniformemente i suoni del primo rivolto."
+    },
+    "t3c-008": {
+      "title": "Secondo rivolto di Do maggiore",
+      "summary": "Accordo di Do maggiore nella disposizione Sol–Do–Mi.",
+      "goal": "Bilancia uniformemente i suoni del secondo rivolto."
+    },
+    "t3c-009": {
+      "title": "Ciclo dei rivolti di Do maggiore",
+      "summary": "Passaggio tra lo stato fondamentale e i due rivolti dell'accordo di Do maggiore.",
+      "goal": "Collega con fluidità le tre disposizioni dell'accordo."
+    },
+    "t3c-010": {
+      "title": "Ciclo dei rivolti di Do maggiore (MS)",
+      "summary": "La sinistra percorre le tre disposizioni dell'accordo di Do maggiore.",
+      "goal": "Sviluppa scioltezza nei cambi di rivolto alla sinistra."
+    },
+    "t3c-011": {
+      "title": "Formule di arpeggio in Do maggiore",
+      "summary": "Arpeggi ascendenti e discendenti di Do maggiore in diverse formule.",
+      "goal": "Mantieni fluido il movimento degli arpeggi in entrambe le direzioni."
+    },
+    "t3c-012": {
+      "title": "Formule di arpeggio in Sol maggiore",
+      "summary": "Arpeggi ascendenti e discendenti di Sol maggiore in diverse formule.",
+      "goal": "Mantieni fluido il movimento degli arpeggi in entrambe le direzioni."
+    },
+    "t3c-013": {
+      "title": "Formule di arpeggio in Fa maggiore",
+      "summary": "Arpeggi ascendenti e discendenti di Fa maggiore in diverse formule.",
+      "goal": "Mantieni fluido il movimento degli arpeggi in entrambe le direzioni."
+    },
+    "t3c-014": {
+      "title": "Formule di arpeggio in La minore",
+      "summary": "Arpeggi ascendenti e discendenti di La minore in diverse formule.",
+      "goal": "Mantieni fluido il movimento degli arpeggi in entrambe le direzioni."
+    },
+    "t3c-015": {
+      "title": "Moto contrario in Do maggiore",
+      "summary": "Le mani percorrono la scala di Do maggiore in direzioni opposte.",
+      "goal": "Suona la scala coordinando le mani in moto contrario."
+    },
+    "t3c-016": {
+      "title": "Moto contrario in Sol maggiore",
+      "summary": "Le mani percorrono la scala di Sol maggiore in direzioni opposte.",
+      "goal": "Suona la scala coordinando le mani in moto contrario."
+    },
+    "t3c-017": {
+      "title": "Moto contrario in Fa maggiore",
+      "summary": "Le mani percorrono la scala di Fa maggiore in direzioni opposte.",
+      "goal": "Suona la scala coordinando le mani in moto contrario."
+    },
+    "t3c-018": {
+      "title": "Scala e arpeggio in Do maggiore",
+      "summary": "Passaggi di scala e arpeggio in Do maggiore, con accordi conclusivi.",
+      "goal": "Passa con fluidità dalle scale agli arpeggi e agli accordi."
+    },
+    "t3c-019": {
+      "title": "Scala e arpeggio in Sol maggiore",
+      "summary": "Passaggi di scala e arpeggio in Sol maggiore, con accordi conclusivi.",
+      "goal": "Passa con fluidità dalle scale agli arpeggi e agli accordi."
+    },
+    "t3c-020": {
+      "title": "Scala e arpeggio in Fa maggiore",
+      "summary": "Passaggi di scala e arpeggio in Fa maggiore, con accordi conclusivi.",
+      "goal": "Passa con fluidità dalle scale agli arpeggi e agli accordi."
+    }
+  },
+  "title": "Tecnica livello 3C — Combinazione",
+  "summary": "Scale a mani unite da 80 BPM, rivolti di Do maggiore, arpeggi ascendenti e discendenti, moto contrario ed esercizi che combinano scale, arpeggi e accordi."
+}

@@ -1,0 +1,167 @@
+{
+  "courseId": "technique-level-5a",
+  "exercises": {
+    "t5a-001": {
+      "title": "Basso albertino in Do maggiore (MS)",
+      "summary": "Formula Do–Sol–Mi–Sol alla sinistra in Do maggiore.",
+      "goal": "Suona la formula con regolarità a 80 BPM.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t5a-002": {
+      "title": "Formula albertina in Do maggiore (MD)",
+      "summary": "Formula Do–Sol–Mi–Sol alla destra nel registro acuto.",
+      "goal": "Esercita la formula anche alla destra per l’indipendenza delle dita.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t5a-003": {
+      "title": "Basso albertino e melodia in Do maggiore",
+      "summary": "Basso albertino alla sinistra sotto una semplice melodia della destra.",
+      "goal": "Coordina il basso con una melodia in note lunghe nella tipica tessitura classica.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t5a-004": {
+      "title": "Basso albertino in Sol maggiore (MS)",
+      "summary": "Formula Sol–Re–Si–Re alla sinistra in Sol maggiore.",
+      "goal": "Suona a 80 BPM con regolarità e alterazioni precise.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t5a-005": {
+      "title": "Basso albertino e melodia in Sol maggiore",
+      "summary": "Basso albertino alla sinistra sotto una melodia della destra in Sol maggiore.",
+      "goal": "Coordina il basso con una melodia cantabile mantenendo l’indipendenza delle mani.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t5a-006": {
+      "title": "Basso albertino in Fa maggiore (MS)",
+      "summary": "Formula Fa–Do–La–Do alla sinistra in Fa maggiore.",
+      "goal": "Suona a 80 BPM con regolarità e alterazioni precise.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t5a-007": {
+      "title": "Basso albertino e melodia in Fa maggiore",
+      "summary": "Basso albertino alla sinistra sotto una melodia della destra in Fa maggiore.",
+      "goal": "Coordina il basso con una melodia cantabile mantenendo l’indipendenza delle mani.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t5a-008": {
+      "title": "Basso albertino in Re maggiore (MS)",
+      "summary": "Formula Re–La–Fa diesis–La alla sinistra in Re maggiore.",
+      "goal": "Suona a 80 BPM con regolarità e alterazioni precise.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t5a-009": {
+      "title": "Basso albertino e melodia in Re maggiore",
+      "summary": "Basso albertino alla sinistra sotto una melodia della destra in Re maggiore.",
+      "goal": "Coordina il basso con una melodia cantabile mantenendo l’indipendenza delle mani.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t5a-010": {
+      "title": "Basso albertino in La maggiore (MS)",
+      "summary": "Formula La–Mi–Do diesis–Mi alla sinistra in La maggiore.",
+      "goal": "Suona a 80 BPM con regolarità e alterazioni precise.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t5a-011": {
+      "title": "Basso albertino e melodia in La maggiore",
+      "summary": "Basso albertino alla sinistra sotto una melodia della destra in La maggiore.",
+      "goal": "Coordina il basso con una melodia cantabile mantenendo l’indipendenza delle mani.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t5a-012": {
+      "title": "Basso albertino in Do minore (MS)",
+      "summary": "Formula Do–Sol–Mi bemolle–Sol alla sinistra.",
+      "goal": "Suona la formula riconoscendo il colore minore dell’accompagnamento.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t5a-013": {
+      "title": "Basso albertino in La minore (MS)",
+      "summary": "Formula La–Mi–Do–Mi alla sinistra.",
+      "goal": "Suona la formula con fluidità a 76 BPM.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t5a-014": {
+      "title": "Basso albertino e melodia in La minore",
+      "summary": "Basso albertino di La minore alla sinistra sotto una melodia in tonalità minore.",
+      "goal": "Coordina il basso con una melodia espressiva.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t5a-015": {
+      "title": "Formula albertina puntata in Do maggiore",
+      "summary": "Basso albertino con valori di croma puntata.",
+      "goal": "Mantieni preciso il ritmo puntato nel carattere dei movimenti lenti classici.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t5a-016": {
+      "title": "Formula albertina di valzer in Sol maggiore",
+      "summary": "Basso albertino in 3/4: basso sul primo movimento e riempimento sui successivi.",
+      "goal": "Evidenzia il primo movimento nella formula di valzer.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t5a-017": {
+      "title": "Cambi di accordo nel basso albertino in Do",
+      "summary": "Il basso albertino percorre la successione I–vi–IV–V in Do.",
+      "goal": "Mantieni regolare la formula durante i cambi di accordo.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t5a-018": {
+      "title": "Cambi di accordo nel basso albertino in Re",
+      "summary": "Il basso albertino percorre la successione I–IV–V–I in Re maggiore.",
+      "goal": "Cambia accordo mantenendo regolare la formula albertina.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t5a-019": {
+      "title": "Basso albertino in stile sonatina in Do",
+      "summary": "Un passaggio in stile Clementi: melodia per gradi congiunti sopra un basso albertino scorrevole.",
+      "goal": "Realizza la tessitura della sonatina, fondamentale nella scrittura tastieristica classica.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t5a-020": {
+      "title": "Ripasso del basso albertino nelle diverse tonalità",
+      "summary": "Basso albertino in Do, Sol, Re, La e Fa maggiore con melodia sovrapposta.",
+      "goal": "Dimostra scioltezza nelle cinque tonalità nella prova conclusiva del livello 5A.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    }
+  },
+  "title": "Tecnica livello 5A — Fondamenti del basso albertino",
+  "summary": "Basso albertino in Do, Sol, Fa, Re e La maggiore per sviluppare l’indipendenza della sinistra nell’accompagnamento di epoca classica."
+}

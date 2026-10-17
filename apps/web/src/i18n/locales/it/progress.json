@@ -1,0 +1,32 @@
+{
+  "progress": {
+    "import": {
+      "success": "Importati {{importedCount}} esercizi completati.",
+      "invalid-json": "Il file selezionato non contiene JSON valido.",
+      "unsupported-format": "Formato non riconosciuto. Era atteso un export dei progressi Pianio.",
+      "storage-write-failed": "Impossibile salvare i progressi importati in questo browser."
+    }
+  },
+  "ui": {
+    "startTitle": "Inizia il tuo percorso",
+    "startDescription": "Completa il primo esercizio per iniziare a seguire i tuoi progressi. Ogni nota contribuisce alla prima stella.",
+    "startPractice": "Inizia a esercitarti",
+    "yourProgress": "I tuoi progressi",
+    "summary": "Riepilogo esercitazioni",
+    "continue": "Continua a esercitarti",
+    "export": "Esporta",
+    "import": "Importa",
+    "reset": "Reimposta",
+    "confirmReset": "Confermi il ripristino?",
+    "complete": "completati",
+    "dayStreak_one": "{{count}} giorno consecutivo",
+    "dayStreak_other": "{{count}} giorni consecutivi",
+    "yourCourses": "I tuoi corsi",
+    "byCategory": "Progressi per categoria",
+    "dayStreak_many": "{{count}} giorni consecutivi",
+    "ofComplete": "su {{count}} completati",
+    "perfect_one": "{{count}} perfetto",
+    "perfect_other": "{{count}} perfetti",
+    "perfect_many": "{{count}} perfetti"
+  }
+}

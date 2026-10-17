@@ -1,0 +1,167 @@
+{
+  "courseId": "method-level-2c",
+  "exercises": {
+    "m2c-001": {
+      "title": "Ripasso della posizione di Re",
+      "summary": "Ripasso di sei battute per la mano destra nella posizione di Re, con gradi congiunti e salti.",
+      "goal": "Suona con scioltezza nella posizione di Re prima di introdurre le mani unite.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "m2c-002": {
+      "title": "Ripasso della posizione di Sol",
+      "summary": "Ripasso di sei battute per la mano destra nella posizione di Sol, prima delle mani unite.",
+      "goal": "Suona con sicurezza nella posizione di Sol, dal Sol4 al Re5 e ritorno.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "m2c-003": {
+      "title": "Ripasso di La minore",
+      "summary": "Ripasso di sei battute per la mano destra nella posizione di La minore naturale.",
+      "goal": "Suona nella posizione di La minore con un carattere scorrevole ed espressivo.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "m2c-004": {
+      "title": "Ripasso di Re al basso",
+      "summary": "Ripasso di sei battute per la mano sinistra nella posizione di Re, in chiave di basso.",
+      "goal": "Suona la linea di basso nella posizione di Re, con Fa diesis corretto e fraseggio chiaro.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "m2c-005": {
+      "title": "Ripasso di Sol al basso",
+      "summary": "Ripasso di sei battute per la mano sinistra nella posizione di Sol, in chiave di basso.",
+      "goal": "Suona con scioltezza nella posizione di Sol al basso, dal Sol2 al Re3 e ritorno.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "m2c-006": {
+      "title": "Ripasso di La minore al basso",
+      "summary": "Ripasso di sei battute per la mano sinistra nella posizione di La minore, in chiave di basso.",
+      "goal": "Suona con espressione nella posizione di La minore al basso prima di introdurre le mani unite.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "m2c-007": {
+      "title": "Mani unite in Re",
+      "summary": "Primo esercizio sul doppio pentagramma nella posizione di Re, con le mani in moto parallelo.",
+      "goal": "Coordina per la prima volta entrambe le mani simultaneamente nella posizione di Re.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "m2c-008": {
+      "title": "Mani unite in Sol",
+      "summary": "Le due mani si muovono in parallelo nella posizione di Sol.",
+      "goal": "Coordina entrambe le mani nella posizione di Sol, a due ottave di distanza.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "m2c-009": {
+      "title": "Mani unite in La minore",
+      "summary": "Le due mani si muovono in parallelo nella posizione di La minore.",
+      "goal": "Suona in La minore con le mani unite, sentendo il modo minore in entrambi i registri.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "m2c-010": {
+      "title": "Melodia in Re sopra il basso",
+      "summary": "La mano destra suona la melodia in Re mentre la sinistra tiene le note del basso.",
+      "goal": "Mantieni regolari le minime della mano sinistra mentre la destra si muove in modo indipendente.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "m2c-011": {
+      "title": "Melodia in Sol sopra il basso",
+      "summary": "La mano destra suona la melodia in Sol sopra le minime del basso.",
+      "goal": "Bilancia una melodia scorrevole nella posizione di Sol con una linea di basso tenuta.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "m2c-012": {
+      "title": "Valzer in Re a mani unite",
+      "summary": "Le due mani danzano in 3/4 nella posizione di Re.",
+      "goal": "Coordina le due mani nella posizione di Re con carattere di valzer.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "m2c-013": {
+      "title": "Valzer in Sol a mani unite",
+      "summary": "Le due mani suonano un valzer nella posizione di Sol.",
+      "goal": "Allinea entrambe le mani alla stessa pulsazione di valzer in tre tempi nella posizione di Sol.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "m2c-014": {
+      "title": "Marcia in Re a mani unite",
+      "summary": "Le due mani marciano insieme nella posizione di Re, in 2/4.",
+      "goal": "Mantieni entrambe le mani unite su un'unica pulsazione di marcia nella posizione di Re.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "m2c-015": {
+      "title": "Marcia in Sol a mani unite",
+      "summary": "Le due mani marciano insieme nella posizione di Sol, in 2/4.",
+      "goal": "Coordina simultaneamente le figure in due tempi di entrambe le mani nella posizione di Sol.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "m2c-016": {
+      "title": "Duetto in La minore",
+      "summary": "La mano destra canta una melodia minore mentre la sinistra la sostiene con minime al basso.",
+      "goal": "Bilancia una melodia in modo minore con la linea di basso che la sostiene.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "m2c-017": {
+      "title": "Due voci in Re",
+      "summary": "La mano destra canta una melodia in Re mentre la sinistra si muove indipendentemente.",
+      "goal": "Mantieni indipendenti le linee ritmiche delle due mani nella posizione di Re.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "m2c-018": {
+      "title": "Due voci in Sol",
+      "summary": "Linee melodiche indipendenti nelle due mani nella posizione di Sol.",
+      "goal": "Sostieni due voci distinte nella posizione di Sol, con un suono chiaro in ogni mano.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "m2c-019": {
+      "title": "Canto esteso in La minore",
+      "summary": "Brano di otto battute per la mano destra in La minore, con un arco di frase completo.",
+      "goal": "Suona una melodia completa ed espressiva in La minore lungo otto battute.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "m2c-020": {
+      "title": "Riepilogo della combinazione",
+      "summary": "Brano conclusivo di sei battute sul doppio pentagramma nella posizione di Re, con tutte le abilità del livello 2C.",
+      "goal": "Esegui un brano completo a due mani nella posizione di Re, con Fa diesis sicuro e fraseggio musicale.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    }
+  },
+  "title": "Metodo livello 2C — Combinazione",
+  "summary": "Mani unite nelle posizioni di Re, Sol e La minore: le prime letture sul doppio pentagramma nelle nuove posizioni."
+}

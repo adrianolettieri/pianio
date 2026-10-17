@@ -1,0 +1,167 @@
+{
+  "courseId": "method-level-6d",
+  "exercises": {
+    "m6d-001": {
+      "title": "Sarabanda in Si minore",
+      "summary": "Sarabanda barocca lenta e solenne in 3/4 in Si minore armonica.",
+      "goal": "Rendi il carattere nobile della sarabanda: andamento lento e ben appoggiato, con La diesis espressivo verso il Si. Gli ornamenti sui valori lunghi sono stilistici e non valutati.",
+      "license": {
+        "notes": "Esercizio originale"
+      }
+    },
+    "m6d-002": {
+      "title": "Notturno in Fa minore",
+      "summary": "Notturno romantico lento e lirico in Fa minore armonica, con Mi naturale come sensibile espressiva.",
+      "goal": "Fai cantare la melodia: modella ogni frase, lascia creare tensione al Mi naturale e risolvi delicatamente, come con un'arcata cantabile.",
+      "license": {
+        "notes": "Esercizio originale"
+      }
+    },
+    "m6d-003": {
+      "title": "Valzer in Si bemolle maggiore",
+      "summary": "Valzer classico luminoso in 3/4 in Si bemolle maggiore.",
+      "goal": "Danza nel valzer con una leggera pulsazione uno–due–tre, facendo emergere la melodia sopra il basso della sinistra.",
+      "license": {
+        "notes": "Esercizio originale"
+      }
+    },
+    "m6d-004": {
+      "title": "Marcia in Si bemolle minore",
+      "summary": "Marcia energica in Si bemolle minore armonica, con slancio ritmico suggerito dalle coppie di crome.",
+      "goal": "Dai impulso alla marcia in Si bemolle minore, con articolazione nitida della melodia e pulsazione regolare del basso.",
+      "license": {
+        "notes": "Esercizio originale"
+      }
+    },
+    "m6d-005": {
+      "title": "Barcarola in Fa minore",
+      "summary": "Barcarola romantica ondeggiante in 3/4 in Fa minore armonica.",
+      "goal": "Senti il dondolio della barcarola, appoggiando il basso e lasciando fluttuare la melodia sopra l'accompagnamento.",
+      "license": {
+        "notes": "Esercizio originale"
+      }
+    },
+    "m6d-006": {
+      "title": "Minuetto in Si bemolle maggiore",
+      "summary": "Minuetto classico elegante in 3/4 in Si bemolle maggiore.",
+      "goal": "Suona con eleganza classica: melodia aggraziata, fraseggio chiaro in tre tempi e suono sempre cantabile.",
+      "license": {
+        "notes": "Esercizio originale"
+      }
+    },
+    "m6d-007": {
+      "title": "Studio romantico in Do minore",
+      "summary": "Studio romantico di otto battute in Do minore armonica, con movimento in crome.",
+      "goal": "Scorri nello studio con crome regolari e suono cantabile; l'armonia della sinistra sostiene la melodia senza coprirla.",
+      "license": {
+        "notes": "Esercizio originale"
+      }
+    },
+    "m6d-008": {
+      "title": "Allemanda in La minore",
+      "summary": "Allemanda barocca scorrevole in La minore armonica, con movimento in crome.",
+      "goal": "Mantieni il flusso misurato delle crome barocche, con tocco regolare, direzione melodica chiara e Sol diesis intenzionale.",
+      "license": {
+        "notes": "Esercizio originale"
+      }
+    },
+    "m6d-009": {
+      "title": "Lamento in Mi minore",
+      "summary": "Lamento romantico lento e malinconico in Mi minore armonica.",
+      "goal": "Suona con espressione profonda: fai emergere la lenta melodia sopra il basso tenuto e la tensione del Re diesis prima del Mi.",
+      "license": {
+        "notes": "Esercizio originale"
+      }
+    },
+    "m6d-010": {
+      "title": "Pastorale in La bemolle maggiore",
+      "summary": "Pastorale delicata e scorrevole in La bemolle maggiore, serena e senza fretta.",
+      "goal": "Suona con calore e senza fretta, con linee melodiche fluide e mani bilanciate, senza accelerare.",
+      "license": {
+        "notes": "Esercizio originale"
+      }
+    },
+    "m6d-011": {
+      "title": "Frammento di fughetta in Re minore",
+      "summary": "Breve fughetta barocca in Re minore armonica: la destra espone il soggetto, la sinistra risponde.",
+      "goal": "Mantieni indipendenti e bilanciate le due voci: prima entra il soggetto nella destra, poi risponde la sinistra.",
+      "license": {
+        "notes": "Esercizio originale"
+      }
+    },
+    "m6d-012": {
+      "title": "Romanza in Si minore",
+      "summary": "Canto romantico senza parole, lirico, in Si minore armonica.",
+      "goal": "Fai cantare la romanza con frasi lunghe e sostenute e un caldo suono cantabile; il La diesis risolve teneramente sul Si.",
+      "license": {
+        "notes": "Esercizio originale"
+      }
+    },
+    "m6d-013": {
+      "title": "Frammento di toccata in Fa diesis minore",
+      "summary": "Passaggio brillante di toccata barocca in Fa diesis minore armonica.",
+      "goal": "Esegui crome pulite e regolari, con brillantezza controllata e ogni nota articolata; il Mi diesis deve risuonare chiaramente prima del Fa diesis.",
+      "license": {
+        "notes": "Esercizio originale"
+      }
+    },
+    "m6d-014": {
+      "title": "Ninna nanna in Si bemolle minore",
+      "summary": "Ninna nanna delicata in 3/4 in Si bemolle minore armonica, sommessa e cullante.",
+      "goal": "Suona con dolcezza cullante, melodia fluida e basso regolare della sinistra, leggero come il dondolio di una culla.",
+      "license": {
+        "notes": "Esercizio originale"
+      }
+    },
+    "m6d-015": {
+      "title": "Gavotta in Si minore",
+      "summary": "Gavotta barocca energica in Si minore, nitida e danzante.",
+      "goal": "Suona con articolazione nitida ed energia ritmica: tempi regolari, suono luminoso e frasi ben modellate.",
+      "license": {
+        "notes": "Esercizio originale"
+      }
+    },
+    "m6d-016": {
+      "title": "Improvviso in Fa minore",
+      "summary": "Improvviso romantico spontaneo in Fa minore armonica, con passaggi scorrevoli in crome.",
+      "goal": "Rendi un carattere libero e spontaneo: crome apparentemente senza sforzo e Mi naturale sempre chiaro prima della risoluzione.",
+      "license": {
+        "notes": "Esercizio originale"
+      }
+    },
+    "m6d-017": {
+      "title": "Mazurca in Do minore",
+      "summary": "Mazurca romantica danzante in 3/4 in Do minore armonica.",
+      "goal": "Dai alla mazurca la sua energia: senti un accento sul secondo o terzo tempo, mantieni lo slancio e valorizza il Si naturale.",
+      "license": {
+        "notes": "Esercizio originale"
+      }
+    },
+    "m6d-018": {
+      "title": "Preludio in Mi minore",
+      "summary": "Preludio tra stile barocco e classico in Mi minore armonica, con figurazioni scorrevoli in crome.",
+      "goal": "Mantieni regolari le crome, colloca precisamente il Re diesis e lascia risuonare le note tenute della sinistra sotto i passaggi.",
+      "license": {
+        "notes": "Esercizio originale"
+      }
+    },
+    "m6d-019": {
+      "title": "Serenata in La bemolle maggiore",
+      "summary": "Serenata romantica delicata in 3/4 in La bemolle maggiore, cantabile e senza fretta.",
+      "goal": "Suona con tenerezza, modellando la melodia come un canto e mantenendo leggero l'accompagnamento della sinistra.",
+      "license": {
+        "notes": "Esercizio originale"
+      }
+    },
+    "m6d-020": {
+      "title": "Grande finale in Si minore — Sintesi del livello 6D",
+      "summary": "Brano di sintesi di dieci battute in Si minore armonica, che unisce elementi barocchi, classici e romantici.",
+      "goal": "Riunisci le abilità del livello 6D: apertura nobile, sviluppo slanciato in crome e chiusura romantica raccolta, con un arco musicale completo.",
+      "license": {
+        "notes": "Esercizio originale"
+      }
+    }
+  },
+  "title": "Metodo livello 6D — Applicazione",
+  "summary": "Venti brani di carattere nelle tonalità del livello 6: danze barocche come sarabanda, allemanda, gavotta e toccata, forme classiche come valzer, minuetto, marcia, barcarola e mazurca, e caratteri romantici come notturno, lamento, romanza, improvviso, elegia e ninna nanna. Tutti sul doppio pentagramma."
+}

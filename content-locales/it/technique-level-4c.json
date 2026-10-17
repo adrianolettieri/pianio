@@ -1,0 +1,167 @@
+{
+  "courseId": "technique-level-4c",
+  "exercises": {
+    "t4c-001": {
+      "title": "Rivolti di Re maggiore (MD)",
+      "summary": "Stato fondamentale, primo e secondo rivolto di Re maggiore alla destra.",
+      "goal": "Collega con fluidità le tre disposizioni dell’accordo alla destra.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t4c-002": {
+      "title": "Rivolti di Re maggiore (MS)",
+      "summary": "Stato fondamentale, primo e secondo rivolto di Re maggiore alla sinistra.",
+      "goal": "Collega con fluidità le tre disposizioni dell’accordo alla sinistra.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t4c-003": {
+      "title": "Rivolti di La maggiore (MD)",
+      "summary": "Stato fondamentale, primo e secondo rivolto di La maggiore alla destra.",
+      "goal": "Collega con fluidità le tre disposizioni dell’accordo alla destra.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t4c-004": {
+      "title": "Rivolti di Si bemolle maggiore (MD)",
+      "summary": "Stato fondamentale, primo e secondo rivolto di Si bemolle maggiore alla destra.",
+      "goal": "Collega con fluidità le tre disposizioni dell’accordo alla destra.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t4c-005": {
+      "title": "Rivolti di Mi bemolle maggiore (MD)",
+      "summary": "Stato fondamentale, primo e secondo rivolto di Mi bemolle maggiore alla destra.",
+      "goal": "Collega con fluidità le tre disposizioni dell’accordo alla destra.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t4c-006": {
+      "title": "Rivolti di La bemolle maggiore (MD)",
+      "summary": "Stato fondamentale, primo e secondo rivolto di La bemolle maggiore alla destra.",
+      "goal": "Collega con fluidità le tre disposizioni dell’accordo alla destra.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t4c-007": {
+      "title": "Arpeggio esteso di Re maggiore a mani unite",
+      "summary": "Arpeggio di Re maggiore su un’estensione più ampia, a mani unite.",
+      "goal": "Mantieni fluidi e coordinati i passaggi delle dita.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t4c-008": {
+      "title": "Arpeggio esteso di La maggiore a mani unite",
+      "summary": "Arpeggio di La maggiore su un’estensione più ampia, a mani unite.",
+      "goal": "Mantieni fluidi e coordinati i passaggi delle dita.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t4c-009": {
+      "title": "Arpeggio esteso di Si bemolle maggiore a mani unite",
+      "summary": "Arpeggio di Si bemolle maggiore su un’estensione più ampia, a mani unite.",
+      "goal": "Mantieni fluidi e coordinati i passaggi delle dita.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t4c-010": {
+      "title": "Arpeggio esteso di Mi bemolle maggiore a mani unite",
+      "summary": "Arpeggio di Mi bemolle maggiore su un’estensione più ampia, a mani unite.",
+      "goal": "Mantieni fluidi e coordinati i passaggi delle dita.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t4c-011": {
+      "title": "Arpeggio esteso di La bemolle maggiore a mani unite",
+      "summary": "Arpeggio di La bemolle maggiore su un’estensione più ampia, a mani unite.",
+      "goal": "Mantieni fluidi e coordinati i passaggi delle dita.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t4c-012": {
+      "title": "Rivolti di Re minore",
+      "summary": "Stato fondamentale, primo e secondo rivolto di Re minore.",
+      "goal": "Collega con fluidità le tre disposizioni dell’accordo.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t4c-013": {
+      "title": "Rivolti di La minore",
+      "summary": "Stato fondamentale, primo e secondo rivolto di La minore.",
+      "goal": "Collega con fluidità le tre disposizioni dell’accordo.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t4c-014": {
+      "title": "Ciclo dei rivolti in Re",
+      "summary": "Rivolti degli accordi I, IV e V in Re maggiore.",
+      "goal": "Suona la successione I–IV–V collegando i rivolti con fluidità.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t4c-015": {
+      "title": "Ciclo dei rivolti in Si bemolle",
+      "summary": "Rivolti degli accordi I, IV e V in Si bemolle maggiore.",
+      "goal": "Suona la successione I–IV–V collegando i rivolti con fluidità.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t4c-016": {
+      "title": "Ciclo dei rivolti in Mi bemolle",
+      "summary": "Rivolti degli accordi I, IV e V in Mi bemolle maggiore.",
+      "goal": "Suona la successione I–IV–V collegando i rivolti con fluidità.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t4c-017": {
+      "title": "Moto contrario in Re maggiore",
+      "summary": "Scala di Re maggiore con le mani in direzioni opposte.",
+      "goal": "Mantieni le mani sincronizzate nel moto contrario.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t4c-018": {
+      "title": "Moto contrario in Si bemolle maggiore",
+      "summary": "Scala di Si bemolle maggiore con le mani in direzioni opposte.",
+      "goal": "Mantieni le mani sincronizzate nel moto contrario.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t4c-019": {
+      "title": "Ripasso degli arpeggi con diesis e bemolli",
+      "summary": "Arpeggi in tonalità con diesis e bemolli si alternano nello stesso esercizio.",
+      "goal": "Passa con fluidità tra le diverse tonalità.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t4c-020": {
+      "title": "Rivolti in tutte le tonalità del livello 4",
+      "summary": "Un ciclo di rivolti in Re, La, Si bemolle, Mi bemolle e La bemolle maggiore.",
+      "goal": "Affronta i rivolti nelle cinque tonalità del livello in un unico esercizio.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    }
+  },
+  "title": "Tecnica livello 4C — Rivolti e arpeggi estesi",
+  "summary": "Stato fondamentale, primo e secondo rivolto degli accordi di Re, La, Si bemolle, Mi bemolle e La bemolle maggiore, con arpeggi a mani unite su un’estensione più ampia."
+}

@@ -1,0 +1,127 @@
+{
+  "courseId": "songs-jazz-blues",
+  "exercises": {
+    "songs-jb-001": {
+      "title": "Blues di dodici battute in Do",
+      "summary": "La classica successione del blues di dodici battute in Do maggiore, con carattere swing.",
+      "goal": "Suona la successione del blues con una pulsazione swing stabile.",
+      "license": {
+        "notes": "Progressione armonica tradizionale di pubblico dominio. Arrangiamento CC0."
+      }
+    },
+    "songs-jb-002": {
+      "title": "Blues di dodici battute in Fa",
+      "summary": "Blues in Fa maggiore con basso camminato e swing.",
+      "goal": "Suona il blues in Fa mantenendo scorrevole la linea di basso.",
+      "license": {
+        "notes": "Progressione armonica tradizionale di pubblico dominio. Arrangiamento CC0."
+      }
+    },
+    "songs-jb-003": {
+      "title": "Blues di dodici battute in Sol",
+      "summary": "Blues in Sol maggiore con swing e colore di settima.",
+      "goal": "Esprimi lo swing e il colore della settima di dominante.",
+      "license": {
+        "notes": "Progressione armonica tradizionale di pubblico dominio. Arrangiamento CC0."
+      }
+    },
+    "songs-jb-004": {
+      "title": "The Entertainer — Versione semplificata",
+      "summary": "Il celebre capolavoro ragtime di Scott Joplin, nella sezione A semplificata.",
+      "goal": "Suona la melodia con il ritmo caratteristico del ragtime.",
+      "license": {
+        "notes": "Composizione di pubblico dominio. Arrangiamento CC0."
+      }
+    },
+    "songs-jb-005": {
+      "title": "Maple Leaf Rag — Sezione A semplificata",
+      "summary": "Il primo grande successo di Scott Joplin, con apertura semplificata e sinistra di tipo stride.",
+      "goal": "Mantieni preciso il ritmo sincopato della melodia.",
+      "license": {
+        "notes": "Composizione di pubblico dominio. Arrangiamento CC0."
+      }
+    },
+    "songs-jb-006": {
+      "title": "The Easy Winners — Versione semplificata",
+      "summary": "Il gioioso ragtime di Scott Joplin, nella sezione A semplificata.",
+      "goal": "Suona la melodia elastica mantenendo regolare la sinistra.",
+      "license": {
+        "notes": "Composizione di pubblico dominio. Arrangiamento CC0."
+      }
+    },
+    "songs-jb-007": {
+      "title": "Solace — Versione semplificata",
+      "summary": "La delicata serenata messicana di Scott Joplin in forma semplificata.",
+      "goal": "Suona questo ragtime lirico con dolcezza e fluidità.",
+      "license": {
+        "notes": "Composizione di pubblico dominio. Arrangiamento CC0."
+      }
+    },
+    "songs-jb-008": {
+      "title": "Formula di basso boogie-woogie",
+      "summary": "Un classico basso boogie-woogie con brevi figure della destra in Do.",
+      "goal": "Suona il basso inserendo con precisione gli interventi ritmici della destra.",
+      "license": {
+        "notes": "Formula tradizionale di pubblico dominio. Arrangiamento CC0."
+      }
+    },
+    "songs-jb-009": {
+      "title": "St. Louis Blues — Versione semplificata",
+      "summary": "Il celebre blues di W. C. Handy, in una melodia semplificata con swing.",
+      "goal": "Suona la melodia mantenendo il carattere swing.",
+      "license": {
+        "notes": "Composizione di pubblico dominio. Arrangiamento CC0."
+      }
+    },
+    "songs-jb-010": {
+      "title": "Studio sulla scala blues per l'improvvisazione",
+      "summary": "Scala blues di Do: Do–Mi bemolle–Fa–Sol bemolle–Sol–Si bemolle, con swing.",
+      "goal": "Suona le formule della scala blues con uno swing sicuro.",
+      "license": {
+        "notes": "Esercizio originale. CC0."
+      }
+    },
+    "songs-jb-011": {
+      "title": "Formula di pianoforte stride",
+      "summary": "Una classica alternanza tra basso e accordo alla sinistra, con melodia alla destra in Do.",
+      "goal": "Coordina l'alternanza basso–accordo con la melodia sovrapposta.",
+      "license": {
+        "notes": "Formula tradizionale di pubblico dominio. Arrangiamento CC0."
+      }
+    },
+    "songs-jb-012": {
+      "title": "Valzer swing in Fa",
+      "summary": "Un dolce valzer swing in 3/4 unisce il carattere jazz al tempo di valzer.",
+      "goal": "Mantieni il ritmo rilassato e ondeggiante.",
+      "license": {
+        "notes": "Esercizio originale. CC0."
+      }
+    },
+    "songs-jb-013": {
+      "title": "Memphis Blues — Versione semplificata",
+      "summary": "Il classico di W. C. Handy del 1912, in una melodia semplificata con swing.",
+      "goal": "Suona la melodia con un senso dello swing sicuro.",
+      "license": {
+        "notes": "Composizione di pubblico dominio. Arrangiamento CC0."
+      }
+    },
+    "songs-jb-014": {
+      "title": "Formula di danza ragtime",
+      "summary": "Uno studio di sincopi in Sol maggiore per esercitare gli attacchi in levare del ragtime.",
+      "goal": "Mantieni nitide le sincopi della formula.",
+      "license": {
+        "notes": "Esercizio originale. CC0."
+      }
+    },
+    "songs-jb-015": {
+      "title": "Giro armonico jazz in Do",
+      "summary": "Il classico giro I–vi–ii–V in Do con swing, fondamentale nell'armonia jazz.",
+      "goal": "Collega con fluidità le linee delle voci nel giro armonico.",
+      "license": {
+        "notes": "Progressione armonica tradizionale di pubblico dominio. Arrangiamento CC0."
+      }
+    }
+  },
+  "title": "Brani jazz e blues",
+  "summary": "Quindici standard, formule blues e classici del ragtime di pubblico dominio: dal blues di dodici battute a Scott Joplin, con swing, sincopi e basso stride."
+}

@@ -1,0 +1,167 @@
+{
+  "courseId": "technique-level-1d",
+  "exercises": {
+    "t1d-001": {
+      "title": "Piccolo canto (MD)",
+      "summary": "Melodia delicata in 4/4 per la destra, con minime, semiminime, crome e un profilo cantabile.",
+      "goal": "Dai forma a una frase musicale con salita e discesa naturali tra Do4 e Sol4.",
+      "license": {
+        "notes": "Composizione originale"
+      }
+    },
+    "t1d-002": {
+      "title": "Marcia (MD)",
+      "summary": "Semiminime nitide dal carattere di marcia deciso tra Do4 e Sol4.",
+      "goal": "Suona con attacchi in semiminime decisi e uniformi, come scandendo un passo di marcia.",
+      "license": {
+        "notes": "Composizione originale"
+      }
+    },
+    "t1d-003": {
+      "title": "Ninna nanna (MS)",
+      "summary": "Ninna nanna delicata per la sinistra in 3/4, con minime e semiminime scorrevoli.",
+      "goal": "Suona delicatamente e con regolarità nella sinistra, cullando la frase in tre tempi.",
+      "license": {
+        "notes": "Composizione originale"
+      }
+    },
+    "t1d-004": {
+      "title": "Danza (MD)",
+      "summary": "Danza vivace in 2/4, con passaggi in crome e pause di semiminima per dare slancio.",
+      "goal": "Suona con energia e leggerezza in 2/4, mantenendo le crome leggere e regolari.",
+      "license": {
+        "notes": "Composizione originale"
+      }
+    },
+    "t1d-005": {
+      "title": "Inno (MS)",
+      "summary": "Inno solenne per la sinistra, con semibrevi e minime tra Do3 e Sol3.",
+      "goal": "Mantieni ogni nota per l'intera durata, rendendo un senso di gravità e raccoglimento.",
+      "license": {
+        "notes": "Composizione originale"
+      }
+    },
+    "t1d-006": {
+      "title": "Canto della filatrice (MD)",
+      "summary": "Crome scorrevoli della destra nella posizione di Do, con figure variate.",
+      "goal": "Mantieni il movimento scorrevole delle crome con un peso uniforme delle dita.",
+      "license": {
+        "notes": "Composizione originale"
+      }
+    },
+    "t1d-007": {
+      "title": "Passeggiata del mattino (MS)",
+      "summary": "Semiminime regolari della sinistra nella posizione di Do3, come una sicura passeggiata mattutina.",
+      "goal": "Suona i passi in semiminime della sinistra con suono e tempo costanti lungo sei battute.",
+      "license": {
+        "notes": "Composizione originale"
+      }
+    },
+    "t1d-008": {
+      "title": "Canto della sera (MS)",
+      "summary": "Melodia lirica per la sinistra in 3/4, dal carattere calmo e sinuoso.",
+      "goal": "Fai cantare la melodia della sinistra con suono fluido, in un delicato tempo di valzer.",
+      "license": {
+        "notes": "Composizione originale"
+      }
+    },
+    "t1d-009": {
+      "title": "Primo duetto",
+      "summary": "Semplice melodia a mani unite nella posizione di Do, con semiminime in ottave parallele.",
+      "goal": "Mantieni le mani perfettamente sincronizzate a ogni semiminima.",
+      "license": {
+        "notes": "Composizione originale"
+      }
+    },
+    "t1d-010": {
+      "title": "Valzer",
+      "summary": "Valzer delicato in 3/4, con mani in ottave parallele nella posizione di Do.",
+      "goal": "Senti la pulsazione uno–due–tre del valzer mentre le mani si muovono insieme.",
+      "license": {
+        "notes": "Composizione originale"
+      }
+    },
+    "t1d-011": {
+      "title": "Bambini felici",
+      "summary": "Le mani suonano con pause di semiminima, per un carattere saltellante e giocoso.",
+      "goal": "Conta attentamente le pause, così le mani si sollevano e riattaccano insieme.",
+      "license": {
+        "notes": "Composizione originale"
+      }
+    },
+    "t1d-012": {
+      "title": "Campane",
+      "summary": "La destra fa risuonare una melodia sopra il sostegno armonico della sinistra in minime regolari.",
+      "goal": "Mantieni calme e regolari le minime della sinistra mentre la destra si muove liberamente.",
+      "license": {
+        "notes": "Composizione originale"
+      }
+    },
+    "t1d-013": {
+      "title": "Danza popolare",
+      "summary": "Danza energica a mani unite, con passaggi in crome e salti in semiminime.",
+      "goal": "Suona con energia e precisione ritmica, mantenendo le mani sincronizzate.",
+      "license": {
+        "notes": "Composizione originale"
+      }
+    },
+    "t1d-014": {
+      "title": "Studio in moto contrario",
+      "summary": "La destra sale mentre la sinistra scende; poi le mani convergono e divergono lungo sei battute.",
+      "goal": "Muovi ogni mano con sicurezza nella propria direzione, mantenendo le linee regolari e chiare.",
+      "license": {
+        "notes": "Composizione originale"
+      }
+    },
+    "t1d-015": {
+      "title": "Alba",
+      "summary": "Le mani salgono nella posizione di Do con lunghe semibrevi e minime, come il graduale chiarore dell'alba.",
+      "goal": "Mantieni ogni nota per l'intera durata, ascoltando il bilanciamento tra le mani.",
+      "license": {
+        "notes": "Composizione originale"
+      }
+    },
+    "t1d-016": {
+      "title": "Banda in marcia",
+      "summary": "Semiminime ripetute e decise nelle due mani, con una figura di note ribattute simile a una fanfara.",
+      "goal": "Suona con attacchi forti e sicuri, come chi guida una banda in marcia.",
+      "license": {
+        "notes": "Composizione originale"
+      }
+    },
+    "t1d-017": {
+      "title": "Ninna nanna a due mani",
+      "summary": "Ninna nanna delicata in 3/4, con mani in parallelo, dolce e senza fretta.",
+      "goal": "Suona pianissimo e legato, con le mani che cullano regolarmente la frase in tre tempi.",
+      "license": {
+        "notes": "Composizione originale"
+      }
+    },
+    "t1d-018": {
+      "title": "Fanfara",
+      "summary": "Figure di fanfara su note ripetute nelle due mani, ascendenti con energia nella posizione di Do.",
+      "goal": "Suona con carattere forte e chiara precisione ritmica su ogni semiminima ripetuta.",
+      "license": {
+        "notes": "Composizione originale"
+      }
+    },
+    "t1d-019": {
+      "title": "Inno della sera",
+      "summary": "Le mani sostengono semibrevi e minime in un inno sereno nella posizione di Do.",
+      "goal": "Mantieni le note per l'intera durata, con mani bilanciate e sonorità serene.",
+      "license": {
+        "notes": "Composizione originale"
+      }
+    },
+    "t1d-020": {
+      "title": "Festa in Do maggiore",
+      "summary": "Brano conclusivo di otto battute sul doppio pentagramma, con passi in semiminime, passaggi in crome, salti e chiusura trionfale.",
+      "goal": "Esegui musicalmente il brano dall'inizio alla fine, riunendo la tecnica del livello 1 in un unico discorso espressivo.",
+      "license": {
+        "notes": "Composizione originale"
+      }
+    }
+  },
+  "title": "Tecnica livello 1D — Applicazione",
+  "summary": "Brani di carattere che applicano le cinque note di Do maggiore: canti, marce, ninne nanne, danze, inni e valzer. Otto miniature a una mano e dodici brani sul doppio pentagramma, con studi in moto contrario e un brano conclusivo di festa."
+}

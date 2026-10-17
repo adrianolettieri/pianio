@@ -1,0 +1,167 @@
+{
+  "courseId": "method-level-2a",
+  "title": "Metodo livello 2A — Fondamenti",
+  "summary": "Primi passi nelle posizioni di Re e Sol e in La minore: esplorazione a una mano di tre nuove posizioni di cinque dita.",
+  "exercises": {
+    "m2a-001": {
+      "title": "Introduzione alla posizione di Re",
+      "summary": "La mano destra procede per grado congiunto nella posizione di cinque dita di Re, incontrando per la prima volta il Fa diesis.",
+      "goal": "Leggi e suona tutte e cinque le note della posizione di Re, incluso il Fa diesis.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "m2a-002": {
+      "title": "Minime nella posizione di Re",
+      "summary": "Lenta melodia in minime che mette in evidenza le note della posizione di Re, incluso il Fa diesis.",
+      "goal": "Mantieni ogni minima mentre leggi l’armatura di chiave della posizione di Re.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "m2a-003": {
+      "title": "Salti nella posizione di Re",
+      "summary": "Terze e salti nella posizione di Re, compresi i salti con il Fa diesis.",
+      "goal": "Salta con sicurezza tra le note della posizione di Re, collocando correttamente il Fa diesis.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "m2a-004": {
+      "title": "Valzer nella posizione di Re",
+      "summary": "Valzer di cinque battute nella posizione di Re: prima lettura in 3/4 con il Fa diesis.",
+      "goal": "Senti la pulsazione del valzer mentre leggi le note della posizione di Re in 3/4.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "m2a-005": {
+      "title": "Passi in Re in chiave di basso",
+      "summary": "La mano sinistra procede per grado congiunto nella posizione di Re in chiave di basso, con il Fa diesis.",
+      "goal": "Leggi tutte e cinque le note della posizione di Re in chiave di basso, incluso il Fa diesis.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "m2a-006": {
+      "title": "Minime in Re in chiave di basso",
+      "summary": "Lenta linea di basso in minime nella posizione di Re.",
+      "goal": "Mantieni le minime della posizione di Re nel registro grave con un suono pieno e risonante.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "m2a-007": {
+      "title": "Melodia in Re in chiave di basso",
+      "summary": "Melodia della mano sinistra nella posizione di Re che alterna semiminime e minime.",
+      "goal": "Suona una melodia scorrevole nella posizione di Re in chiave di basso, con il Fa diesis corretto.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "m2a-008": {
+      "title": "Introduzione alla posizione di Sol",
+      "summary": "La mano destra scopre la posizione di cinque dita di Sol, dal Sol4 al Re5.",
+      "goal": "Leggi e suona tutte e cinque le note della posizione di Sol in chiave di violino.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "m2a-009": {
+      "title": "Minime nella posizione di Sol",
+      "summary": "Lenta melodia in minime che esplora le note della posizione di Sol.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      },
+      "goal": "Mantieni i suoni lunghi leggendo le cinque note della posizione di Sol."
+    },
+    "m2a-010": {
+      "title": "Valzer nella posizione di Sol",
+      "summary": "Valzer di cinque battute nella posizione di Sol.",
+      "goal": "Senti la pulsazione del valzer in tre tempi mentre leggi le note della posizione di Sol.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "m2a-011": {
+      "title": "Salti nella posizione di Sol",
+      "summary": "Terze e salti nella posizione di Sol.",
+      "goal": "Esegui con precisione i salti nella posizione di Sol, incluso quello fino al Re5.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "m2a-012": {
+      "title": "Introduzione alla posizione di Sol in chiave di basso",
+      "summary": "La mano sinistra scopre la posizione di Sol in chiave di basso, dal Sol2 al Re3.",
+      "goal": "Leggi tutte e cinque le note della posizione di Sol in chiave di basso.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "m2a-013": {
+      "title": "Minime nella posizione di Sol in chiave di basso",
+      "summary": "Lenta linea in minime nella posizione di Sol in chiave di basso.",
+      "goal": "Mantieni le minime con un timbro caldo nella posizione di Sol in chiave di basso.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "m2a-014": {
+      "title": "Salti nella posizione di Sol in chiave di basso",
+      "summary": "Salti della mano sinistra nella posizione di Sol, compresa una terza dal Sol2 al Si2.",
+      "goal": "Suona con precisione terze e salti nella posizione di Sol in chiave di basso.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "m2a-015": {
+      "title": "Passi in La minore — mano destra",
+      "summary": "La mano destra procede nella posizione di cinque dita di La minore naturale.",
+      "goal": "Leggi e suona lo schema di cinque note in minore naturale che inizia dal La3.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "m2a-016": {
+      "title": "Minime in La minore — mano destra",
+      "summary": "Lenta melodia in minime nella posizione di cinque dita di La minore.",
+      "goal": "Mantieni le minime nel modo minore con un suono cantabile e più scuro.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "m2a-017": {
+      "title": "Passi in La minore — mano sinistra",
+      "summary": "La mano sinistra procede nella posizione di cinque dita di La minore in chiave di basso.",
+      "goal": "Leggi e suona lo schema di La minore naturale dal La2 al Mi3 in chiave di basso.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "m2a-018": {
+      "title": "Minime in La minore — mano sinistra",
+      "summary": "Lenta melodia di basso in minime nella posizione di La minore.",
+      "goal": "Mantieni le minime nel modo minore con un suono grave e risonante.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "m2a-019": {
+      "title": "Valzer in La minore",
+      "summary": "Valzer di sei battute in La minore: il primo valzer nel modo minore.",
+      "goal": "Suona un valzer nel modo minore con una chiara pulsazione in tre tempi e un carattere più scuro.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "m2a-020": {
+      "title": "Prova conclusiva del livello 2A",
+      "goal": "Suona con fluidità nella posizione di Re, come prova conclusiva dei fondamenti del livello 2A.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      },
+      "summary": "Melodia di sei battute nella posizione di Re, a conclusione dello studio delle tre posizioni introdotte nel livello 2A."
+    }
+  }
+}

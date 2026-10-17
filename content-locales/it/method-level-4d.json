@@ -1,0 +1,107 @@
+{
+  "courseId": "method-level-4d",
+  "exercises": {
+    "m4d-001": {
+      "title": "Mattino in Re maggiore",
+      "summary": "Brano iniziale di otto battute in stile di sonatina, con carattere luminoso e ascendente.",
+      "goal": "Rendi una frase iniziale chiara e luminosa in Re maggiore, dando forma alla melodia della destra."
+    },
+    "m4d-002": {
+      "title": "Barcarola in Re maggiore",
+      "summary": "Barcarola di dodici battute in Re maggiore, in 3/4, dal carattere lirico e cullante.",
+      "goal": "Sostieni il delicato dondolio della barcarola in Re maggiore lungo dodici battute."
+    },
+    "m4d-003": {
+      "title": "Marcia in Re maggiore",
+      "summary": "Marcia nitida di dieci battute in Re maggiore, in 2/4, con articolazione pulita e passaggi in crome.",
+      "goal": "Rendi un carattere di marcia deciso in Re maggiore, con energia ritmica precisa."
+    },
+    "m4d-004": {
+      "title": "Aria in Re maggiore",
+      "summary": "Aria scorrevole di dieci battute in Re maggiore, con ampi archi melodici e fraseggio espressivo.",
+      "goal": "Dai forma a una lunga melodia cantabile in Re maggiore, con fraseggio aggraziato e sostegno fluido della sinistra."
+    },
+    "m4d-005": {
+      "title": "Minuetto in La maggiore",
+      "summary": "Minuetto solenne di dodici battute in La maggiore, in 3/4, con fraseggio elegante.",
+      "goal": "Esegui un minuetto classico in La maggiore con compostezza e una chiara articolazione 1–2–3."
+    },
+    "m4d-006": {
+      "title": "Notturno in La maggiore",
+      "summary": "Notturno di otto battute in La maggiore, con andamento lento ed espressivo.",
+      "goal": "Dai forma a un notturno intensamente espressivo in La maggiore, con destra cantabile e sinistra delicata."
+    },
+    "m4d-007": {
+      "title": "Pastorale in La maggiore",
+      "summary": "Pastorale di otto battute in La maggiore, con passaggi in crome e melodia tenuta.",
+      "goal": "Alterna passaggi scorrevoli e lirici in La maggiore, modellandoli espressivamente."
+    },
+    "m4d-008": {
+      "title": "Studio romantico in La maggiore",
+      "summary": "Studio romantico di otto battute, con movimento in crome fino al registro acuto.",
+      "goal": "Mantieni lo slancio scorrevole delle crome in La maggiore lungo tutta l'estensione del brano."
+    },
+    "m4d-009": {
+      "title": "Valzer in Si bemolle maggiore",
+      "summary": "Valzer elegante di dodici battute in Si bemolle maggiore, in 3/4, con Si e Mi bemolle espliciti.",
+      "goal": "Sostieni un valzer raffinato in Si bemolle maggiore, con un profilo melodico fluido."
+    },
+    "m4d-010": {
+      "title": "Serenata in Si bemolle maggiore",
+      "summary": "Serenata di otto battute, con melodia lirica alla destra e caldo sostegno della sinistra.",
+      "goal": "Fai cantare una melodia di serenata fluida in Si bemolle maggiore, con fraseggio sensibile."
+    },
+    "m4d-011": {
+      "title": "Inno in Si bemolle maggiore",
+      "summary": "Inno dignitoso di otto battute in Si bemolle maggiore, con andamento lento e raccolto.",
+      "goal": "Rendi il carattere solenne dell'inno in Si bemolle maggiore, bilanciando chiaramente le voci."
+    },
+    "m4d-012": {
+      "title": "Romanza senza parole in Si bemolle",
+      "summary": "Canto lirico di dieci battute in Si bemolle maggiore, ispirato alla tradizione romantica del brano di carattere.",
+      "goal": "Sostieni una linea melodica cantabile ininterrotta in Si bemolle maggiore lungo dieci battute."
+    },
+    "m4d-013": {
+      "title": "Ballata in Mi bemolle maggiore",
+      "summary": "Ballata di otto battute in Mi bemolle maggiore, dal carattere narrativo ed espressivo.",
+      "goal": "Racconta una storia musicale in Mi bemolle maggiore, con scritture contrastanti e dinamica articolata."
+    },
+    "m4d-014": {
+      "title": "Danza in Mi bemolle maggiore",
+      "summary": "Danza vivace di dieci battute in Mi bemolle maggiore, in 2/4, con figure nitide di semiminime e crome.",
+      "goal": "Rendi un carattere di danza animato in Mi bemolle maggiore, con articolazione precisa in 2/4."
+    },
+    "m4d-015": {
+      "title": "Romanza in Mi bemolle maggiore",
+      "summary": "Romanza di otto battute in Mi bemolle maggiore, con andamento lento e tenero.",
+      "goal": "Esegui una romanza sentita in Mi bemolle maggiore, con suono cantabile e conduzione fluida delle voci."
+    },
+    "m4d-016": {
+      "title": "Ninna nanna in La bemolle maggiore",
+      "summary": "Ninna nanna delicata di dodici battute in La bemolle maggiore, in 3/4, con i quattro bemolli espliciti.",
+      "goal": "Rendi il carattere dolce e rasserenante della ninna nanna in La bemolle maggiore lungo dodici battute."
+    },
+    "m4d-017": {
+      "title": "Preludio in La bemolle maggiore",
+      "summary": "Preludio di otto battute, con passaggi di scala scorrevoli e melodia tenuta.",
+      "goal": "Esegui un preludio espressivo in La bemolle maggiore, con crome fluide e fraseggio chiaro."
+    },
+    "m4d-018": {
+      "title": "Sonatina in La bemolle maggiore",
+      "summary": "Sonatina di otto battute, con passaggi di scala e struttura di frase classica.",
+      "goal": "Dai forma a una frase di sonatina classica in La bemolle maggiore, rispettando i quattro bemolli."
+    },
+    "m4d-019": {
+      "title": "Viaggio nel circolo delle quinte",
+      "summary": "Brano di otto battute in Re maggiore che esplora tonica, sottodominante e dominante nel circolo delle quinte.",
+      "goal": "Riconosci il movimento armonico I–IV–V in Re maggiore attraverso la melodia e il basso."
+    },
+    "m4d-020": {
+      "title": "Grande finale del livello 4D",
+      "summary": "Grande finale di dodici battute in Re maggiore, con le tecniche applicative del livello 4D.",
+      "goal": "Esegui un discorso musicale completo in Re maggiore, dimostrando le abilità del livello 4D."
+    }
+  },
+  "title": "Metodo livello 4D — Applicazione",
+  "summary": "Brani di carattere nelle tonalità del livello 4: barcarole, marce, notturni, valzer e inni in Re, La, Si bemolle, Mi bemolle e La bemolle maggiore."
+}

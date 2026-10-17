@@ -1,0 +1,167 @@
+{
+  "courseId": "method-level-5c",
+  "exercises": {
+    "m5c-001": {
+      "title": "Combinazione in Re maggiore",
+      "summary": "Re maggiore con passaggi in crome e attacchi sincopati in levare.",
+      "goal": "Combina passaggi fluidi in crome e sincopi in Re maggiore.",
+      "license": {
+        "notes": "Composizione originale"
+      }
+    },
+    "m5c-002": {
+      "title": "Capriccio in Re maggiore",
+      "summary": "Capriccio scorrevole in Re maggiore, con passaggi in crome e frasi espressive in minime.",
+      "goal": "Dai forma a un brano più lungo in Re maggiore, con crome sciolte e contrasti dinamici.",
+      "license": {
+        "notes": "Composizione originale"
+      }
+    },
+    "m5c-003": {
+      "title": "Minuetto in Re maggiore",
+      "summary": "Minuetto aggraziato in 3/4, con ornamenti in crome e frasi chiare.",
+      "goal": "Dai forma a un minuetto in Re maggiore, usando espressivamente le crome nel metro di 3/4.",
+      "license": {
+        "notes": "Composizione originale"
+      }
+    },
+    "m5c-004": {
+      "title": "Combinazione in La maggiore",
+      "summary": "La maggiore con passaggi in crome e attacchi sincopati in una melodia scorrevole.",
+      "goal": "Combina passaggi in crome e sincopi in La maggiore.",
+      "license": {
+        "notes": "Composizione originale"
+      }
+    },
+    "m5c-005": {
+      "title": "Capriccio in La maggiore",
+      "summary": "Capriccio scorrevole in La maggiore fino al Fa diesis5, con fraseggio espressivo.",
+      "goal": "Sostieni la forma musicale lungo otto battute in La maggiore, con passaggi fluidi in crome.",
+      "license": {
+        "notes": "Composizione originale"
+      }
+    },
+    "m5c-006": {
+      "title": "Minuetto in La maggiore",
+      "summary": "Minuetto elegante in La maggiore, in 3/4, con ornamenti in crome.",
+      "goal": "Dai forma a un minuetto in La maggiore in 3/4, con figure aggraziate in crome.",
+      "license": {
+        "notes": "Composizione originale"
+      }
+    },
+    "m5c-007": {
+      "title": "Combinazione in Si bemolle maggiore",
+      "summary": "Si bemolle maggiore con attacchi sincopati e passaggi in crome fino al Sol5.",
+      "goal": "Suona figure sincopate e passaggi in crome in Si bemolle maggiore.",
+      "license": {
+        "notes": "Composizione originale"
+      }
+    },
+    "m5c-008": {
+      "title": "Combinazione in Mi bemolle maggiore",
+      "summary": "Mi bemolle maggiore con attacchi sincopati in levare e passaggi scorrevoli in crome.",
+      "goal": "Combina sincopi e crome in Mi bemolle maggiore, bilanciando le mani.",
+      "license": {
+        "notes": "Composizione originale"
+      }
+    },
+    "m5c-009": {
+      "title": "Combinazione in La bemolle maggiore",
+      "summary": "La bemolle maggiore con attacchi sincopati e passaggi in crome fino al Fa5.",
+      "goal": "Combina sincopi e crome in La bemolle maggiore, rispettando i quattro bemolli.",
+      "license": {
+        "notes": "Composizione originale"
+      }
+    },
+    "m5c-010": {
+      "title": "Valzer in La bemolle maggiore",
+      "summary": "Valzer lirico in La bemolle maggiore, in 3/4, con ornamenti in crome.",
+      "goal": "Dai forma a un valzer in La bemolle maggiore in 3/4, con frasi melodiche aggraziate.",
+      "license": {
+        "notes": "Composizione originale"
+      }
+    },
+    "m5c-011": {
+      "title": "Combinazione in Fa diesis maggiore",
+      "summary": "Fa diesis maggiore con passaggi in crome, compresi La e Re diesis.",
+      "goal": "Suona con scioltezza passaggi in crome in Fa diesis maggiore, rispettando le alterazioni scritte.",
+      "license": {
+        "notes": "Composizione originale"
+      }
+    },
+    "m5c-012": {
+      "title": "Studio in Fa diesis maggiore",
+      "summary": "Studio di otto battute in Fa diesis maggiore, con sincopi e linee melodiche scorrevoli.",
+      "goal": "Sostieni Fa diesis maggiore lungo otto battute, con ritmi sincopati e fraseggio chiaro.",
+      "license": {
+        "notes": "Composizione originale"
+      }
+    },
+    "m5c-013": {
+      "title": "Combinazione in Sol minore",
+      "summary": "Sol minore armonica con crome, sincopi e Fa diesis come sensibile drammatica.",
+      "goal": "Suona Sol minore armonica con figure sincopate e risoluzioni espressive del Fa diesis.",
+      "license": {
+        "notes": "Composizione originale"
+      }
+    },
+    "m5c-014": {
+      "title": "Sarabanda in Sol minore",
+      "summary": "Sarabanda espressiva in Sol minore armonica, in 3/4, con figure in crome.",
+      "goal": "Dai forma a una sarabanda in Sol minore in 3/4, valorizzando la sensibile Fa diesis.",
+      "license": {
+        "notes": "Composizione originale"
+      }
+    },
+    "m5c-015": {
+      "title": "Fantasia in Sol minore",
+      "summary": "Fantasia in Sol minore armonica, con crome, sincopi e dinamica drammatica.",
+      "goal": "Sostieni l'espressione in Sol minore lungo otto battute, con sincopi e risoluzioni del Fa diesis.",
+      "license": {
+        "notes": "Composizione originale"
+      }
+    },
+    "m5c-016": {
+      "title": "Combinazione in Re minore",
+      "summary": "Re minore armonica con passaggi in crome, sincopi e Do diesis come sensibile.",
+      "goal": "Suona Re minore armonica con figure sincopate e risoluzioni fluide Do diesis–Re.",
+      "license": {
+        "notes": "Composizione originale"
+      }
+    },
+    "m5c-017": {
+      "title": "Sarabanda in Re minore",
+      "summary": "Sarabanda malinconica in Re minore armonica, in 3/4, con fraseggio espressivo.",
+      "goal": "Dai forma a una sarabanda in Re minore in 3/4, valorizzando la sensibile Do diesis.",
+      "license": {
+        "notes": "Composizione originale"
+      }
+    },
+    "m5c-018": {
+      "title": "Fantasia in Re minore",
+      "summary": "Fantasia in Re minore armonica che combina sincopi e passaggi in crome.",
+      "goal": "Sostieni l'espressione in Re minore lungo otto battute, con attacchi sincopati in levare.",
+      "license": {
+        "notes": "Composizione originale"
+      }
+    },
+    "m5c-019": {
+      "title": "Da Si bemolle maggiore a Sol minore",
+      "summary": "Passaggio da Si bemolle maggiore alla relativa Sol minore armonica, che condivide la stessa armatura.",
+      "goal": "Senti il passaggio tra Si bemolle maggiore e Sol minore armonica, riconoscendo la sensibile Fa diesis.",
+      "license": {
+        "notes": "Composizione originale"
+      }
+    },
+    "m5c-020": {
+      "title": "Re maggiore e Re minore",
+      "summary": "Contrasto tra Re maggiore e Re minore armonica, che illustra la differenza tra i modi sulla stessa tonica.",
+      "goal": "Ascolta e senti il contrasto tra la luminosità di Re maggiore e il carattere drammatico di Re minore.",
+      "license": {
+        "notes": "Composizione originale"
+      }
+    }
+  },
+  "title": "Metodo livello 5C — Combinazione",
+  "summary": "Combina le tonalità del livello 5 con sincopi, passaggi in crome e frasi più lunghe. Brani sul doppio pentagramma da sei a otto battute."
+}

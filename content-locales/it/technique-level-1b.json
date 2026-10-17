@@ -1,0 +1,167 @@
+{
+  "courseId": "technique-level-1b",
+  "exercises": {
+    "t1b-001": {
+      "title": "Crome — Passaggio nella posizione di Do (MD)",
+      "summary": "La destra suona crome ascendenti e discendenti da Do4 a Sol4.",
+      "goal": "Introduci il ritmo di crome nella posizione di Do: ogni croma dura mezzo tempo.",
+      "license": {
+        "notes": "Composizione originale"
+      }
+    },
+    "t1b-002": {
+      "title": "Semiminime e crome miste (MD)",
+      "summary": "La destra combina semiminime e coppie di crome tra Do4 e Sol4.",
+      "goal": "Alterna nitidamente semiminime e crome all'interno della battuta.",
+      "license": {
+        "notes": "Composizione originale"
+      }
+    },
+    "t1b-003": {
+      "title": "Crome in 2/4 (MD)",
+      "summary": "La destra suona figure di quattro crome per battuta in 2/4 nella posizione di Do.",
+      "goal": "Senti i due tempi con quattro suddivisioni per battuta nella destra.",
+      "license": {
+        "notes": "Composizione originale"
+      }
+    },
+    "t1b-004": {
+      "title": "Pause di semiminima — Esercizio di staccato (MD)",
+      "summary": "La destra suona semiminime separate da pause di semiminima, allenando precisione ritmica e attenzione alle pause.",
+      "goal": "Conta con precisione le pause di semiminima e interrompi nettamente il suono a ogni pausa.",
+      "license": {
+        "notes": "Composizione originale"
+      }
+    },
+    "t1b-005": {
+      "title": "Figura in stile Hanon — Posizione di Do (MD)",
+      "summary": "La destra ripete una figura di cinque note in stile Hanon, ascendente e discendente da Do4 a Sol4.",
+      "goal": "Sviluppa l'indipendenza delle dita attraverso la cellula ripetuta Do–Re–Mi–Fa–Sol–Fa–Mi–Re.",
+      "license": {
+        "notes": "Composizione originale"
+      }
+    },
+    "t1b-006": {
+      "title": "Salti di terza (MD)",
+      "summary": "La destra esercita salti melodici di terza, Do–Mi, Re–Fa e Mi–Sol, nella posizione Do4–Sol4.",
+      "goal": "Sviluppa precisione nei salti di terza senza guardare i tasti.",
+      "license": {
+        "notes": "Composizione originale"
+      }
+    },
+    "t1b-007": {
+      "title": "Passi e salti — Figura in crome (MD)",
+      "summary": "La destra alterna coppie di crome per grado congiunto e salti in semiminime.",
+      "goal": "Combina fluidamente passi e salti con una pulsazione regolare nelle crome.",
+      "license": {
+        "notes": "Composizione originale"
+      }
+    },
+    "t1b-008": {
+      "title": "Frase estesa — Posizione di Do (MD)",
+      "summary": "Frase di otto battute per la destra, con semiminime e passaggi in crome nella posizione di Do.",
+      "goal": "Mantieni concentrazione e regolarità lungo una frase musicale più lunga.",
+      "license": {
+        "notes": "Composizione originale"
+      }
+    },
+    "t1b-009": {
+      "title": "Note ripetute — Crome (MD)",
+      "summary": "La destra ripete due volte in crome ogni nota della posizione di Do prima di passare alla successiva.",
+      "goal": "Sviluppa velocità e regolarità nella ripetizione delle dita, raddoppiando le note.",
+      "license": {
+        "notes": "Composizione originale"
+      }
+    },
+    "t1b-010": {
+      "title": "Ritmi vari — Posizione di Do (MD)",
+      "summary": "La destra combina minime, semiminime e crome nella posizione di Do, in una frase scorrevole.",
+      "goal": "Leggi ed esegui tre durate diverse nello stesso esercizio.",
+      "license": {
+        "notes": "Composizione originale"
+      }
+    },
+    "t1b-011": {
+      "title": "Crome — Passaggio nella posizione di Do (MS)",
+      "summary": "La sinistra suona crome ascendenti e discendenti da Do3 a Sol3.",
+      "goal": "Introduci il ritmo di crome nella posizione di Do: ogni croma dura mezzo tempo.",
+      "license": {
+        "notes": "Composizione originale"
+      }
+    },
+    "t1b-012": {
+      "title": "Semiminime e crome miste (MS)",
+      "summary": "La sinistra combina semiminime e coppie di crome tra Do3 e Sol3.",
+      "goal": "Alterna nitidamente semiminime e crome all'interno della battuta.",
+      "license": {
+        "notes": "Composizione originale"
+      }
+    },
+    "t1b-013": {
+      "title": "Crome in 2/4 (MS)",
+      "summary": "La sinistra suona figure di quattro crome per battuta in 2/4 nella posizione di Do.",
+      "goal": "Senti i due tempi con quattro suddivisioni per battuta nella sinistra.",
+      "license": {
+        "notes": "Composizione originale"
+      }
+    },
+    "t1b-014": {
+      "title": "Pause di semiminima — Esercizio di staccato (MS)",
+      "summary": "La sinistra suona semiminime separate da pause di semiminima, allenando precisione ritmica e attenzione alle pause.",
+      "goal": "Conta con precisione le pause di semiminima e interrompi nettamente il suono a ogni pausa.",
+      "license": {
+        "notes": "Composizione originale"
+      }
+    },
+    "t1b-015": {
+      "title": "Figura in stile Hanon — Posizione di Do (MS)",
+      "summary": "La sinistra ripete una figura di cinque note in stile Hanon, ascendente e discendente da Do3 a Sol3.",
+      "goal": "Sviluppa l'indipendenza delle dita attraverso la cellula ripetuta Do–Re–Mi–Fa–Sol–Fa–Mi–Re.",
+      "license": {
+        "notes": "Composizione originale"
+      }
+    },
+    "t1b-016": {
+      "title": "Salti di terza (MS)",
+      "summary": "La sinistra esercita salti melodici di terza, Do–Mi, Re–Fa e Mi–Sol, nella posizione Do3–Sol3.",
+      "goal": "Sviluppa precisione nei salti di terza senza guardare i tasti.",
+      "license": {
+        "notes": "Composizione originale"
+      }
+    },
+    "t1b-017": {
+      "title": "Passi e salti — Figura in crome (MS)",
+      "summary": "La sinistra alterna coppie di crome per grado congiunto e salti in semiminime.",
+      "goal": "Combina fluidamente passi e salti con una pulsazione regolare nelle crome.",
+      "license": {
+        "notes": "Composizione originale"
+      }
+    },
+    "t1b-018": {
+      "title": "Frase estesa — Posizione di Do (MS)",
+      "summary": "Frase di otto battute per la sinistra, con semiminime e passaggi in crome nella posizione di Do.",
+      "goal": "Mantieni concentrazione e regolarità lungo una frase musicale più lunga.",
+      "license": {
+        "notes": "Composizione originale"
+      }
+    },
+    "t1b-019": {
+      "title": "Note ripetute — Crome (MS)",
+      "summary": "La sinistra ripete due volte in crome ogni nota della posizione di Do prima di passare alla successiva.",
+      "goal": "Sviluppa velocità e regolarità nella ripetizione delle dita, raddoppiando le note.",
+      "license": {
+        "notes": "Composizione originale"
+      }
+    },
+    "t1b-020": {
+      "title": "Ritmi vari — Posizione di Do (MS)",
+      "summary": "La sinistra combina minime, semiminime e crome nella posizione di Do, in una frase scorrevole.",
+      "goal": "Leggi ed esegui tre durate diverse nello stesso esercizio.",
+      "license": {
+        "notes": "Composizione originale"
+      }
+    }
+  },
+  "title": "Tecnica livello 1B — Ampliamento",
+  "summary": "Amplia la tecnica sulle cinque note di Do maggiore con crome, pause di semiminima, figure ripetute in stile Hanon e salti di terza. Frasi fino a otto battute, con esercizi separati per destra e sinistra."
+}

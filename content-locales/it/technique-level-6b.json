@@ -1,0 +1,167 @@
+{
+  "courseId": "technique-level-6b",
+  "exercises": {
+    "t6b-001": {
+      "title": "Mordenti in Do maggiore (MD)",
+      "summary": "Mordenti inferiori scritti per esteso: nota principale, inferiore e principale sui gradi di Do.",
+      "goal": "Suona mordenti nitidi, passando rapidamente alla nota inferiore e tornando alla principale.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t6b-002": {
+      "title": "Mordenti in Do maggiore (MS)",
+      "summary": "Mordenti scritti per esteso sui gradi di Do alla sinistra.",
+      "goal": "Sviluppa velocità nei rapidi abbellimenti del registro grave.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t6b-003": {
+      "title": "Gruppetti in Do maggiore (MD)",
+      "summary": "Gruppetti scritti per esteso: nota superiore, principale, inferiore e principale.",
+      "goal": "Collega con fluidità le quattro note del gruppetto, tipico dello stile classico.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t6b-004": {
+      "title": "Gruppetti in Sol maggiore (MD)",
+      "summary": "Gruppetti scritti per esteso lungo la scala ascendente di Sol maggiore.",
+      "goal": "Suona i gruppetti rispettando il Fa diesis.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t6b-005": {
+      "title": "Gruppetti in Re maggiore (MD)",
+      "summary": "Gruppetti scritti per esteso lungo la scala ascendente di Re maggiore.",
+      "goal": "Controlla Fa diesis e Do diesis nei gruppetti.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t6b-006": {
+      "title": "Note di avvicinamento in Do maggiore (MD)",
+      "summary": "Note brevi introducono le note principali della scala, in valori scritti per esteso.",
+      "goal": "Suona le note di avvicinamento nello stile di un abbellimento, rispettando le durate indicate.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t6b-007": {
+      "title": "Note di avvicinamento in Sol maggiore (MD)",
+      "summary": "Note brevi introducono le note della scala di Sol maggiore.",
+      "goal": "Mantieni preciso il Fa diesis nelle formule di avvicinamento.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t6b-008": {
+      "title": "Mordenti in Sol maggiore (MD)",
+      "summary": "Mordenti sui gradi della scala di Sol maggiore.",
+      "goal": "Suona mordenti precisi rispettando il Fa diesis.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t6b-009": {
+      "title": "Gruppetti in Fa maggiore (MD)",
+      "summary": "Gruppetti scritti per esteso lungo Fa maggiore, con Si bemolle.",
+      "goal": "Mantieni fluidi i gruppetti e preciso il Si bemolle.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t6b-010": {
+      "title": "Mordenti in Re maggiore (MD)",
+      "summary": "Mordenti sui gradi della scala di Re maggiore.",
+      "goal": "Suona mordenti nitidi con Fa diesis e Do diesis precisi.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t6b-011": {
+      "title": "Note di avvicinamento in Fa maggiore (MD)",
+      "summary": "Note brevi introducono le note della scala di Fa maggiore.",
+      "goal": "Mantieni preciso il Si bemolle nelle formule di avvicinamento.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t6b-012": {
+      "title": "Gruppetti con accompagnamento in Do a mani unite",
+      "summary": "Gruppetti alla destra sopra note tenute della sinistra.",
+      "goal": "Mantieni fluidi gli abbellimenti mentre l'altra mano sostiene il basso.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t6b-013": {
+      "title": "Mordenti con accompagnamento in Sol a mani unite",
+      "summary": "Mordenti alla destra sopra una linea di basso in Sol maggiore.",
+      "goal": "Suona i mordenti mentre la sinistra si muove in modo indipendente.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t6b-014": {
+      "title": "Abbellimenti in Si bemolle maggiore (MD)",
+      "summary": "Mordenti e gruppetti combinati in Si bemolle maggiore.",
+      "goal": "Controlla Si bemolle e Mi bemolle negli abbellimenti.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t6b-015": {
+      "title": "Abbellimenti in Mi bemolle maggiore (MD)",
+      "summary": "Mordenti e gruppetti combinati in Mi bemolle maggiore.",
+      "goal": "Controlla i tre bemolli negli abbellimenti.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t6b-016": {
+      "title": "Abbellimenti in La maggiore (MD)",
+      "summary": "Mordenti e gruppetti combinati in La maggiore, con tre diesis.",
+      "goal": "Controlla Do diesis, Fa diesis e Sol diesis negli abbellimenti.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t6b-017": {
+      "title": "Abbellimenti in Do maggiore (MS)",
+      "summary": "Mordenti e gruppetti combinati alla sinistra in Do maggiore.",
+      "goal": "Sviluppa anche la tecnica degli abbellimenti alla sinistra.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t6b-018": {
+      "title": "Abbellimenti veloci in Do maggiore (MD)",
+      "summary": "Mordenti e gruppetti rapidi a tempo sostenuto.",
+      "goal": "Unisci velocità e chiarezza negli abbellimenti a 100 BPM.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t6b-019": {
+      "title": "Melodia ornata in Do maggiore a mani unite",
+      "summary": "Una semplice melodia con abbellimenti sopra un basso albertino.",
+      "goal": "Inserisci gli abbellimenti nel contesto musicale della melodia accompagnata.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "t6b-020": {
+      "title": "Ripasso degli abbellimenti a mani unite",
+      "summary": "Abbellimenti combinati in Do, Sol, Re e Fa nella prova conclusiva del livello 6B.",
+      "goal": "Dimostra scioltezza negli abbellimenti e nella coordinazione delle mani in diverse tonalità.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    }
+  },
+  "title": "Tecnica livello 6B — Formule di abbellimento",
+  "summary": "Note di avvicinamento, mordenti e gruppetti scritti per esteso in diverse tonalità, per sviluppare la tecnica degli abbellimenti barocchi e classici."
+}

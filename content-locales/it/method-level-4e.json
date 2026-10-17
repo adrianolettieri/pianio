@@ -1,0 +1,107 @@
+{
+  "courseId": "method-level-4e",
+  "exercises": {
+    "m4e-001": {
+      "title": "Studio di velocità in Re maggiore",
+      "summary": "Studio di velocità di otto battute in Re maggiore, con passaggi di scala in crome alla destra.",
+      "goal": "Esegui velocemente passaggi di scala in Re maggiore, rispettando Fa e Do diesis."
+    },
+    "m4e-002": {
+      "title": "Grande studio in Re maggiore",
+      "summary": "Studio di dodici battute che alterna melodia cantabile e passaggi di scala in crome.",
+      "goal": "Crea contrasto tra passaggi lirici e scorrevoli in Re maggiore lungo dodici battute."
+    },
+    "m4e-003": {
+      "title": "Moto perpetuo in Re maggiore",
+      "summary": "Studio in moto perpetuo di otto battute in Re maggiore, con un flusso di crome alla destra.",
+      "goal": "Sostieni il movimento scorrevole delle crome in Re maggiore lungo otto battute complete."
+    },
+    "m4e-004": {
+      "title": "Studio di velocità in La maggiore",
+      "summary": "Studio di velocità di otto battute, con passaggi della destra lungo tutta l'ottava.",
+      "goal": "Suona rapidamente passaggi di scala in La maggiore, rispettando Fa, Do e Sol diesis."
+    },
+    "m4e-005": {
+      "title": "Scherzo in La maggiore",
+      "summary": "Scherzo giocoso di dodici battute in La maggiore, in 3/4, con vivaci passaggi in crome.",
+      "goal": "Rendi uno scherzo rapido e arguto in La maggiore, con articolazione nitida."
+    },
+    "m4e-006": {
+      "title": "Grande brano in La maggiore",
+      "summary": "Brano di dodici battute che combina frasi liriche e culmini ascendenti di scala.",
+      "goal": "Dai forma a un arco musicale completo in La maggiore lungo dodici battute, a mani unite."
+    },
+    "m4e-007": {
+      "title": "Studio rapido in Si bemolle maggiore",
+      "summary": "Studio di velocità di otto battute, con passaggi della destra di oltre un'ottava.",
+      "goal": "Esegui rapidamente passaggi di scala in Si bemolle maggiore, rispettando sempre Si e Mi bemolle."
+    },
+    "m4e-008": {
+      "title": "Rondò in Si bemolle maggiore",
+      "summary": "Rondò di dodici battute, con tema ricorrente ed episodi contrastanti.",
+      "goal": "Affronta la struttura del rondò in Si bemolle maggiore, tornando con precisione al tema principale."
+    },
+    "m4e-009": {
+      "title": "Studio di velocità in Mi bemolle maggiore",
+      "summary": "Studio di velocità di otto battute, con passaggi in crome alla destra.",
+      "goal": "Esegui rapidamente passaggi in Mi bemolle maggiore, rispettando Mi, La e Si bemolle."
+    },
+    "m4e-010": {
+      "title": "Grande studio in Mi bemolle maggiore",
+      "summary": "Studio di dodici battute, con ampi archi melodici e passaggi scorrevoli in crome.",
+      "goal": "Bilancia melodia cantabile e passaggi di scala in Mi bemolle maggiore lungo dodici battute."
+    },
+    "m4e-011": {
+      "title": "Studio di velocità in La bemolle maggiore",
+      "summary": "Studio di otto battute, con la destra che affronta a tempo tutti e quattro i bemolli.",
+      "goal": "Esegui velocemente passaggi in La bemolle maggiore, collocando correttamente Si, Mi, La e Re bemolle."
+    },
+    "m4e-012": {
+      "title": "Grande brano in La bemolle maggiore",
+      "summary": "Brano di dodici battute, con passaggi scorrevoli e melodia espressiva.",
+      "goal": "Esegui un arco musicale completo in La bemolle maggiore, rispettando i quattro bemolli a tempo."
+    },
+    "m4e-013": {
+      "title": "Studio tra ottave in Re maggiore",
+      "summary": "Studio di dieci battute, con ampi salti melodici e passaggi di scala tra ottave.",
+      "goal": "Affronta Re maggiore nell'estensione di due ottave, con salti sicuri e scale fluide."
+    },
+    "m4e-014": {
+      "title": "Padronanza delle tonalità con diesis",
+      "summary": "Brano di dodici battute in Re maggiore che richiama l'armonia di La maggiore per esplorare il circolo delle quinte.",
+      "goal": "Dimostra padronanza delle sonorità delle tonalità con diesis lungo un arco musicale di dodici battute."
+    },
+    "m4e-015": {
+      "title": "Padronanza delle tonalità con bemolli",
+      "summary": "Brano di dodici battute in Si bemolle maggiore, con crome scorrevoli ed esplorazione armonica delle tonalità con bemolli.",
+      "goal": "Dimostra padronanza delle sonorità delle tonalità con bemolli lungo un arco musicale di dodici battute."
+    },
+    "m4e-016": {
+      "title": "Studio conclusivo in La bemolle maggiore",
+      "summary": "Studio conclusivo di dieci battute, con passaggi scorrevoli in crome e un culmine lirico.",
+      "goal": "Dimostra piena scioltezza in La bemolle maggiore lungo dieci battute, con andamento fluido."
+    },
+    "m4e-017": {
+      "title": "Studio brillante in Re maggiore",
+      "summary": "Studio brillante di dieci battute in Re maggiore, con l'andamento più veloce del livello 4 e passaggi di ampia estensione.",
+      "goal": "Esegui passaggi continui in Re maggiore con brillantezza e precisione lungo dieci battute."
+    },
+    "m4e-018": {
+      "title": "Brano di padronanza in La maggiore",
+      "summary": "Brano di dodici battute in La maggiore che raggiunge il registro acuto.",
+      "goal": "Dimostra piena scioltezza in La maggiore lungo dodici battute, rispettando i tre diesis."
+    },
+    "m4e-019": {
+      "title": "Studio finale in Si bemolle maggiore",
+      "summary": "Studio finale di dodici battute, con sincopi, passaggi in crome e un ampio culmine.",
+      "goal": "Integra le tecniche del livello 4E in Si bemolle maggiore in un discorso musicale completo di dodici battute."
+    },
+    "m4e-020": {
+      "title": "Grande riepilogo conclusivo del livello 4E",
+      "summary": "Brano conclusivo di sedici battute in Re maggiore, con tutte le tecniche avanzate del livello 4E.",
+      "goal": "Dimostra piena scioltezza nel livello 4 lungo sedici battute a mani unite, alla velocità prevista."
+    }
+  },
+  "title": "Metodo livello 4E — Padronanza",
+  "summary": "Studi di velocità, studi in moto perpetuo e brani da otto a sedici battute sul doppio pentagramma nelle cinque tonalità del livello 4, con andamenti più rapidi."
+}

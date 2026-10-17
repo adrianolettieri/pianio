@@ -1,0 +1,107 @@
+{
+  "courseId": "technique-level-3e",
+  "exercises": {
+    "t3e-001": {
+      "title": "Scala di Do maggiore a 100 BPM",
+      "summary": "Scala di Do maggiore a mani unite al tempo di padronanza.",
+      "goal": "Suona con fluidità a 100 BPM, senza esitazioni."
+    },
+    "t3e-002": {
+      "title": "Scala di Sol maggiore a 100 BPM",
+      "summary": "Scala di Sol maggiore a mani unite al tempo di padronanza.",
+      "goal": "Suona con fluidità a 100 BPM, senza esitazioni."
+    },
+    "t3e-003": {
+      "title": "Scala di Fa maggiore a 100 BPM",
+      "summary": "Scala di Fa maggiore a mani unite al tempo di padronanza.",
+      "goal": "Suona con fluidità a 100 BPM, senza esitazioni."
+    },
+    "t3e-004": {
+      "title": "Scala di La minore armonica a 100 BPM",
+      "summary": "Scala di La minore armonica a mani unite al tempo di padronanza.",
+      "goal": "Suona con fluidità a mani unite a 100 BPM."
+    },
+    "t3e-005": {
+      "title": "Scala di Re minore armonica a 100 BPM",
+      "summary": "Scala di Re minore armonica a mani unite al tempo di padronanza.",
+      "goal": "Suona con fluidità a mani unite a 100 BPM."
+    },
+    "t3e-006": {
+      "title": "Arpeggio di Do maggiore a tempo",
+      "summary": "Arpeggio di Do maggiore a mani unite al tempo di padronanza.",
+      "goal": "Suona gli arpeggi con scioltezza a 96 BPM."
+    },
+    "t3e-007": {
+      "title": "Arpeggio di Sol maggiore a tempo",
+      "summary": "Arpeggio di Sol maggiore a mani unite al tempo di padronanza.",
+      "goal": "Suona gli arpeggi con scioltezza a 96 BPM."
+    },
+    "t3e-008": {
+      "title": "Arpeggio di Fa maggiore a tempo",
+      "summary": "Arpeggio di Fa maggiore a mani unite al tempo di padronanza.",
+      "goal": "Suona gli arpeggi con scioltezza a 96 BPM."
+    },
+    "t3e-009": {
+      "title": "Arpeggio di La minore a tempo",
+      "summary": "Arpeggio di La minore a mani unite al tempo di padronanza.",
+      "goal": "Suona gli arpeggi con scioltezza a 96 BPM."
+    },
+    "t3e-010": {
+      "title": "Arpeggio di Re minore a tempo",
+      "summary": "Arpeggio di Re minore a mani unite al tempo di padronanza.",
+      "goal": "Suona gli arpeggi con scioltezza a 96 BPM."
+    },
+    "t3e-011": {
+      "title": "Contrasti dinamici da pp a ff",
+      "summary": "Passaggi di scala con un ampio contrasto tra pianissimo e fortissimo.",
+      "goal": "Controlla l'intera escursione dinamica da pp a ff."
+    },
+    "t3e-012": {
+      "title": "Crescendo e diminuendo",
+      "summary": "Un passaggio di scala con intensità prima crescente e poi decrescente.",
+      "goal": "Modella un crescendo fino al forte e torna gradualmente al piano."
+    },
+    "t3e-013": {
+      "title": "Cambi dinamici improvvisi",
+      "summary": "Cambi repentini tra sonorità forti e delicate.",
+      "goal": "Esegui i cambi dinamici immediatamente, senza una transizione graduale."
+    },
+    "t3e-014": {
+      "title": "Dinamiche negli accordi",
+      "summary": "Successioni di accordi con dinamiche variate in diverse tonalità.",
+      "goal": "Applica varietà dinamica agli accordi nelle diverse tonalità."
+    },
+    "t3e-015": {
+      "title": "Combinazione completa in Do maggiore",
+      "summary": "Scala, arpeggio e accordi di Do maggiore in un unico esercizio continuo.",
+      "goal": "Collega senza interruzioni scale, arpeggi e accordi di Do maggiore."
+    },
+    "t3e-016": {
+      "title": "Combinazione completa in Sol maggiore",
+      "summary": "Scala, arpeggio e accordi di Sol maggiore in un unico esercizio continuo.",
+      "goal": "Collega senza interruzioni scale, arpeggi e accordi di Sol maggiore."
+    },
+    "t3e-017": {
+      "title": "Combinazione completa in Fa maggiore",
+      "summary": "Scala, arpeggio e accordi di Fa maggiore in un unico esercizio continuo.",
+      "goal": "Collega senza interruzioni scale, arpeggi e accordi di Fa maggiore."
+    },
+    "t3e-018": {
+      "title": "Lettura a prima vista n. 1",
+      "summary": "Una formula nuova mescola scale e accordi in Do e Sol.",
+      "goal": "Leggi e suona con precisione una formula nuova al primo tentativo."
+    },
+    "t3e-019": {
+      "title": "Lettura a prima vista n. 2",
+      "summary": "Frammenti di scala e accordi di Fa maggiore con sensazioni ritmiche variate.",
+      "goal": "Affronta con sicurezza la combinazione di ritmi e formule in Fa maggiore."
+    },
+    "t3e-020": {
+      "title": "Lettura a prima vista n. 3",
+      "summary": "Formule miste a mani unite in La minore.",
+      "goal": "Coordina le mani in un passaggio nuovo in La minore."
+    }
+  },
+  "title": "Tecnica livello 3E — Padronanza",
+  "summary": "Scale del livello 3 a 100 BPM, arpeggi a tempo, contrasti dal pianissimo al fortissimo, combinazioni di scale, accordi e arpeggi e sfide di lettura a prima vista."
+}

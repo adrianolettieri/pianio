@@ -1,0 +1,127 @@
+{
+  "courseId": "method-level-3",
+  "exercises": {
+    "method3-001": {
+      "title": "Scala di Do di un'ottava (MD)",
+      "summary": "Scala di Do maggiore per la mano destra lungo un'ottava completa.",
+      "goal": "Leggi e suona regolarmente tutte le otto note della scala di Do maggiore.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "method3-002": {
+      "title": "Scala di Do di un'ottava (MS)",
+      "summary": "Scala di Do maggiore per la mano sinistra lungo un'ottava completa.",
+      "goal": "Leggi e suona la scala di Do maggiore in chiave di basso nell'estensione di un'ottava.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "method3-003": {
+      "title": "Fa maggiore (MD)",
+      "summary": "Figura sulle cinque note di Fa maggiore per la mano destra, con Si bemolle.",
+      "goal": "Suona in Fa maggiore rispettando il Si bemolle.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "method3-004": {
+      "title": "Fa maggiore (MS)",
+      "summary": "Figura sulle cinque note di Fa maggiore per la mano sinistra, in chiave di basso.",
+      "goal": "Suona nella posizione di Fa maggiore con la mano sinistra, rispettando il Si bemolle.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "method3-005": {
+      "title": "Mi minore (MD)",
+      "summary": "Figura sulle cinque note di Mi minore naturale per la mano destra.",
+      "goal": "Riconosci la sonorità minore attraverso la posizione di Mi minore.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "method3-006": {
+      "title": "Salti di sesta (MD)",
+      "summary": "Lettura per la mano destra con salti di sesta.",
+      "goal": "Leggi a prima vista salti ampi senza esitazioni.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "method3-007": {
+      "title": "Passaggio di scala in crome",
+      "summary": "Scala di Do maggiore ascendente e discendente in crome continue.",
+      "goal": "Mantieni regolari le crome lungo un passaggio di un'ottava completa.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "method3-008": {
+      "title": "Valzer in Fa maggiore",
+      "summary": "Melodia di valzer scorrevole nella posizione di Fa maggiore.",
+      "goal": "Suona in Fa maggiore nel metro di 3/4, con una frase fluida.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "method3-009": {
+      "title": "Contrasti di registro",
+      "summary": "Frasi alternate nel registro acuto e in quello grave.",
+      "goal": "Leggi rapidamente i passaggi tra registri distanti un'ottava.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "method3-010": {
+      "title": "Melodia di accordi spezzati",
+      "summary": "Melodia costruita su triadi spezzate di Do e Sol maggiore.",
+      "goal": "Collega le note degli accordi spezzati in una linea melodica fluida.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "method3-011": {
+      "title": "Melodia in La minore",
+      "summary": "Melodia espressiva in La minore naturale.",
+      "goal": "Senti e rendi il colore della scala minore naturale lungo una frase.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "method3-012": {
+      "title": "Melodia dai ritmi misti",
+      "summary": "Melodia che combina liberamente minime, semiminime e crome.",
+      "goal": "Passa con fluidità da una durata all'altra all'interno di una frase più lunga.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "method3-013": {
+      "title": "Melodia di un'ottava al basso",
+      "summary": "Melodia per la mano sinistra che abbraccia un'ottava completa in chiave di basso.",
+      "goal": "Leggi con scioltezza un passaggio di un'ottava in chiave di basso.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "method3-014": {
+      "title": "Ripasso del livello 3",
+      "summary": "Frase che riunisce Fa maggiore, salti e un'estensione di un'ottava.",
+      "goal": "Applica le abilità del livello 3: tonalità con bemolle, salti ampi e passaggi in crome.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    },
+    "method3-015": {
+      "title": "Finale del livello 3",
+      "summary": "Melodia completa che combina i colori di Do maggiore, La minore e Fa maggiore.",
+      "goal": "Dimostra scioltezza nella lettura attraverso tre aree tonali.",
+      "license": {
+        "notes": "Scritto per il percorso didattico iniziale aperto."
+      }
+    }
+  },
+  "title": "Metodo livello 3",
+  "summary": "Scale di un'ottava, Fa maggiore, Mi minore, salti più ampi e contrasti di registro per avvicinarsi alla lettura di livello intermedio."
+}

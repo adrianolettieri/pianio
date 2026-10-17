@@ -1,0 +1,107 @@
+{
+  "courseId": "technique-level-3b",
+  "exercises": {
+    "t3b-001": {
+      "title": "Scala legata di Do maggiore (MD)",
+      "summary": "Scala di Do maggiore alla destra con tocco legato.",
+      "goal": "Collega le note della scala con un legato cantabile."
+    },
+    "t3b-002": {
+      "title": "Scala staccata di Do maggiore (MD)",
+      "summary": "Scala di Do maggiore alla destra con tocco staccato nitido.",
+      "goal": "Suona la scala con uno staccato agile ed elastico."
+    },
+    "t3b-003": {
+      "title": "Scala legata di Sol maggiore (MD)",
+      "summary": "Scala di Sol maggiore alla destra con tocco legato.",
+      "goal": "Mantieni il legato e colloca correttamente il Fa diesis."
+    },
+    "t3b-004": {
+      "title": "Scala staccata di Sol maggiore (MD)",
+      "summary": "Scala di Sol maggiore alla destra con tocco staccato nitido.",
+      "goal": "Suona con uno staccato elastico e preciso in Sol maggiore."
+    },
+    "t3b-005": {
+      "title": "Scala legata di Fa maggiore (MD)",
+      "summary": "Scala di Fa maggiore alla destra con tocco legato.",
+      "goal": "Mantieni il legato e colloca correttamente il Si bemolle."
+    },
+    "t3b-006": {
+      "title": "Scala staccata di Fa maggiore (MD)",
+      "summary": "Scala di Fa maggiore alla destra con tocco staccato nitido.",
+      "goal": "Suona con uno staccato elastico e preciso in Fa maggiore."
+    },
+    "t3b-007": {
+      "title": "Frammento cromatico ascendente da Do (MD)",
+      "summary": "Un passaggio cromatico alla destra a partire da Do4.",
+      "goal": "Collega con fluidità i semitoni del passaggio ascendente."
+    },
+    "t3b-008": {
+      "title": "Frammento cromatico discendente da Fa (MD)",
+      "summary": "Un passaggio cromatico alla destra a partire da Fa5.",
+      "goal": "Collega con fluidità i semitoni del passaggio discendente."
+    },
+    "t3b-009": {
+      "title": "Frammenti cromatici (MS)",
+      "summary": "Passaggi cromatici ascendenti e discendenti alla sinistra.",
+      "goal": "Sviluppa scioltezza cromatica alla sinistra."
+    },
+    "t3b-010": {
+      "title": "Scala cromatica a mani unite",
+      "summary": "Le mani percorrono frammenti cromatici in moto parallelo.",
+      "goal": "Coordina le mani nelle successioni di semitoni."
+    },
+    "t3b-011": {
+      "title": "Basso albertino in Do maggiore",
+      "summary": "Formula di basso albertino Do–Sol–Mi–Sol alla sinistra.",
+      "goal": "Suona con fluidità la formula di basso albertino in Do maggiore."
+    },
+    "t3b-012": {
+      "title": "Basso albertino in Sol maggiore",
+      "summary": "Formula di basso albertino alla sinistra in Sol maggiore.",
+      "goal": "Suona con fluidità il basso albertino in Sol maggiore."
+    },
+    "t3b-013": {
+      "title": "Basso albertino in Fa maggiore",
+      "summary": "Formula di basso albertino alla sinistra in Fa maggiore.",
+      "goal": "Suona con fluidità il basso albertino in Fa maggiore."
+    },
+    "t3b-014": {
+      "title": "Basso albertino in La minore",
+      "summary": "Formula di basso albertino alla sinistra in La minore.",
+      "goal": "Suona con fluidità il basso albertino in La minore."
+    },
+    "t3b-015": {
+      "title": "Pedale e basso tenuto in Do",
+      "summary": "Note lunghe al basso con melodia legata alla destra in Do maggiore.",
+      "goal": "Esercitati a sostenere il basso con il pedale mentre dai forma alla melodia."
+    },
+    "t3b-016": {
+      "title": "Pedale e basso tenuto in Sol",
+      "summary": "Basso tenuto e melodia legata in Sol maggiore.",
+      "goal": "Esercitati a sostenere il basso con il pedale in Sol maggiore."
+    },
+    "t3b-017": {
+      "title": "Pedale e basso tenuto in Fa",
+      "summary": "Basso tenuto e melodia legata in Fa maggiore.",
+      "goal": "Esercitati a sostenere il basso con il pedale in Fa maggiore."
+    },
+    "t3b-018": {
+      "title": "Scioltezza nella scala di La minore",
+      "summary": "Scala di La minore armonica a velocità maggiore, con ritmi variati.",
+      "goal": "Sviluppa velocità e scioltezza nella scala di La minore armonica."
+    },
+    "t3b-019": {
+      "title": "Scioltezza nella scala di Re minore",
+      "summary": "Scala di Re minore armonica a velocità maggiore, con ritmi variati.",
+      "goal": "Sviluppa velocità e scioltezza nella scala di Re minore armonica."
+    },
+    "t3b-020": {
+      "title": "Scioltezza nella scala minore a mani unite",
+      "summary": "Passaggi veloci di scala minore a mani unite.",
+      "goal": "Coordina le mani nei passaggi di scala in tonalità minore."
+    }
+  },
+  "title": "Tecnica livello 3B — Ampliamento",
+  "summary": "Scale con articolazione legata e staccata, frammenti cromatici, formule di accordi spezzati simili al basso albertino, tecnica del pedale e scioltezza nelle scale minori."
+}
