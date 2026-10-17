@@ -44,6 +44,9 @@ This regenerates content assets and starts the Vite dev server at `http://localh
 pnpm build
 ```
 
+For a self-hosted Docker installation with local piano samples and an HTTPS
+reverse proxy, see [the CasaOS deployment guide](CASAOS.md).
+
 ## Project Structure
 ```
 apps/web/              Vite SPA (React)
@@ -56,7 +59,22 @@ scripts/               Content generation pipeline
 
 ## Audio Samples
 
-Piano sounds use the [Salamander Grand Piano](https://sfzinstruments.github.io/pianos/salamander/) samples by Alexander Holm, licensed under [CC-BY-3.0](https://creativecommons.org/licenses/by/3.0/), served via the Tone.js CDN.
+Piano sounds use the [Salamander Grand Piano](https://sfzinstruments.github.io/pianos/salamander/) samples by Alexander Holm, licensed under [CC-BY-3.0](https://creativecommons.org/licenses/by/3.0/).
+The 30 MP3 files used by both samplers are bundled in `apps/web/public/audio/salamander/`,
+alongside the upstream README and `ATTRIBUTION.txt`. They are served by Pianio itself;
+piano playback no longer needs the Tone.js CDN. Vite copies this directory into
+`apps/web/dist/audio/salamander/` during the build, so a static Docker image includes it.
+
+```sh
+pnpm fetch:audio   # restore missing/modified assets from a pinned Tone.js revision
+pnpm check:audio   # verify SHA-256 checksums locally; also runs in pnpm build
+pnpm build
+```
+
+The downloader skips verified files and fails on checksum mismatches. Internet access
+is required only when restoring assets, not when checking or playing bundled samples.
+Keep the attribution and upstream README when redistributing the image. This makes
+audio self-hosted; it does not add offline page caching or synchronize browser progress.
 
 ## License
 
@@ -124,7 +142,8 @@ the static build locally, without deploying to Firebase or reproducing its hosti
 rewrite configuration. Adding another language must preserve this gate.
 
 See [validation report and delivery B gaps](docs/I18N-VALIDATION-REPORT.md),
-[adding a language](docs/ADDING-A-LANGUAGE.md),
+[adding a language (English)](docs/ADDING-A-LANGUAGE.en.md),
+[Italian guide](docs/ADDING-A-LANGUAGE.md),
 [content contracts](docs/I18N-CONTENT-PIPELINE.md),
 [Italian glossary](docs/I18N-GLOSSARY-IT.md) and
 [course review register](docs/I18N-CONTENT-REVIEW.md).

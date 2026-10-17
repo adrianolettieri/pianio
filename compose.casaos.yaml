@@ -1,0 +1,25 @@
+name: pianio
+services:
+  pianio:
+    image: pianio:local
+    pull_policy: never
+    container_name: pianio
+    ports:
+      - "8088:80"
+    restart: unless-stopped
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+        max-file: "3"
+
+x-casaos:
+  main: pianio
+  title:
+    en_US: Pianio
+    it_IT: Pianio
+  index: /
+  scheme: http
+  port_map: "8088"
+  architectures:
+    - amd64

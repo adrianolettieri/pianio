@@ -1,5 +1,7 @@
 # Aggiungere una lingua a Pianio
 
+[English guide](ADDING-A-LANGUAGE.en.md).
+
 Esempio: spagnolo (`es`). Questa guida non registra né attiva lo spagnolo nel
 prodotto: il registro corrente contiene soltanto `en` e `it`. Applicare i passaggi
 in un checkout di lavoro dedicato e rilasciare la lingua solo dopo le verifiche.

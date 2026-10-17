@@ -66,5 +66,6 @@ docs/*
 !docs/I18N-GLOSSARY-IT.md
 !docs/I18N-VALIDATION-REPORT.md
 !docs/ADDING-A-LANGUAGE.md
+!docs/ADDING-A-LANGUAGE.en.md
 !docs/i18n-phase7/
 !docs/i18n-phase7/logs/*.log
