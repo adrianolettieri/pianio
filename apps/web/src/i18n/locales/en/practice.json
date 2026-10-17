@@ -48,6 +48,10 @@
       "listening": "Listening…",
       "action": "Preview"
     },
+    "fullscreen": {
+      "enter": "Enter fullscreen",
+      "exit": "Exit fullscreen"
+    },
     "midi": {
       "connecting": "Connecting…",
       "connect": "Connect MIDI",

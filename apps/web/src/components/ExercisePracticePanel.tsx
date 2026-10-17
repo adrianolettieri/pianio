@@ -7,7 +7,7 @@ import { ScoreViewer } from "./ScoreViewer";
 import { PianoKeyboard } from "./PianoKeyboard";
 import { markExerciseComplete } from "../progress";
 import confetti from "canvas-confetti";
-import { Check, X as XIcon, Play, ArrowRight, RotateCcw, ChevronDown } from "lucide-react";
+import { Check, X as XIcon, Play, ArrowRight, RotateCcw, ChevronDown, Maximize2, Minimize2 } from "lucide-react";
 import { playNote, releaseNote, startAudio, scheduleExercisePlayback, startMetronome, stopMetronome, startPerformanceCountIn } from "../audio/pianoSampler";
 import {
   createPracticeExpectedSequence,
@@ -130,6 +130,22 @@ export function ExercisePracticePanel({ exercise, courseId, nextExerciseHref, co
   const [celebrationStars, setCelebrationStars] = useState<1 | 2 | 3>(1);
   const [celebrationMode, setCelebrationMode] = useState<"practice" | "performance">("practice");
   const [toolsOpen, setToolsOpen] = useState(() => readPreference("pianio:tools") === "1");
+  const practiceStageRef = useRef<HTMLDivElement>(null);
+  const [isFullscreen, setIsFullscreen] = useState(false);
+
+  useEffect(() => {
+    const syncFullscreen = () => setIsFullscreen(document.fullscreenElement === practiceStageRef.current);
+    document.addEventListener("fullscreenchange", syncFullscreen);
+    return () => document.removeEventListener("fullscreenchange", syncFullscreen);
+  }, []);
+
+  const toggleFullscreen = async () => {
+    if (document.fullscreenElement === practiceStageRef.current) {
+      await document.exitFullscreen();
+    } else if (!document.fullscreenElement) {
+      await practiceStageRef.current?.requestFullscreen();
+    }
+  };
 
   const [mode, setMode] = useState<"practice" | "performance">("practice");
   const [sightReading, setSightReading] = useState(false);
@@ -570,7 +586,7 @@ export function ExercisePracticePanel({ exercise, courseId, nextExerciseHref, co
       : null;
 
   return (
-    <>
+    <div ref={practiceStageRef} className={`practice-stage${isFullscreen ? " is-fullscreen" : ""}`}>
       <div className="mode-tabs-row">
         <div className="mode-tabs">
           <button
@@ -596,6 +612,16 @@ export function ExercisePracticePanel({ exercise, courseId, nextExerciseHref, co
           title={t("ui.preview.title")}
         >
           {isPreviewing ? <><Play size={13} /> {t("ui.preview.listening")}</> : <><Play size={13} /> {t("ui.preview.action")}</>}
+        </button>
+        <span className="fullscreen-piece-title" aria-hidden="true">{exercise.title}</span>
+        <button
+          className="practice-fullscreen-btn"
+          type="button"
+          onClick={() => { void toggleFullscreen(); }}
+          title={isFullscreen ? t("ui.fullscreen.exit") : t("ui.fullscreen.enter")}
+          aria-label={isFullscreen ? t("ui.fullscreen.exit") : t("ui.fullscreen.enter")}
+        >
+          {isFullscreen ? <Minimize2 size={16} /> : <Maximize2 size={16} />}
         </button>
       </div>
 
@@ -1043,6 +1069,6 @@ export function ExercisePracticePanel({ exercise, courseId, nextExerciseHref, co
         </div>
       )}
       {toastMsg && <div className="toast">{renderMessage(toastMsg)}</div>}
-    </>
+    </div>
   );
 }

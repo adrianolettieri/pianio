@@ -48,6 +48,10 @@
       "listening": "Ascolto…",
       "action": "Anteprima"
     },
+    "fullscreen": {
+      "enter": "Apri a schermo intero",
+      "exit": "Esci dallo schermo intero"
+    },
     "midi": {
       "connecting": "Connessione…",
       "connect": "Collega MIDI",
